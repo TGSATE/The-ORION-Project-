@@ -1,0 +1,15 @@
+[DEFAULT]
+BASEURL=http://www.moreheadstate.edu/library/
+[DOC_twitter-widget-0]
+BASEURL=http://www.moreheadstate.edu/library/
+ORIGURL=
+[DOC_rufous-sandbox]
+BASEURL=http://www.moreheadstate.edu/library/
+ORIGURL=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://www.moreheadstate.edu/library/
+IDList=
+IconFile=http://www.moreheadstate.edu/images/favicon.ico
+IconIndex=1
