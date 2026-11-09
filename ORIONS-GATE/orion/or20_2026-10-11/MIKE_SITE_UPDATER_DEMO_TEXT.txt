@@ -1,0 +1,63 @@
+
+Fieldnotes — Site updater
+F
+Fieldnotes
+Community site updater
+● All systems normal
+Admin
+Your shared updater
+Keep the group site fresh.
+One quick check. The configured archive is fetched, safely prepared, and published only when there’s something new.
+          Connected to the group site
+✓
+                Site is up to date
+CURRENT PUBLISHED VERSION
+v42
+Live
+Published today at 9:42 AM
+Next automatic check
+Tomorrow, 9:00 AM
+Manual checks follow the same schedule limit.
+↻
+Check for updates
+Anyone with this group link can request a check. It can run once every 30 minutes.
+↻
+Update now
+Last check: 12 minutes ago · Ready when you are
+UPDATE SOURCE
+Public archive
+Configured
+1
+Fetch the latest archive
+Source and destination are set by your administrator.
+2
+Check and filter files
+Only approved site files are included.
+3
+Publish if changed
+Unchanged archives won’t create a new deployment.
+Last successful update
+Today, 9:42 AM
+No issues found · 18 files published
+RECENT ACTIVITY
+Update history
+Last 3 runs
+✓
+Published v42
+Manual check · 18 files
+Today, 9:42 AM
+＝
+No changes found
+Scheduled check · already current
+Yesterday
+✓
+Published v41
+Scheduled check · 16 files
+May 18
+⌁
+BUILT FOR YOUR GROUP
+One link. One button. No deployment chores.
+Your admins manage the source, filters, schedule, and destination. The group just asks for a fresh check.
+Admin controls 
+→
+Prototype preview · Live deployment requires a secured server-side updater.
