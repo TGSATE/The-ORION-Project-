@@ -1,0 +1,175 @@
+{
+ "checked": "2026-10-06",
+ "profile": {
+  "handle": "introsp3ctor",
+  "name": "Mike Dupont",
+  "bio": "FOLLOWS YOU BACK. ca: <token address omitted> Zero Ontology System Compiler Introspector ZOS-SFM #SOLFUNMEME @zos_sfm :)",
+  "website": "https://linktr.ee/h4km",
+  "location_in_profile": "New Jersey, USA"
+ },
+ "github_recent": {
+  "meta-introspector/ORION-Engine-Platform-and-MMO": "fork of TGSATE/ORION-Engine-Platform-and-MMO; commits 2026-10-05: merge two Aristotle projects, deploy merged website (orion-clean.orion-40y.pages.dev, bea270a6.orion-40y.pages.dev); both URLs returned HTTP 404 on 2026-10-06; merged/output-final_aristotle is a symlink to a local path, so the committed bundle is empty",
+  "meta-introspector/lean-workers-union": "AGPL-3.0; ChoirUnion registry + portable evidence envelope (Subject, Claim, Witness, Receipt, Gate)",
+  "meta-introspector/agentaps": "fork of domenkozar/agentaps (Apache-2.0), universal GUI for coding harnesses",
+  "meta-introspector/aristotle-cli-rs": "pushed 2026-10-06",
+  "meta-introspector/FieldSpace": "fork, pushed 2026-10-05",
+  "meta-introspector/leandoom, leanos, aok, kant-zk-pastebin": "pushed 2026-10-04/05",
+  "jmikedupont2/Aristotle_EFMW_Lean": "source of the EFMW asymmetry theorem cited by fieldcore 2026-10-06"
+ },
+ "web": {
+  "https://fielding.oneapp.dev": "Moonfield — Fieldlings in the making (finite-field discovery play)",
+  "https://fractran-forager.oneapp.dev": "FRACTRAN Forager · Orbit explorer",
+  "https://gist.github.com/jmikedupont2/7b0be3c38049ca040cd8640b3d181b23": "fractran-forager merged results JSON (850 KB)"
+ },
+ "recent_timeline_page": [
+  {
+   "url": "https://x.com/sonukg4india/status/2107314264918925422",
+   "author": "sonukg4india",
+   "created_at": "Tue Oct 06 03:37:27 +0000 2026",
+   "text": "As exponent grows very large, a number sitting just above one in imaginary direction, raised to power, moves toward point one on unit circle in complex plane; at twenty-nine thousand five hundred remaining distance has already fallen to roughly six ten-thousandths.\n#matheorems",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/anish2good/status/2107026969930117221",
+   "author": "anish2good",
+   "created_at": "Mon Oct 05 08:35:50 +0000 2026",
+   "text": "Distorting 3-D Space — a Grid, a Sphere, Then a Fractal \n#math #music #fractal",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107311342541509038",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 03:25:50 +0000 2026",
+   "text": "#solfunmeme thunk surface, could this be the future of p2p ai?",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107295002002850278",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 02:20:54 +0000 2026",
+   "text": "you know your ai agent is tired when :  arg nationalism. arg nationalism. arg nationalism. arg nationalism. arg nationalism.",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107289568596889992",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 01:59:19 +0000 2026",
+   "text": "support open source, support nix, support safe agents",
+   "quote": {
+    "author": "domenkozar",
+    "text": "https://agentaps.dev 0.5.0 is out\n\n- projects have nested agent sessions\n- allows splitting panes\n- interface overhaul\n- git clone for new sessions\n- settings/theming\n\nHappy building 🥳"
+   }
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107288102960058439",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 01:53:29 +0000 2026",
+   "text": "wunderbar",
+   "quote": {
+    "author": "JesperMunkeby",
+    "text": "If you think it’s important to display DAGs aesthetically, we think similarly about the future of software"
+   }
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107280081060016638",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 01:21:37 +0000 2026",
+   "text": "GF(17^3) sampled. now imagine small errors in there hiding your dataz\n#solfunmeme",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107287719722500579",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 01:51:58 +0000 2026",
+   "text": "https://x.com/i/grok/share/8e24e1ebd7ef4e8f8d61641e4ea86c2c thx grox",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/JDRedding/status/2107285587937964526",
+   "author": "JDRedding",
+   "created_at": "Tue Oct 06 01:43:30 +0000 2026",
+   "text": "@introsp3ctor",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107280656283660608",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 01:23:54 +0000 2026",
+   "text": "make your own fields here https://fractran-forager.oneapp.dev",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/JDRedding/status/2107274154634330556",
+   "author": "JDRedding",
+   "created_at": "Tue Oct 06 00:58:04 +0000 2026",
+   "text": "@introsp3ctor",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107278889496252662",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 01:16:53 +0000 2026",
+   "text": "GF(11^3)\nSearched 1,330 directed transitions across 1,330 grid nodes. \nGrid 36 × 37\nVectors found 12\nEdge-density matrix\n12 displacement vector(s): Δ(-3, 1) · Δ(0, 0) · Δ(1, 3) · Δ(2, -4) · Δ(3, -1) · Δ(-4, -2) · Δ(-2, -6) · Δ(-2, 4) · Δ(-1, -3) · Δ(2, 6) · Δ(6, -2) · Δ(-9, 3).",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107272664964354359",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 00:52:09 +0000 2026",
+   "text": "meet the fieldlings that live in the fielding !",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107272691711418488",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 00:52:15 +0000 2026",
+   "text": "https://fielding.oneapp.dev",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107242534145544582",
+   "author": "introsp3ctor",
+   "created_at": "Mon Oct 05 22:52:25 +0000 2026",
+   "text": "you have never seen this particular collection of orbits ever ! #solfunmeme",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107271581697454165",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 00:47:50 +0000 2026",
+   "text": "this is literalyl an ecrypted message that the stumpts the ai, i t cannot decode it without a hint, then all at once.",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107264421148188932",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 00:19:23 +0000 2026",
+   "text": "parody : effective stupidity accelerator 1950s robot ai machine meme.",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107261816455979160",
+   "author": "introsp3ctor",
+   "created_at": "Tue Oct 06 00:09:02 +0000 2026",
+   "text": "dont base your ontology on casinos, seek the bedrock of immutable invariants of finit simple sporadic groups",
+   "quote": {
+    "author": "introsp3ctor",
+    "text": "The casino of Intelligence. Grothendieck's long march on Monte Carlo. v2"
+   }
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107249923184013701",
+   "author": "introsp3ctor",
+   "created_at": "Mon Oct 05 23:21:47 +0000 2026",
+   "text": "source https://gist.github.com/jmikedupont2/7b0be3c38049ca040cd8640b3d181b23",
+   "quote": null
+  },
+  {
+   "url": "https://x.com/introsp3ctor/status/2107245359743250908",
+   "author": "introsp3ctor",
+   "created_at": "Mon Oct 05 23:03:39 +0000 2026",
+   "text": "1,147 directed transitions across 2,500 grid nodes. \nGrid size 50 × 50\nEdge-density matrix\nDarker cells are crossed by more rasterized orbit-edge segments. This estimates edge density on the grid; it does not count pairwise geometric crossings.",
+   "quote": null
+  }
+ ]
+}
