@@ -1,0 +1,974 @@
+[
+ {
+  "file": "833060625_4537558303232645_5100141893359829624_n.webp",
+  "bytes": 453276,
+  "sha256": "580de06be236215c",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000abf030000d1a50000877c0100a5ba0100dbf5010087b202007a550400f57104006fb3040038e004009cea0600"
+   ]
+  ],
+  "size": [
+   1280,
+   1920
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5,
+   0.4931,
+   0.4808
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 5418.3,
+  "pov_dof": 128
+ },
+ {
+  "file": "F1AC8F1A-635F-4D21-9CBD-4B72258C233C.jpeg",
+  "bytes": 641728,
+  "sha256": "a617233ef406c9c8",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    12571,
+    "\t\t\t\t\t\t\t\t\t\t | \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t | %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz | &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz | u}rcmw | NdFu`7 | EM\tM;\\ | Yp~I0A' | `99A\\G | ^YZG;Pl | 8>nyim4? | +m{,1Z | ~c^&5s~ | GfxxGS | i\\/;CI | qM<L%z | aln4Y\" | sz_m?# | 2m`UYgPI "
+   ],
+   [
+    "0xed",
+    56,
+    "Photoshop 3.0"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4991,
+   0.4997,
+   0.4993
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 2435.1,
+  "pov_dof": 128
+ },
+ {
+  "file": "3ef5aabf_122A6329-F76D-4B9F-9E07-3049002FEBEC.jpg",
+  "bytes": 652906,
+  "sha256": "f824937989448443",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [],
+  "size": [
+   1600,
+   1200
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5031,
+   0.5024,
+   0.4999
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 3060.5,
+  "pov_dof": 128
+ },
+ {
+  "file": "3ef5aabf_7B405280-DCA2-4908-94F4-23910BA8EBEA.jpg",
+  "bytes": 424031,
+  "sha256": "1d38862415995f73",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [],
+  "size": [
+   1200,
+   1600
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4996,
+   0.5007,
+   0.4998
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 2178.1,
+  "pov_dof": 128
+ },
+ {
+  "file": "3ef5aabf_D9C903BE-8F02-473A-B679-4D82CE986D91.png",
+  "bytes": 410183,
+  "sha256": "d59f97fbf37f9966",
+  "fmt": "PNG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "sRGB",
+    1,
+    ""
+   ],
+   [
+    "eXIf",
+    250,
+    "Screenshot | 2026:10:04 15:56:04 | 2026:10:04 15:56:04 | Screenshot"
+   ],
+   [
+    "pHYs",
+    9,
+    ""
+   ],
+   [
+    "iTXt",
+    931,
+    "XML:com.adobe.xmp | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 6.0.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\"\n            xmlns:photoshop=\"http://ns.adobe.com/photoshop"
+   ]
+  ],
+  "size": [
+   1284,
+   2778
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.6275,
+   0.6454,
+   0.66
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 1617064.9,
+  "pov_dof": 128
+ },
+ {
+  "file": "3ef5aabf_IMG_3755.jpg",
+  "bytes": 262738,
+  "sha256": "72c33379a422c925",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [],
+  "size": [
+   1200,
+   1600
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4994,
+   0.5008,
+   0.4983
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 4222.8,
+  "pov_dof": 127
+ },
+ {
+  "file": "3ef5aabf_IMG_3756.jpg",
+  "bytes": 321271,
+  "sha256": "662e708b1debece5",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [],
+  "size": [
+   1200,
+   1600
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5009,
+   0.5005,
+   0.4991
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 3275.7,
+  "pov_dof": 128
+ },
+ {
+  "file": "3ef5aabf_835886708_1130702532721091_1278864614700836657_n.webp",
+  "bytes": 410228,
+  "sha256": "56d41fb891835bac",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000adb0300004a990000055d0100639d01001ed80100bbb50200cc1d04003e3a0400707b04001ca4040074420600"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4881,
+   0.491,
+   0.4812
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 8785.7,
+  "pov_dof": 128
+ },
+ {
+  "file": "3f05aabf_446DA0A9-D69B-4BDD-9370-8210DDF7A93F.jpeg",
+  "bytes": 368450,
+  "sha256": "28a013c256710369",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000ae4030000638e00009f4c0100ee7a010071b1010022ad02003de40300a4000400e02d040074510400429f0500"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4987,
+   0.4911,
+   0.476
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 122903.2,
+  "pov_dof": 128
+ },
+ {
+  "file": "3f05aabf_A5C9867E-6354-4B2C-813D-0A9AB6D2223B.jpeg",
+  "bytes": 239172,
+  "sha256": "c4dd391c19b24989",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000abe030000e1930000d710010004370100ff530100807f0100df320200514f0200377c02007b9e020044a60300"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4997,
+   0.4998,
+   0.5026
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 1644.7,
+  "pov_dof": 128
+ },
+ {
+  "file": "late_EA8FDC88-E33D-4714-96A1-490B8FB777A7.jpeg",
+  "bytes": 607928,
+  "sha256": "4bc41d4cff47f376",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000af40300001bad000071e6010030040200344402002a510400e78f060066ac06003cd1060052ff0600b8460900"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5383,
+   0.4822,
+   0.4783
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 64102.6,
+  "pov_dof": 128
+ },
+ {
+  "file": "late_FED2A85F-7DE4-4294-B5BF-8CBD7E2BD73B.jpeg",
+  "bytes": 607928,
+  "sha256": "4bc41d4cff47f376",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000af40300001bad000071e6010030040200344402002a510400e78f060066ac06003cd1060052ff0600b8460900"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5383,
+   0.4822,
+   0.4783
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 64102.6,
+  "pov_dof": 128
+ },
+ {
+  "file": "031E8B77-2B01-4653-AD21-9E252B9FAC23.jpeg",
+  "bytes": 382922,
+  "sha256": "466cd3b70fa89a49",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000ac0030000d9a7000033960100f4c9010076fb0100ca850200fbc7030077e40300861c04002f480400cad70500"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4926,
+   0.4982,
+   0.4841
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 3909.9,
+  "pov_dof": 128
+ },
+ {
+  "file": "FA063261-FA08-4966-A4AD-4EB42990CA1B.jpeg",
+  "bytes": 416432,
+  "sha256": "d2d72159a75fdd2c",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000ae70300000ca20000507c01002fa901003ceb01002f8e020058070400ca230400795904008f8b0400b05a0600"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5006,
+   0.4912,
+   0.4746
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 8755.7,
+  "pov_dof": 128
+ },
+ {
+  "file": "01279d0d91986ad47426676ca902fc54.jpeg",
+  "bytes": 384925,
+  "sha256": "b22ec289f3fa3dcd",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   1122,
+   1402
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5221,
+   0.5314,
+   0.4989
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 38680.4,
+  "pov_dof": 128
+ },
+ {
+  "file": "09369FA7-805F-414E-AFEC-DDC4223EFA28.jpeg",
+  "bytes": 55487,
+  "sha256": "9b93a82b1e589d26",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    76,
+    ""
+   ],
+   [
+    "0xed",
+    56,
+    "Photoshop 3.0"
+   ],
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   1132,
+   336
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.8931,
+   0.685,
+   0.8362
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 145334.6,
+  "pov_dof": 128
+ },
+ {
+  "file": "202fbda98e7ffe027586a51f444fb71d.jpeg",
+  "bytes": 99971,
+  "sha256": "01bb8379a85a00fc",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   838,
+   607
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.2501,
+   0.7064,
+   0.6986
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 113637.1,
+  "pov_dof": 121
+ },
+ {
+  "file": "2b9bf74881b4ab8331877c713c2d49b8.jpeg",
+  "bytes": 371511,
+  "sha256": "519e17f866cd239b",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   1152,
+   1728
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.376,
+   0.5,
+   0.5039
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 90414.9,
+  "pov_dof": 128
+ },
+ {
+  "file": "51bd22043544a1352e755fe3522e57a3.jpeg",
+  "bytes": 386155,
+  "sha256": "515abf27060e0420",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   1152,
+   1728
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4948,
+   0.5467,
+   0.4709
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 22659.2,
+  "pov_dof": 128
+ },
+ {
+  "file": "63dacc89328a56552cb4c9359973543a.jpeg",
+  "bytes": 94426,
+  "sha256": "68835224982aa358",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   826,
+   712
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.1617,
+   0.8199,
+   0.8174
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 175094.1,
+  "pov_dof": 126
+ },
+ {
+  "file": "835763146_1369453831718867_4466899462304593351_n.webp",
+  "bytes": 326361,
+  "sha256": "2587f13bd9d936b2",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000ac703000052a20000ef700100ab9d010075ca010000170200e41d0300563a0300726a03009b940300d9fa0400"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4963,
+   0.499,
+   0.492
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 5018.6,
+  "pov_dof": 128
+ },
+ {
+  "file": "CC2FD011-2CC5-40AB-A861-B713987A9916.png",
+  "bytes": 2397443,
+  "sha256": "b7e2016c9991f45a",
+  "fmt": "PNG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "sRGB",
+    1,
+    ""
+   ],
+   [
+    "eXIf",
+    250,
+    "Screenshot | 2026:10:05 19:37:12 | 2026:10:05 19:37:12 | Screenshot"
+   ],
+   [
+    "pHYs",
+    9,
+    ""
+   ],
+   [
+    "iTXt",
+    931,
+    "XML:com.adobe.xmp | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 6.0.0\">\n   <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n      <rdf:Description rdf:about=\"\"\n            xmlns:exif=\"http://ns.adobe.com/exif/1.0/\"\n            xmlns:photoshop=\"http://ns.adobe.com/photoshop"
+   ]
+  ],
+  "size": [
+   1284,
+   2778
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.3114,
+   0.2761,
+   0.2738
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 876450.8,
+  "pov_dof": 128
+ },
+ {
+  "file": "a4e29b435ee6936afdfc95a19bb33a2e.jpeg",
+  "bytes": 337536,
+  "sha256": "058ce919277172bc",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   1152,
+   1728
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.387,
+   0.5212,
+   0.5197
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 64516.7,
+  "pov_dof": 128
+ },
+ {
+  "file": "b0ec3b5e3eb071d32241d353f1c50dd5.png",
+  "bytes": 132187,
+  "sha256": "fe9e878a73a67925",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   921,
+   2048
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.7705,
+   0.7191,
+   0.7428
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 575675.0,
+  "pov_dof": 128
+ },
+ {
+  "file": "c0b762f3191dd508b3417bc649903ee8.jpeg",
+  "bytes": 383777,
+  "sha256": "c46d7e1382a75240",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe2",
+    472,
+    "ICC_PROFILE | mntrRGB XYZ "
+   ]
+  ],
+  "size": [
+   1152,
+   1728
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.336,
+   0.5246,
+   0.5262
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 150678.7,
+  "pov_dof": 128
+ },
+ {
+  "file": "282ACB8E-8E5C-4396-B5CC-0109EE68694C.jpeg",
+  "bytes": 326361,
+  "sha256": "2587f13bd9d936b2",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000ac703000052a20000ef700100ab9d010075ca010000170200e41d0300563a0300726a03009b940300d9fa0400"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4963,
+   0.499,
+   0.492
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 5018.6,
+  "pov_dof": 128
+ },
+ {
+  "file": "834679570_2283248395849386_8713129230565025448_n.webp",
+  "bytes": 375718,
+  "sha256": "d6d274f6b33ff35c",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000ac703000031a1000007780100d3a0010061c801005550020088a30300ffbf03007bee0300f2130400a6bb0500"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4993,
+   0.4994,
+   0.4924
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 1633.3,
+  "pov_dof": 128
+ },
+ {
+  "file": "837041155_3347940978927051_6983365599921051145_n.webp",
+  "bytes": 360863,
+  "sha256": "10783aa5eddf3e0d",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    391,
+    "http://ns.adobe.com/xap/1.0/ | <x:xmpmeta xmlns:x=\"adobe:ns:meta/\" x:xmptk=\"XMP Core 4.4.0-Exiv2\">\n <rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n  <rdf:Description rdf:about=\"\"\n    xmlns:iptcExt=\"http://iptc.org/std/Iptc4xmpExt/2008-02-29/\"\n   iptcExt:DigitalSourceType=\"http://c"
+   ],
+   [
+    "0xed",
+    132,
+    "Photoshop 3.0 | bFBMD0a000abe030000da9e0000da610100e48e0100dcbe0100a92402005f4b0300b1670300d0a00300d6d003009f810500"
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5102,
+   0.5014,
+   0.4969
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 17019.9,
+  "pov_dof": 128
+ },
+ {
+  "file": "833314357_3857767064363840_5555452640938340821_n.webp",
+  "bytes": 380151,
+  "sha256": "d35b73e2697daf6f",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    188,
+    ""
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.5027,
+   0.4977,
+   0.5034
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 10496.0,
+  "pov_dof": 128
+ },
+ {
+  "file": "834124710_1608858784081436_8413851424846114100_n.webp",
+  "bytes": 654264,
+  "sha256": "f284139b3a62725f",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    188,
+    ""
+   ]
+  ],
+  "size": [
+   1344,
+   1792
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.517,
+   0.4783,
+   0.4481
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 32909.4,
+  "pov_dof": 128
+ },
+ {
+  "file": "834561319_925723300358031_1798596474095439397_n.webp",
+  "bytes": 306024,
+  "sha256": "834ec37298c6287d",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    188,
+    ""
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4918,
+   0.4993,
+   0.5048
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 4159.8,
+  "pov_dof": 128
+ },
+ {
+  "file": "837920654_1098769599571864_7000642710592572488_n.webp",
+  "bytes": 486025,
+  "sha256": "301ac48c2d4c8b32",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    188,
+    ""
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4833,
+   0.5032,
+   0.5065
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 30156.0,
+  "pov_dof": 128
+ },
+ {
+  "file": "839618378_2184123662528672_6783758598168365147_n.webp",
+  "bytes": 376485,
+  "sha256": "02dcb5972f8b1656",
+  "fmt": "JPEG",
+  "trailing_bytes": 0,
+  "meta": [
+   [
+    "0xe1",
+    188,
+    ""
+   ]
+  ],
+  "size": [
+   1920,
+   1280
+  ],
+  "mode": "RGB",
+  "lsb_mean_per_channel": [
+   0.4994,
+   0.5002,
+   0.4972
+  ],
+  "lsb_text_runs": [],
+  "pov_chi2": 3244.0,
+  "pov_dof": 128
+ }
+]
