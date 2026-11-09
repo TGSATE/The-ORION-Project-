@@ -1,0 +1,143 @@
+== Matthew (enuminous): 100 listed, 17 pushed since Oct 7
+  Aristotle-165-Einsteinian-Tensors pushed 2026-10-09T00:58:50Z fork=False :: 
+     commits since Oct7: 2; ORION-word hits: 0
+       - Publish tensor atlas dashboard and expanded README
+       - Publish audit-driven fix schedule
+  EFMW pushed 2026-10-09T00:47:41Z fork=False :: Einstein Feynman Maxwell Wright
+     commits since Oct7: 2; ORION-word hits: 0
+       - Add EFMW search page and local engine API v2.1.0
+       - Release MillieComplex EFMW model v2.0.0
+  Mathematics-and-Elite-Squad-Dynamics pushed 2026-10-08T23:57:41Z fork=False :: SWARM BUZZKILL FOR THE BUZZARDS - A SCIENTIFIC SH*TPOSTING JOURNAL
+     commits since Oct7: 13; ORION-word hits: 0
+       - Add contextual illustrations to journal index
+       - Add files via upload
+       - Add files via upload
+  papers pushed 2026-10-08T20:54:14Z fork=False :: 
+     commits since Oct7: 2; ORION-word hits: 0
+       - Add files via upload
+       - Add paper on unified solution to Millennium Prize Problems
+  Alchemy-of-Emergence pushed 2026-10-08T20:13:28Z fork=False :: 
+     commits since Oct7: 1; ORION-word hits: 0
+       - Add complete book index page
+  Aristotle-Agreement-and-Surprise-Global-Equalibrium-from-Local-Repair pushed 2026-10-08T17:19:48Z fork=False :: Aristotle of Bernard Mueller's paper
+     commits since Oct7: 5; ORION-word hits: 0
+       - docs: add Agreement and Surprise research landing page
+       - Add files via upload
+       - Add files via upload
+== Bobby (the-far-queen): 16 listed, 6 pushed since Oct 7
+  far-courses pushed 2026-10-09T14:39:01Z fork=False :: Free academic content + test prep + course pipeline.
+     commits since Oct7: 4; ORION-word hits: 0
+       - far-courses: the gate was wrong about art, music and film
+       - far-courses: curriculum gate -- 16 of 28 domains, and it can say no
+       - far-courses: transmission detector reads bold-dash glossary entries
+  simself pushed 2026-10-09T14:33:16Z fork=False :: SimSelf — simulated self and axes of identity (docs as md, src as python)
+     commits since Oct7: 16; ORION-word hits: 0
+       - simself: growth metrics -- does the daily loop actually improve anything?
+       - simself: README brought current and made readable cold
+       - simself: skill contracts -- what a capability promises and how it is checked
+  fieldcore pushed 2026-10-09T14:08:45Z fork=False :: Intelligent control systems.
+     commits since Oct7: 27; ORION-word hits: 0
+       - fieldcore: the last two red tests -- both were stale assertions
+       - fieldcore: Kuramoto lock tests rewritten -- the threshold was unachievable
+       - fieldcore: leapfrog seed corrected -- the units property was exactly pi out
+  far-math pushed 2026-10-09T13:32:32Z fork=False :: Math school for humans and AI. Layer A verified / B deferred / C speculative archive.
+     commits since Oct7: 3; ORION-word hits: 0
+       - far-math: the docs are finally readable cold -- prerequisite load 100% -> 8.9%
+       - far-math: math school, Layer A/B/C rule enforced in code, 24 green checks
+       - Initial commit
+  atlas-exam pushed 2026-10-08T21:51:03Z fork=False :: A certification harness for AI control systems. 23 areas, mutation-tested: an area that ca
+     commits since Oct7: 11; ORION-word hits: 0
+       - atlas-exam: the gate is INSIDE the learning loop, and 95% not 100%
+       - atlas-exam: falsifier -- the module six files of frontier work never had
+       - atlas-exam: claims A7-A11 -- five more measured failures from the full reads
+  far-mysteries pushed 2026-10-08T21:44:30Z fork=False :: the-far-queen / far-mysteries
+     commits since Oct7: 1; ORION-word hits: 0
+       - far-mysteries: this IS the Sacred Library
+== Ryan (ryansctt1994-sudo): 73 listed, 9 pushed since Oct 7
+  Lumen-Nexus pushed 2026-10-09T17:41:38Z fork=False :: 
+     commits since Oct7: 0; ORION-word hits: 0
+  Weaver_Os pushed 2026-10-09T17:41:37Z fork=False :: replay-verifiable constitutional execution substrate for bounded AI
+     commits since Oct7: 0; ORION-word hits: 0
+  Quillan-v4.2-repo pushed 2026-10-09T03:48:24Z fork=True :: Attempt at A. G. I. Strive to enhance it through iterative processes, continuously refinin
+     commits since Oct7: 0; ORION-word hits: 0
+  Lumen pushed 2026-10-09T03:00:05Z fork=True :: 
+     commits since Oct7: 0; ORION-word hits: 0
+  cathedral-verified pushed 2026-10-09T02:50:53Z fork=False :: Two bounded safety primitives with repository-local tests. A green CI run is not independe
+     commits since Oct7: 0; ORION-word hits: 0
+  Weaver-Governed-RSI pushed 2026-10-07T18:09:51Z fork=False :: Research incubator shell for governed recursive software improvement. E0. No runtime, witn
+     commits since Oct7: 0; ORION-word hits: 0
+== JDRedding (JDRedding): 32 listed, 2 pushed since Oct 7
+  Domain-papers pushed 2026-10-09T11:43:14Z fork=False :: The domain‑papers repository is a ten‑domain container that mirrors the Dewey Decimal Syst
+     commits since Oct7: 21; ORION-word hits: 3
+       * Add future work on Monster generalized Kac–Moody structure
+       * Enhance future work on Monster valuation table
+       * Create relational monster valuation table
+  RDG-MFE-Q pushed 2026-10-09T01:11:13Z fork=False :: 
+     commits since Oct7: 1; ORION-word hits: 0
+       - Update RDGA- Relational Dynamic Geometry Algebra.md
+== Mike (meta-introspector): 100 listed, 26 pushed since Oct 7
+  lean-workers-union pushed 2026-10-09T17:49:26Z fork=False :: A registry and coordination layer for Lean workers and Choir members, enabling role-based 
+     commits since Oct7: 11; ORION-word hits: 5
+       * fix(ci): correct site generation path (LodgeHouse/ is in root, not .letta/)
+       * Merge pull request #3 from meta-introspector/api/lodge-house-v1
+       * feat(lodge): construct the Lodge House site in recursive Lean
+       * feat(api): Lodge House API v1 — Lean implementation + tests, plus repo-wide build repair
+       * docs(api): Lodge House API v1 spec — reverse-engineered from the deployed site's browser-local data model, aligned with ChoirUnion registry 
+  carrick pushed 2026-10-09T15:46:54Z fork=True :: Carrick maps your entire TypeScript codebase across services and repositories, giving AI a
+     commits since Oct7: 34; ORION-word hits: 0
+       - chore(main): release carrick 0.3.111 (#2125)
+       - fix(sidecar): a route's response row located at a send inside its handler is typed from the handler's success sends, and
+       - feat(compat): judge a response chosen by a request field against the case the call states (#2054, PR B) (#2144)
+  fallow pushed 2026-10-09T15:30:56Z fork=True :: Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplicat
+     commits since Oct7: 56; ORION-word hits: 0
+       - chore(release): set RELEASED_TAG to v3.33.0
+       - chore(docker): pin FALLOW_VERSION 3.33.0 with refreshed checksums
+       - chore(napi): sync package.json / package-lock / index.js to v3.33.0
+  QEC pushed 2026-10-09T12:29:01Z fork=True :: Deterministic quantum error-correction labs, proof receipts, and reproducible evidence.
+     commits since Oct7: 3; ORION-word hits: 0
+       - Merge pull request #595 from QSOLKCB/phase2-workbench-descriptors
+       - Enforce shared numeric bounds before CLI computation and artifact writes
+       - Export versioned command capabilities from shared scalar CLI declarations
+  Domain-papers pushed 2026-10-09T10:20:53Z fork=True :: The domain‑papers repository is a ten‑domain container that mirrors the Dewey Decimal Syst
+     commits since Oct7: 19; ORION-word hits: 3
+       * Add future work on Monster generalized Kac–Moody structure
+       * Enhance future work on Monster valuation table
+       * Create relational monster valuation table
+  flt_for_human pushed 2026-10-08T18:59:15Z fork=True :: 
+     commits since Oct7: 12; ORION-word hits: 0
+       - xh hecke defs
+       - xH hecke diamond inputs plan
+       - add hurwitz
+== Mike2 (jmikedupont2): 100 listed, 6 pushed since Oct 7
+  Mathematics-and-Elite-Squad-Dynamics pushed 2026-10-08T23:57:41Z fork=True :: SWARM BUZZKILL FOR THE BUZZARDS - A SCIENTIFIC SH*TPOSTING JOURNAL
+     commits since Oct7: 13; ORION-word hits: 0
+       - Add contextual illustrations to journal index
+       - Add files via upload
+       - Add files via upload
+  Resileos-QAI pushed 2026-10-08T16:35:57Z fork=True :: Resileos-QAI: a layered architecture for residual compression and generative hypervector d
+     commits since Oct7: 49; ORION-word hits: 0
+       - Fix link case sensitivity in README.md
+       - Remove blank line in README.md
+       - Implement tests for FPE encoding functionality
+  elliptic-curves-cm-modularity pushed 2026-10-07T22:18:11Z fork=True :: Manuscript and LaTeX source on the modularity of elliptic curves over CM number fields.
+     commits since Oct7: 1; ORION-word hits: 0
+       - Add files via upload
+  UPT-Meta pushed 2026-10-07T20:05:06Z fork=True :: Standalone Lean4 formalization of Universal Pressure Theory — gravity as pressure gradient
+     commits since Oct7: 13; ORION-word hits: 0
+       - Add files via upload
+       - Merge pull request #4 from Infinitespacemechanic/copilot/add-header-to-lleans
+       - Add files via upload
+  UPT pushed 2026-10-07T17:36:43Z fork=True :: Math supporting the universal pressure from mass's gravity. 
+     commits since Oct7: 4; ORION-word hits: 0
+       - Merge pull request #2 from Infinitespacemechanic/copilot/uptcleanup
+       - Add Lean package configuration and file map
+       - Organize archived and active Lean sources
+  WaterSheet.lean pushed 2026-10-07T16:28:57Z fork=True :: Rain can come down in drops, buckets, and pour... it's all mass, density and time from the
+     commits since Oct7: 4; ORION-word hits: 0
+       - Merge pull request #2 from Infinitespacemechanic/copilot/fix-loose-ends
+       - Remove duplicate Lean source file
+       - Expand audit cleanup scope
+== Beth (TGSATE): 2 listed, 1 pushed since Oct 7
+  ORION-Engine-Platform-and-MMO pushed 2026-10-07T02:23:15Z fork=False :: ORION Engine is a human mediated knowledge and safety platform that connects fragmented in
+     commits since Oct7: 1; ORION-word hits: 1
+       * Create ORIONR13>GH
