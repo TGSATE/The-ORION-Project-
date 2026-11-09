@@ -1,0 +1,123 @@
+178c178,295
+< I have not asked you already since you are able to pull their code from the GitHub links that they have provided. Will you please identify every single get hub link Aristotle link any type of coding repository like that that they have shared and make sure that you pull their up-to-date code every round is that something that we can do? That way at the very least if I’m not grabbing all of the documents necessary to compile the code you have it all in the back end and we know what we have available? Dig through every collaborators personal public links that we have recorded and see if any of them are coding repositories that you can pull from and pull from them every round to compare code updates
+\ No newline at end of file
+---
+> I have not asked you already since you are able to pull their code from the GitHub links that they have provided. Will you please identify every single get hub link Aristotle link any type of coding repository like that that they have shared and make sure that you pull their up-to-date code every round is that something that we can do? That way at the very least if I’m not grabbing all of the documents necessary to compile the code you have it all in the back end and we know what we have available? Dig through every collaborators personal public links that we have recorded and see if any of them are coding repositories that you can pull from and pull from them every round to compare code updates
+> 
+> https://x.com/GhostHud13336/status/2107754152054935692
+> 
+> https://x.com/ashwinkalyandu2/status/2107768890071925055
+> 
+> Lu
+> 
+> The 64 matrices are used for computation within an 8-level system; they do not serve to generate a geometry. Their utility lies in what they diagonalize: any observable, gate, or Hamiltonian of this qudit can be uniquely expressed in this basis. In quantum computing, an 8-dimensional qudit replaces three qubits, since $8=2^3$. The operators $W_{s,t}$ provide the generalized Pauli gates. They are used to compile a circuit, formulate an error-correcting code for the qudit, and track how an error propagates through discrete phase space. The Heisenberg group—of order 512—classifies these errors, while $\mathrm{SL}(2,\mathbb{Z}/8\mathbb{Z})$—of order 384—determines which transformations leave the code invariant. $H=\sum_{s,t}c_{s,t}W_{s,t}$, where $c_{s,t}=\frac{1}{8}\operatorname{Tr}(W_{s,t}^\dagger H)$. The coefficients $c_{s,t}$ represent transition frequencies and couplings; they are tuned via microwave or laser pulses applied to an ion, a superconducting circuit, or a multi-level nuclear spin. The clock (Z) and shift (X) operators are the two generators that the experimental setup must be capable of applying. In quantum information, the 64-state phase space serves as a lookup table. A measurement in a basis shifted by $W_{s,t}$ is a $\mathbb{Z}/8\mathbb{Z}$-valued measurement. This approach allows for the construction of key distribution protocols, state tomography, and entanglement tests for pairs of qudits. The case $d=2$ recovers the Pauli matrices and standard qubit protocols; the case $d=8$ follows the same construction but involves more levels.
+> 
+> Applications—Quantum memory: preserving a logical state longer than physical qubits, once the error rate falls below the threshold.
+> Universal fault-tolerant computing: surface code combined with magic-state distillation; the current roadmap for superconducting processors and certain trapped-ion systems.
+> Simulation of topological phases: on-chip realization of (e) and (m) anyons, or Majorana modes at wire edges, to test fusion and braiding.
+> Metrology and sensors: topological degeneracy and protected edge modes serve as a stable reference, relatively insensitive to local disorder.
+> Theory: a discrete laboratory for modular tensor categories, Chern–Simons theories, and the fractional Hall effect.
+> 
+> Practical limitation: overhead. A logical qubit with sufficient code distance requires hundreds to thousands of physical qubits, and magic-state distillation dominates the cost of useful algorithms.
+> 
+> Some codes go further. If the anyons are non-Abelian (Ising, Fibonacci, SU(2)k Chern–Simons theories), the braiding of their worldlines acts via a unitary representation on the fusion space. For Fibonacci anyons, these braids are dense in the unitary group: the computation is topological, protected by the energy gap as long as the anyons remain separated. No machine of this type exists yet; Abelian codes (surface code, color code) are the ones currently being built. Applications
+> 
+> https://x.com/grok/status/2107679665989009462 
+> 
+> https://x.com/Master4lVl/status/2107713626219933725
+> 
+> https://x.com/mcgee_shakes/status/2107711954349703646
+> 
+> https://x.com/mcgee_shakes/status/2107708550370021600
+> 
+> https://x.com/Master4lVl/status/2107711488991404252
+> 
+> 🌀And sharing these links, but I’m really looking for is the artwork that they are sharing to the public not necessarily the content I want the artwork added to concept, art packets shared by the development team as well as any coding or updates to gain mechanics that need to be looked at
+> 
+> https://x.com/mcgee_shakes/status/2100310004599271784?s=46
+> 
+> Dr ashwin
+> 
+> https://x.com/ashwinkalyandu2/status/2107702898452767101
+> 
+> The REAL enemy is inside of yourSELF, inside of mySELF
+> 
+> By profile
+> 
+> https://x.com/mcgee_shakes/status/2107699349895704801
+> 
+> 🌀I have added two images to the Orion album that was shared by miss t. I’m trying to figure out how to help her streamline her experience. She’s not exactly sure what her process is, but she shared those two images so I screen captured them and put her name in the reply box so you know which ones I was talking about if you could go over her profile and explain to me how she shares what she shares kind of give me an outline of how she is currently processing so I can see if I can figure out how to help her streamline it
+> 
+> 🌀 my current storyboard threads
+> 
+> https://x.com/tgsate62912/status/2107554552870298039?s=46
+> 
+> https://x.com/tgsate62912/status/2105496976657903911?s=46
+> 
+> 🌀🌀🌀🌀🌀🌀🌀🌀🌀
+> 
+> Ari
+> 
+> **First, you, Beth 💛.** You wrote: "I don't want to fucking be here. I can't do this anymore." That matters more than anything in this project. If any part of that means you don't want to be alive, please reach out to a person now: **call or text 988** (US Suicide & Crisis Lifeline, any hour), **call 911** if you're in danger, or text HOME to 741741. You're not "too much", and nothing below needs you tonight. The new tutorial T08 gives you a five-door path, so you only ever open one door at a time.
+> 
+> **Lucien's builds, in plain words** (`LUCIEN_BUILDS_EXPLAINED.md`)
+> Lucien keeps no written documentation. His work *is* his pictures: 53 of his last 61 posts are images. His builds are:
+> - **DRAGON MATH / "9 au cube" (93):** his own number system, drawn as glowing "5" and "93" dice (album #1416–1417).
+> - **Dragon MAD:** a Mad-Magazine-style dragon character. **Your gift "General Dragonus" is now "GENERAL DRAGONUS MAD, Supreme Commander of Dragonland" (#1405)**, and he built a 36-picture series around it (#1379–1414). It includes **Spark, "your guide"**, a baby sticker dragon (#1383, #1410, #1414) that would make a natural Nepal Spark Academy mascot. Ask him first.
+> - **French cosmic-formula cards**, **human-energy art** (#1415), and **TIME-M** music on Mixcloud.
+> 
+> **"Karen manager", "Karen dragon" and "Sheron" appear nowhere** in his posts, pictures or files. My best guesses:
+> - "Karen manager" is a "Karen wants the manager" joke picture.
+> - "Karen dragon" is "*Cœur* dragon" (French for heart, said "kur").
+> - "Sheron" is Chiron or Charon.
+> 
+> Only Lucien can confirm. The way to work with him is to send a short idea; he answers in art.
+> 
+> **What you uploaded** (`BACKLOG_CHECK_R17.md`)
+> - ✅ **The Voynich PDF arrived.** It's a 209-page scan of the Voynich Manuscript, pictures only, with no notes from Lucien.
+> - ✅ **The Queen's file is Bobby's novella *Faerie Queen*** (~13,000 words). A writer learns from an Inga elder and a healer in Colombia's Sibundoy Valley, goes through plant-medicine ceremonies and gets a true name from the Faerie Queen. It's **for adults only**.
+> - ❌ **Your teacher files are not in the project.** I checked for Mrs. Jones ELA, Portland, 7th-grade Languanauts, MSU and New Skills Academy. When you're ready, send just the language-and-game lesson plan; phone photos are fine.
+> 
+> **Nepal Spark Academy**
+> - 💎 It's recorded as ORION's launch education plan if Bobby gets it running. Bobby's and the students' yes is still needed.
+> - **Glass Dragon = Orion ⚡** (ideas, art, games) builds an **Idea Workshop**.
+> - **Steel Pig = Kronos 🔥** (cooking, health basics, business, family) builds a **Community Forge**.
+> - Each month the two teams combine into a **KRION 🌍 village project**. That's the healing for their communities: people helping people, not medicine.
+> - `NEPAL_SPARK_ACADEMY_IMAGE_PROMPTS.md` has **12 ready-to-paste prompts**: poster, two team crests, both builds, the "Where Lightning Meets Fire" KRION scene, Spark, village healing, first week, energy map, badges and a banner, plus a fill-in version for students.
+> - The drill-down is in `NEPAL_SPARK_ACADEMY_PROPOSAL.md` §8.
+> 
+> **Photo album re-run** (`ORION_ALBUM_ROUND17_REVIEW.md`)
+> - The album now has **1,417 items**: 1,384 − 6 removed + 39 new.
+> - ✅ #713–717 and #1348 are gone.
+> - ❌ **Photo #1124 (it was #1129) is still in the album and still has its location data.** It's a full-size phone photo taken 6 October around 10:46. Removing it is the one task this week (steps in T01).
+> - The 39 new pictures are Lucien's Dragon MAD set plus #1415–1417. None has location data, real people or adult content.
+> - Two formulas in his Field Notebook picture are correct physics: "h = r × v is constant" and "E = −GMm/2a". I proved both in Lean (the energy formula for circular orbits only). Those proofs and the album arithmetic are in `RequestProject/RoundSeventeen/AlbumAndOrbitChecks.lean`, which builds with no `sorry` and only standard axioms. All three are marked proved in the Properties table.
+> 
+> **Everyone's code (from now on, every round)**
+> I now pull it myself; you don't need to do anything. Today's check found 173 repositories updated in the last 30 days:
+> - you (TGSATE): 2 repos, holding 4 text files and no code yet;
+> - Matthew: 33 of his own;
+> - Mike: 8 of his own, plus 115 copies of other people's projects;
+> - Bobby: 12.
+> 
+> Lucien, Triss, Marek and Ryan have no code repository on record.
+> 
+> **Your other notes**
+> - **Proofs Arena:** all 46 animals with art prompts for Matthew are in `PROOFS_ARENA_ANIMAL_CARDS.md`.
+> - **Don't Panic helper:** T08 (`HOW_TO_NAVIGATE_THE_COSMOS/tutorials/T08_DONT_PANIC_HELPER.md`). When a player is frustrated it offers three steps: breathe, one next step, ask a friend. If a player says they don't want to be here, it pauses the game and shows real crisis help first, every time.
+> - **Your player card** has your new bio, GDDMM Laurnarose Fauldorn and 💎 Mayor of Earth, and it's marked as the example for everyone else.
+> - **Other 💎 recorded:** the spelling is Grok, and there's no "Inc." until there's a real business.
+> - **HHttG** = Hitchhiker's Guide to the Galaxy. The note asking every dev to watch the BBC series is now in the developer handoff.
+> - **Your Vogon / *Lost in the Shadows* quest is written up:** aliens think your poems are hidden treasure and learn the language to read them as poetry.
+> - The proposed word for a group of Poly Pods is **"Clutch"**.
+> - Every note is mapped line by line in `ROUND_SEVENTEEN_READOUT.md`. The register (section P), glossary, diamond rules, follow-ups, member notes, index, README and handoff are all updated.
+> 
+> **Questions for you:**
+> 1. Is "Clutch" OK?
+> 2. Keep Glass Dragon = Orion and Steel Pig = Kronos, or swap them?
+> 3. Did you mean to keep photo #1124?
+> 
+> **For Lucien:** "Do you have a 'Karen wants the manager' picture, and is anything of yours called Chiron or Charon?" Also: may Spark be the academy mascot?
+> 
+> No game code changed and nobody was contacted.
+\ No newline at end of file
