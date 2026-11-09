@@ -1,0 +1,131 @@
+Link retry run Tue Oct 13 13:50:33 UTC 2026
+000  https://docs.google.com/document/d/1RMRxorwCsE5SVtqT-nyoCquaeEJRjghKbS904vDjWLM/export?format=txt (exit 35)
+000  https://docs.google.com/document/d/1OkmZq05T-Yllk3Ptx7XsuyDDPNjabnqL--rleLtMQss/export?format=txt (exit 35)
+000  https://docs.google.com/document/d/1Qh-Zwu22k3RAQc1jrHvaebSjHwLcA3w9jXEydpZS22Q/export?format=txt (exit 35)
+000  https://docs.google.com/document/d/1w9bVr2SZ_tKwaDSWpp5aR4slRo8dBDQvllHEvp5y3YE/export?format=txt (exit 35)
+000  https://docs.google.com/document/d/1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU/export?format=txt (exit 35)
+000  https://www.tgsate.com/cosmic-sandbox-master-summary/cst-volume-iii-theoretical-philosophical-proofs/cuneiform-mechanics-a-dual-paradigm-analysis (exit 35)
+000  https://tgsate.blogspot.com/2025/08/our-tower-of-babel.html (exit 35)
+000  https://tgsate.blogspot.com/2026/01/revelation-reimagined-grand-awakening.html (exit 35)
+000  https://drive.google.com/drive/folders/15t0tQtevA5lfDeEJckH3us7L6jU8myY7 (exit 35)
+000  https://drive.google.com/drive/folders/1mtLJq1CX7RCQv0aV1semoID3FCXoQgzJ (exit 35)
+000  https://drive.google.com/drive/folders/1zJlZXnIpcW07eW3tMa8EXBz0t_egw0X8 (exit 35)
+000  https://drive.google.com/drive/folders/1T12E4GgpvDPcYtvoK0T00oWBniNgsqwc (exit 35)
+000  https://drive.google.com/drive/folders/1bF8PFf7gkHaBGo4OtgoBpL-M6ZKZpknJ (exit 35)
+000  https://drive.google.com/drive/folders/1ciSDSWWXsOfb9BQls3jrrDiZKWXJwu-N (exit 35)
+000  https://photos.app.goo.gl/N42BnjMbaTqCSPsG6 (exit 35)
+000  https://photos.app.goo.gl/Rbp79kAWRagcVwim6 (exit 35)
+000  https://photos.app.goo.gl/Z6FNBZhxuXXerHR68 (exit 35)
+000  https://photos.app.goo.gl/dpuRnsEEQP4gi9FL9 (exit 35)
+000  https://photos.app.goo.gl/hdCpYMdkiefs7f3v9 (exit 35)
+000  https://photos.app.goo.gl/kSnaGRUgbRWnBoAi6 (exit 35)
+000  https://photos.app.goo.gl/nrRAXg2RDwrhqMW87 (exit 35)
+000  https://example.com (exit 35)
+000  https://www.wikipedia.org (exit 35)
+000  https://github.com (exit 35)
+
+=== Retry after 'one more restricted port' was opened — Tue Oct 13 14:04:33 UTC 2026 ===
+000  https://drive.google.com/drive/folders/1pPwF-7bV-EXmmAX2rrqKX8h3gpIcgYYQ (exit 35)
+000  https://drive.google.com/embeddedfolderview?id=1pPwF-7bV-EXmmAX2rrqKX8h3gpIcgYYQ (exit 35)
+000  http://drive.google.com (exit 28)
+000  https://example.com (exit 35)
+000  http://example.com (exit 28)
+000  https://github.com (exit 35)
+
+=== Irish's page + Lucien art request — Tue Oct 13 14:43:17 UTC 2026 ===
+000  https://sites.super.myninja.ai/e288c588-06cc-42e6-80fa-e558061971d1/bd65107b/index.html (exit 35)
+000  https://x.com/Master4lVl (exit 35)
+000  https://example.com (exit 35)
+
+=== Fresh Doc 1TFhj9AZ… ("maybe the Doc got too long") — Tue Oct 13 15:18:09 UTC 2026 ===
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/edit?usp=drivesdk (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://example.com (exit 35)
+000  https://github.com (exit 35)
+(Earlier the same session: export, /pub, /mobilebasic, google.com, example.com, github.com also failed — exit 35/28.)
+
+=== X post dr_logvinovich/2110025485191438524 (+ fresh Doc retry) — Tue Oct 13 15:18:22 UTC 2026 ===
+000  https://x.com/dr_logvinovich/status/2110025485191438524 (exit 35)
+000  https://publish.twitter.com/oembed?url=https://x.com/dr_logvinovich/status/2110025485191438524 (exit 35)
+000  https://cdn.syndication.twimg.com/tweet-result?id=2110025485191438524&token=a (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://example.com (exit 35)
+
+=== X post master4lvl/2109853740010188876 (Lucien) — Tue Oct 13 15:18:41 UTC 2026 ===
+000  https://x.com/master4lvl/status/2109853740010188876 (exit 35)
+000  https://cdn.syndication.twimg.com/tweet-result?id=2109853740010188876&token=a (exit 35)
+000  https://x.com/dr_logvinovich/status/2110025485191438524 (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://example.com (exit 35)
+
+=== X posts jtpduffe/2109699046499598524 + mathemetica/2109843195698040980 — Tue Oct 13 15:18:56 UTC 2026 ===
+000  https://x.com/jtpduffe/status/2109699046499598524 (exit 35)
+000  https://x.com/mathemetica/status/2109843195698040980 (exit 35)
+000  https://cdn.syndication.twimg.com/tweet-result?id=2109699046499598524&token=a (exit 35)
+000  https://x.com/master4lvl/status/2109853740010188876 (exit 35)
+000  https://example.com (exit 35)
+
+=== X posts nightskynow/2109760741960188118, gauravgoyalai/2109831035483828390, epochtimes/2108870297420226758 (fresh sandbox) — Tue Oct 13 15:20:42 UTC 2026 ===
+000  https://x.com/nightskynow/status/2109760741960188118 (exit 35)
+000  https://x.com/gauravgoyalai/status/2109831035483828390 (exit 35)
+000  https://x.com/epochtimes/status/2108870297420226758 (exit 35)
+000  https://www.theepochtimes.com (exit 35)
+000  https://example.com (exit 35)
+
+=== X posts fuzzyxbt/2109670957426094585, riazi_cafe_en/2110006918920159473, arindam_1729/2109746135871164786, jasonwilde108/2109766609644474444 — Tue Oct 13 15:20:58 UTC 2026 ===
+000  https://x.com/fuzzyxbt/status/2109670957426094585 (exit 35)
+000  https://x.com/riazi_cafe_en/status/2110006918920159473 (exit 35)
+000  https://x.com/arindam_1729/status/2109746135871164786 (exit 35)
+000  https://x.com/jasonwilde108/status/2109766609644474444 (exit 35)
+000  https://x.com/nightskynow/status/2109760741960188118 (exit 35)
+000  https://example.com (exit 35)
+
+== Retry: Discord / Voynich round ==
+https://x.com/jasonwilde108/status/2109766609644474444  -> FAILED (encrypted connection reset before reaching the site; same outage as earlier entries)
+Discord: no link given; Aristotle cannot log in to or join Discord servers. Asked Beth to send exported text / screenshots instead.
+
+=== Timed retries, every 5 minutes (user asked to 'keep knocking') — started Tue Oct 13 15:34:25 UTC 2026 ===
+-- attempt 1 at 15:34:25 UTC --
+000  https://example.com (exit 35)
+000  https://www.wikipedia.org (exit 35)
+000  https://github.com (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://tgsate.blogspot.com/2025/08/our-tower-of-babel.html (exit 35)
+000  https://x.com/jasonwilde108 (exit 35)
+-- attempt 2 at 15:39:25 UTC --
+000  https://example.com (exit 35)
+000  https://www.wikipedia.org (exit 35)
+000  https://github.com (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://tgsate.blogspot.com/2025/08/our-tower-of-babel.html (exit 35)
+000  https://x.com/jasonwilde108 (exit 35)
+-- attempt 3 at 15:44:26 UTC --
+000  https://example.com (exit 35)
+000  https://www.wikipedia.org (exit 35)
+000  https://github.com (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://tgsate.blogspot.com/2025/08/our-tower-of-babel.html (exit 35)
+000  https://x.com/jasonwilde108 (exit 35)
+-- attempt 4 at 15:49:26 UTC --
+000  https://example.com (exit 35)
+000  https://www.wikipedia.org (exit 35)
+000  https://github.com (exit 35)
+000  https://docs.google.com/document/d/1TFhj9AZ1_WAW09L3qg0rczRDYU3spZOph-OPwsT5WXE/export?format=txt (exit 35)
+000  https://tgsate.blogspot.com/2025/08/our-tower-of-babel.html (exit 35)
+000  https://x.com/jasonwilde108 (exit 35)
+All 4 attempts failed — Tue Oct 13 15:49:26 UTC 2026
+
+=== Diagnosis run Tue Oct 13 15:50:44 UTC 2026 — see WHAT_IS_BLOCKING_THE_LINKS.md: DNS ok, TCP connect ok, TLS reset after ClientHello regardless of SNI, plain HTTP times out ===
+
+2026-10-13 15:59 UTC — Google Drive folder https://drive.google.com/drive/folders/1XujRy2w6f1JzdNGG_vhYIie60YQTaOA3
+  FAILED: "Connection reset by peer" at the secure-connection step (same as all earlier attempts).
+  Control check example.com (https) also FAILED the same way; http timed out.
+  Conclusion: outbound web access still blocked on my side; the folder link itself was never reached.
+
+--- Retry at 16:06 UTC 2026-10-13 ---
+Requested: two Drive folders
+  https://drive.google.com/drive/folders/1XujRy2w6f1JzdNGG_vhYIie60YQTaOA3
+  https://drive.google.com/drive/folders/1zJlZXnIpcW07eW3tMa8EXBz0t_egw0X8
+Result: both "connection reset" before reaching Google. Control test (example.com) failed the same way.
+Conclusion: outbound web access is blocked on Aristotle's side. Not a sharing/permission problem with the folders.
+Unblock path: download each folder from Drive as .zip (select all -> Download) and attach the zips to the next message.
