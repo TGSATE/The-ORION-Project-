@@ -1,0 +1,1 @@
+commit a8119c4604fd583b11bba3b70a50cf0be30e2016 (2026-10-06), https://github.com/enuminous/EFMW-Axioms, CC BY 4.0
