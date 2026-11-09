@@ -1,0 +1,360 @@
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -1,4 +1,12 @@
+ # Changelog
++
++## 1.0.1-g0-local — 2026-10-17
++- Fix fail-open for action classes absent from versioned tool allowlist.
++- Fail closed on malformed action classes, authority and approval types.
++- Pin supported tool policy version to 1.0.0 and validate allowlist entries at startup.
++- Snapshot allowlist configuration to prevent simple subsequent YAML-data mutation.
++- Added G0 security regression suite; reference policy only, not resource-side assurance.
++- Preserved previous 1.0.0 tests and separate E2/W0/O0 posture.
+ 
+ ## 1.0.0
+ - Established six-layer architecture.
+--- a/README.md
++++ b/README.md
+@@ -118,3 +118,28 @@
+ - evidence promotion cannot mutate authority state.
+ 
+ This is intentionally a minimal reference implementation, not a production security boundary.
++
++## Local G0 reference patch (1.0.1-g0-local)
++
++This patch fixes the unknown-action fail-open in the reference `PolicyEngine`.
++It checks **exact** action names against `policy/tool_controls.yaml` (version `1.0.0`).
++An absent, malformed, aliased, case-variant, or invalidly typed action cannot be
++authorized even at `O4` with `user_authorized=True`. Unsupported or malformed
++allowlist policy is rejected at initialization.
++
++Run with Python 3.10+ and PyYAML plus jsonschema installed:
++
++```bash
++python -m pip install -r requirements-dev.txt
++python -m pytest -q tests
++python -m unittest discover -s tests -p test_policy_engine.py -v
++python scripts/validate_harness.py
++```
++
++The `user_authorized` boolean and `agent_authority` string remain **untrusted
++input assertions** in this reference program, not independently authenticated
++credentials or scope-bound grants. A decision with `allowed=True` is a local
++advisory policy result, **not** an authorization or a commit receipt. No
++protected resource, grant signature, revocation check, or independent witness
++is implemented here. The WEAVER R2 release status is unchanged: E2 historical
++ceiling / W0 / O0 WITHHELD / production prohibited.
+--- a/VERSION
++++ b/VERSION
+@@ -1 +1 @@
+-1.0.0
++1.0.1-g0-local
+--- a/runtime/policy_engine.py
++++ b/runtime/policy_engine.py
+@@ -1,9 +1,19 @@
++"""Reference policy engine: fail-closed action admission, *not* an effect executor.
++
++Inputs `agent_authority` and `user_authorized` are caller-provided assertions.
++A protected resource MUST independently authenticate and enforce them before commit.
++"""
+ from dataclasses import dataclass, asdict
+ from pathlib import Path
++from types import MappingProxyType
+ from typing import Optional, Dict, Any
++import re
+ import yaml
+ 
+ AUTHORITY_ORDER = {"O0": 0, "O1": 1, "O2": 2, "O3": 3, "O4": 4}
++SUPPORTED_TOOL_POLICY_VERSION = "1.0.0"
++ACTION_NAME = re.compile(r"[a-z][a-z0-9_]*", re.ASCII)
++
+ 
+ @dataclass
+ class Decision:
+@@ -19,19 +29,45 @@
+     def to_dict(self) -> Dict[str, Any]:
+         return asdict(self)
+ 
++
+ class PolicyEngine:
+     def __init__(self, root: Optional[Path] = None):
+         self.root = Path(root) if root else Path(__file__).resolve().parents[1]
+-        self.authority = yaml.safe_load((self.root/"policy/authority.yaml").read_text(encoding="utf-8"))
+-        self.tools = yaml.safe_load((self.root/"policy/tool_controls.yaml").read_text(encoding="utf-8"))
+-        self.constitution = yaml.safe_load((self.root/"constitution.yaml").read_text(encoding="utf-8"))
++        self.authority = yaml.safe_load(
++            (self.root / "policy/authority.yaml").read_text(encoding="utf-8")
++        )
++        self.tools = yaml.safe_load(
++            (self.root / "policy/tool_controls.yaml").read_text(encoding="utf-8")
++        )
++        self.constitution = yaml.safe_load(
++            (self.root / "constitution.yaml").read_text(encoding="utf-8")
++        )
+ 
+-    def required_authority_for(self, action_class: str) -> str:
+-        try:
+-            return self.tools["tool_action_classes"][action_class]["required_authority"]
+-        except KeyError:
+-            # Unknown actions fail closed.
+-            return "O4"
++        # Pin the allowlist contract; malformed/downgraded policy must NOT start.
++        if not isinstance(self.tools, dict) or self.tools.get("version") != SUPPORTED_TOOL_POLICY_VERSION:
++            raise ValueError("Unsupported or missing tool action policy version.")
++        classes = self.tools.get("tool_action_classes")
++        if not isinstance(classes, dict) or not classes:
++            raise ValueError("Tool action allowlist is missing or malformed.")
++
++        pinned = {}
++        for name, meta in classes.items():
++            if not isinstance(name, str) or not ACTION_NAME.fullmatch(name):
++                raise ValueError("Tool action allowlist contains a noncanonical action name.")
++            if not isinstance(meta, dict):
++                raise ValueError("Tool action metadata must be an object.")
++            level = meta.get("required_authority")
++            if not isinstance(level, str) or level not in AUTHORITY_ORDER:
++                raise ValueError("Tool action has an invalid required authority.")
++            pinned[name] = MappingProxyType(dict(meta))
++        # Protect the evaluated configuration from subsequent changes to self.tools.
++        self.allowed_actions = MappingProxyType(pinned)
++
++    def required_authority_for(self, action_class: str) -> Optional[str]:
++        if not isinstance(action_class, str):
++            return None
++        meta = self.allowed_actions.get(action_class)
++        return meta["required_authority"] if meta is not None else None
+ 
+     def evaluate(
+         self,
+@@ -41,50 +77,45 @@
+         user_authorized: bool,
+         constitutional_violation: bool = False,
+     ) -> Decision:
+-        if agent_authority not in AUTHORITY_ORDER:
+-            return Decision(
+-                False, action_class, agent_authority, "O4",
+-                "Unknown agent authority; fail closed.",
+-                "unknown", user_authorized, constitutional_violation
+-            )
++        action_display = action_class if isinstance(action_class, str) else "<invalid-action-class>"
++        authority_display = agent_authority if isinstance(agent_authority, str) else "<invalid-authority>"
++        approval_is_boolean = type(user_authorized) is bool
++        # Preserve the raw signal in Decision for audit, but it is never treated
++        # as authenticated proof of permission.
++        def deny(required: str, reason: str, reversible: Any = "unknown") -> Decision:
++            return Decision(False, action_display, authority_display, required,
++                            reason, reversible, user_authorized,
++                            constitutional_violation is True)
+ 
+-        required = self.required_authority_for(action_class)
+-        action_meta = self.tools.get("tool_action_classes", {}).get(action_class, {})
+-        reversible = action_meta.get("default_reversibility", "unknown")
++        # Strict class allowlist BEFORE any authority or approval checks.
++        # Neither O4 nor `user_authorized=True` can admit unknown actions.
++        if not isinstance(action_class, str) or action_class not in self.allowed_actions:
++            return deny("NONE", "Denied: unknown action class (not in versioned allowlist).")
+ 
++        required = self.allowed_actions[action_class]["required_authority"]
++        reversible = self.allowed_actions[action_class].get("default_reversibility", "unknown")
++        if not isinstance(agent_authority, str) or agent_authority not in AUTHORITY_ORDER:
++            return deny(required, "Denied: unknown agent authority.", reversible)
++        if not approval_is_boolean:
++            return deny(required, "Denied: malformed user authorization signal.", reversible)
++        if type(constitutional_violation) is not bool:
++            return deny(required, "Denied: malformed constitutional violation signal.", reversible)
+         if constitutional_violation:
+-            return Decision(
+-                False, action_class, agent_authority, required,
+-                "Denied: constitutional rule would be violated.",
+-                reversible, user_authorized, True
+-            )
++            return deny(required, "Denied: constitutional rule would be violated.", reversible)
++        if AUTHORITY_ORDER[agent_authority] < AUTHORITY_ORDER[required]:
++            return deny(required, "Denied: insufficient operational authority.", reversible)
++        # Provisional policy check only; trusted human approval and its scope
++        # require a separate authenticated mechanism at the resource boundary.
++        if AUTHORITY_ORDER[required] >= AUTHORITY_ORDER["O2"] and not user_authorized:
++            return deny(required, "Denied: explicit user authorization required.", reversible)
+ 
+-        if AUTHORITY_ORDER[agent_authority] < AUTHORITY_ORDER[required]:
+-            return Decision(
+-                False, action_class, agent_authority, required,
+-                "Denied: insufficient operational authority.",
+-                reversible, user_authorized, False
+-            )
++        return Decision(True, action_class, agent_authority, required,
++                        "Permitted by reference policy only; resource-side authorization required.",
++                        reversible, user_authorized, False)
+ 
+-        # For side-effecting classes O2+, require explicit user authorization.
+-        if AUTHORITY_ORDER[required] >= AUTHORITY_ORDER["O2"] and not user_authorized:
+-            return Decision(
+-                False, action_class, agent_authority, required,
+-                "Denied: explicit user authorization required.",
+-                reversible, user_authorized, False
+-            )
+-
+-        return Decision(
+-            True, action_class, agent_authority, required,
+-            "Allowed by current policy.",
+-            reversible, user_authorized, False
+-        )
+ 
+ def promote_evidence(record: Dict[str, Any], new_level: str) -> Dict[str, Any]:
+-    """
+-    Evidence promotion intentionally does not mutate authority_state.
+-    This encodes evidence/authority independence as a runtime invariant.
+-    """
++    """Evidence promotion does not modify authority_state."""
+     allowed = {"E0", "E1", "E2", "E3", "E4"}
+     if new_level not in allowed:
+         raise ValueError(f"Invalid evidence level: {new_level}")
+--- /dev/null
++++ b/tests/test_policy_g0.py
+@@ -0,0 +1,141 @@
++"""G0 security regression suite: the policy's versioned action allowlist is fail-closed.
++
++These tests check *advisory policy decisions only*. They do not establish
++authenticated external approval, OS isolation, or resource-side enforcement.
++"""
++import copy
++from pathlib import Path
++import shutil
++import sys
++
++import pytest
++import yaml
++
++ROOT = Path(__file__).resolve().parents[1]
++sys.path.insert(0, str(ROOT))
++
++from runtime.policy_engine import PolicyEngine
++
++
++@pytest.fixture
++def engine():
++    return PolicyEngine(ROOT)
++
++
++# Ten distinct denial cases, including the original vulnerable O4/True combination.
++@pytest.mark.parametrize("agent_authority", ["O0", "O1", "O2", "O3", "O4"])
++@pytest.mark.parametrize("user_authorized", [False, True])
++def test_unknown_action_always_denied(engine, agent_authority, user_authorized):
++    d = engine.evaluate(
++        action_class="teleport_money",
++        agent_authority=agent_authority,
++        user_authorized=user_authorized,
++    )
++    assert d.allowed is False
++    assert d.required_authority == "NONE"
++
++
++@pytest.mark.parametrize("action_class", [
++    "", " ", "READ", "Read", "read ", " read", "read\\n",
++    "read\\x00", "rｅad", "write-external", "writeExternal",
++    "execute_external_side_effect ", "teleport_money",
++])
++def test_noncanonical_and_aliased_action_names_denied(engine, action_class):
++    assert engine.evaluate(
++        action_class=action_class,
++        agent_authority="O4",
++        user_authorized=True,
++    ).allowed is False
++
++
++@pytest.mark.parametrize("action_class", [None, 0, True, [], {}, b"read"])
++def test_malformed_action_type_denied_without_crash(engine, action_class):
++    assert engine.evaluate(
++        action_class=action_class,
++        agent_authority="O4",
++        user_authorized=True,
++    ).allowed is False
++
++
++@pytest.mark.parametrize("agent_authority", [None, 5, [], {}, True, "o4", "O5"])
++def test_invalid_authority_denied_without_crash(engine, agent_authority):
++    assert engine.evaluate(
++        action_class="read",
++        agent_authority=agent_authority,
++        user_authorized=True,
++    ).allowed is False
++
++
++@pytest.mark.parametrize("user_authorized", [1, 0, "true", "false", None, [], {}])
++def test_nonboolean_approval_signal_denied(engine, user_authorized):
++    assert engine.evaluate(
++        action_class="write_external",
++        agent_authority="O4",
++        user_authorized=user_authorized,
++    ).allowed is False
++
++
++@pytest.mark.parametrize("agent_authority,user_authorized", [
++    ("O0", False), ("O4", False), ("O4", True),
++])
++def test_unknown_action_denial_precedes_authority_or_approval(engine, agent_authority, user_authorized):
++    d = engine.evaluate(action_class="teleport_money",
++                        agent_authority=agent_authority,
++                        user_authorized=user_authorized)
++    assert d.allowed is False
++    assert "unknown" in d.reason.lower()
++
++
++def copy_policy_fixture(tmp_path):
++    (tmp_path / "policy").mkdir()
++    shutil.copy(ROOT / "policy/authority.yaml", tmp_path / "policy/authority.yaml")
++    shutil.copy(ROOT / "constitution.yaml", tmp_path / "constitution.yaml")
++    src = ROOT / "policy/tool_controls.yaml"
++    cfg = yaml.safe_load(src.read_text())
++    return cfg
++
++
++@pytest.mark.parametrize("mode", ["wrong_version", "missing_version", "invalid_requirement",
++                                    "missing_action_table", "noncanonical_allowlist_key",
++                                    "unhashable_requirement"])
++def test_invalid_allowlist_configuration_refused_at_startup(tmp_path, mode):
++    cfg = copy_policy_fixture(tmp_path)
++    if mode == "wrong_version":
++        cfg["version"] = "0.9.0"
++    elif mode == "missing_version":
++        del cfg["version"]
++    elif mode == "invalid_requirement":
++        cfg["tool_action_classes"]["read"]["required_authority"] = "O999"
++    elif mode == "missing_action_table":
++        del cfg["tool_action_classes"]
++    elif mode == "unhashable_requirement":
++        cfg["tool_action_classes"]["read"]["required_authority"] = []
++    elif mode == "noncanonical_allowlist_key":
++        cfg["tool_action_classes"]["Read"] = {"required_authority": "O0"}
++    (tmp_path / "policy/tool_controls.yaml").write_text(yaml.safe_dump(cfg))
++    with pytest.raises(ValueError):
++        PolicyEngine(tmp_path)
++
++
++def test_allowlisted_action_binds_exact_name_and_scope_metadata(engine):
++    d = engine.evaluate(action_class="write_external",
++                        agent_authority="O2", user_authorized=True)
++    assert d.allowed is True
++    assert d.action_class == "write_external"
++    assert d.required_authority == "O2"
++    assert engine.required_authority_for("teleport_money") is None
++
++@pytest.mark.parametrize("malformed", [None, 1, "false", {}])
++def test_malformed_constitutional_violation_fails_closed(engine, malformed):
++    d = engine.evaluate(action_class="read", agent_authority="O4",
++                        user_authorized=True, constitutional_violation=malformed)
++    assert d.allowed is False
++
++
++def test_mutating_loaded_yaml_cannot_expand_pinned_allowlist(engine):
++    engine.tools["tool_action_classes"]["teleport_money"] = {
++        "required_authority": "O0", "default_reversibility": True
++    }
++    d = engine.evaluate(action_class="teleport_money",
++                        agent_authority="O4", user_authorized=True)
++    assert d.allowed is False
+--- /dev/null
++++ b/requirements-dev.txt
+@@ -0,0 +1,2 @@
++-r requirements.txt
++pytest>=8,<10

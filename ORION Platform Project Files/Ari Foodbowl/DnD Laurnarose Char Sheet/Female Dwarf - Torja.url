@@ -1,0 +1,12 @@
+[DEFAULT]
+BASEURL=http://www.frpgames.com/cart.php?m=product_detail&p=10391
+[DOC#1698]
+BASEURL=http://platform.twitter.com/widgets/follow_button.html?screen_name=frpgames&button=grey&link_color=800080&text_color=800080
+ORIGURL=http://platform.twitter.com/widgets/follow_button.html?screen_name=frpgames&button=grey&link_color=800080&text_color=800080
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://www.frpgames.com/cart.php?m=product_detail&p=10391
+IDList=
+IconFile=http://www.frpgames.com/images/frp.ico
+IconIndex=1

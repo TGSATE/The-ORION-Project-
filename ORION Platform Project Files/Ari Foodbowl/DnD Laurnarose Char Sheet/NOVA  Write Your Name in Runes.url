@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://www.pbs.org/wgbh/nova/ancient/write-your-name-in-runes.html
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://www.pbs.org/wgbh/nova/ancient/write-your-name-in-runes.html
+IDList=
+IconFile=http://www.pbs.org/favicon.ico
+IconIndex=1
