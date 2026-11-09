@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-450 -470 900 1000" width="900" height="1000">
+  <rect x="-450" y="-470" width="900" height="1000" fill="#080814"/>
+  <!-- sphere of radius 2r (r = 180) -->
+  <circle cx="0" cy="0" r="360" fill="none" stroke="#d4af37" stroke-width="5"/>
+  <!-- horn torus cross-section: two tube circles of radius r touching at the centre -->
+  <circle cx="-180" cy="0" r="180" fill="none" stroke="#50a0ff" stroke-width="5"/>
+  <circle cx="180" cy="0" r="180" fill="none" stroke="#50a0ff" stroke-width="5"/>
+  <!-- hourglass z = ±1.6 x, clipped to the sphere -->
+  <line x1="-190.8" y1="-305.3" x2="190.8" y2="305.3" stroke="#e64646" stroke-width="5"/>
+  <line x1="-190.8" y1="305.3" x2="190.8" y2="-305.3" stroke="#e64646" stroke-width="5"/>
+  <ellipse cx="0" cy="-305.3" rx="190.8" ry="14" fill="none" stroke="#e64646" stroke-width="3"/>
+  <ellipse cx="0" cy="305.3" rx="190.8" ry="14" fill="none" stroke="#e64646" stroke-width="3"/>
+  <circle cx="0" cy="0" r="7" fill="#fff"/>
+  <text x="-420" y="-430" fill="#f0e6c8" font-size="22" font-family="sans-serif">Torus + hourglass inside one sphere (side cross-section)</text>
+  <text x="-420" y="430" fill="#bbb" font-size="20" font-family="sans-serif">gold sphere radius 2r · blue horn torus · red hourglass · white = shared centre</text>
+  <text x="-420" y="465" fill="#bbb" font-size="20" font-family="sans-serif">Geometry only; facts checked in RequestProject/R16/TorusHourglassSphere.lean</text>
+</svg>
