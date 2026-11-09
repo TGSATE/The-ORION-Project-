@@ -1,0 +1,1187 @@
+{
+ "type": "playlist",
+ "name": "🔥🌎🔥💜🌎💜",
+ "uri": "spotify:playlist:6GMXBgUtBeqxZ5TQP5HB8t",
+ "id": "6GMXBgUtBeqxZ5TQP5HB8t",
+ "title": "🔥🌎🔥💜🌎💜",
+ "subtitle": "abtjones",
+ "authors": null,
+ "coverArt": {
+  "sources": [
+   {
+    "height": 640,
+    "width": 640,
+    "url": "https://mosaic.scdn.co/640/ab67616d00001e020d40ccf8669a23422f4b118bab67616d00001e0214292359c5bf02e48970a925ab67616d00001e023439177e4fdebb7cd423cec3ab67616d00001e028ba4e7120d10d982766103f9"
+   },
+   {
+    "height": 300,
+    "width": 300,
+    "url": "https://mosaic.scdn.co/300/ab67616d00001e020d40ccf8669a23422f4b118bab67616d00001e0214292359c5bf02e48970a925ab67616d00001e023439177e4fdebb7cd423cec3ab67616d00001e028ba4e7120d10d982766103f9"
+   },
+   {
+    "height": 60,
+    "width": 60,
+    "url": "https://mosaic.scdn.co/60/ab67616d00001e020d40ccf8669a23422f4b118bab67616d00001e0214292359c5bf02e48970a925ab67616d00001e023439177e4fdebb7cd423cec3ab67616d00001e028ba4e7120d10d982766103f9"
+   }
+  ]
+ },
+ "releaseDate": null,
+ "duration": 0,
+ "isPlayable": true,
+ "playabilityReason": "UNKNOWN",
+ "isExplicit": false,
+ "hasVideo": false,
+ "relatedEntityUri": "spotify:playlist:6GMXBgUtBeqxZ5TQP5HB8t",
+ "trackList": [
+  {
+   "uri": "spotify:track:0HACnae7PVtuWQ4X8NhH6y",
+   "uid": "6cbab87f5dcde0f4",
+   "title": "Jesus Went to Heaven",
+   "subtitle": "Billy Simons Jr.",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 212424,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/c2f935ca6933830265b056980e8ec8cf49ebd66d"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6TM97yOkg3ezps6WTEcJrn",
+   "uid": "3c0742318cbb919e",
+   "title": "Fck Yer Lawns",
+   "subtitle": "Mel Bryant",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 164423,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/5050ed343e1474fb9fd99bcf864c7dd6a81aafff"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1IYQD6HWLW3abU7DceHHTQ",
+   "uid": "a39b370fabc4018e",
+   "title": "Holy Smoke",
+   "subtitle": "Mandi Sagal",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 149396,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/5c4e32c713423c64e74342405cae8519ed6f6be2"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1XmaS8AS3HcQAJa3yFMEtZ",
+   "uid": "333dcca9fa3a38cf",
+   "title": "Norvax (Get Me Offa This Planet)",
+   "subtitle": "Billy Simons Jr.",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 218375,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/2485453c68ec1b6e6f62a62c34458e751d3f2721"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:16xmzIoRPRPIM1YCyqyB7l",
+   "uid": "77945dd0f229573f",
+   "title": "Rainbows (Live)",
+   "subtitle": "Skylar Conover",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 182500,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/081ea1c4477313eb63a1ce382caa0579f3163d3a"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6epvwUINain4iSHCTWA0sj",
+   "uid": "36ee0d05802393d4",
+   "title": "The Village",
+   "subtitle": "WRABEL",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 230293,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/a1408bbdb520a0feb33a0a8e6ffe10a7604368b9"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:3ib8yZkxtugUsdGI4iY4a3",
+   "uid": "1a8451142ca283ad",
+   "title": "it's the guns",
+   "subtitle": "Philip Labes",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 157625,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/7776128aa3f12e8dacc7a92f61b61620975162af"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:64MS0b0qhbQrYTAVLVCb9Y",
+   "uid": "8f34787daf4d838f",
+   "title": "Choice",
+   "subtitle": "Allapartus",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 211625,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/578ff5338d2dabdf75f8921897be70d4ec631156"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:7iZwny5Hp9zUObbcDsGHzT",
+   "uid": "cac5601b0c93263d",
+   "title": "fucked up",
+   "subtitle": "Macklemore",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 219357,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/7ea8fd2b15dff4f832fc2d37880bf87ac020eed5"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6g6W3pMAFbp2FS1QCijkpM",
+   "uid": "6cf82787451379a9",
+   "title": "Super Bowl LIX Halftime Show - Live",
+   "subtitle": "Kendrick Lamar, NFL",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 800699,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/da999a4250b3f0b99550eae34945289e706a384a"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6gMZHEqkh1bkcMTm8Ga2j0",
+   "uid": "aa088d956b118d9c",
+   "title": "Fk Sht Up (Live)",
+   "subtitle": "Joy Damiani",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 222125,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/bd2512d7e732a571432c194e3e71cd1192588ade"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:3OlXDh31sBuXhMzR06WC92",
+   "uid": "8bdc8c92b624ef68",
+   "title": "Nazi - Live",
+   "subtitle": "Chumbawamba",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 92212,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/655d05c494c2dfc47753a0ee53ac481e4576eaa5"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:5rsWRrdpH9Xlem7m6gwpZD",
+   "uid": "f7060b9b64635d98",
+   "title": "fascionista",
+   "subtitle": "Jessilyn",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 63898,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/ec1204609fb3ab9d8bd92c13a01f587e080dbee5"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1Ztfx8ORaPdsvSZeHRglgr",
+   "uid": "10074bd258db81d3",
+   "title": "Hostile Government Takeover - EDM Remix",
+   "subtitle": "AGiftFromTodd, Vinny Marchi",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 159416,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/193415497a37ff8525417ce1e0581791defcf68a"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2EQjugwXNY0LuAjS6Di6oU",
+   "uid": "bec8cf6e5632d371",
+   "title": "Should've Aborted",
+   "subtitle": "Chelsea Explains",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 219839,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/3aa009497b96abe344f8ae69fe46874e9912c554"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:5uaxXau0Z5O6EeYdfQusVc",
+   "uid": "de95b8af28060bc9",
+   "title": "Arrest The President",
+   "subtitle": "Ice Cube",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 233726,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/f4e4dd9dcfe3ddc6a6d044ff6d2d991aac9bafe3"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:29UIlpQ5zMphZykZfAQWgN",
+   "uid": "6871e83f412e4510",
+   "title": "House",
+   "subtitle": "Trevor Hall",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 313426,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/88b22c013b8ca5e40151b09a7ee7e385eb6ae3b2"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:73AjAaHumg8yALmhZlHx1f",
+   "uid": "17874411a566b512",
+   "title": "What I Am",
+   "subtitle": "Satsang",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 324693,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/9c1a0d6123bfaef8c70ff57aa79594b255376b84"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:4L2Sz79HegXPs1kw6KTytn",
+   "uid": "413a563e77af2b88",
+   "title": "No Regrets",
+   "subtitle": "Mike Love",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 302063,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/dcab89ab289cc56d9af3052aa526db45c43e1fc6"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1Z5ZNDODaECK6QbDQXFCaW",
+   "uid": "3730aa52b21249e2",
+   "title": "Made for This",
+   "subtitle": "Satsang",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 212337,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/63edcc75de3c6cc3c1afa8ff1242064ea4feaed9"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2bUbDr7WWt2znqtYrBADn8",
+   "uid": "3121f027c51a105a",
+   "title": "Wash It Away",
+   "subtitle": "Nahko And Medicine For The People",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 566539,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/2de64f89b45c15d18e9e4dc04118c7b95ce3573e"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1Q87WCub19FtxU1vK0jifE",
+   "uid": "eb7ffc22c241cada",
+   "title": "Aloha Ke Akua",
+   "subtitle": "Nahko And Medicine For The People",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 356625,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/cc506afc7c62b0769ac00acad37ea6e684347b22"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:0xeDjDFPMDYBTTBSYXWOsB",
+   "uid": "bd821f2d2ffd9bda",
+   "title": "Finished",
+   "subtitle": "Pasadena",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 244666,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/ddd23fda72c87e25859ce5c4a999a1f6525d190a"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:5ml36bw7zEPS5bp9tqA3H4",
+   "uid": "47a977cd5cd46ddd",
+   "title": "We Are Strong",
+   "subtitle": "Satsang",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 216000,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/2aed25d338a92a0daa53228f8371c87176d18a3d"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:0c7iF5fSBYxCuwsAv2z4iI",
+   "uid": "c84f94be20fd27f5",
+   "title": "Green Mountain State",
+   "subtitle": "Trevor Hall",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 274632,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/3ed7a0daea3ab048fe35ea0221d76c266a96525c"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2ileXC69Z7xb95s3ljUBqb",
+   "uid": "735736957c5dceb1",
+   "title": "The Mountain Song",
+   "subtitle": "Tophouse",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 246857,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/60e9391a01196a5d9aa44d4e3332ff195809fa67"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:3Z4QzgjewJHpiZEk2puD4D",
+   "uid": "c3ed358b1d3c827d",
+   "title": "Father in a Bible",
+   "subtitle": "Jonas Conner",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 158833,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/a862448e745a2c4bbd77d54944372f6c126546bd"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:3bPVSzCzxrMxheZEhq62Cp",
+   "uid": "9d404e04bdb579dd",
+   "title": "Peace with Pain",
+   "subtitle": "Jonas Conner",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 180535,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/fe2d90f835702b7f3ee0ae6c59a59879c84ebe46"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6mCe3CMbkXMR8OMe7MMZ7W",
+   "uid": "1f176ea963717710",
+   "title": "Grateful",
+   "subtitle": "St. Finnikin",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 153196,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/357a2c2388f26cd657fd526b81aa5afde006deff"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:32aeRhnsILUPSbPiH5x62t",
+   "uid": "c10000f7f3f7ccae",
+   "title": "The Sound of Silence - CYRIL Remix",
+   "subtitle": "Disturbed, CYRIL",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 185238,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/7893ca59486c4b865bf23edc27aa7df38f489163"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:3QmzlL0tTtDgD1Hwfct68D",
+   "uid": "f78bb06872c8e00c",
+   "title": "Let's Be Still",
+   "subtitle": "The Head And The Heart",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 268346,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/7fee0aef46cded23eb4bf6be3dc998b075d5d615"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2fxjjHoBuqnebuWuPCBJ9J",
+   "uid": "b10e652c5a87d922",
+   "title": "Knock The Boy Out of You",
+   "subtitle": "Joel Adam Russell",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 234623,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/9c2ba5c66bdfc5b0dfe559bdaef9384092e899b8"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:0FjYlctTPFz0SR6XgcxXKa",
+   "uid": "998c69492107e419",
+   "title": "Change",
+   "subtitle": "Kodi Lee",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 202758,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/f6b74c44031b49682a3511e9e2df8d875bd3181f"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6FCN6p3Iq6LBWC4Cx4KgXE",
+   "uid": "677b507b91784e79",
+   "title": "More To This",
+   "subtitle": "Marc Scibilia",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 171504,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/63b1ac98014d355f1f605a1ae5575bdaa283c9d0"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:0U7s95ijFnwqaKCeb3G400",
+   "uid": "8cd6c29d4e15280e",
+   "title": "Perfectly Broken",
+   "subtitle": "BANNERS",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 188250,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/a6bedac420cb61436e9ef79cb49312accded8e22"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1cHJK4H49CP0Qp3iz7hMi8",
+   "uid": "0e45f58046884194",
+   "title": "Villain",
+   "subtitle": "Lily Rose",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 176087,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/e13712e5a1315a91585442e8a223a695e854badd"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:4yb8suVmTLxvSb8hT6EmT6",
+   "uid": "46c0cbaa22600aa7",
+   "title": "this is how i learn to say no",
+   "subtitle": "EMELINE",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 142965,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/256e46f987d7ddbfc3667b6418322f938dcb849f"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2DFRFqWNahKtFD112H2iEZ",
+   "uid": "a40046319b3e76b8",
+   "title": "Do You Realize??",
+   "subtitle": "The Flaming Lips",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 213173,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/da9cd601ab876dc33b9c96053f191cc42118d5bd"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:7oiEcG81HDmNHI2Ki2FaRv",
+   "uid": "f74730bf4ee74ad2",
+   "title": "Glorious (feat. Skylar Grey)",
+   "subtitle": "Macklemore, Skylar Grey",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 222266,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/666b1e57e7cdbc704041d9e613bf46730b99b413"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2lWdeczQNurRVraTyZFmgp",
+   "uid": "370ad08a7f0b34c6",
+   "title": "Last Man Standing",
+   "subtitle": "Livingston",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 183021,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/f569287a71a28fbd922f4eb4ef6e1025977526f3"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:5DttNeiizFqWUON9hZBqTY",
+   "uid": "8568b2560f4b7c5e",
+   "title": "Babylon",
+   "subtitle": "Lady Gaga",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 161733,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/9c739b0e262dd821e6386e60230f44fd99fffb2b"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1umKFpJdXDtquGCz4oBVDJ",
+   "uid": "a9c167cf8669cbcd",
+   "title": "Windows Are Rolled Down",
+   "subtitle": "Amos Lee",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 237226,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/6d6b865c3214a4758cdff5ead50f601c7d021fa7"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:1huCJG6X2SpI5R89EZUpue",
+   "uid": "ed3b9f1e5ce0a8e1",
+   "title": "Truth ain't blasphemy",
+   "subtitle": "Ghostproductionsnm",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 199119,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/5fa16a7070800e5232d9e5c04a64ef6dd038093d"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2AeGdE8twqdDa3nQ2plbcF",
+   "uid": "6849e06908947a6e",
+   "title": "HEY-OH, WE WON’T BE SILENT",
+   "subtitle": "LoFi Plum",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 111412,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/3f7159dcb3c04fc6da3c3b1cd2aae889b058c6dd"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:4EWz5BfrBoxazFHSYnOfCF",
+   "uid": "8d19b308d86d0198",
+   "title": "I Release You",
+   "subtitle": "Alchemy Shift",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 174319,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/97c83eb64d7af74452653ce6245a9693dd45f83f"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:4PhqRxKrXKs7i8kLijEQYg",
+   "uid": "0a5aece70e7fd3c1",
+   "title": "Louder than Hate",
+   "subtitle": "Jayme H.",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 244199,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/e90aef84b243c36de35112da6bc766df6ee016e8"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:0StTPPu2Zb2wgaPDJhBaTX",
+   "uid": "23be886e5a801cb3",
+   "title": "No One to Kill in The Sky",
+   "subtitle": "Seb Lowe",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 173419,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/08bff3ef37b45650bf883158b3af2d209ba652cf"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:7zJrMqW1uf9dRPtMZAPXRc",
+   "uid": "b74187cb11c658bb",
+   "title": "Billionaire",
+   "subtitle": "Rocky Leon",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 227962,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/ebb7feb390b71fbd26aad2701d73d0a24d4fd8c9"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:6tJQwOhJTw9a6l7C1EEBbP",
+   "uid": "df439737942999b9",
+   "title": "Heavy Foot",
+   "subtitle": "Mon Rovîa",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 145058,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/c36c184fdcbfb11ab389548d54e0114041b15721"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:3szNCHUtN4s7pqaDM3ezUq",
+   "uid": "07a8ee0828e2f478",
+   "title": "This Place - Acoustic",
+   "subtitle": "Satsang, Trevor Hall",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 221250,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/fb6e13950f88f384591014163888e57f6210caac"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:2FCH0d8Wu8vVkCJtrOjPnf",
+   "uid": "f5d20ad0e2a755d9",
+   "title": "Truth ain't blasphemy",
+   "subtitle": "Vicar of Orunmila",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 145999,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/3a8aa9ad670e5b9e7ed395fe34ed13659f9d410b"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:7IAES189ZgW01VnDsVgZJR",
+   "uid": "bdd86137ea6eac74",
+   "title": "Judge Me All You Want",
+   "subtitle": "Rising Drifter",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 153000,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/5aad151bfbb560857642f8524fb79bd33220718d"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:5BZrkXJ4k4fhts8cwZFE88",
+   "uid": "699db3ef5e18e690",
+   "title": "Namaste Bitches",
+   "subtitle": "Fuzzy Butt Bassel",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 147719,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/82fff4df2e88e6294ec6c064ecece83c9203c7de"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:5TF0RgvLH61Ocpz3RQaEyq",
+   "uid": "9e26d85dbe59a275",
+   "title": "Orange Pig",
+   "subtitle": "DJ Ferrari",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 158519,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/1a01339ef75f4eefdee101b34347c8adc31e99bb"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:4IONARUQ4t5aHCJpdEJ16N",
+   "uid": "79f9f98da4ebab97",
+   "title": "South Side Of The Kingdom",
+   "subtitle": "Queen Butterfly",
+   "isExplicit": true,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": [
+     "EXPLICIT"
+    ]
+   },
+   "duration": 268880,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/7d3add6676d66dd61314dc41b35f3877a5a86a04"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:7uVvuOcMqTvDIo9MYXSA9i",
+   "uid": "a952dc5371430091",
+   "title": "Alhamdullilah",
+   "subtitle": "Abdull vocals",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 177640,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/6c58145aa62a68036c827e56d3d89c61d630f4de"
+   },
+   "entityType": "track"
+  },
+  {
+   "uri": "spotify:track:59kl6ykVnvESrbEFtCzUG2",
+   "uid": "6d3e1c3775ecd1c3",
+   "title": "Living in the Future",
+   "subtitle": "Rita Nelson",
+   "isExplicit": false,
+   "isNineteenPlus": false,
+   "contentRatings": {
+    "labels": []
+   },
+   "duration": 178923,
+   "isPlayable": true,
+   "playabilityReason": "PLAYABLE",
+   "audioPreview": {
+    "format": "MP3_96",
+    "url": "https://p.scdn.co/mp3-preview/97837bc87ca109dea5edfbab3a8b2908d8873372"
+   },
+   "entityType": "track"
+  }
+ ],
+ "visualIdentity": {
+  "backgroundBase": {
+   "alpha": 255,
+   "blue": 0,
+   "green": 32,
+   "red": 80
+  },
+  "backgroundTintedBase": {
+   "alpha": 255,
+   "blue": 39,
+   "green": 69,
+   "red": 120
+  },
+  "textBase": {
+   "alpha": 255,
+   "blue": 255,
+   "green": 255,
+   "red": 255
+  },
+  "textBrightAccent": {
+   "alpha": 255,
+   "blue": 255,
+   "green": 255,
+   "red": 255
+  },
+  "textSubdued": {
+   "alpha": 255,
+   "blue": 160,
+   "green": 192,
+   "red": 253
+  },
+  "image": [
+   {
+    "url": "https://mosaic.scdn.co/300/ab67616d00001e020d40ccf8669a23422f4b118bab67616d00001e0214292359c5bf02e48970a925ab67616d00001e023439177e4fdebb7cd423cec3ab67616d00001e028ba4e7120d10d982766103f9",
+    "maxHeight": 0,
+    "maxWidth": 0
+   }
+  ]
+ },
+ "attributes": [],
+ "format": ""
+}
