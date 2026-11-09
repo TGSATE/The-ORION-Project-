@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghost Writer in the Mirror</title>
+  <meta name="description" content="A writing game you play with any AI chat. Dump everything, one screen at a time; it organizes without cutting, keeps your backlog, and hands you a clear path.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1b1033">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👻🪞✍️ <span id="app-name">Ghost Writer in the Mirror</span></h1>
+    <p class="tag">Organize, don't cut. One screen at a time. You steer.</p>
+    <p id="now" class="small" aria-live="off"></p>
+    <nav id="progress" aria-label="Where you are"></nav>
+  </header>
+
+  <main>
+    <section id="sos-panel" class="sos" hidden aria-live="polite">
+      <h2 id="sos-title">🆘</h2>
+      <p id="sos-msg"></p>
+      <p id="sos-timer" class="timer"></p>
+      <p class="help"><strong>A real person, right now:</strong> in the US, call or text <a href="tel:988">988</a> (free, 24/7). Outside the US, your local emergency number or crisis line. This stays on screen the whole time.</p>
+      <div id="touch" class="touch">
+        <p class="small"><strong>💛 Your touchstone:</strong> one person you trust to check on you. This app has no server, so it can't send anything by itself. One tap opens your own messages app with the text ready, including the time (12 hours from now) by which they should check on you if they haven't heard back.</p>
+        <div class="controls">
+          <a id="touch-sos" class="btn" href="#">📲 Text my touchstone</a>
+          <a id="touch-ok" class="btn ghost" href="#">💚 Tell them I'm OK</a>
+        </div>
+        <details id="touch-set">
+          <summary>Set my touchstone</summary>
+          <div class="row">
+            <input id="touch-name" placeholder="Their name">
+            <input id="touch-phone" type="tel" placeholder="Their phone number">
+            <button id="touch-save">Save (stays on this device)</button>
+          </div>
+        </details>
+      </div>
+      <div id="sos-checkin" hidden>
+        <p class="small">To unlock ⏭️ again, write who has seen you settle: a doctor or counsellor, a group, a family member or a friend. The app can't check this; it trusts you and keeps it on this device.</p>
+        <input id="checkin-who" placeholder="Who checked in with you, and when?">
+        <button id="checkin-save" class="primary">✅ Check in</button>
+      </div>
+      <div class="controls">
+        <button id="sos-pause" class="ghost">⏸️ Pause me for 5 minutes</button>
+        <button id="sos-close" class="ghost">💚 I'm OK: back to my spiral</button>
+      </div>
+    </section>
+
+    <section id="welcome-back" class="sos" hidden>
+      <h2>👋 Welcome back</h2>
+      <p>You left in SOS mode <span id="wb-gap"></span> ago. How are you now?</p>
+      <div class="controls">
+        <button id="wb-ok" class="primary">💚 I'm OK</button>
+        <button id="wb-rough" class="sos-btn">🆘 Still rough</button>
+      </div>
+    </section>
+
+    <section id="screen" aria-live="polite">
+      <div class="here">➡️ <span>You are here</span></div>
+      <h2 id="step-title"></h2>
+      <p id="mirror-q" class="mirror"></p>
+      <textarea id="box" rows="14" placeholder="Talk, paste, dictate. Typos and emoji are fine. Nothing gets cut."></textarea>
+
+      <div class="linkbar" aria-label="Drop a link">
+        <input id="link" type="url" placeholder="Paste a link to drop it…">
+        <button data-where="cursor">At cursor</button>
+        <button data-where="news">Under NEW NEWS</button>
+        <button data-where="top">Top</button>
+        <button data-where="bottom">Bottom</button>
+      </div>
+
+      <div class="controls">
+        <button id="back" class="ghost">⬅️ Back</button>
+        <button id="mirror" class="ghost">🪞 Mirror question</button>
+        <button id="interject" class="accent">🌀 Interject (save for later)</button>
+        <button id="ready" class="primary">Ready ➡️ next box</button>
+        <button id="sos" class="sos-btn" aria-label="I need a real person">🆘</button>
+      </div>
+    </section>
+
+    <section id="final" hidden>
+      <h3>Your backlog (everything you interjected, in order)</h3>
+      <ol id="backlog"></ol>
+      <h3>Organized: nothing cut</h3>
+      <p id="check"></p>
+      <div id="organized"></div>
+    </section>
+
+    <section id="homework" hidden>
+      <h3>Your path from here</h3>
+      <div id="hw"></div>
+      <div class="controls">
+        <button id="copy-md" class="primary">📋 Copy my session</button>
+        <button id="download-md">⬇️ Download (.md)</button>
+        <button id="copy-ai" class="accent">🤖 Copy for my AI chat</button>
+        <button id="new" class="ghost">🔁 New session</button>
+      </div>
+      <p class="small">“Copy for my AI chat” gives you the Ghost Writer prompt plus your organized session. Paste it into any AI chat you already use (ChatGPT, Gemini, Claude, Grok, Meta AI…) and it starts LEVEL 1.</p>
+    </section>
+
+    <details id="speakers-panel">
+      <summary>🎭 Who's talking? Assign icons</summary>
+      <p class="small">Start a line with someone's icon and it's labelled as them. Unmarked lines are “unlabelled”, never nobody's.</p>
+      <ul id="speakers"></ul>
+      <div class="row">
+        <input id="sp-icon" placeholder="Icon, e.g. 🦊" maxlength="8">
+        <input id="sp-name" placeholder="Name">
+        <button id="sp-add">Add</button>
+      </div>
+    </details>
+  </main>
+
+  <aside id="newsbar" aria-label="NEW NEWS footer">
+    <input id="news-drop" placeholder="📰 Found a link or news? Drop it into NEW NEWS (you stay here)">
+    <button id="news-add" class="accent">📰 Add to NEW NEWS</button>
+    <span id="news-ok" class="small" aria-live="polite"></span>
+  </aside>
+
+  <footer>
+    <p id="money"></p>
+    <p class="small"><span id="credit"></span> · Your words stay on this device: nothing is uploaded. <a href="privacy.html">Privacy</a> · Not therapy. If you are in crisis in the US, call or text 988.</p>
+  </footer>
+
+  <dialog id="interject-dlg">
+    <form method="dialog">
+      <h3>🌀 Interject</h3>
+      <p class="small">This goes to your backlog. You stay right where you are.</p>
+      <textarea id="interject-text" rows="5"></textarea>
+      <menu><button value="cancel" class="ghost">Cancel</button><button id="interject-save" value="save" class="primary">Save to backlog</button></menu>
+    </form>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
