@@ -1,0 +1,1659 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore scalar modular orbits and exact linear maps over F₂.">
+  <title>Forager-F₂ · Orbit and Linear Map Explorer</title>
+  <link rel="stylesheet" href="/theme.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="sticky top-0 z-20 border-b border-[var(--color-border)] bg-[var(--color-surface)]/95 backdrop-blur">
+    <div class="mx-auto flex max-w-[1500px] flex-wrap items-center justify-between gap-4 px-5 py-4 lg:px-8">
+      <a href="/" class="flex items-center gap-3 no-underline" aria-label="Forager F2 home">
+        <span class="flex h-10 w-10 items-center justify-center rounded-[var(--radius)] bg-[var(--color-primary)] text-lg font-extrabold text-[var(--color-primary-contrast)]">F₂</span>
+        <span><span class="block text-sm font-extrabold tracking-tight">Forager<span class="text-[var(--color-primary)]">-F₂</span></span><span class="block text-xs muted">Orbit & linear-map explorer</span></span>
+      </a>
+      <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Choose computation engine">
+        <button class="btn engine-choice" data-engine="scalar">Scalar</button>
+        <button class="btn engine-choice" data-engine="linear">F₂-Linear</button>
+        <button class="btn engine-choice" data-engine="bridge">Bridge</button>
+      </div>
+      <button class="btn btn-primary" id="shareButton" type="button"><span aria-hidden="true">↗</span> Share setup</button>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-[1500px] px-5 py-7 lg:px-8">
+    <section class="mb-7 flex flex-col justify-between gap-5 md:flex-row md:items-end">
+      <div>
+        <div class="mb-3 flex items-center gap-2"><span class="badge engine-badge" id="activeEngineBadge">SCALAR ENGINE</span><span class="badge badge-computed">Exact enumeration</span></div>
+        <h1 class="text-3xl font-extrabold tracking-tight md:text-4xl" id="pageTitle">Scalar orbit explorer</h1>
+        <p class="mt-2 max-w-2xl text-sm leading-6 muted" id="pageIntro">Explore the map T<sub>p,d</sub>(k) = p·k mod (p<sup>d</sup> − 1). Every state and orbit shown here is computed exactly.</p>
+      </div>
+      <div class="flex flex-wrap items-end gap-3" id="parameterBar">
+        <div class="parameter-control">
+          <label class="block text-xs font-bold" for="pInput">Prime p</label>
+          <div class="mt-1 flex items-center gap-1">
+            <button class="btn parameter-step" type="button" data-parameter="p" data-step="-1" aria-label="Previous prime">−</button>
+            <input class="input w-20 text-center" type="number" id="pInput" min="2" max="71" value="2" aria-label="Scalar prime p">
+            <button class="btn parameter-step" type="button" data-parameter="p" data-step="1" aria-label="Next prime">+</button>
+          </div>
+          <details class="parameter-picker">
+            <summary>Choose prime</summary>
+            <div class="parameter-options prime-options" role="group" aria-label="Allowed prime values">
+              <button class="parameter-option is-active" type="button" data-parameter-value="p" data-value="2">2</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="3">3</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="5">5</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="7">7</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="11">11</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="13">13</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="17">17</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="19">19</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="23">23</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="29">29</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="31">31</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="37">37</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="41">41</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="43">43</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="47">47</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="53">53</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="59">59</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="61">61</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="67">67</button>
+              <button class="parameter-option" type="button" data-parameter-value="p" data-value="71">71</button>
+            </div>
+          </details>
+          <span class="mt-1 block"><span class="badge badge-supplied">User-supplied</span></span>
+        </div>
+        <div class="parameter-control">
+          <label class="block text-xs font-bold" for="dInput">Dimension d</label>
+          <div class="mt-1 flex items-center gap-1">
+            <button class="btn parameter-step" type="button" data-parameter="d" data-step="-1" aria-label="Decrease dimension">−</button>
+            <input class="input w-20 text-center" type="number" id="dInput" min="1" max="16" value="10" aria-label="Scalar dimension d">
+            <button class="btn parameter-step" type="button" data-parameter="d" data-step="1" aria-label="Increase dimension">+</button>
+          </div>
+          <details class="parameter-picker">
+            <summary>Choose dimension</summary>
+            <div class="parameter-options dimension-options" role="group" aria-label="Allowed dimension values">
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="1">1</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="2">2</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="3">3</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="4">4</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="5">5</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="6">6</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="7">7</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="8">8</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="9">9</button>
+              <button class="parameter-option is-active" type="button" data-parameter-value="d" data-value="10">10</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="11">11</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="12">12</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="13">13</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="14">14</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="15">15</button>
+              <button class="parameter-option" type="button" data-parameter-value="d" data-value="16">16</button>
+            </div>
+          </details>
+          <span class="mt-1 block"><span class="badge badge-supplied">User-supplied</span></span>
+        </div>
+        <div class="parameter-control limit-control">
+          <label class="block text-xs font-bold" for="stateLimitInput">Exact state limit</label>
+          <input class="input mt-1 w-36 text-center" type="number" id="stateLimitInput" min="1" max="10000000" step="1000" value="65536" aria-describedby="stateLimitHint">
+          <span class="mt-1 block text-xs muted" id="stateLimitHint">Exact enumeration limit up to 10,000,000 states; larger runs may take longer.</span>
+        </div>
+        <button class="btn btn-primary self-start" id="runScalar" type="button">Compute orbits</button>
+      </div>
+    </section>
+
+    <details class="card mb-5 compact-values-panel" id="allowedValuesPanel">
+      <summary class="compact-values-summary">
+        <span id="allowedValuesHeading">Allowed prime values</span>
+        <span class="muted">Click a prime · dimensions are in the picker above</span>
+      </summary>
+      <div class="compact-prime-row-wrap">
+        <div id="allowedValuesTable" class="compact-prime-row" role="group" aria-label="Allowed prime values"></div>
+      </div>
+    </details>
+
+    <div class="grid grid-cols-1 items-start gap-5 xl:grid-cols-[minmax(0,1fr)_310px]">
+      <section class="min-w-0" aria-live="polite">
+        <div class="card mb-5 p-5 md:p-6" id="orbitMapCard">
+          <div class="mb-4 flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h2 class="text-lg font-extrabold">Orbit map</h2>
+              <p class="mt-1 text-sm muted" id="orbitMapDescription">Each state appears once. Cycles are spring-settled into compact groups.</p>
+            </div>
+            <div class="flex flex-wrap items-center gap-2 text-xs">
+              <span id="orbitMapDrawAction" class="contents" aria-live="polite"></span>
+              <span class="badge engine-badge" id="orbitMapEngine">SCALAR</span>
+              <span class="badge badge-computed" id="orbitMapCount">Waiting for computation</span>
+              <div class="flex flex-wrap gap-1" role="group" aria-label="Orbit map layout">
+                <button class="btn orbit-layout-choice tab-active" data-layout="polar" type="button" aria-pressed="true">Polar</button>
+                <button class="btn orbit-layout-choice" data-layout="orbit" type="button" aria-pressed="false">Orbit layout</button>
+              </div>
+              <div class="flex gap-1" role="group" aria-label="Orbit map projection">
+                <button class="btn orbit-projection-choice tab-active" data-projection="2d" type="button" aria-pressed="true">2D</button>
+                <button class="btn orbit-projection-choice" data-projection="3d" type="button" aria-pressed="false">3D</button>
+              </div>
+            </div>
+          </div>
+          <div class="orbit-map-viewport">
+            <svg id="orbitMap" class="orbit-map" viewBox="0 0 1000 560" role="img" aria-labelledby="orbitMapTitle orbitMapDescription">
+              <title id="orbitMapTitle">Orbit graph</title>
+            </svg>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-xs muted" aria-label="Orbit cycle size color legend">
+            <span class="inline-flex items-center gap-2"><span class="orbit-legend-marker cycle-size-1"></span>1-state cycles</span>
+            <span class="inline-flex items-center gap-2"><span class="orbit-legend-marker cycle-size-short"></span>2–3-state cycles</span>
+            <span class="inline-flex items-center gap-2"><span class="orbit-legend-marker cycle-size-medium"></span>4–10-state cycles</span>
+            <span class="inline-flex items-center gap-2"><span class="orbit-legend-marker cycle-size-long"></span>11+ state cycles</span>
+          </div>
+          <div class="mt-4 grid gap-3 rounded-[calc(var(--radius)*.65)] border border-[var(--color-border)] p-3 sm:grid-cols-2" id="orbitMapFilters" aria-hidden="true" style="display: none;">
+            <div>
+              <h3 class="text-xs font-extrabold">Cycle-length layers</h3>
+              <div class="mt-2 flex flex-wrap gap-2" id="orbitMapCycleFilters" aria-label="Show or hide cycle lengths"></div>
+            </div>
+            <div id="orbitMapBandSection">
+              <h3 class="text-xs font-extrabold">Scalar value bands</h3>
+              <div class="mt-2 flex flex-wrap gap-2" id="orbitMapBandFilters" aria-label="Show or hide scalar value bands"></div>
+            </div>
+          </div>
+          <p class="mt-3 text-xs muted" id="orbitMapHint">Hover a state for details. Select a node to emphasize its entire cycle.</p>
+        </div>
+        <div id="scalarView" class="space-y-5">
+          <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4" id="scalarMetrics"></div>
+          <div class="card p-5 md:p-6">
+            <div class="mb-5 flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <h2 class="text-lg font-extrabold">Cycle-length profile</h2>
+                <p class="mt-1 text-sm muted">One exact orbit enumeration of the scalar state space.</p>
+              </div>
+              <span class="badge badge-computed">Computed</span>
+            </div>
+            <div id="scalarHistogram" class="space-y-3"></div>
+          </div>
+          <div class="card p-5 md:p-6">
+            <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+              <div>
+                <h2 class="text-lg font-extrabold">Orbit catalogue</h2>
+                <p class="mt-1 text-sm muted" id="scalarOrbitNote"></p>
+              </div>
+              <button class="btn" id="exportScalarCsv" type="button">↓ Export CSV</button>
+            </div>
+            <div class="mb-4 grid gap-3 sm:grid-cols-[minmax(180px,1fr)_minmax(160px,220px)]">
+              <label class="text-xs font-bold" for="orbitSearch">Find a state or orbit value
+                <input class="input mt-1" id="orbitSearch" type="search" placeholder="e.g. 0, 2400, or 1 → 2" autocomplete="off">
+              </label>
+              <fieldset class="hidden text-xs font-bold" aria-hidden="true">
+                <legend>Cycle lengths</legend>
+                <div id="orbitLengthFilters" class="mt-2 flex max-h-28 flex-wrap gap-2 overflow-auto" aria-label="Cycle lengths"></div>
+              </fieldset>
+            </div>
+            <div class="orbit-list flex flex-wrap gap-2" id="scalarOrbits"></div>
+            <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
+              <p class="text-xs muted" id="orbitPageStatus" aria-live="polite"></p>
+              <button class="btn hidden" id="showMoreOrbits" type="button">Show next 100 orbits</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="linearView" class="hidden space-y-5">
+          <section class="card mb-5 flex flex-wrap items-center justify-between gap-4 p-5" aria-labelledby="linearDimensionHeading">
+            <div>
+              <h2 class="font-extrabold" id="linearDimensionHeading">Vector-space dimension</h2>
+              <p class="mt-1 text-sm muted">Choose the dimension of F₂<sup>N</sup>. Matrix editors and exact orbit enumeration update to match.</p>
+            </div>
+            <div class="flex items-center gap-2">
+              <button class="btn linear-dimension-step" type="button" data-step="-1" aria-label="Decrease vector-space dimension">−</button>
+              <label class="sr-only" for="linearDimensionInput">F₂ vector-space dimension</label>
+              <input class="input w-24 text-center" type="number" id="linearDimensionInput" min="1" max="16" value="10">
+              <button class="btn linear-dimension-step" type="button" data-step="1" aria-label="Increase vector-space dimension">+</button>
+              <span class="text-xs muted">1–16</span>
+            </div>
+          </section>
+          <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4" id="linearMetrics"></div>
+          <div class="card p-5 md:p-6">
+            <div class="mb-5 flex flex-wrap items-start justify-between gap-3">
+              <div>
+                <h2 class="text-lg font-extrabold">Outer operator · A<sub>outer</sub></h2>
+                <p class="mt-1 text-sm muted">A acts on column vectors in F₂<sup class="linear-dimension-label">10</sup>. Toggle entries to edit the matrix.</p>
+              </div>
+              <div class="flex flex-wrap gap-2"><span class="badge badge-supplied">Editable input</span><button class="btn" data-preset="identity">Identity</button><button class="btn" data-preset="jordan">Jordan preset</button><button class="btn" data-preset="random">Random invertible</button></div>
+            </div>
+            <div class="matrix-wrap">
+              <div id="outerMatrix" class="matrix-grid" role="group" aria-label="Outer operator matrix"></div>
+            </div>
+            <div class="mt-3 flex flex-wrap items-center justify-between gap-3">
+              <p class="text-xs muted">Keyboard: tab to a bit and press Enter or Space. Rows are output coordinates.</p>
+              <div class="flex gap-2"><button class="btn btn-soft" id="copyOuter" type="button">Copy bit strings</button><button class="btn" id="pasteOuter" type="button">Paste matrix</button></div>
+            </div>
+            <div class="mt-3 hidden" id="pasteArea"><label class="text-xs font-bold" for="matrixPaste">Paste <span class="linear-dimension-label">10</span> lines, each containing <span class="linear-dimension-label">10</span> bits</label><textarea class="input mt-1 min-h-24 font-mono text-xs" id="matrixPaste" placeholder="Paste one binary row per line"></textarea>
+              <div class="mt-2 flex items-center gap-2"><button class="btn btn-primary" id="applyPaste" type="button">Apply matrix</button><span class="text-xs muted" id="pasteStatus"></span></div>
+            </div>
+          </div>
+
+          <div class="grid gap-5 lg:grid-cols-2">
+            <div class="card p-5 md:p-6">
+              <div class="mb-4 flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-lg font-extrabold">Cyclic isomorphisms</h2>
+                  <p class="mt-1 text-sm muted">Column-vector convention: M<sub>ca</sub> · M<sub>bc</sub> · M<sub>ab</sub> = I<sub class="linear-dimension-label">10</sub>.</p>
+                </div><span class="badge badge-supplied">User-supplied</span>
+              </div>
+              <div class="mb-4 flex flex-wrap items-center justify-between gap-2">
+                <div class="flex gap-2"><button class="btn mode-choice tab-active" data-mode="free-two">Free two</button><button class="btn mode-choice" data-mode="free-three">Free three</button></div><button class="btn btn-soft" id="exportMatrices" type="button">Export JSON</button><button class="btn" id="exportMatrixText" type="button">Export text</button>
+              </div>
+              <div class="mb-5 rounded-[calc(var(--radius)*.7)] bg-[var(--color-bg)] px-4 py-3 text-center text-sm font-bold">Q<sub>a</sub> <span class="text-[var(--color-primary)]">→ M<sub>ab</sub> →</span> Q<sub>b</sub> <span class="text-[var(--color-primary)]">→ M<sub>bc</sub> →</span> Q<sub>c</sub> <span class="text-[var(--color-primary)]">→ M<sub>ca</sub> →</span> Q<sub>a</sub></div>
+              <div id="chainEditors" class="space-y-4"></div>
+              <div class="mt-4 rounded-[calc(var(--radius)*.7)] border border-[var(--color-border)] p-3" id="compositionStatus"></div>
+            </div>
+            <div class="card p-5 md:p-6">
+              <div class="mb-4 flex items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-lg font-extrabold">Schematic spaces</h2>
+                  <p class="mt-1 text-sm muted">Large modules are dimensional labels only—not enumerated vectors.</p>
+                </div><span class="badge badge-supplied">n, s user-set</span>
+              </div>
+              <div class="space-y-3">
+                <div class="grid grid-cols-3 gap-2 text-center">
+                  <div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3">
+                    <div class="text-xs font-bold">M<sub>a</sub></div>
+                    <div class="mt-1 text-lg font-extrabold">F₂<sup>276</sup></div>
+                  </div>
+                  <div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3">
+                    <div class="text-xs font-bold">M<sub>b</sub></div>
+                    <div class="mt-1 text-lg font-extrabold">F₂<sup>276</sup></div>
+                  </div>
+                  <div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3">
+                    <div class="text-xs font-bold">M<sub>c</sub></div>
+                    <div class="mt-1 text-lg font-extrabold">F₂<sup>276</sup></div>
+                  </div>
+                </div>
+                <div class="flex flex-wrap items-center gap-2 rounded-[calc(var(--radius)*.6)] bg-[var(--color-bg)] p-3"><span class="rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] px-3 py-2 text-sm">N ⊆ S ⊆ M<sub>a</sub></span><label class="text-xs font-bold">n <input class="input mt-1 w-20" type="number" id="nInput" value="10" min="0" max="276"></label><label class="text-xs font-bold">s <input class="input mt-1 w-20" type="number" id="sInput" value="20" min="0" max="276"></label><span class="text-xs muted">s − n = <span id="dimensionGapLabel">10</span></span></div>
+                <div id="dimensionStatus" class="text-xs muted"></div>
+                <div class="flex items-center justify-center gap-3 py-2">
+                  <div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3 text-center">
+                    <div class="text-xs">quotient</div><strong>Q<sub>a</sub> ≅ F₂<sup class="linear-dimension-label">10</sup></strong>
+                  </div><span class="text-xl text-[var(--color-primary)]">→</span><span class="badge badge-computed">dimension <span class="linear-dimension-label">10</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+            <div class="card p-5 md:p-6">
+              <div class="mb-4 flex items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-lg font-extrabold">Outer-operator orbits</h2>
+                  <p class="mt-1 text-sm muted">Every vector in the selected F₂<sup>N</sup> space is enumerated exactly.</p>
+                </div><span class="badge badge-computed">Computed</span>
+              </div>
+              <div id="linearHistogram" class="space-y-3"></div>
+              <div class="mt-5 flex flex-wrap gap-2" id="linearOrbitSamples"></div>
+            </div>
+            <div class="card p-5 md:p-6">
+              <div class="mb-4 flex items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-lg font-extrabold">Supplied mode data</h2>
+                  <p class="mt-1 text-sm muted">Displayed for reference; not derived or verified by this app.</p>
+                </div><span class="badge badge-unverified">Unverified</span>
+              </div>
+              <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm">
+                  <thead>
+                    <tr class="border-b border-[var(--color-border)] text-xs muted">
+                      <th class="pb-2">Mode index</th>
+                      <th class="pb-2">Valuation d(m)</th>
+                      <th class="pb-2">Provenance</th>
+                    </tr>
+                  </thead>
+                  <tbody id="valuationTable"></tbody>
+                </table>
+              </div>
+              <p class="mt-4 text-xs muted">Mode components and groups C<sub>2T</sub>(m) have not been specified; no group-theoretic checks are performed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="bridgeView" class="hidden space-y-5">
+          <div id="bridgeDisabled" class="card hidden border-l-4 border-l-[var(--color-warning)] p-5">
+            <h2 class="font-extrabold">Binary-shift bridge unavailable</h2>
+            <p class="mt-1 text-sm muted">The bridge is defined only for p = 2. Change p in the scalar parameter panel to enable the binary cyclic-shift correspondence.</p>
+          </div>
+          <div id="bridgeContent" class="space-y-5">
+            <div class="rounded-[var(--radius)] border border-[var(--color-primary)]/20 bg-[var(--color-soft)] p-4 text-sm leading-6"><strong>Why these maps correspond.</strong> For p = 2, multiplying by 2 modulo 2<sup>d</sup> − 1 cyclically shifts the d-bit representation. The scalar residue space contains 2<sup>d</sup> − 1 states; the vector space contains 2<sup>d</sup>, including a distinct all-ones vector.</div>
+            <div class="grid gap-5 lg:grid-cols-2">
+              <div class="card p-5">
+                <div class="mb-4 flex items-start justify-between">
+                  <div>
+                    <h2 class="font-extrabold">Scalar residues</h2>
+                    <p class="text-xs muted">Z/(2<sup>d</sup> − 1), under k ↦ 2k</p>
+                  </div><span class="badge engine-badge">SCALAR</span>
+                </div>
+                <div id="bridgeScalarStats" class="mb-4"></div>
+                <div id="bridgeScalarHist" class="space-y-2"></div>
+              </div>
+              <div class="card p-5">
+                <div class="mb-4 flex items-start justify-between">
+                  <div>
+                    <h2 class="font-extrabold">Binary vectors</h2>
+                    <p class="text-xs muted">F₂<sup>d</sup>, under the cyclic permutation P<sub>d</sub></p>
+                  </div><span class="badge engine-badge">F₂-LINEAR</span>
+                </div>
+                <div id="bridgeVectorStats" class="mb-4"></div>
+                <div id="bridgeVectorHist" class="space-y-2"></div>
+              </div>
+            </div>
+            <div class="card p-5 md:p-6">
+              <div class="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <h2 class="text-lg font-extrabold">The one-state difference</h2>
+                  <p class="mt-1 text-sm muted">Both 0…0 and 1…1 are fixed under cyclic shift. In the scalar model, 1…1 represents 2<sup>d</sup> − 1 ≡ 0, so it is identified with the zero residue rather than counted as a second state.</p>
+                </div><span class="badge badge-computed">Check: orbit lengths divide d</span>
+              </div>
+              <div id="bridgeChecks" class="mt-4 grid gap-3 sm:grid-cols-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="space-y-5">
+        <section class="card p-5">
+          <div class="mb-4 flex items-center justify-between">
+            <h2 class="font-extrabold">Checks</h2><span class="badge badge-computed">Live</span>
+          </div>
+          <div id="checkList" class="space-y-3"></div>
+          <p class="mt-4 border-t border-[var(--color-border)] pt-3 text-xs leading-5 muted">No compatibility relation between A<sub>outer</sub> and the cyclic maps is assumed. The source specification leaves this open.</p>
+        </section>
+        <section class="card p-5">
+          <h2 class="mb-3 font-extrabold">Value provenance</h2>
+          <div class="space-y-3 text-xs leading-5">
+            <div class="flex items-start gap-2"><span class="badge badge-computed">Computed</span><span class="muted">Calculated exactly by this app.</span></div>
+            <div class="flex items-start gap-2"><span class="badge badge-supplied">Supplied</span><span class="muted">Entered or selected by the user.</span></div>
+            <div class="flex items-start gap-2"><span class="badge badge-unverified">Unverified</span><span class="muted">Supplied data with no app-side verification.</span></div>
+          </div>
+        </section>
+        <section class="card p-5">
+          <h2 class="mb-3 font-extrabold">Workspace notes</h2>
+          <ul class="space-y-2 text-xs leading-5 muted">
+            <li>• Scalar and vector totals are never combined.</li>
+            <li>• Small finite spaces are enumerated exhaustively, not sampled.</li>
+            <li>• The F₂ editor uses N×N binary matrices and column-vector composition.</li>
+            <li>• No vectors of the 276-dimensional ambient modules are constructed.</li>
+          </ul>
+        </section>
+        <button class="btn w-full" id="downloadCsv" type="button">↓ Export active orbit table</button>
+      </aside>
+    </div>
+    <footer class="mt-8 flex flex-wrap justify-between gap-2 border-t border-[var(--color-border)] py-5 text-xs muted"><span>Forager-F₂ · Exact finite-state exploration</span><span>Client-side computations · Matrix inputs are not sent anywhere</span></footer>
+  </main>
+  <div id="toast" class="fixed bottom-5 left-1/2 z-50 hidden -translate-x-1/2 rounded-[var(--radius)] bg-[var(--color-text)] px-4 py-3 text-sm font-bold text-[var(--color-surface)] shadow-lg" role="status"></div>
+
+  <script>
+    (() => {
+      const $ = (selector, root = document) => root.querySelector(selector);
+      const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+      let N = 10;
+      const MAX_STATE_LIMIT = 10000000;
+      let stateLimit = 65536;
+      let engine = 'scalar';
+      let orbitProjection = '2d';
+      let orbitMapLayout = 'polar';
+      let selectedMapCycleLengths = null;
+      let selectedMapBands = null;
+      const MAP_BAND_COUNT = 10;
+      let p = 2;
+      let d = 10;
+      let matrixMode = 'free-two';
+      let matrices = {
+        outer: jordan(),
+        ab: identity(),
+        bc: identity(),
+        ca: identity()
+      };
+      let scalarResult = null;
+      let linearResult = null;
+      let bridgeResult = null;
+      let orbitMapRenderQueued = false;
+      let orbitMapRenderGeneration = 0;
+      let orbitMapDrawConsent = false;
+      const ORBIT_MAP_AUTO_LIMIT = 2000;
+      const ORBIT_MAP_CONSENT_LIMIT = 5000;
+
+      function scheduleOrbitMapRender() {
+        orbitMapRenderGeneration++;
+        if (orbitMapRenderQueued) return;
+        orbitMapRenderQueued = true;
+        const scheduleFrame = window.requestAnimationFrame || (callback => window.setTimeout(callback, 16));
+        scheduleFrame(() => {
+          orbitMapRenderQueued = false;
+          const generation = orbitMapRenderGeneration;
+          renderOrbitMap();
+          if (generation !== orbitMapRenderGeneration) scheduleOrbitMapRender();
+        });
+      }
+
+      function identity() {
+        return Array.from({
+          length: N
+        }, (_, i) => 1 << (N - 1 - i));
+      }
+
+      function jordan() {
+        const m = identity();
+        for (let i = 0; i + 1 < N; i += 2) m[i] |= 1 << (N - 2 - i);
+        return m;
+      }
+
+      function clone(m) {
+        return m.map(x => x);
+      }
+
+      function matrixProduct(a, b) {
+        return a.map(row => {
+          let out = 0;
+          for (let k = 0; k < N; k++)
+            if ((row >> (N - 1 - k)) & 1) out ^= b[k];
+          return out;
+        });
+      }
+
+      function matrixVector(a, value) {
+        let out = 0;
+        for (let i = 0; i < N; i++) {
+          let row = a[i],
+            parity = 0;
+          while (row) {
+            parity ^= row & 1;
+            row >>>= 1;
+          }
+          let v = value,
+            bit = 0;
+          for (let j = 0; j < N; j++) {
+            bit ^= ((a[i] >> (N - 1 - j)) & 1) & ((value >> j) & 1);
+          }
+          if (bit) out |= 1 << i;
+        }
+        return out;
+      }
+
+      function rank(rows, width = N) {
+        const work = rows.map(x => x);
+        let r = 0;
+        for (let col = width - 1; col >= 0; col--) {
+          const pivot = work.findIndex((row, idx) => idx >= r && ((row >> col) & 1));
+          if (pivot < 0) continue;
+          [work[r], work[pivot]] = [work[pivot], work[r]];
+          for (let i = 0; i < work.length; i++)
+            if (i !== r && ((work[i] >> col) & 1)) work[i] ^= work[r];
+          r++;
+        }
+        return r;
+      }
+
+      function inverse(a) {
+        const rows = a.map((row, i) => (row << N) | (1 << (N - 1 - i)));
+        let r = 0;
+        for (let col = N - 1; col >= 0; col--) {
+          const pivot = rows.findIndex((row, idx) => idx >= r && ((row >> (N + col)) & 1));
+          if (pivot < 0) continue;
+          [rows[r], rows[pivot]] = [rows[pivot], rows[r]];
+          for (let i = 0; i < N; i++)
+            if (i !== r && ((rows[i] >> (N + col)) & 1)) rows[i] ^= rows[r];
+          r++;
+        }
+        if (r !== N) return null;
+        return rows.map(row => row & ((1 << N) - 1));
+      }
+
+      function same(a, b) {
+        return a.every((row, i) => row === b[i]);
+      }
+
+      function matrixOrder(a) {
+        if (!inverse(a)) return null;
+        let power = identity();
+        for (let n = 1; n <= 4096; n++) {
+          power = matrixProduct(power, a);
+          if (same(power, identity())) return n;
+        }
+        return '>4096';
+      }
+
+      function jordanInfo(a) {
+        const b = a.map((row, i) => row ^ (1 << (N - 1 - i)));
+        const ranks = [N];
+        let power = clone(b);
+        for (let k = 1; k <= N; k++) {
+          ranks.push(rank(power));
+          power = matrixProduct(power, b);
+        }
+            const nullities = ranks.map(x => N - x);
+    const blocksAtLeast = [];
+    for (let k = 1; k <= N + 1; k++) {
+      blocksAtLeast[k] = k <= N ? nullities[k] - nullities[k - 1] : 0;
+    }
+    const sizes = [];
+    for (let k = 1; k <= N; k++) {
+      const exact = blocksAtLeast[k] - blocksAtLeast[k + 1];
+      if (exact > 0) sizes.push(`${exact}×J${k}`);
+    }
+    const generalizedDimension = nullities[N];
+    return { ranks, nullities, sizes: sizes.length ? sizes.join(', ') : 'none', generalizedDimension, typeDefault: generalizedDimension === N && ranks[1] === Math.floor(N / 2) && (N === 1 || ranks[2] === 0) };
+      }
+
+      function enumerate(step, size) {
+        const seen = new Uint8Array(size),
+          orbits = [],
+          histogram = {};
+        for (let start = 0; start < size; start++) {
+          if (seen[start]) continue;
+          let state = start,
+            orbit = [];
+          while (!seen[state]) {
+            seen[state] = 1;
+            orbit.push(state);
+            state = step(state);
+          }
+          orbits.push(orbit);
+          histogram[orbit.length] = (histogram[orbit.length] || 0) + 1;
+        }
+        return {
+          orbits,
+          histogram,
+          states: size,
+          cycles: orbits.length,
+          fixed: histogram[1] || 0
+        };
+      }
+
+        function scalarStep(value, prime, modulus) { return (prime * value) % modulus; }
+  function isPrime(value) {
+    if (value < 2) return false;
+    for (let divisor = 2; divisor * divisor <= value; divisor++) if (value % divisor === 0) return false;
+    return true;
+  }
+  function readStateLimit() {
+    const input = $('#stateLimitInput');
+    const value = Number(input?.value);
+    stateLimit = Number.isFinite(value) ? Math.max(1, Math.min(MAX_STATE_LIMIT, Math.floor(value))) : 65536;
+    if (input) input.value = stateLimit;
+    return stateLimit;
+  }
+
+  function updateParameterOptions() {
+    const selectedP = Math.max(2, Number($('#pInput').value) || 2);
+    const selectedD = Math.max(1, Number($('#dInput').value) || 1);
+    const limit = readStateLimit();
+
+    $$('.parameter-option[data-parameter-value="p"]').forEach(button => {
+      const value = Number(button.dataset.value);
+      const allowed = Math.pow(value, selectedD) - 1 <= limit;
+      button.disabled = !allowed;
+      button.title = allowed ? `Use prime p = ${value}` : `Unavailable at dimension ${selectedD}: state space exceeds ${limit.toLocaleString()} states`;
+      button.classList.toggle('is-over-limit', !allowed);
+    });
+
+    $$('.parameter-option[data-parameter-value="d"]').forEach(button => {
+      const value = Number(button.dataset.value);
+      const allowed = Math.pow(selectedP, value) - 1 <= limit;
+      button.disabled = !allowed;
+      button.title = allowed ? `Use dimension d = ${value}` : `Unavailable for p = ${selectedP}: state space exceeds ${limit.toLocaleString()} states`;
+      button.classList.toggle('is-over-limit', !allowed);
+    });
+
+    const primes = [...new Set($$('.parameter-option[data-parameter-value="p"]').map(button => Number(button.dataset.value)))].sort((a, b) => a - b);
+    const primeButtons = primes.map(prime => {
+      let maxDimension = 0;
+      for (let dimension = 1; dimension <= 16; dimension++) {
+        if (Math.pow(prime, dimension) - 1 <= limit) maxDimension = dimension;
+      }
+      const dimensions = maxDimension ? `d = 1–${maxDimension}` : 'No dimensions fit';
+      return `<button class="parameter-option compact-prime-option ${prime === selectedP ? 'is-active' : ''}" type="button" data-parameter-value="p" data-value="${prime}" title="Select p = ${prime}; maximum supported dimension: ${maxDimension || 'none'}">${prime}<span class="prime-max-dimension">d≤${maxDimension || '—'}</span></button>`;
+    }).join('');
+    $('#allowedValuesTable').innerHTML = primeButtons;
+  }
+
+        function computeScalar() {
+        orbitMapDrawConsent = false;
+        p = Math.max(2, Math.min(71, Number($('#pInput').value) || 2));
+
+        d = Math.max(1, Math.min(16, Number($('#dInput').value) || 1));
+            $('#pInput').value = p; $('#dInput').value = d;
+    updateParameterOptions();
+    if (!isPrime(p)) {
+      scalarResult = null;
+      $('#scalarMetrics').innerHTML = `<div class="card col-span-full p-5"><strong>p must be prime.</strong><p class="mt-1 text-sm muted">Enter a prime base from 2 through 71. The requested scalar map has not been computed.</p><span class="mt-3 inline-flex badge badge-supplied">p = ${p} · User-supplied</span></div>`;
+      $('#scalarHistogram').innerHTML = '';
+      $('#scalarOrbits').innerHTML = '';
+      $('#scalarOrbitNote').textContent = '';
+      $('#orbitPageStatus').textContent = 'No orbit catalogue is available until the parameters are valid.';
+      $('#showMoreOrbits').classList.add('hidden');
+      renderChecks(); renderBridge(); return;
+    }
+            const modulus = Math.pow(p, d) - 1;
+        const limit = readStateLimit();
+        if (!Number.isSafeInteger(modulus) || modulus > limit) {
+          scalarResult = null;
+          const maxDimension = Math.max(0, Math.floor(Math.log(limit + 1) / Math.log(p)));
+          $('#scalarMetrics').innerHTML = `<div class="card col-span-full p-5"><strong>State space exceeds your exact-enumeration limit.</strong><p class="mt-1 text-sm muted">For p = ${p}, choose dimension d ≤ ${maxDimension} to stay within your ${limit.toLocaleString()}-state limit, or increase the limit above. Current state count: ${Number.isFinite(modulus) ? modulus.toLocaleString() : 'too large'}.</p></div>`;
+          $('#scalarHistogram').innerHTML = '';
+          $('#scalarOrbits').innerHTML = '';
+          $('#scalarOrbitNote').textContent = '';
+          $('#orbitPageStatus').textContent = 'No orbit catalogue is available until the state space fits the selected limit.';
+          $('#showMoreOrbits').classList.add('hidden');
+          renderChecks();
+          renderBridge();
+          return;
+        }
+        scalarResult = enumerate(x => scalarStep(x, p, modulus), modulus);
+        scalarResult.modulus = modulus;
+        renderScalar();
+        renderChecks();
+        renderBridge();
+      }
+
+      function computeLinear() {
+        orbitMapDrawConsent = false;
+        const outerInv = inverse(matrices.outer);
+        linearResult = outerInv ? enumerate(x => matrixVector(matrices.outer, x), 1 << N) : null;
+        renderLinear();
+        renderChecks();
+      }
+
+      function setLinearDimension(value) {
+        const nextDimension = Math.max(1, Math.min(16, Math.floor(Number(value) || 1)));
+        $('#linearDimensionInput').value = nextDimension;
+        if (nextDimension === N) return;
+
+        N = nextDimension;
+        matrices = {
+          outer: jordan(),
+          ab: identity(),
+          bc: identity(),
+          ca: identity()
+        };
+        matrixMode = 'free-two';
+        $$( '.linear-dimension-label' ).forEach(label => label.textContent = N);
+        $('#dimensionGapLabel').textContent = N;
+        $$('.mode-choice').forEach(button => button.classList.toggle('tab-active', button.dataset.mode === matrixMode));
+        if (engine === 'linear') {
+          $('#pageIntro').innerHTML = `Edit maps on F₂<sup>${N}</sup>, inspect their composition, and exhaustively enumerate all ${1 << N} vectors. Matrix convention: column vectors.`;
+        }
+        computeLinear();
+        showToast(`F₂ dimension set to ${N}; matrices reset to the default preset.`);
+      }
+
+      function renderMetric(label, value, detail) {
+        return `<article class="card p-4"><div class="text-xs font-bold uppercase tracking-wide muted">${label}</div><div class="mt-2 text-2xl font-extrabold tracking-tight">${value}</div><div class="mt-1 text-xs muted">${detail}</div><div class="mt-3"><span class="badge badge-computed">Computed</span></div></article>`;
+      }
+
+      function renderHistogram(el, hist, totalStates) {
+        if (!hist) {
+          el.innerHTML = '<p class="text-sm muted">The operator is singular; orbit decomposition into cycles is unavailable.</p>';
+          return;
+        }
+        const entries = Object.entries(hist).map(([length, count]) => [Number(length), count]).sort((a, b) => b[1] - a[1] || a[0] - b[0]);
+        el.innerHTML = entries.map(([length, count]) => `<div class="grid grid-cols-[75px_1fr_100px] items-center gap-3 text-xs"><strong>${length} ${length === 1 ? 'state' : 'states'}</strong><div class="h-2 overflow-hidden rounded-full bg-[var(--color-bg)]"><div class="h-full rounded-full bg-[var(--color-primary)]" style="width:${Math.max(2, count * length / totalStates * 100)}%"></div></div><span class="text-right muted">${count.toLocaleString()} ${count === 1 ? 'orbit' : 'orbits'}</span></div>`).join('');
+      }
+
+      function renderOrbitMap() {
+        const svg = $('#orbitMap');
+        if (!svg) return;
+        $('#orbitMapDrawAction').innerHTML = '';
+
+        let nodes = new Map();
+        let edges = [];
+        let engineLabel = engine === 'linear' ? 'F₂-LINEAR' : engine === 'bridge' ? 'BRIDGE · p = 2' : 'SCALAR';
+        let description = 'Each distinct state appears once; directed links show transitions, while a light spring layout settles nearby states into cycle clusters.';
+        let hint = orbitProjection === '3d'
+          ? '3D oblique projection: cycle rings are tilted and layered for depth. Hover or select a state to inspect its cycle.'
+          : '2D projection: cycles are laid out as separate components. Hover a state for details; select one to emphasize its cycle.';
+
+        const addOrbitSet = (orbits, source, keyForState, labelForState) => {
+          if (!orbits) return;
+          orbits.forEach((orbit, orbitIndex) => {
+            const keys = orbit.map(state => keyForState(state));
+            keys.forEach((key, position) => {
+              if (!nodes.has(key)) {
+                nodes.set(key, {
+                  key,
+                  state: orbit[position],
+                  label: labelForState(orbit[position]),
+                  sources: new Set(),
+                  orbitIds: new Set(),
+                  position
+                });
+              }
+              const node = nodes.get(key);
+              node.sources.add(source);
+              node.orbitIds.add(`${source}-${orbitIndex}`);
+              node.position = position;
+              node.cycleLength = orbit.length;
+            });
+            for (let i = 0; i < keys.length; i++) {
+              edges.push({
+                from: keys[i],
+                to: keys[(i + 1) % keys.length],
+                source,
+                orbitId: `${source}-${orbitIndex}`
+              });
+            }
+          });
+        };
+
+        if (engine === 'scalar') {
+          description = 'Scalar cycles are disjoint by definition: each residue belongs to exactly one cycle, so separate cycles share no nodes. This projection packs every exact cycle into one map.';
+          if (scalarResult) addOrbitSet(scalarResult.orbits, 'scalar', x => `s-${x}`, x => String(x));
+          if (scalarResult) {
+            hint = orbitMapLayout === 'polar'
+              ? 'Polar layout: residues follow the value-scaled spiral. Use cycle-length layers and scalar value bands to focus the map; filtered nodes show their residue labels.'
+              : 'Orbit layout: cycles are arranged as separate components. Use cycle-length layers and scalar value bands to focus the map; filtered nodes show their residue labels.';
+          }
+        } else if (engine === 'linear') {
+          if (linearResult) addOrbitSet(linearResult.orbits, 'linear', x => `l-${x}`, x => `0b${x.toString(2).padStart(N, '0')}`);
+        } else if (bridgeResult) {
+          const allOnes = (1 << bridgeResult.dim) - 1;
+          const bridgeKey = value => `v-${value}`;
+          addOrbitSet(bridgeResult.vectors.orbits, 'vector', bridgeKey, x => `0b${x.toString(2).padStart(bridgeResult.dim, '0')}`);
+          addOrbitSet(
+            bridgeResult.scalar.orbits,
+            'scalar',
+            x => bridgeKey(x === 0 ? allOnes : x),
+            x => x === 0 ? `0 ↔ all ones (${bridgeResult.dim} bits)` : `residue ${x} ↔ 0b${x.toString(2).padStart(bridgeResult.dim, '0')}`
+          );
+          engineLabel = 'BRIDGE · MERGED';
+          description = `Scalar residues and binary vectors share nodes where they represent the same bit pattern. Scalar residue 0 is merged with the all-ones vector; the zero vector remains distinct. ${nodes.size.toLocaleString()} unique states.`;
+          hint = 'Purple links are binary shifts; dashed muted links are scalar transitions. Green nodes represent a state shared by both views. Select any node to highlight its cycle links.';
+        }
+
+        if (nodes.size > ORBIT_MAP_CONSENT_LIMIT) {
+          svg.innerHTML = `<title id="orbitMapTitle">Orbit map not drawn</title><text x="500" y="270" text-anchor="middle" class="orbit-label">${nodes.size.toLocaleString()} states are available in the exact results.</text><text x="500" y="296" text-anchor="middle" class="orbit-label">The full map exceeds the ${ORBIT_MAP_CONSENT_LIMIT.toLocaleString()}-node drawing budget.</text>`;
+          $('#orbitMapEngine').textContent = engineLabel;
+          $('#orbitMapCount').textContent = `${nodes.size.toLocaleString()} states · map not drawn`;
+          $('#orbitMapDescription').textContent = `${description} Exact results remain available; drawing this many SVG nodes is intentionally disabled to keep the page responsive.`;
+          $('#orbitMapHint').textContent = 'The orbit map is not drawn at this size. Use the exact histogram and catalogue below.';
+          $('#orbitMapCycleFilters').innerHTML = '';
+          $('#orbitMapBandFilters').innerHTML = '';
+          $('#orbitMapBandSection').classList.toggle('hidden', engine !== 'scalar');
+          return;
+        }
+
+        if (nodes.size > ORBIT_MAP_AUTO_LIMIT && !orbitMapDrawConsent) {
+          const estimatedSeconds = Math.max(1, Math.ceil(nodes.size / 2500));
+          svg.innerHTML = `<title id="orbitMapTitle">Orbit map awaiting confirmation</title><text x="500" y="270" text-anchor="middle" class="orbit-label">${nodes.size.toLocaleString()} nodes · estimated draw time about ${estimatedSeconds} seconds</text><text x="500" y="296" text-anchor="middle" class="orbit-label">The map will draw only after you confirm.</text>`;
+          $('#orbitMapEngine').textContent = engineLabel;
+          $('#orbitMapCount').textContent = `${nodes.size.toLocaleString()} nodes · confirmation needed`;
+          $('#orbitMapDescription').textContent = description;
+          $('#orbitMapHint').textContent = `This map fits the ${ORBIT_MAP_CONSENT_LIMIT.toLocaleString()}-node budget. Confirm drawing about ${nodes.size.toLocaleString()} nodes (~${estimatedSeconds}s).`;
+          $('#orbitMapDrawAction').innerHTML = `<button class="btn btn-primary" id="confirmOrbitMapDraw" type="button">Draw ${nodes.size.toLocaleString()} nodes · ~${estimatedSeconds}s</button>`;
+          $('#confirmOrbitMapDraw').addEventListener('click', () => {
+            orbitMapDrawConsent = true;
+            scheduleOrbitMapRender();
+          });
+          $('#orbitMapCycleFilters').innerHTML = '';
+          $('#orbitMapBandFilters').innerHTML = '';
+          $('#orbitMapBandSection').classList.toggle('hidden', engine !== 'scalar');
+          return;
+        }
+
+        if (nodes.size === 0) {
+          svg.innerHTML = '<title id="orbitMapTitle">Orbit graph</title><text x="500" y="280" text-anchor="middle" class="orbit-label">Run a valid computation to see its orbit map.</text>';
+          $('#orbitMapEngine').textContent = engineLabel;
+          $('#orbitMapCount').textContent = 'No graph available';
+          $('#orbitMapDescription').textContent = description;
+          $('#orbitMapHint').textContent = hint;
+          $('#orbitMapCycleFilters').innerHTML = '';
+          $('#orbitMapBandFilters').innerHTML = '';
+          $('#orbitMapBandSection').classList.toggle('hidden', engine !== 'scalar');
+          return;
+        }
+
+        const exactStateCount = nodes.size;
+        const cycleLengths = [...new Set([...nodes.values()].map(node => node.cycleLength || 1))].sort((a, b) => a - b);
+        selectedMapCycleLengths = new Set(cycleLengths);
+        $('#orbitMapCycleFilters').innerHTML = cycleLengths.map(length => `
+          <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2.5 py-1.5 text-xs font-semibold">
+            <input type="checkbox" data-map-cycle="${length}" ${selectedMapCycleLengths.has(length) ? 'checked' : ''}>
+            <span>${length} ${length === 1 ? 'state' : 'states'}</span>
+          </label>
+        `).join('');
+
+        const hasScalarBands = engine === 'scalar' && !!scalarResult;
+        $('#orbitMapBandSection').classList.toggle('hidden', !hasScalarBands);
+        let visibleBandIndices = new Set();
+        if (hasScalarBands) {
+          const maxValue = Math.max(1, scalarResult.modulus - 1);
+          const bandMarkup = Array.from({ length: MAP_BAND_COUNT }, (_, index) => {
+            const start = Math.floor(index * (maxValue + 1) / MAP_BAND_COUNT);
+            const end = Math.min(maxValue, Math.floor((index + 1) * (maxValue + 1) / MAP_BAND_COUNT) - 1);
+            return { index, start, end };
+          });
+          const validBands = bandMarkup.map(band => band.index);
+          selectedMapBands = new Set(validBands);
+          visibleBandIndices = selectedMapBands;
+          $('#orbitMapBandFilters').innerHTML = bandMarkup.map(({ index, start, end }) => `
+            <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2.5 py-1.5 text-xs font-semibold">
+              <input type="checkbox" data-map-band="${index}" ${selectedMapBands.has(index) ? 'checked' : ''}>
+              <span>${start.toLocaleString()}–${end.toLocaleString()}</span>
+            </label>
+          `).join('');
+        } else {
+          $('#orbitMapBandFilters').innerHTML = '';
+        }
+        const bandForValue = value => Math.min(MAP_BAND_COUNT - 1, Math.floor(value / Math.max(1, scalarResult.modulus) * MAP_BAND_COUNT));
+        const visibleKeys = new Set([...nodes.keys()]);
+        const allOrbitIds = [...new Set(edges.map(edge => edge.orbitId))];
+        const exactCycleCount = allOrbitIds.length;
+        const isSampled = false;
+
+        if (isSampled) {
+          const selectedOrbitIds = new Set(
+            edges
+              .filter(edge => nodes.get(edge.from)?.cycleLength === 1)
+              .map(edge => edge.orbitId)
+          );
+          const targetCycles = Math.max(selectedOrbitIds.size, Math.min(allOrbitIds.length, 600));
+          for (let i = 0; i < targetCycles && selectedOrbitIds.size < targetCycles; i++) {
+            const index = Math.floor(i * allOrbitIds.length / targetCycles);
+            selectedOrbitIds.add(allOrbitIds[index]);
+          }
+
+          const edgeGroups = new Map();
+          edges.forEach(edge => {
+            if (!selectedOrbitIds.has(edge.orbitId)) return;
+            if (!edgeGroups.has(edge.orbitId)) edgeGroups.set(edge.orbitId, []);
+            edgeGroups.get(edge.orbitId).push(edge);
+          });
+
+          const sampledEdges = [];
+          const selectedKeys = new Set();
+          edgeGroups.forEach((cycleEdges, orbitId) => {
+            const pointCount = Math.min(cycleEdges.length, 10);
+            const points = [];
+            for (let i = 0; i < pointCount; i++) {
+              const edge = cycleEdges[Math.floor(i * cycleEdges.length / pointCount)];
+              points.push(edge.from);
+              selectedKeys.add(edge.from);
+            }
+            points.forEach((key, index) => {
+              sampledEdges.push({
+                ...cycleEdges[Math.floor(index * cycleEdges.length / pointCount)],
+                from: key,
+                to: points[(index + 1) % points.length]
+              });
+            });
+          });
+
+          edges = sampledEdges;
+          nodes = new Map([...nodes].filter(([key]) => selectedKeys.has(key)));
+        }
+
+        const width = 1000;
+        const height = 560;
+        const entries = [...nodes.values()];
+        const adjacency = new Map(entries.map(node => [node.key, []]));
+        edges.forEach(edge => {
+          if (adjacency.has(edge.from) && adjacency.has(edge.to)) adjacency.get(edge.from).push(edge.to);
+        });
+        const visited = new Set();
+        const components = [];
+        entries.forEach(node => {
+          if (visited.has(node.key)) return;
+          const component = [];
+          const queue = [node.key];
+          visited.add(node.key);
+          while (queue.length) {
+            const key = queue.pop();
+            component.push(nodes.get(key));
+            for (const next of adjacency.get(key) || []) {
+              if (!visited.has(next)) {
+                visited.add(next);
+                queue.push(next);
+              }
+            }
+          }
+          components.push(component);
+        });
+        components.sort((a, b) => b.length - a.length);
+        const layers = orbitProjection === '3d' ? Math.min(5, Math.max(1, Math.ceil(components.length / 24))) : 1;
+        const componentsPerLayer = Math.ceil(components.length / layers);
+        const columns = Math.max(1, Math.ceil(Math.sqrt(componentsPerLayer * width / height)));
+        const rows = Math.max(1, Math.ceil(componentsPerLayer / columns));
+        const cellWidth = width / columns;
+        const cellHeight = height / rows;
+        const positions = new Map();
+
+        components.forEach((component, componentIndex) => {
+          const layer = Math.floor(componentIndex / componentsPerLayer);
+          const localIndex = componentIndex % componentsPerLayer;
+          const col = localIndex % columns;
+          const row = Math.floor(localIndex / columns);
+          const depthShift = orbitProjection === '3d' ? (layer - (layers - 1) / 2) : 0;
+          const centerX = cellWidth * (col + .5) + depthShift * 17;
+          const centerY = cellHeight * (row + .5) - depthShift * 11;
+          const maxRadius = Math.max(2, Math.min(cellWidth, cellHeight) * .32);
+          const radius = component.length === 1 ? 0 : Math.min(maxRadius, 5 + component.length * 1.25);
+          component.forEach((node, i) => {
+            const angle = (Math.PI * 2 * i / component.length) - Math.PI / 2;
+            const depth = orbitProjection === '3d' ? Math.cos(angle) * radius * .62 : 0;
+            const projectedX = centerX + Math.cos(angle) * radius + depth * .48;
+            const projectedY = centerY + Math.sin(angle) * radius * .56 - depth * .4;
+            positions.set(node.key, {
+              x: projectedX,
+              y: projectedY,
+              z: orbitProjection === '3d' ? depth + depthShift * 12 : 0
+            });
+          });
+
+          if (component.length > 2 && component.length <= 120) {
+            const componentKeys = new Set(component.map(node => node.key));
+            const componentEdges = edges.filter(edge => componentKeys.has(edge.from) && componentKeys.has(edge.to));
+            for (let step = 0; step < 14; step++) {
+              const forces = new Map(component.map(node => [node.key, { x: 0, y: 0 }]));
+              for (let i = 0; i < component.length; i++) {
+                for (let j = i + 1; j < component.length; j++) {
+                  const a = positions.get(component[i].key);
+                  const b = positions.get(component[j].key);
+                  const dx = b.x - a.x;
+                  const dy = b.y - a.y;
+                  const distance = Math.max(1, Math.hypot(dx, dy));
+                  const push = 34 / (distance * distance);
+                  forces.get(component[i].key).x -= dx / distance * push;
+                  forces.get(component[i].key).y -= dy / distance * push;
+                  forces.get(component[j].key).x += dx / distance * push;
+                  forces.get(component[j].key).y += dy / distance * push;
+                }
+              }
+              componentEdges.forEach(edge => {
+                const a = positions.get(edge.from);
+                const b = positions.get(edge.to);
+                const dx = b.x - a.x;
+                const dy = b.y - a.y;
+                const distance = Math.max(1, Math.hypot(dx, dy));
+                const restLength = Math.min(cellWidth, cellHeight) * .24;
+                const pull = (distance - restLength) * .018;
+                forces.get(edge.from).x += dx / distance * pull;
+                forces.get(edge.from).y += dy / distance * pull;
+                forces.get(edge.to).x -= dx / distance * pull;
+                forces.get(edge.to).y -= dy / distance * pull;
+              });
+              component.forEach(node => {
+                const point = positions.get(node.key);
+                const force = forces.get(node.key);
+                point.x = Math.max(centerX - maxRadius, Math.min(centerX + maxRadius, point.x + force.x));
+                point.y = Math.max(centerY - maxRadius, Math.min(centerY + maxRadius, point.y + force.y));
+              });
+            }
+          }
+        });
+
+        const scalarRadialProjection = engine === 'scalar' && scalarResult && orbitMapLayout === 'polar';
+        if (scalarRadialProjection) {
+          const centerX = width / 2;
+          const centerY = height / 2;
+          const orderedNodes = entries.slice().sort((a, b) => a.state - b.state);
+          const maxValue = Math.max(1, scalarResult.modulus - 1);
+          const maxRadius = Math.min(height * .43, width * .34);
+
+          orderedNodes.forEach(node => {
+            const valueRatio = node.state / maxValue;
+            const angle = (Math.PI * 2 * valueRatio) - Math.PI / 2;
+            const radius = valueRatio * maxRadius;
+            positions.set(node.key, {
+              x: centerX + Math.cos(angle) * radius,
+              y: centerY + Math.sin(angle) * radius,
+              z: 0
+            });
+          });
+        }
+
+        const edgesByLayer = [...edges].sort((a, b) => {
+          const aLength = nodes.get(a.from)?.cycleLength || 1;
+          const bLength = nodes.get(b.from)?.cycleLength || 1;
+          return bLength - aLength;
+        });
+        const orbitGradientMarkup = allOrbitIds.map((orbitId, index) => {
+          const hue = (index * 137.508 + 214) % 360;
+          const startHue = (hue + 38) % 360;
+          const endHue = (hue + 330) % 360;
+          return `<linearGradient id="gradient-${orbitId}" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="hsl(${startHue}, 82%, 48%)"></stop><stop offset="52%" stop-color="hsl(${hue}, 88%, 58%)"></stop><stop offset="100%" stop-color="hsl(${endHue}, 84%, 44%)"></stop></linearGradient>`;
+        }).join('');
+        const edgeMarkup = edgesByLayer.map(edge => {
+          if (!visibleKeys.has(edge.from) || !visibleKeys.has(edge.to)) return '';
+          const from = positions.get(edge.from);
+          const to = positions.get(edge.to);
+          if (!from || !to) return '';
+          const samePosition = from.x === to.x && from.y === to.y;
+          const path = samePosition
+            ? `M ${from.x} ${from.y - 3} C ${from.x + 15} ${from.y - 24}, ${from.x + 25} ${from.y + 16}, ${from.x + 3} ${from.y + 3}`
+            : `M ${from.x} ${from.y} L ${to.x} ${to.y}`;
+          return `<path class="orbit-edge ${edge.source === 'scalar' ? 'is-scalar' : ''} ${edge.source === 'vector' || edge.source === 'linear' ? 'is-vector' : ''}" data-orbit="${edge.orbitId}" data-from="${edge.from}" data-to="${edge.to}" stroke="url(#gradient-${edge.orbitId})" d="${path}"><title>${edge.source} transition · ${edge.orbitId}</title></path>`;
+        }).join('');
+
+        const nodesByLayer = [...entries].sort((a, b) => {
+          return (b.cycleLength || 1) - (a.cycleLength || 1);
+        });
+        const nodeMarkup = nodesByLayer.filter(node => visibleKeys.has(node.key)).map(node => {
+          const point = positions.get(node.key);
+          const merged = node.sources.size > 1;
+          const scalarOnly = node.sources.has('scalar') && !node.sources.has('vector') && engine === 'bridge';
+          const radius = entries.length > 700 ? 2.5 : entries.length > 300 ? 3.2 : 4.3;
+          const depth = point.z || 0;
+          const nodeRadius = orbitProjection === '3d' ? radius * (1 + depth / 220) : radius;
+          const nodeOpacity = orbitProjection === '3d' ? Math.max(.58, Math.min(1, .82 + depth / 110)) : 1;
+          const orbitId = [...node.orbitIds][0];
+          const sourceNames = [...node.sources].join(' + ');
+          const cycleLength = node.cycleLength || 1;
+          const cycleSizeClass = cycleLength === 1 ? 'cycle-size-1' : cycleLength <= 3 ? 'cycle-size-short' : cycleLength <= 10 ? 'cycle-size-medium' : 'cycle-size-long';
+          const valueRatio = scalarRadialProjection ? node.state / Math.max(1, scalarResult.modulus - 1) : 0;
+          const radialStyle = scalarRadialProjection
+            ? `style="fill:hsl(${240 - valueRatio * 240}, 80%, 50%);stroke:url(#gradient-${orbitId});stroke-width:.75"`
+            : `style="stroke:url(#gradient-${orbitId})"`;
+          return `<circle class="orbit-node ${cycleSizeClass} ${merged ? 'is-merged' : ''} ${scalarOnly ? 'is-scalar-only' : ''}" data-key="${node.key}" data-orbit="${orbitId}" cx="${point.x}" cy="${point.y}" r="${nodeRadius}" opacity="${nodeOpacity}" ${radialStyle} tabindex="0" role="button" aria-label="${node.label}, cycle length ${cycleLength}, ${sourceNames}"><title>${node.label} · ${cycleLength}-cycle · ${sourceNames}</title></circle>`;
+        }).join('');
+        const labelFilteredNodes = visibleKeys.size < exactStateCount;
+        const labelNodes = scalarRadialProjection
+          ? entries.filter(node => visibleKeys.has(node.key) && (entries.length <= 180 || node.cycleLength === 1 || labelFilteredNodes))
+          : [];
+        const valueLabelMarkup = labelNodes.length ? labelNodes.map(node => {
+          const point = positions.get(node.key);
+          const dx = point.x - width / 2;
+          const dy = point.y - height / 2;
+          const distance = Math.max(1, Math.hypot(dx, dy));
+          const labelX = point.x + (dx / distance) * 10;
+          const labelY = point.y + (dy / distance) * 10;
+          return `<text class="orbit-value-label" x="${labelX}" y="${labelY}" text-anchor="middle">${node.state}</text>`;
+        }).join('') : '';
+        const orderedRadialNodes = scalarRadialProjection
+          ? entries.filter(node => visibleKeys.has(node.key)).sort((a, b) => a.state - b.state)
+          : [];
+        const trailPoints = orderedRadialNodes.map(node => {
+          const point = positions.get(node.key);
+          return `${point.x},${point.y}`;
+        });
+        if (trailPoints.length > 1) trailPoints.push(trailPoints[0]);
+        const scalarValueTrail = scalarRadialProjection && trailPoints.length > 1
+          ? `<polyline points="${trailPoints.join(' ')}" fill="none" stroke="var(--color-primary)" stroke-width="1.5" stroke-opacity=".7" vector-effect="non-scaling-stroke"></polyline>`
+          : '';
+        const gridStep = scalarRadialProjection && scalarResult.modulus > 1000 ? 1000 : 0;
+        const radialGrid = gridStep
+          ? Array.from({ length: Math.floor((scalarResult.modulus - 1) / gridStep) }, (_, i) => (i + 1) * gridStep).map(value => {
+            const radius = (value / Math.max(1, scalarResult.modulus - 1)) * Math.min(height * .43, width * .34);
+            return `<circle cx="${width / 2}" cy="${height / 2}" r="${radius}" class="orbit-guide-grid"></circle><text x="${width / 2 + radius + 4}" y="${height / 2 - 4}">${value}</text>`;
+          }).join('')
+          : '';
+        const projectionGuides = scalarRadialProjection
+          ? `<g class="orbit-guides">${radialGrid}<text x="${width / 2}" y="24" text-anchor="middle">Scalar values · radius scales with residue value</text></g>`
+          : '';
+        svg.innerHTML = `<title id="orbitMapTitle">${engineLabel} orbit graph</title><defs>${orbitGradientMarkup}</defs>${projectionGuides}${scalarValueTrail}<g class="orbit-edges">${edgeMarkup}</g><g class="orbit-nodes">${nodeMarkup}</g><g class="orbit-value-labels">${valueLabelMarkup}</g><text class="orbit-label" id="orbitHoverLabel" x="16" y="24"></text>`;
+        $('#orbitMapEngine').textContent = engineLabel;
+        $('#orbitMapCount').textContent = `${visibleKeys.size.toLocaleString()} visible / ${exactStateCount.toLocaleString()} states · ${exactCycleCount.toLocaleString()} cycles`;
+        $('#orbitMapDescription').textContent = isSampled
+          ? `${description} This performance-friendly view samples cycles across the full state space; totals remain exact.`
+          : description;
+        $('#orbitMapHint').textContent = isSampled
+          ? 'Downsampled overview: up to 600 evenly distributed cycles and 10 representative states per cycle. Each sampled loop summarizes its full exact orbit.'
+          : hint;
+
+        svg.querySelectorAll('.orbit-node').forEach(circle => {
+          circle.addEventListener('mouseenter', () => {
+            const node = nodes.get(circle.dataset.key);
+            const label = $('#orbitHoverLabel', svg);
+            label.textContent = `${node.label} · cycle length ${node.cycleLength || 1}`;
+          });
+          circle.addEventListener('mouseleave', () => {
+            $('#orbitHoverLabel', svg).textContent = '';
+          });
+          const selectOrbit = () => {
+            const node = nodes.get(circle.dataset.key);
+            const selected = circle.classList.contains('is-selected');
+            svg.querySelectorAll('.orbit-node, .orbit-edge').forEach(item => {
+              const matches = node.orbitIds.has(item.dataset.orbit);
+              item.classList.toggle('is-selected', !selected && matches);
+              item.classList.toggle('is-dimmed', !selected && !matches);
+            });
+          };
+          circle.addEventListener('click', selectOrbit);
+          circle.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              selectOrbit();
+            }
+          });
+        });
+      }
+
+      function orbitPreview(orbits, limit = 90) {
+        return orbits.slice(0, limit).map((o, i) => `<span class="orbit-chip" title="Orbit ${i + 1} · ${o.length} states">${o.length === 1 ? '• ' : ''}${o.slice(0, 5).map(x => x.toString()).join(' → ')}${o.length > 5 ? ' → …' : ''}</span>`).join('');
+      }
+
+      const ORBIT_PAGE_SIZE = 100;
+      let orbitPage = 0;
+      let selectedOrbitLengths = null;
+
+      function renderScalarCatalogue(resetPage = false) {
+        if (!scalarResult) return;
+        if (resetPage) orbitPage = 0;
+        const search = ($('#orbitSearch')?.value || '').trim().toLowerCase();
+        const availableLengths = Object.keys(scalarResult.histogram).map(Number).sort((a, b) => a - b);
+        selectedOrbitLengths = new Set(availableLengths);
+        $('#orbitLengthFilters').innerHTML = availableLengths.map(length => `
+          <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-2.5 py-1.5 font-semibold">
+            <input class="accent-[var(--color-primary)]" type="checkbox" data-cycle-length="${length}" ${selectedOrbitLengths.has(length) ? 'checked' : ''}>
+            <span>${length} ${length === 1 ? 'state' : 'states'}</span>
+            <span class="muted">${scalarResult.histogram[length]}</span>
+          </label>
+        `).join('');
+        const filtered = scalarResult.orbits.map((orbit, index) => ({ orbit, index }))
+          .filter(({ orbit }) => selectedOrbitLengths.has(orbit.length))
+          .filter(({ orbit, index }) => !search || `orbit ${index + 1} ${orbit.join(' ')} ${orbit.join(' → ')}`.toLowerCase().includes(search));
+        const start = orbitPage * ORBIT_PAGE_SIZE;
+        const page = filtered.slice(start, start + ORBIT_PAGE_SIZE);
+        $('#scalarOrbits').innerHTML = page.map(({ orbit, index }) => {
+          const states = orbit.join(' → ');
+          const fixedPointNote = orbit.length === 1
+            ? ` Fixed point: ${orbit[0]} maps to itself because ${p} × ${orbit[0]} ≡ ${orbit[0]} (mod ${scalarResult.modulus}).`
+            : '';
+          return `<span class="orbit-chip" title="Orbit ${index + 1} of ${scalarResult.cycles}; cycle length ${orbit.length}. ${fixedPointNote}">${orbit.length === 1 ? 'Fixed: ' : `Orbit ${index + 1} · `}${states}</span>`;
+        }).join('');
+        const shown = Math.min(start + page.length, filtered.length);
+        $('#orbitPageStatus').textContent = filtered.length
+          ? `Showing ${start + 1}–${shown} of ${filtered.length.toLocaleString()} matching orbits · each chip lists every state in transition order.`
+          : 'No orbits match those filters.';
+        $('#showMoreOrbits').classList.toggle('hidden', shown >= filtered.length);
+        $('#showMoreOrbits').disabled = shown >= filtered.length;
+      }
+
+      function renderScalar() {
+        if (!scalarResult) return;
+        $('#scalarMetrics').innerHTML = renderMetric('Scalar state space', scalarResult.states.toLocaleString(), `Z / (${p}<sup>${d}</sup> − 1)`) + renderMetric('Distinct orbits', scalarResult.cycles.toLocaleString(), 'Exact cycle count') + renderMetric('Fixed residues', scalarResult.fixed.toLocaleString(), 'Orbits of length 1') + renderMetric('Modulus', scalarResult.modulus.toLocaleString(), 'p<sup>d</sup> − 1');
+        renderHistogram($('#scalarHistogram'), scalarResult.histogram, scalarResult.states);
+        $('#scalarOrbitNote').textContent = `${scalarResult.cycles.toLocaleString()} exact orbits · filter or search the complete list. Map positions are for visual grouping, not numeric value; fixed points each appear as their own one-state orbit.`;
+        renderScalarCatalogue(true);
+      }
+
+      function bitString(row) {
+        return Array.from({
+          length: N
+        }, (_, j) => (row >> (N - 1 - j)) & 1).join('');
+      }
+
+      function renderMatrix(container, key, disabled = false) {
+        const matrix = matrices[key];
+        container.innerHTML = matrix.map((row, i) => Array.from({
+          length: N
+        }, (_, j) => {
+          const bit = (row >> (N - 1 - j)) & 1;
+          return `<button class="matrix-cell" type="button" data-matrix="${key}" data-row="${i}" data-col="${j}" data-value="${bit}" aria-label="${key} row ${i + 1}, column ${j + 1}: ${bit}" aria-pressed="${bit}" ${disabled ? 'disabled aria-disabled="true"' : ''}>${bit}</button>`;
+        }).join('')).join('');
+        container.style.gridTemplateColumns = `repeat(${N}, 28px)`;
+        container.setAttribute('aria-label', `${key} matrix, ${N} by ${N}`);
+      }
+
+      function updateDerived() {
+        if (matrixMode !== 'free-two') return true;
+        if (!inverse(matrices.ab) || !inverse(matrices.bc)) return false;
+        const product = matrixProduct(matrices.bc, matrices.ab);
+        const derived = inverse(product);
+        if (!derived) return false;
+        matrices.ca = derived;
+        return true;
+      }
+
+      function renderChain() {
+        const container = $('#chainEditors');
+        container.innerHTML = ['ab', 'bc', 'ca'].map(key => `<div class="rounded-[calc(var(--radius)*.65)] border border-[var(--color-border)] p-3"><div class="mb-2 flex items-center justify-between"><strong class="text-sm">M<sub>${key}</sub></strong><span class="badge ${matrixMode === 'free-two' && key === 'ca' ? 'badge-computed' : 'badge-supplied'}">${matrixMode === 'free-two' && key === 'ca' ? 'Derived' : 'User-supplied'}</span></div><div class="matrix-wrap"><div class="matrix-grid" id="matrix-${key}" role="group" aria-label="Matrix M ${key}" ></div></div></div>`).join('');
+        ['ab', 'bc', 'ca'].forEach(key => renderMatrix($(`#matrix-${key}`), key, matrixMode === 'free-two' && key === 'ca'));
+        updateComposition();
+      }
+
+      function renderLinear() {
+        renderMatrix($('#outerMatrix'), 'outer');
+        renderChain();
+        const inv = inverse(matrices.outer),
+          order = matrixOrder(matrices.outer),
+          info = jordanInfo(matrices.outer);
+        $('#linearMetrics').innerHTML = renderMetric('Invertibility', inv ? `Rank ${N} · yes` : `Rank ${rank(matrices.outer)}/${N}`, 'Gaussian elimination over F₂') + renderMetric('Multiplicative order', order === null ? 'Not defined' : order, 'Smallest positive t with Aᵗ = I') + renderMetric('Jordan blocks at λ = 1', info.sizes, `${info.generalizedDimension}/${N} generalized eigenspace dimension`) + renderMetric('Orbit count', linearResult ? linearResult.cycles.toLocaleString() : 'Unavailable', linearResult ? `${linearResult.fixed} fixed · ${linearResult.states.toLocaleString()} vectors` : 'A must be invertible for cycle enumeration');
+        if (linearResult) {
+          renderHistogram($('#linearHistogram'), linearResult.histogram, linearResult.states);
+          $('#linearOrbitSamples').innerHTML = orbitPreview(linearResult.orbits, 30);
+        } else {
+          $('#linearHistogram').innerHTML = '<p class="text-sm muted">The outer operator is not invertible, so forward trajectories may not form cycles.</p>';
+          $('#linearOrbitSamples').innerHTML = '';
+        }
+        $('#valuationTable').innerHTML = [3, 3, 2, 1, 1].map((v, i) => `<tr class="border-b border-[var(--color-border)]"><td class="py-2">m<sub>${i+1}</sub></td><td class="py-2 font-mono">${v}</td><td class="py-2"><span class="badge badge-unverified">Unverified</span></td></tr>`).join('');
+        updateDimensionStatus();
+      }
+
+      function updateComposition() {
+        const product = matrixProduct(matrixProduct(matrices.ca, matrices.bc), matrices.ab);
+        const ok = same(product, identity());
+        const invertibles = ['ab', 'bc', 'ca'].map(k => !!inverse(matrices[k]));
+        const status = $('#compositionStatus');
+        if (!status) return;
+        status.innerHTML = `<div class="flex flex-wrap items-center justify-between gap-2"><div><strong class="${ok ? 'status-pass' : 'status-fail'}">${ok ? '✓ Composition is identity' : '✕ Composition is not identity'}</strong><div class="mt-1 text-xs muted">M<sub>ca</sub> · M<sub>bc</sub> · M<sub>ab</sub> = I<sub>${N}</sub> ${matrixMode === 'free-two' ? 'by construction' : 'checked on current entries'}</div></div><span class="badge ${invertibles.every(Boolean) ? 'badge-computed' : 'badge-unverified'}">${invertibles.filter(Boolean).length}/3 invertible</span></div>`;
+      }
+
+      function updateDimensionStatus() {
+        const n = Number($('#nInput').value),
+          s = Number($('#sInput').value),
+          valid = Number.isInteger(n) && Number.isInteger(s) && n >= 0 && s <= 276 && s >= n && s - n === N;
+        $('#dimensionStatus').innerHTML = `<span class="${valid ? 'status-pass' : 'status-fail'}">${valid ? '✓' : '✕'} ${valid ? 'Constraint satisfied' : `Require 0 ≤ n ≤ s ≤ 276 and s − n = ${N}`}.</span> <span class="muted">${valid ? `Current supplied dimensions: n = ${n}, s = ${s}.` : 'Dimensions are user-supplied; no values are inferred.'}</span>`;
+      }
+
+      function checkRow(label, pass, evidence, available = true) {
+        return `<div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3"><div class="flex items-center justify-between gap-2"><strong class="text-xs">${label}</strong><span class="text-xs font-extrabold ${available ? (pass ? 'status-pass' : 'status-fail') : 'muted'}">${available ? (pass ? 'PASS' : 'FAIL') : '—'}</span></div><div class="mt-1 text-xs leading-5 muted">${evidence}</div></div>`;
+      }
+
+      function renderChecks() {
+        const inv = inverse(matrices.outer),
+          info = jordanInfo(matrices.outer),
+          order = matrixOrder(matrices.outer);
+        const invs = ['ab', 'bc', 'ca'].map(k => !!inverse(matrices[k]));
+        const chainOk = same(matrixProduct(matrixProduct(matrices.ca, matrices.bc), matrices.ab), identity());
+        const chain = $('#compositionStatus');
+        if (chain) updateComposition();
+        $('#checkList').innerHTML = engine === 'scalar' ? [
+          checkRow('Scalar transition', !!scalarResult, scalarResult ? `x ↦ ${p}x mod ${scalarResult.modulus.toLocaleString()}; ${scalarResult.states.toLocaleString()} states enumerated.` : 'Parameters exceed the exact enumeration limit.', !!scalarResult),
+          checkRow('Orbit partition', !!scalarResult, scalarResult ? `${scalarResult.orbits.length} disjoint cycles cover all ${scalarResult.states.toLocaleString()} residues.` : 'No completed enumeration.', !!scalarResult)
+        ].join('') : [
+          checkRow('A_outer invertible', !!inv, inv ? `Rank ${rank(matrices.outer)}; inverse exists.` : `Rank ${rank(matrices.outer)}; singular.`),
+          checkRow(`A_outer matches the default Jordan type`, info.typeDefault, `Ranks of (A − I)^k: ${info.ranks.slice(0,5).join(', ')}…; blocks at λ=1: ${info.sizes}.`),
+          checkRow('Three maps invertible', invs.every(Boolean), `${invs.map((x,i) => `M_${['ab','bc','ca'][i]} ${x ? 'invertible' : 'singular'}`).join(' · ')}.`),
+          checkRow('Composition identity', chainOk, matrixMode === 'free-two' ? 'M_ca is derived as (M_bc · M_ab)⁻¹.' : 'Checked as M_ca · M_bc · M_ab = I_N.'),
+          checkRow('Order fixture', order === 2, `Computed multiplicative order: ${order === null ? 'undefined (singular)' : order}.`),
+          checkRow('10D reference orbit fixture', !!linearResult && linearResult.fixed === 32 && linearResult.cycles === 528 && linearResult.histogram[2] === 496, linearResult ? `${linearResult.fixed} fixed points; ${linearResult.histogram[2] || 0} two-cycles; ${linearResult.cycles} total orbits.` : 'Requires an invertible outer operator.', N === 10)
+        ].join('');
+        scheduleOrbitMapRender();
+      }
+
+      function scalarHistogramOnly(result) {
+        return result.histogram;
+      }
+
+      function shiftBits(value, dimension) {
+        const top = (value >> (dimension - 1)) & 1;
+        return ((value << 1) & ((1 << dimension) - 1)) | top;
+      }
+
+      function renderBridge() {
+        if (engine !== 'bridge') return;
+        const disabled = p !== 2;
+    if (disabled) bridgeResult = null;
+    $('#bridgeDisabled').classList.toggle('hidden', !disabled);
+        $('#bridgeContent').classList.toggle('hidden', disabled);
+        if (disabled) {
+          scheduleOrbitMapRender();
+          return;
+        }
+        const dim = d;
+        if (dim > 16) return;
+        const mod = (1 << dim) - 1;
+        const scalar = enumerate(x => (2 * x) % mod, mod);
+        const vectors = enumerate(x => shiftBits(x, dim), 1 << dim);
+            bridgeResult = { scalar, vectors, dim };
+    if (!$('#bridgeOrbitPanels')) {
+      $('#bridgeContent').insertAdjacentHTML('beforeend', `<div class="card p-5 md:p-6" id="bridgeOrbitPanels"><div class="mb-4 flex flex-wrap items-start justify-between gap-3"><div><h2 class="text-lg font-extrabold">Synchronized orbit samples</h2><p class="mt-1 text-sm muted">Select a state to highlight the corresponding d-bit pattern in both engines. First 20 orbits, up to 8 states per orbit.</p></div><span class="badge badge-computed">Computed</span></div><div class="grid gap-5 lg:grid-cols-2"><div><div class="mb-2 text-xs font-bold">Scalar residues</div><div id="bridgeScalarOrbits" class="orbit-list flex flex-wrap gap-2"></div></div><div><div class="mb-2 text-xs font-bold">F₂ vectors</div><div id="bridgeVectorOrbits" class="orbit-list flex flex-wrap gap-2"></div></div></div><p class="mt-3 text-xs muted" id="bridgeSelectionNote">Click a state chip to synchronize its counterpart.</p></div>`);
+    }
+    const bridgeChips = (orbits, side) => orbits.slice(0, 20).map(orbit => `<div class="flex flex-wrap items-center gap-1 rounded-lg border border-[var(--color-border)] p-2"><span class="mr-1 text-[10px] font-bold muted">${orbit.length}-cycle</span>${orbit.slice(0, 8).map(state => `<button class="bridge-state" data-bridge-side="${side}" data-bridge-value="${state}" title="State ${state}; cycle length ${orbit.length}">${side === 'vector' ? state.toString(2).padStart(dim, '0') : state}</button>`).join('')}${orbit.length > 8 ? '<span class="text-xs muted">…</span>' : ''}</div>`).join('');
+    $('#bridgeScalarOrbits').innerHTML = bridgeChips(scalar.orbits, 'scalar');
+    $('#bridgeVectorOrbits').innerHTML = bridgeChips(vectors.orbits, 'vector');
+    $('#bridgeScalarStats').innerHTML = `<div class="grid grid-cols-2 gap-2 text-sm"><div><span class="muted">States</span><div class="font-extrabold">${scalar.states.toLocaleString()}</div></div><div><span class="muted">Orbits</span><div class="font-extrabold">${scalar.cycles.toLocaleString()}</div></div><div><span class="muted">Fixed residues</span><div class="font-extrabold">${scalar.fixed}</div></div><div><span class="muted">Provenance</span><div><span class="badge badge-computed">Computed</span></div></div></div>`;
+        $('#bridgeVectorStats').innerHTML = `<div class="grid grid-cols-2 gap-2 text-sm"><div><span class="muted">States</span><div class="font-extrabold">${vectors.states.toLocaleString()}</div></div><div><span class="muted">Orbits</span><div class="font-extrabold">${vectors.cycles.toLocaleString()}</div></div><div><span class="muted">Fixed vectors</span><div class="font-extrabold">${vectors.fixed}</div></div><div><span class="muted">Provenance</span><div><span class="badge badge-computed">Computed</span></div></div></div>`;
+        renderHistogram($('#bridgeScalarHist'), scalar.histogram, scalar.states);
+        renderHistogram($('#bridgeVectorHist'), vectors.histogram, vectors.states);
+        const divides = [...scalar.orbits, ...vectors.orbits].every(o => dim % o.length === 0);
+        $('#bridgeChecks').innerHTML = `<div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3"><div class="text-xs muted">Fixed-point difference</div><strong class="${vectors.fixed - scalar.fixed === 1 ? 'status-pass' : 'status-fail'}">${vectors.fixed} − ${scalar.fixed} = ${vectors.fixed - scalar.fixed}</strong><div class="text-xs muted">Expected: 1 (all-ones identification)</div></div><div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3"><div class="text-xs muted">Necklace check</div><strong class="${divides ? 'status-pass' : 'status-fail'}">${divides ? 'PASS' : 'FAIL'}</strong><div class="text-xs muted">Every orbit length divides d = ${dim}.</div></div><div class="rounded-[calc(var(--radius)*.6)] border border-[var(--color-border)] p-3"><div class="text-xs muted">State counts</div><strong class="status-pass">${vectors.states} vs ${scalar.states}</strong><div class="text-xs muted">Exactly one additional binary vector.</div></div>`;
+        scheduleOrbitMapRender();
+      }
+
+      function updateShell() {
+        $$('.engine-choice').forEach(b => {
+          b.classList.toggle('btn-primary', b.dataset.engine === engine);
+          b.classList.toggle('tab-active', b.dataset.engine === engine);
+        });
+        $('#scalarView').classList.toggle('hidden', engine !== 'scalar');
+        $('#linearView').classList.toggle('hidden', engine !== 'linear');
+        $('#bridgeView').classList.toggle('hidden', engine !== 'bridge');
+        $('#parameterBar').classList.toggle('hidden', engine === 'linear');
+        $('#allowedValuesPanel').classList.toggle('hidden', engine === 'linear');
+        const settings = {
+          scalar: ['SCALAR ENGINE', 'Scalar orbit explorer', `Explore the map T<sub>p,d</sub>(k) = p·k mod (p<sup>d</sup> − 1). Every state and orbit shown here is computed exactly.`],
+          linear: ['F₂-LINEAR ENGINE', 'F₂ linear-map explorer', 'Edit maps on F₂<sup>N</sup>, inspect their composition, and exhaustively enumerate the selected vector space. Matrix convention: column vectors.'],
+          bridge: ['BRIDGE · p = 2', 'Scalar ↔ binary shift', 'Compare the scalar map and cyclic bit-shift side by side. The state spaces differ by the all-ones vector, identified with zero in the scalar residue ring.']
+        } [engine];
+        $('#activeEngineBadge').textContent = settings[0];
+        $('#pageTitle').textContent = settings[1];
+        $('#pageIntro').innerHTML = settings[2];
+        renderChecks();
+        renderBridge();
+      }
+
+      function randomInvertible() {
+        while (true) {
+          const m = Array.from({
+            length: N
+          }, () => Math.floor(Math.random() * (1 << N)));
+          if (inverse(m)) return m;
+        }
+      }
+
+      function download(filename, content, type = 'text/plain') {
+        const blob = new Blob([content], {
+          type: `${type};charset=utf-8`
+        });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        a.click();
+        URL.revokeObjectURL(a.href);
+      }
+
+      function csvFor(orbits, formatter = x => x.toString()) {
+        return 'orbit_id,cycle_length,state_index,state\n' + orbits.flatMap((orbit, i) => orbit.map((state, j) => `${i + 1},${orbit.length},${j + 1},${formatter(state)}`)).join('\n');
+      }
+
+      function showToast(message) {
+        const toast = $('#toast');
+        toast.textContent = message;
+        toast.classList.remove('hidden');
+        clearTimeout(showToast.timer);
+        showToast.timer = setTimeout(() => toast.classList.add('hidden'), 2600);
+      }
+
+      function matrixData() {
+        return Object.fromEntries(Object.entries(matrices).map(([key, rows]) => [key, rows.map(bitString)]));
+      }
+
+      function exportMatrices() {
+        const data = {
+          dimension: N,
+          field: 'F2',
+          convention: 'column vectors; composition M_ca · M_bc · M_ab',
+          editingMode: matrixMode,
+          matrices: matrixData()
+        };
+        download('forager-f2-matrices.json', JSON.stringify(data, null, 2), 'application/json');
+      }
+
+      function setEngine(value) {
+        engine = value;
+        updateShell();
+      }
+
+        document.addEventListener('click', event => {
+    const linearDimensionStep = event.target.closest('.linear-dimension-step');
+    if (linearDimensionStep) {
+      setLinearDimension(N + Number(linearDimensionStep.dataset.step));
+      return;
+    }
+    const parameterStep = event.target.closest('.parameter-step');
+    const parameterOption = event.target.closest('.parameter-option');
+    if (parameterStep || parameterOption) {
+      const parameter = parameterStep ? parameterStep.dataset.parameter : parameterOption.dataset.parameterValue;
+      const input = parameter === 'p' ? $('#pInput') : $('#dInput');
+      const allowedPrimes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71];
+      let value = Number(input.value);
+      if (parameterOption) {
+        value = Number(parameterOption.dataset.value);
+        const picker = parameterOption.closest('details');
+        if (picker) picker.open = false;
+      } else if (parameter === 'p') {
+        const direction = Number(parameterStep.dataset.step);
+        const currentIndex = allowedPrimes.indexOf(value);
+        const safeIndex = currentIndex < 0 ? allowedPrimes.findIndex(prime => prime >= value) : currentIndex;
+        const nextIndex = Math.max(0, Math.min(allowedPrimes.length - 1, (safeIndex < 0 ? allowedPrimes.length - 1 : safeIndex) + direction));
+        value = allowedPrimes[nextIndex];
+      } else {
+        value = Math.max(1, Math.min(16, value + Number(parameterStep.dataset.step)));
+      }
+      const candidateP = parameter === 'p' ? value : Number($('#pInput').value);
+      let candidateD = parameter === 'd' ? value : Number($('#dInput').value);
+      const limit = readStateLimit();
+      if (Math.pow(candidateP, candidateD) - 1 > limit && parameter === 'p') {
+        let maxDimension = 0;
+        for (let dimension = 1; dimension <= 16; dimension++) {
+          if (Math.pow(candidateP, dimension) - 1 <= limit) maxDimension = dimension;
+        }
+        if (maxDimension > 0) {
+          candidateD = maxDimension;
+          $('#dInput').value = candidateD;
+          $$('.parameter-option[data-parameter-value="d"]').forEach(button => {
+            button.classList.toggle('is-active', Number(button.dataset.value) === candidateD);
+          });
+          showToast(`Dimension adjusted to d = ${candidateD}, the maximum for p = ${candidateP} under your state limit.`);
+        }
+      }
+      if (Math.pow(candidateP, candidateD) - 1 > limit) {
+        const maxDimension = Math.max(0, Math.floor(Math.log(limit + 1) / Math.log(candidateP)));
+        showToast(maxDimension ? `That combination exceeds your ${limit.toLocaleString()}-state limit. Choose d ≤ ${maxDimension} for p = ${candidateP}.` : `No dimension fits p = ${candidateP} under your ${limit.toLocaleString()}-state limit. Increase the limit above.`);
+        return;
+      }
+      input.value = value;
+      document.querySelectorAll(`.parameter-option[data-parameter-value="${parameter}"]`).forEach(button => {
+        button.classList.toggle('is-active', Number(button.dataset.value) === value);
+      });
+      computeScalar();
+      return;
+    }
+    const bridgeState = event.target.closest('.bridge-state');
+    if (bridgeState) {
+      const value = Number(bridgeState.dataset.bridgeValue);
+      const scalarValue = bridgeState.dataset.bridgeSide === 'scalar' ? value : value % ((1 << d) - 1);
+      const vectorValue = bridgeState.dataset.bridgeSide === 'vector' ? value : value;
+      $$('.bridge-state').forEach(button => {
+        const selected = button.dataset.bridgeSide === 'scalar' ? Number(button.dataset.bridgeValue) === scalarValue : Number(button.dataset.bridgeValue) === vectorValue;
+        button.classList.toggle('is-selected', selected);
+      });
+      $('#bridgeSelectionNote').textContent = vectorValue === (1 << d) - 1 ? `Selected all-ones vector (${d} bits); its scalar counterpart is residue 0 because 2^d − 1 ≡ 0.` : `Selected binary pattern ${vectorValue.toString(2).padStart(d, '0')} ↔ scalar residue ${scalarValue}.`;
+      return;
+    }
+    const layoutChoice = event.target.closest('.orbit-layout-choice');
+    if (layoutChoice) {
+      orbitMapLayout = layoutChoice.dataset.layout;
+      $$('.orbit-layout-choice').forEach(button => {
+        const selected = button.dataset.layout === orbitMapLayout;
+        button.classList.toggle('tab-active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+      scheduleOrbitMapRender();
+      return;
+    }
+    const projectionChoice = event.target.closest('.orbit-projection-choice');
+    if (projectionChoice) {
+      orbitProjection = projectionChoice.dataset.projection;
+      $$('.orbit-projection-choice').forEach(button => {
+        const selected = button.dataset.projection === orbitProjection;
+        button.classList.toggle('tab-active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+      });
+      scheduleOrbitMapRender();
+      return;
+    }
+    const choice = event.target.closest('.engine-choice');
+        if (choice) {
+          setEngine(choice.dataset.engine);
+          return;
+        }
+        const cell = event.target.closest('.matrix-cell');
+        if (cell && !cell.disabled) {
+          const key = cell.dataset.matrix,
+            row = Number(cell.dataset.row),
+            col = Number(cell.dataset.col);
+                matrices[key][row] ^= 1 << (N - 1 - col);
+      if (key === 'outer') computeLinear();
+      else {
+        if (matrixMode === 'free-two' && (key === 'ab' || key === 'bc') && !inverse(matrices[key])) {
+          matrices[key][row] ^= 1 << (N - 1 - col);
+          showToast(`Free-two matrices must remain invertible; this bit change was reverted.`);
+          return;
+        }
+        updateDerived(); renderChain(); renderChecks();
+      }
+          return;
+        }
+        const preset = event.target.closest('[data-preset]');
+        if (preset) {
+          matrices.outer = preset.dataset.preset === 'identity' ? identity() : preset.dataset.preset === 'jordan' ? jordan() : randomInvertible();
+          computeLinear();
+          return;
+        }
+        const mode = event.target.closest('.mode-choice');
+        if (mode) {
+          matrixMode = mode.dataset.mode;
+          let resetSingularMaps = false;
+          if (matrixMode === 'free-two') {
+            if (!inverse(matrices.ab)) {
+              matrices.ab = identity();
+              resetSingularMaps = true;
+            }
+            if (!inverse(matrices.bc)) {
+              matrices.bc = identity();
+              resetSingularMaps = true;
+            }
+            updateDerived();
+          }
+          $('.mode-choice').forEach(button => button.classList.toggle('tab-active', button === mode));
+          renderChain();
+          renderChecks();
+          if (resetSingularMaps) {
+            showToast('Singular maps were reset to identity so Free two can derive M_ca.');
+          }
+          return;
+        }
+      });
+      $('#orbitMapFilters').addEventListener('change', event => {
+        const cycleFilter = event.target.closest('[data-map-cycle]');
+        const bandFilter = event.target.closest('[data-map-band]');
+        if (cycleFilter) {
+          const length = Number(cycleFilter.dataset.mapCycle);
+          if (cycleFilter.checked) selectedMapCycleLengths.add(length);
+          else selectedMapCycleLengths.delete(length);
+        } else if (bandFilter) {
+          const band = Number(bandFilter.dataset.mapBand);
+          if (bandFilter.checked) selectedMapBands.add(band);
+          else selectedMapBands.delete(band);
+        } else {
+          return;
+        }
+        scheduleOrbitMapRender();
+      });
+      $('#runScalar').addEventListener('click', computeScalar);
+      $('#orbitSearch').addEventListener('input', () => renderScalarCatalogue(true));
+      $('#orbitLengthFilters').addEventListener('change', event => {
+        const checkbox = event.target.closest('[data-cycle-length]');
+        if (!checkbox) return;
+        const length = Number(checkbox.dataset.cycleLength);
+        if (checkbox.checked) selectedOrbitLengths.add(length);
+        else selectedOrbitLengths.delete(length);
+        renderScalarCatalogue(true);
+      });
+      $('#showMoreOrbits').addEventListener('click', () => {
+        orbitPage++;
+        renderScalarCatalogue();
+      });
+      $('#linearDimensionInput').addEventListener('change', event => setLinearDimension(event.target.value));
+      $('#pInput').addEventListener('change', computeScalar);
+      $('#dInput').addEventListener('change', computeScalar);
+      $('#stateLimitInput').addEventListener('change', () => {
+        readStateLimit();
+        updateParameterOptions();
+        computeScalar();
+      });
+      $('#nInput').addEventListener('input', updateDimensionStatus);
+      $('#sInput').addEventListener('input', updateDimensionStatus);
+      $('#copyOuter').addEventListener('click', async () => {
+        await navigator.clipboard.writeText(matrices.outer.map(bitString).join('\n'));
+        showToast(`Outer matrix copied as ${N} bit strings.`);
+      });
+      $('#pasteOuter').addEventListener('click', () => $('#pasteArea').classList.toggle('hidden'));
+      $('#applyPaste').addEventListener('click', () => {
+        const lines = $('#matrixPaste').value.trim().split(/[\s,;]+/).filter(Boolean);
+        if (lines.length !== N || lines.some(line => line.length !== N || !/^[01]+$/.test(line))) {
+          $('#pasteStatus').textContent = `Enter exactly ${N} rows of ${N} bits.`;
+          return;
+        }
+        matrices.outer = lines.map(line => parseInt(line, 2));
+        $('#pasteStatus').textContent = 'Matrix applied.';
+        computeLinear();
+      });
+        $('#exportMatrices').addEventListener('click', exportMatrices);
+  $('#exportMatrixText').addEventListener('click', () => {
+    const text = Object.entries(matrices).map(([key, rows]) => `${key.toUpperCase()}\n${rows.map(bitString).join('\n')}`).join('\n\n');
+    download('forager-f2-matrices.txt', text);
+  });
+  $('#exportScalarCsv').addEventListener('click', () => {
+        if (scalarResult) download('scalar-orbits.csv', csvFor(scalarResult.orbits), 'text/csv');
+      });
+      $('#downloadCsv').addEventListener('click', () => {
+        if (engine === 'scalar' && scalarResult) download('scalar-orbits.csv', csvFor(scalarResult.orbits), 'text/csv');
+        else if (engine === 'linear' && linearResult) download('f2-linear-orbits.csv', csvFor(linearResult.orbits, x => `0b${x.toString(2).padStart(N,'0')}`), 'text/csv');
+        else if (engine === 'bridge' && bridgeResult) download('bridge-scalar-orbits.csv', csvFor(bridgeResult.scalar.orbits), 'text/csv');
+        else showToast('No orbit table is currently available.');
+      });
+      $('#shareButton').addEventListener('click', async () => {
+        const payload = {
+          engine,
+          p,
+          d,
+          matrixMode,
+          matrices: matrixData(),
+          n: $('#nInput').value,
+          s: $('#sInput').value,
+          stateLimit: readStateLimit(),
+          linearDimension: N
+        };
+        const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+        const url = `${location.origin}${location.pathname}#state=${encoded}`;
+        try {
+          await navigator.clipboard.writeText(url);
+          showToast('Share link copied to clipboard.');
+        } catch {
+          prompt('Copy this share link:', url);
+        }
+      });
+
+      function restoreShare() {
+        const match = location.hash.match(/state=([^&]+)/);
+        if (!match) return;
+        try {
+          const value = JSON.parse(decodeURIComponent(escape(atob(match[1]))));
+          if (['scalar', 'linear', 'bridge'].includes(value.engine)) engine = value.engine;
+          if (Number.isInteger(value.p)) p = value.p;
+          if (Number.isInteger(value.d)) d = value.d;
+          if (Number.isInteger(value.stateLimit)) stateLimit = Math.max(1, Math.min(MAX_STATE_LIMIT, value.stateLimit));
+          if (Number.isInteger(value.linearDimension)) {
+            N = Math.max(1, Math.min(16, value.linearDimension));
+            matrices = { outer: jordan(), ab: identity(), bc: identity(), ca: identity() };
+            $('#linearDimensionInput').value = N;
+            $$( '.linear-dimension-label' ).forEach(label => label.textContent = N);
+            $('#dimensionGapLabel').textContent = N;
+          }
+          if (value.matrixMode === 'free-three' || value.matrixMode === 'free-two') matrixMode = value.matrixMode;
+          $('#pInput').value = p;
+          $('#dInput').value = d;
+          $('#stateLimitInput').value = stateLimit;
+          if (value.matrices)
+            for (const key of ['outer', 'ab', 'bc', 'ca'])
+              if (Array.isArray(value.matrices[key]) && value.matrices[key].length === N && value.matrices[key].every(x => x.length === N && /^[01]+$/.test(x))) matrices[key] = value.matrices[key].map(x => parseInt(x, 2));
+          if (value.n !== undefined) $('#nInput').value = value.n;
+          if (value.s !== undefined) $('#sInput').value = value.s;
+        } catch {
+          /* Ignore malformed shared state and use defaults. */ }
+      }
+      restoreShare();
+      computeScalar();
+      computeLinear();
+      updateShell();
+    })();
+
+  </script>
+</body>
+
+</html>
