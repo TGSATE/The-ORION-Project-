@@ -1,0 +1,62 @@
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-102-Monolithic-Lean/RequestProject/Coherence.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-102-Monolithic-Lean/RequestProject/Dynamics.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-102-Monolithic-Lean/RequestProject/Fields.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-102-Monolithic-Lean/RequestProject/Golden.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-102-Monolithic-Lean/RequestProject/Main.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-102-Monolithic-Lean/RequestProject/Metrics.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle-165-Einsteinian-Tensors/Ablations.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-165-Einsteinian-Tensors/Coupling.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-165-Einsteinian-Tensors/Main.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-165-Einsteinian-Tensors/Structure.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle-165-Einsteinian-Tensors/Verified.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/ActionsAndFluids.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/CognitiveFields.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/Coherence.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/Cosmology.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/Dynamics.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/GoldenScaling.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/Information.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/PhysicalTest.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/QuantumSector.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/ScalarField.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/Synthesis.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/EFMW/Systems.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Aristotle_EFMW_Lean/RequestProject/Main.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/EFMW-Axioms/EFMWAxioms/Axioms.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/EFMW-Axioms/EFMWAxioms/Main.lean
+errors=3 sorrywarn=0	/tmp/teamcode/enuminous/EFMW-Constants-Problem/EFMWConstants/Core.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/EFMW-Constants-Problem/EFMWConstants/Main.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/EFMW-Scientific-Claims/Main.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/EFMW_Post156_Zoo_Audit/EFMWPost156Audit/DerivedCandidates.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/EFMW_Post156_Zoo_Audit/EFMWPost156Audit/FieldSpaceClosure.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/EFMW_Post156_Zoo_Audit/EFMWPost156Audit/ProjectedGluing.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/EFMW_Post156_Zoo_Audit/lean/ProofAudit.lean
+errors=1 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/Basic.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/Conservation.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/Coupling.lean
+errors=1 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/Gluing.lean
+errors=1 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/Inventory.lean
+errors=1 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/Reciprocity.lean
+errors=1 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/FieldSpace/SourceData.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Einsteinian-156-Aristotle/RequestProject/Main.lean
+errors=1 sorrywarn=0	/tmp/teamcode/enuminous/Emergentology/Emergentology/Core.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Emergentology/Emergentology/Main.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/FieldSpace/FieldSpace.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/FieldSpace/FieldSpace/Ablations.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/FieldSpace/FieldSpace/Coupling.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/FieldSpace/FieldSpace/Structure.lean
+errors=6 sorrywarn=0	/tmp/teamcode/enuminous/Universal-Cognitive-Attractor/UCA/Core.lean
+LOCALIMPORT	/tmp/teamcode/enuminous/Universal-Cognitive-Attractor/UCA/Main.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Coherence-Prediction-Engine/references/FIELDSPACE_VERIFIED.lean
+errors=0 sorrywarn=0	/tmp/teamcode/enuminous/Coherence-Prediction-Engine/references/metrics.lean
+errors=1 sorrywarn=0	/tmp/jm/One/Stable.lean
+errors=0 sorrywarn=0	/tmp/jm/One/ThreeMachine.lean
+errors=0 sorrywarn=0	/tmp/jm/One/file(3).lean
+errors=0 sorrywarn=0	/tmp/jm/One/file(4).lean
+errors=0 sorrywarn=0	/tmp/jm/One/main.lean
+
+NOTE: the five Einsteinian-156-Aristotle FieldSpace "errors=1" lines are an artifact of this check, not errors in Matthew's code.
+Those files use `public import RequestProject.FieldSpace...` (imports of his own modules), which the filter missed, and his module names clash with this project's own `RequestProject` folder.
+All results were produced with Lean 4.28.0 and Mathlib 8f9d9cff, on 8 October 2026.

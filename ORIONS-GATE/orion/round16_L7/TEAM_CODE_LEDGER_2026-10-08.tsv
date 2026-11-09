@@ -1,0 +1,381 @@
+who	account	repo	own/fork	last_push	language	commit	status
+Mike	meta-introspector	kant-zk-pastebin	own	2026-10-07	JavaScript	81e42b19bc11	listed (over 150 MB, skipped)
+Mike	meta-introspector	lean-workers-union	own	2026-10-07	Lean	efe2db1caed0	downloaded
+Mike	meta-introspector	aristotle-cli-rs	own	2026-10-06	Rust	f87ba4f00670	downloaded
+Mike	meta-introspector	meta-introspector	own	2026-10-04	Rust	635d176a97ab	listed (over 150 MB, skipped)
+Mike	meta-introspector	aok	own	2026-10-04	Lean	7e92e6432c07	downloaded
+Mike	meta-introspector	lean-worker	own	2026-10-03	Lean	5ab083dce7db	downloaded
+Mike	meta-introspector	lean-worker-gh-twin	own	2026-10-01		b58d56d4e20c	downloaded
+Mike	meta-introspector	vesper-studio	own	2026-09-18		81b9fc4ce7e7	downloaded
+Mike	meta-introspector	hesper-studio	own	2026-09-06		832c51448e4d	downloaded
+Mike	meta-introspector	dpkg-lean4	own	2026-08-31	JavaScript	93e950ac06ec	listed
+Mike	meta-introspector	native-space	own	2026-08-26		12461ae005db	listed
+Mike	meta-introspector	openpaths-mirror	own	2026-08-23	TypeScript	a76397613a9a	listed
+Mike	meta-introspector	galois-fields	own	2026-08-22		c0f1a7765fde	listed
+Mike	meta-introspector	aitycoon	own	2026-08-22		87d293bddc8a	listed
+Mike	meta-introspector	PapaBearZKP	own	2026-08-19	TeX	20480c213ca5	listed
+Mike	meta-introspector	dasl-test-case-feed	own	2026-08-15	HTML	f9355e546e41	listed
+Mike	meta-introspector	monster	own	2026-08-12	Rust	b82b09439139	listed (over 150 MB, skipped)
+Mike	meta-introspector	Sovereign_Engine	own	2026-07-23		bbdb21749dcc	listed
+Mike	meta-introspector	lean-split-tool	own	2026-07-22	Lean	e15582c1f045	listed
+Mike	meta-introspector	lang_agent	own	2026-07-12	Rocq Prover	c90f6117253d	listed
+Mike	meta-introspector	Sovereign-Engine	own	2026-07-11		e7b11f314dea	listed (over 150 MB, skipped)
+Mike	meta-introspector	streamofrandom	own	2026-07-10	Shell	5af6d93a8c98	listed
+Mike	meta-introspector	Alexander-Grothendieck	own	2026-07-03		c6e1abd74558	listed
+Mike	meta-introspector	cargo-vendormod	own	2026-06-12	Nix	75c01d3e7e78	listed
+Mike	meta-introspector	shards	own	2026-06-09	HTML	ab896e2fe56a	listed
+Mike	meta-introspector	hqiv-lean	own	2026-06-03		e9373521cc1a	listed
+Mike	meta-introspector	google-fuzztest-flake	own	2026-05-17		unavailable	listed
+Mike	meta-introspector	rust_cid_npm	own	2026-05-10	Rust	18887917204e	listed
+Mike	meta-introspector	node-hanzoai-rs	own	2026-04-06		a720d062aea7	listed (over 150 MB, skipped)
+Mike	meta-introspector	bach-goedel-escher-bott-conway	own	2026-04-06	Python	312e555cb469	listed
+Mike	meta-introspector	solfunmeme-dioxus	own	2026-04-06	Rust	a059f98744a5	listed
+Mike	meta-introspector	Luna_chat_v7	own	2026-04-04		160d1dd55f42	listed
+Mike	meta-introspector	wikipedia-osm-opendatasync-rs	own	2026-04-02	Rust	f158663afe98	listed
+Mike	meta-introspector	zos-plugin-activity-profile	own	2026-04-01		unavailable	listed
+Mike	meta-introspector	erdfa-publish	own	2026-04-01	Rust	70965ed643e8	listed
+Mike	meta-introspector	zos-server	own	2026-04-01	Rust	35c565390d66	listed
+Mike	meta-introspector	zos-plugin-ferron-zos	own	2026-03-31	Rust	1a4cdd6b3de3	listed
+Mike	meta-introspector	zkperf-action	own	2026-03-31	Python	d2b8b34dc66c	listed
+Mike	meta-introspector	zos-plugin-toolchain	own	2026-03-31	Rust	5f97d595fa81	listed
+Mike	meta-introspector	zos-plugin-build-logger	own	2026-03-31	Rust	bb5b0148e127	listed
+Mike	meta-introspector	zos-plugin-call-graph	own	2026-03-31	Rust	54aa16161ee8	listed
+Mike	meta-introspector	zos-plugin-syn-compress	own	2026-03-31	Rust	8fd5f3fcf095	listed
+Mike	meta-introspector	zos-plugin-symbol-sim	own	2026-03-31	Rust	af373f06836a	listed
+Mike	meta-introspector	zos-plugin-telemetry-driver	own	2026-03-31	Rust	6303d9598961	listed
+Mike	meta-introspector	zos-plugin-preload	own	2026-03-31	Rust	0f128872aca9	listed
+Mike	meta-introspector	zos-plugin-duckdb	own	2026-03-31	Rust	6b2fe1c25555	listed
+Mike	meta-introspector	zos-plugin-const71	own	2026-03-31	Rust	38d5dcc84602	listed
+Mike	meta-introspector	zos-plugin-cargo2nix	own	2026-03-31	Rust	30b4dc343077	listed
+Mike	meta-introspector	zos-plugin-type-graph	own	2026-03-31	Rust	045b98bb2407	listed
+Mike	meta-introspector	zos-plugin-build-order	own	2026-03-31	Rust	3fc5d9a5eca8	listed
+Mike	meta-introspector	zos-plugin-telemetry-proof	own	2026-03-31	Rust	f4069280d810	listed
+Mike	meta-introspector	zos-plugin-ld-intercept	own	2026-03-31	Rust	9e68586227c6	listed
+Mike	meta-introspector	zos-plugin-bootstrap-macros	own	2026-03-31	Rust	344729d94e30	listed
+Mike	meta-introspector	mesh-sync-rs	own	2026-03-31	Rust	6193b8e98098	listed
+Mike	meta-introspector	zos-plugin-podping	own	2026-03-31	Rust	6e1bd1dda7da	listed
+Mike	meta-introspector	mirror_ai	own	2026-03-31		ddc7ae95746a	listed
+Mike	meta-introspector	zos-plugin-ooda-noc	own	2026-03-31	Rust	ebb18c355708	listed
+Mike	meta-introspector	zos-plugin-iroh-gossip	own	2026-03-31	Makefile	f086b2528293	listed (over 150 MB, skipped)
+Mike	meta-introspector	zos-plugin-ipfs	own	2026-03-30	Rust	0f2299fbc51b	listed
+Mike	meta-introspector	zos-plugin-stego	own	2026-03-30	Rust	b1471be1ade8	listed
+Mike	meta-introspector	zos-plugin-mesh	own	2026-03-30	Rust	810f30005cde	listed
+Mike	meta-introspector	zos-plugin-activitypub	own	2026-03-30	Rust	3bb1218ef85c	listed
+Mike	meta-introspector	zos-plugin-pastebin-threads	own	2026-03-30	Rust	f6594ed1ea5e	listed
+Mike	meta-introspector	zos-plugin-zip-export	own	2026-03-30		unavailable	listed
+Mike	meta-introspector	zos-plugin-vibrato	own	2026-03-30	Rust	eefedd537252	listed
+Mike	meta-introspector	zos-plugin-vaporetto	own	2026-03-30	Rust	398a33f941db	listed
+Mike	meta-introspector	zos-plugin-tongrams	own	2026-03-30	Rust	30b8dcd5ee3c	listed
+Mike	meta-introspector	zos-plugin-system-discovery	own	2026-03-30	Rust	7a3bc63c0b3e	listed
+Mike	meta-introspector	zos-plugin-steel	own	2026-03-30	Rust	b7e9da62a515	listed
+Mike	meta-introspector	zos-plugin-solana-airdrop	own	2026-03-30	Rust	03160d93124b	listed
+Mike	meta-introspector	zos-plugin-snm-atlas	own	2026-03-30	Rust	b297f934b90c	listed
+Mike	meta-introspector	zos-plugin-s3	own	2026-03-30	Rust	2c5a3c8f6239	listed
+Mike	meta-introspector	zos-plugin-rust-sentence-transformers	own	2026-03-30	Rust	54e249741f56	listed
+Mike	meta-introspector	zos-plugin-rust-sbert	own	2026-03-30	Rust	d4a1668c5df2	listed
+Mike	meta-introspector	zos-plugin-rhai	own	2026-03-30	Rust	0e124e457ef9	listed
+Mike	meta-introspector	zos-plugin-quickwit	own	2026-03-30	Rust	250dc983530c	listed
+Mike	meta-introspector	zos-plugin-plugin-registry	own	2026-03-30	Rust	9662c975b306	listed
+Mike	meta-introspector	zos-plugin-omnisearch	own	2026-03-30	Rust	6bf242bfec7f	listed
+Mike	meta-introspector	zos-plugin-noc-manager	own	2026-03-30	Rust	bbee7b18f655	listed
+Mike	meta-introspector	zos-plugin-nlprule	own	2026-03-30	Rust	46c209a6395f	listed
+Mike	meta-introspector	zos-plugin-monster-manifold	own	2026-03-30	Rust	abb5074117fc	listed
+Mike	meta-introspector	zos-plugin-model2vec	own	2026-03-30	Rust	ee5bda827622	listed
+Mike	meta-introspector	zos-plugin-llms-from-scratch	own	2026-03-30	Rust	3c45a46d334b	listed
+Mike	meta-introspector	zos-plugin-layered-nlp	own	2026-03-30	Rust	5a4869993bf1	listed
+Mike	meta-introspector	zos-plugin-keyword-extraction	own	2026-03-30	Rust	1269d49417a7	listed
+Mike	meta-introspector	zos-plugin-json-ld	own	2026-03-30	Rust	7a4635dc2b3f	listed
+Mike	meta-introspector	zos-plugin-harbor	own	2026-03-30	Rust	599ce1fc1244	listed
+Mike	meta-introspector	zos-plugin-gline-rs	own	2026-03-30	Rust	e03b5e8bf4ed	listed
+Mike	meta-introspector	zos-plugin-github-manager	own	2026-03-30	Rust	cca0030ee75a	listed
+Mike	meta-introspector	zos-plugin-git	own	2026-03-30	Rust	0c5541a8e7db	listed
+Mike	meta-introspector	zos-plugin-extractous	own	2026-03-30	Rust	7cf49588402d	listed
+Mike	meta-introspector	zos-plugin-emoji-lang	own	2026-03-30	Rust	3ec896e88b36	listed
+Mike	meta-introspector	zos-plugin-eliza-rs	own	2026-03-30	Rust	ee914843e672	listed
+Mike	meta-introspector	zos-plugin-bm25	own	2026-03-30	Rust	24665edd0153	listed
+Mike	meta-introspector	zos-plugin-a11y-gui	own	2026-03-30	Rust	dada4d1fa421	listed
+Mike	meta-introspector	zos-plugin-vtext	own	2026-03-30	Rust	0ed7f2d83459	listed
+Mike	meta-introspector	time-2025	own	2026-03-30	HTML	2b6229a45180	listed
+Mike	meta-introspector	split-decls-rs	own	2026-03-30	Rust	5e321de52cd8	listed (over 150 MB, skipped)
+Mike	meta-introspector	stable-audio-candle	own	2026-03-30	Makefile	72cd61578fd6	listed (over 150 MB, skipped)
+Mike	meta-introspector	zos-plugin-template	own	2026-03-30	Rust	0ed7f2d83459	listed
+Mike	meta-introspector	zos-plugin-rust-parser	own	2026-03-30	Rust	f382006c4ff7	listed
+Mike	meta-introspector	zos-plugin-orbits	own	2026-03-30	Rust	1e332141f9e3	listed
+Mike	meta-introspector	zos-plugin-monster	own	2026-03-30	Rust	54beffc3f2b6	listed
+Mike	meta-introspector	zos-plugin-mcp	own	2026-03-30	Rust	e71991f0265c	listed
+Mike	meta-introspector	zos-plugin-charts	own	2026-03-30	Rust	5c948a217cd6	listed
+Mike	meta-introspector	zos-plugin-bert	own	2026-03-30	Rust	3fdd26267d23	listed
+Mike	meta-introspector	hf-dep-vector-quantize-pytorch	own	2026-03-30	Python	63129b34b8b3	listed
+Mike	meta-introspector	hf-dep-v-diffusion-pytorch	own	2026-03-30	Python	2c912803b2c6	listed
+Mike	meta-introspector	hf-dep-prefigure	own	2026-03-30	Python	7bdad494cdcf	listed
+Mike	meta-introspector	hf-dep-ema-pytorch	own	2026-03-30	Python	874eac021219	listed
+Mike	meta-introspector	hf-dep-einops-exts	own	2026-03-30	Python	485e2430c731	listed
+Mike	meta-introspector	hf-dep-descript-audio-codec	own	2026-03-30	Python	c76ea9267761	listed
+Mike	meta-introspector	hf-dep-clap	own	2026-03-30	Python	807823f31b44	listed
+Mike	meta-introspector	hf-dep-auraloss	own	2026-03-30	Python	a4c1a20bfcbb	listed
+Mike	meta-introspector	hf-dep-alias-free-torch	own	2026-03-30	Python	b67f94c975f7	listed
+Mike	meta-introspector	zkperf	own	2026-03-30	Rust	3fd16a1e1e31	listed
+Mike	meta-introspector	LeechTransformer	own	2026-03-30		21bb13d2e476	listed
+Mike	meta-introspector	erdfa-py	own	2026-03-29	Rust	ca955bb076a1	listed
+Mike	meta-introspector	kagenti-native	own	2026-03-29	Rust	5a0cb126c0f3	listed
+Mike	meta-introspector	notebooklm-pack	own	2026-03-29	Rust	a6cda4392ad0	listed
+Mike	meta-introspector	hf-royalcities-model-foundation	own	2026-03-29	Python	c5a9fbb9a759	listed
+Mike	meta-introspector	fly26d-native	own	2026-03-28	Rust	b7a870391fbb	listed
+Mike	meta-introspector	rust-nix-template	own	2026-03-28	Rust	1fc042e82915	listed
+Mike	meta-introspector	n00b	own	2026-03-26	Rust	a6005c1cbdbf	listed
+Mike	meta-introspector	kagenti-portal	own	2026-03-25	Rust	494c0565a43f	listed
+Mike	meta-introspector	stego-fractran	own	2026-03-25	Rust	91d68fe762cd	listed
+Mike	meta-introspector	nixwars-cli	own	2026-03-24	Rust	0ce02e174753	listed
+Mike	meta-introspector	kagenti-infra	own	2026-03-23	Nix	de0a4fc99c1a	listed
+Mike	meta-introspector	dashi_lean4	own	2026-03-23	Lean	1490c7dc4964	listed
+Mike	meta-introspector	monster-pipeline	own	2026-03-16	Shell	9e6c39c7b92f	listed
+Mike	meta-introspector	kiro.el	own	2026-03-14	Emacs Lisp	4cd4b0b4db13	listed
+Mike	meta-introspector	zoda-das	own	2026-03-11		599687393187	listed
+Mike	meta-introspector	Monster-LILA	own	2026-03-06		ac5272ec345a	listed
+Mike	meta-introspector	time-grants	own	2026-02-24	Python	02a61e351935	listed
+Mike	meta-introspector	osm-planet-torrent	own	2026-02-24	Rust	6bbfce092c77	listed
+Mike	meta-introspector	time-2026-grants	own	2026-02-24		846154ae16b6	listed
+Mike	meta-introspector	osm-planet-71-doors	own	2026-02-22	HTML	ff995b0010a1	listed
+Mike	meta-introspector	osm-planet-demos	own	2026-02-22	HTML	2b97f2551867	listed
+Mike	meta-introspector	lmfdb-rain	own	2026-02-14	HTML	2475bf7f0a48	listed
+Mike	meta-introspector	kepler-nix	own	2026-02-10		e80c83f1f8ca	listed
+Mike	meta-introspector	onlyskils-dev	own	2026-02-06	Makefile	1d7b32f7b875	listed
+Mike	meta-introspector	unimath-comic	own	2026-02-05	Python	4cc6228473c0	listed
+Mike	meta-introspector	ams-tex-paper-71	own	2026-02-03		2b75204ec768	listed
+Mike	meta-introspector	zkprologml	own	2026-01-30	Prolog	5c11801f8610	listed (over 150 MB, skipped)
+Mike	meta-introspector	bach	own	2026-01-27	Rust	dda75a4152a8	listed
+Mike	meta-introspector	hackathon	own	2026-01-27	Rust	73841697547c	listed
+Mike	meta-introspector	super-git	own	2026-01-24	Rust	34ec45e4411b	listed
+Mike	meta-introspector	next-wasm-o1js-mina-zkapp-introspector	own	2026-01-22	TypeScript	206bba623cdb	listed
+Mike	meta-introspector	time-2026	own	2026-01-18		d6a2ccebc2f8	listed
+Mike	meta-introspector	librustc	own	2026-01-16	Rust	4e23aa7a69a1	listed
+Mike	meta-introspector	kamiyo-protocol	own	2026-01-16		2451b7e83ee8	listed (over 150 MB, skipped)
+Mike	meta-introspector	rustc-abi	own	2026-01-15		b604ce3ecfd7	listed
+Mike	meta-introspector	rust-telemetry-driver	own	2026-01-15	Rust	250a0d618c48	listed
+Mike	meta-introspector	hugging-face-dataset-validator-rust	own	2026-01-15	Rust	6ca49a507054	listed
+Mike	meta-introspector	solfunmeme	own	2026-01-14	TypeScript	eef6fa49bbd7	listed
+Mike	meta-introspector	quasi-meta-meme	own	2026-01-04	Rust	3c2cad26d5fe	listed
+Mike (personal account)	jmikedupont2	UPT-Meta	fork	2026-10-07		0f343092dfaa	downloaded
+Mike (personal account)	jmikedupont2	UPT	fork	2026-10-07		b5368f36438e	downloaded
+Mike (personal account)	jmikedupont2	WaterSheet.lean	fork	2026-10-07		3caa737cd272	downloaded
+Mike (personal account)	jmikedupont2	One	fork	2026-10-06		2169e16dacb5	downloaded
+Mike (personal account)	jmikedupont2	Hpof	fork	2026-10-02		38f34748dd13	downloaded
+Mike (personal account)	jmikedupont2	MillenniumClock	fork	2026-09-27		7e383d890a6a	downloaded
+Mike (personal account)	jmikedupont2	3-is-magic	fork	2026-09-26		289a923315b8	downloaded
+Mike (personal account)	jmikedupont2	openlightllm	own	2026-06-25	Python	0eb3eda73308	listed (over 150 MB, skipped)
+Mike (personal account)	jmikedupont2	solfunmeme-introspector	own	2026-03-25	Lean	fc658a2f32a2	listed
+Mike (personal account)	jmikedupont2	monster-osm-quest	own	2026-02-24	HTML	890a2ee67e86	listed
+Mike (personal account)	jmikedupont2	meta-meme	own	2026-01-25	Haskell	c9f849972204	listed
+Mike (personal account)	jmikedupont2	ai-ticket	own	2026-01-22	Python	5c84fd37065c	listed
+Mike (personal account)	jmikedupont2	copilot_mcp_tool	own	2025-12-06	Rust	6402972edfd0	listed
+Mike (personal account)	jmikedupont2	sheet-music	own	2025-11-20		ba64aa7f4879	listed
+Mike (personal account)	jmikedupont2	pick-up-nix	own	2025-09-17	CSS	f7b6e4ccadbe	listed
+Mike (personal account)	jmikedupont2	git-submodules-rs-nix	own	2025-09-11	Nix	fdecbc5fc889	listed
+Mike (personal account)	jmikedupont2	emoji-prime-llm-bridge	own	2025-08-04	TypeScript	df77acafba16	listed
+Mike (personal account)	jmikedupont2	meta-meme-spotter	own	2025-07-25	TypeScript	1a4ca4d7980e	listed
+Mike (personal account)	jmikedupont2	task_manager	own	2025-07-08	Rust	106cdba052b2	listed
+Mike (personal account)	jmikedupont2	ai-agent-terraform	own	2025-06-19	HCL	f533db32fade	listed
+Mike (personal account)	jmikedupont2	roblox-introspector	own	2025-04-20	Lua	d9422e8db64c	listed
+Mike (personal account)	jmikedupont2	dj	own	2025-01-10	HTML	e6b32544bf5e	listed
+Mike (personal account)	jmikedupont2	redstone-logic-builder	own	2025-01-07	TypeScript	4100771583e4	listed
+Mike (personal account)	jmikedupont2	on-demand-incremental-static-regeneration	own	2024-11-19	TypeScript	3873833ea407	listed
+Mike (personal account)	jmikedupont2	donjon	own	2024-11-09		8f09ecebb5d6	listed
+Mike (personal account)	jmikedupont2	Synapse-Project-Blog	own	2024-11-04		da33b5a25886	listed
+Mike (personal account)	jmikedupont2	prompt-studio-core	own	2024-09-28		66274efe11ee	listed
+Mike (personal account)	jmikedupont2	Khemiatic-Energistics	own	2024-07-27		3f55f14884ff	listed
+Mike (personal account)	jmikedupont2	hypertensor-web	own	2024-07-19	HTML	84e93730367e	listed
+Mike (personal account)	jmikedupont2	al-folio	own	2024-05-27	HTML	024eca44a54a	listed
+Mike (personal account)	jmikedupont2	valai	own	2024-02-28	Python	ee44ef0131a3	listed
+Mike (personal account)	jmikedupont2	emacs-data	own	2024-02-02	Emacs Lisp	3f5173ce7dbd	listed
+Mike (personal account)	jmikedupont2	introspector	own	2023-11-28	Jupyter Notebook	ea5ba8a85f49	listed
+Mike (personal account)	jmikedupont2	Morpheus-Hardhat	own	2023-10-26	Solidity	98bf82e1df1b	listed
+Mike (personal account)	jmikedupont2	team-tonic-arena-hacks-github	own	2023-10-01		4f94664494cc	listed
+Mike (personal account)	jmikedupont2	https-lablab.ai-event-llama-2-hackathon-with-clarifai-introspector	own	2023-09-15	Python	5d4c08831359	listed
+Mike (personal account)	jmikedupont2	introspector-hugo-twenty-twenty-forestry	own	2023-04-18	Shell	824a90ec06b1	listed
+Mike (personal account)	jmikedupont2	astdf	own	2022-08-12	Jupyter Notebook	55be6ec2e950	listed
+Mike (personal account)	jmikedupont2	pybindgcc	own	2022-01-03		4295764bcd44	listed
+Mike (personal account)	jmikedupont2	threejs-math	own	2021-07-28	JavaScript	f4b70a592b56	listed
+Mike (personal account)	jmikedupont2	mv-data	own	2020-12-26		ddef8599322e	listed
+Mike (personal account)	jmikedupont2	streamofrandom	own	2020-11-24	HTML	23eb02f8dd32	listed
+Mike (personal account)	jmikedupont2	cleverhydration-hugo	own	2020-09-01		10147e699153	listed
+Mike (personal account)	jmikedupont2	swipe-deploy-brevifolia-gatsby-forestry	own	2020-08-22	CSS	180d34ed15dd	listed
+Mike (personal account)	jmikedupont2	introspector-data-linux	own	2020-07-27		e4c626a7ae97	listed
+Mike (personal account)	jmikedupont2	ansible-role-jetson-nano-bootstrap	own	2019-12-18	Emacs Lisp	86e2adbeaf10	listed
+Mike (personal account)	jmikedupont2	functional-ansible	own	2019-12-17	Python	2b30d6255b77	listed
+Mike (personal account)	jmikedupont2	jetson-nano	own	2019-07-24		8d6a011304aa	listed
+Mike (personal account)	jmikedupont2	bootstrap	own	2019-05-05	Python	2a799d465754	listed
+Mike (personal account)	jmikedupont2	graal-python-tests	own	2019-05-02	Python	2f0df6da9065	listed
+Mike (personal account)	jmikedupont2	osm-kosovo-names	own	2019-01-19	Python	61cf22a8e3fd	listed
+Mike (personal account)	jmikedupont2	chef-saleor	own	2019-01-09	Ruby	9f68edd01157	listed
+Mike (personal account)	jmikedupont2	azure-cli-ansible-wrappers	own	2018-01-16		c12bf435f33f	listed
+Mike (personal account)	jmikedupont2	sfk16	own	2016-10-21		92717de308d9	listed
+Matthew	enuminous	Cadence-Zoo-Evidence	own	2026-10-08	HTML	e71387449cf0	downloaded
+Matthew	enuminous	EFMW_Post156_Zoo_Audit	own	2026-10-08	HTML	93c80ff4710e	downloaded
+Matthew	enuminous	Coherence-Prediction-Engine	own	2026-10-07	Python	42224ac2f827	downloaded
+Matthew	enuminous	Emergentology	own	2026-10-07	HTML	be1e2cb78b42	downloaded
+Matthew	enuminous	Aristotle-102-Monolithic-Lean	own	2026-10-07	Lean	1d89827ccb91	downloaded
+Matthew	enuminous	Universal-Cognitive-Attractor	own	2026-10-07	HTML	8097913f4918	downloaded
+Matthew	enuminous	EFMW-Constants-Problem	own	2026-10-07	HTML	cdfd9a00e354	downloaded
+Matthew	enuminous	EFMW-Axioms	own	2026-10-07	HTML	a8119c4604fd	downloaded
+Matthew	enuminous	EFMW-Neutron-Star-Glitch-Resonance	own	2026-10-07	HTML	876aa1a8ff4c	downloaded
+Matthew	enuminous	papers	own	2026-10-07	HTML	b9e517bfae06	downloaded
+Matthew	enuminous	EFMW-Scientific-Claims	own	2026-10-07	HTML	aec51757d130	downloaded
+Matthew	enuminous	Aristotle-165-Einsteinian-Tensors	own	2026-10-07	Lean	3053b513ec9f	downloaded
+Matthew	enuminous	FieldSpace	own	2026-10-06	HTML	3a5b659ccf44	downloaded
+Matthew	enuminous	Medium2	own	2026-10-03	HTML	ec12e7b044e5	downloaded
+Matthew	enuminous	medium	own	2026-10-03	HTML	1bba9ce616ba	downloaded
+Matthew	enuminous	Einsteinian-156-Aristotle	own	2026-10-02	Lean	7e60205d2370	downloaded
+Matthew	enuminous	Archimedes-Engine	own	2026-10-01	HTML	5f221e03554d	downloaded
+Matthew	enuminous	Verbinski-Protocol	own	2026-10-01	JavaScript	8151471f42ec	downloaded
+Matthew	enuminous	Archimedes-Field-Lab	own	2026-09-30	HTML	a30e6deae0fd	downloaded
+Matthew	enuminous	Archimedes-3D	own	2026-09-30	HTML	745035616ce8	downloaded
+Matthew	enuminous	Avenue5	own	2026-09-27	Python	1792bfbb4b10	downloaded
+Matthew	enuminous	Borges-Library-CollapseOmega	own	2026-09-27	HTML	3a72256029cf	downloaded
+Matthew	enuminous	Aristotle_EFMW_Lean	own	2026-09-26	Lean	a45c5c6a2766	downloaded
+Matthew	enuminous	BackroomsProtocol-EFMW-Analysis	own	2026-09-26		467bafbb8ec0	downloaded
+Matthew	enuminous	MultiValuedClassicalAction-Lean4	own	2026-09-26	Lean	b71d77940777	downloaded
+Matthew	enuminous	EFMW-108-Minute-Tests	own	2026-09-25	Python	cb725a96bb65	downloaded
+Matthew	enuminous	Nightengale-Full-Zoo-Audit	own	2026-09-23	Lean	f69900c0cf4c	downloaded
+Matthew	enuminous	EFMW-CTX-001b	own	2026-09-23	Python	07c6c9bb42bb	downloaded
+Matthew	enuminous	Monolithic-Zoo-Lean4	own	2026-09-22	Lean	94e0a9e2550a	downloaded
+Matthew	enuminous	Alchemy-of-Emergence	own	2026-09-21		f561ccae8193	downloaded
+Matthew	enuminous	Nightengale	own	2026-09-21	Python	849c39363bea	downloaded
+Matthew	enuminous	Chimera	own	2026-09-20	Python	97b077cbeb0d	downloaded
+Matthew	enuminous	JEV-EFMW-Syncretic-Layer	own	2026-09-18	Python	c4c832b6dc9f	downloaded
+Matthew	enuminous	woodpecker	own	2026-09-11	Python	ecadbf63ac9f	downloaded
+Matthew	enuminous	EFMW-EXP-001	own	2026-09-10	Python	712f693605ab	downloaded
+Matthew	enuminous	Ligo_EFMW_Search	own	2026-09-08	Python	da1a992cf65f	downloaded
+Matthew	enuminous	simself	own	2026-09-08		b1655031a409	downloaded
+Matthew	enuminous	fieldcore	own	2026-09-08		136c5e2f4067	downloaded
+Matthew	enuminous	Monlithic_EFMW_102_Lean4	own	2026-09-06	Lean	58f743bd4492	downloaded
+Matthew	enuminous	Monolithic_Zoo_Run	own	2026-09-02	Lean	e0ff73935fd6	downloaded
+Matthew	enuminous	Monolithic-102-Zoo-Lean4	own	2026-09-02	Lean	05e6d093e1d2	downloaded
+Matthew	enuminous	Monolithic_102_EFMW	own	2026-08-24		26a3c057a80f	listed
+Matthew	enuminous	Tortoise	own	2026-08-24	Python	6658128fd2df	listed
+Matthew	enuminous	Butterfly	own	2026-08-24	Python	5952c7f260f6	listed
+Matthew	enuminous	Axolotl	own	2026-08-24	Python	af8e011f0be6	listed
+Matthew	enuminous	Bonobo	own	2026-08-24	Python	40a3c44a997b	listed
+Matthew	enuminous	Rhino	own	2026-08-24	Python	8718a3132ffc	listed
+Matthew	enuminous	Falcon	own	2026-08-24	Python	bf74635c358b	listed
+Matthew	enuminous	Whale	own	2026-08-24	Python	c64bbfb54fce	listed
+Matthew	enuminous	Cobra	own	2026-08-24	Python	1af3a2016813	listed
+Matthew	enuminous	Phoenix	own	2026-08-24	Python	20079489fe4c	listed
+Matthew	enuminous	Termite	own	2026-08-24	Python	76f70136ebf3	listed
+Matthew	enuminous	Horse	own	2026-08-24	Python	e55b6881a1d3	listed
+Matthew	enuminous	Lynx	own	2026-08-24	Python	d2f705136a61	listed
+Matthew	enuminous	Mole	own	2026-08-24	Python	523f80178510	listed
+Matthew	enuminous	Orca	own	2026-08-24	Python	a5caecf5a81b	listed
+Matthew	enuminous	Salmon	own	2026-08-24	Python	b141f6ccd5b0	listed
+Matthew	enuminous	Weasel	own	2026-08-24	Python	fa2d91ae108f	listed
+Matthew	enuminous	Bison	own	2026-08-24	Python	588acafecff7	listed
+Matthew	enuminous	Mantis	own	2026-08-24	Python	a9fd85eb62a2	listed
+Matthew	enuminous	Beaver	own	2026-08-24	Python	f6255d49e71e	listed
+Matthew	enuminous	Jellyfish	own	2026-08-24	Python	7119a66a7509	listed
+Matthew	enuminous	Chameleon	own	2026-08-24	Python	75095bd98349	listed
+Matthew	enuminous	Elephant	own	2026-08-24	Python	a30bd9ae77d7	listed
+Matthew	enuminous	Wolf	own	2026-08-24	Python	7e4fd6d2b7c8	listed
+Matthew	enuminous	Magpie	own	2026-08-24	Python	342438c17983	listed
+Matthew	enuminous	Turtle	own	2026-08-20	Python	ff98950fcb40	listed
+Matthew	enuminous	Dragon	own	2026-08-20	Python	9ac2ffe7a271	listed
+Matthew	enuminous	Crocodile	own	2026-08-20	Python	2407241cc2d7	listed
+Matthew	enuminous	Hedgehog	own	2026-08-20	Python	2e9b46039a64	listed
+Matthew	enuminous	Bat	own	2026-08-20	Python	67c2c0e3cd6f	listed
+Matthew	enuminous	Penguin	own	2026-08-20	Python	1a99e0c1eb1c	listed
+Matthew	enuminous	Shark	own	2026-08-20	Python	13ef3943eb38	listed
+Matthew	enuminous	Moth	own	2026-08-20	Python	08e5ce7cf219	listed
+Matthew	enuminous	Ant	own	2026-08-20	Python	e7432f132a47	listed
+Matthew	enuminous	Dolphin	own	2026-08-20	Python	718b09ca4966	listed
+Matthew	enuminous	Raven	own	2026-08-20	Python	d18b4a8e0581	listed
+Matthew	enuminous	Spider	own	2026-08-20	Python	fd8f546d528f	listed
+Matthew	enuminous	Fox	own	2026-08-20	Python	b4c317d45b7f	listed
+Matthew	enuminous	Cat	own	2026-08-20	Python	9bf56f891b3a	listed
+Matthew	enuminous	Pulse	own	2026-08-20	Python	78b7bd4a4fa1	listed
+Matthew	enuminous	Shepherd	own	2026-08-20	Python	c875bad6c518	listed
+Matthew	enuminous	Crab	own	2026-08-20	Python	f49f430353c9	listed
+Matthew	enuminous	Eagle	own	2026-08-20	Python	d4f6fb029312	listed
+Matthew	enuminous	Hive	own	2026-08-20	Python	e66e03d67c19	listed
+Matthew	enuminous	Gecko	own	2026-08-20	Python	0345f2ed1d98	listed
+Matthew	enuminous	Octopus	own	2026-08-20	Python	e590a6d9d757	listed
+Matthew	enuminous	Owl	own	2026-08-20	Python	afe43985e76e	listed
+Matthew	enuminous	EFMW-Safety-001	own	2026-08-17	Python	9b9e70142c63	listed
+Matthew	enuminous	EFMW-FULL	own	2026-08-16	Python	6da1de09919b	listed
+Matthew	enuminous	EFMW	own	2026-05-05	Python	cfaa09464257	listed
+Matthew	enuminous	docs	own	2026-05-05	MDX	781acbc85507	listed
+Matthew	enuminous	Medium3	own	2025-09-24	HTML	34d343e71ff7	listed
+Matthew	enuminous	Harlequinn	own	2019-05-19		f87f9d4c9565	listed
+Bobby	the-far-queen	simself	own	2026-10-07	Python	e7055493fb0f	downloaded
+Bobby	the-far-queen	fieldcore	own	2026-10-06	Python	7ee267b8734b	downloaded
+Bobby	the-far-queen	far-writing	own	2026-10-06	Python	86631f9fd76e	downloaded
+Bobby	the-far-queen	far-medicine	own	2026-10-06	Python	d153bea18efd	downloaded
+Bobby	the-far-queen	far-law	own	2026-10-06	Python	a2840f787df6	downloaded
+Bobby	the-far-queen	far-art	own	2026-10-05	Python	3de8db1050d0	downloaded
+Bobby	the-far-queen	far-games	own	2026-10-05	Python	84616c8f3fa7	downloaded
+Bobby	the-far-queen	far-music	own	2026-10-05	Python	70ab39516c9c	downloaded
+Bobby	the-far-queen	far-film	own	2026-10-05	Python	1aa5997ba8ae	downloaded
+Bobby	the-far-queen	far-mysteries	own	2026-09-27		ad0255ca724a	downloaded
+Bobby	the-far-queen	far-apps	own	2026-09-17		06706cb31247	downloaded
+Bobby	the-far-queen	sunrise-startup	own	2026-09-17		a4afe6ccce5f	downloaded
+Ryan	ryansctt1994-sudo	Weaver_Os	own	2026-10-08	Python	50ffc20917e4	downloaded
+Ryan	ryansctt1994-sudo	Weaver-Governed-RSI	own	2026-10-07		8210c2153f4c	downloaded
+Ryan	ryansctt1994-sudo	Alpha-OmegaLeanTeam	own	2026-10-07	Lean	01e3291f643b	downloaded
+Ryan	ryansctt1994-sudo	introspection-twin	own	2026-10-07	Lean	fc952ad8c4d2	downloaded
+Ryan	ryansctt1994-sudo	cathedral-verified	own	2026-10-07	Python	1c4181714b48	downloaded
+Ryan	ryansctt1994-sudo	Math_Build1994	own	2026-10-07	Python	41d2c9ae8a36	downloaded
+Ryan	ryansctt1994-sudo	Weaver--Cathedral-	own	2026-10-06	Python	a78f2190186e	downloaded
+Ryan	ryansctt1994-sudo	A.G.I-Seed-	own	2026-10-06	Python	6681feea433c	downloaded
+Ryan	ryansctt1994-sudo	LogOS	own	2026-10-04	Rust	1fa397753f90	downloaded
+Ryan	ryansctt1994-sudo	zorel-kernel	own	2026-10-04	Python	3da1802da9a3	downloaded
+Ryan	ryansctt1994-sudo	Delta-RPM-Protocol	own	2026-10-04	Python	8d1d1652fc0e	downloaded
+Ryan	ryansctt1994-sudo	Weavers-Forge-	own	2026-10-04	Python	3585019f3ab8	downloaded
+Ryan	ryansctt1994-sudo	Sym-Chaos-	own	2026-10-04	HCL	d92ad75319ec	downloaded
+Ryan	ryansctt1994-sudo	Lumen-Elpis	own	2026-10-04		bacc257ad1a0	downloaded
+Ryan	ryansctt1994-sudo	reson8-Labs	own	2026-10-04	TypeScript	f88c5a353644	downloaded
+Ryan	ryansctt1994-sudo	Lumen-Nexus	own	2026-09-28	Python	93689d76431e	downloaded
+Ryan	ryansctt1994-sudo	SynthaMed	own	2026-09-04		615a35106437	downloaded
+Beth	TGSATE	ORION-Engine-Platform-and-MMO	own	2026-10-07		e90dbbd425c0	downloaded
+Beth	TGSATE	The-ORION-Project-	own	2026-10-05		a109f2754b7d	downloaded
+found entity (not Mike)	humancodex	i-have-adhd	fork	2026-09-16		b15d0be58f55	downloaded
+found entity (not Mike)	humancodex	aura-claude-skill	own	2026-02-17	TypeScript	07ec7d4d1e16	listed
+found entity (not Mike)	humancodex	rust	own	2026-01-22	Rust	b3d40ba74ee0	listed
+found entity (not Mike)	humancodex	humancodex	own	2025-12-05		807c097eb079	listed
+found entity (not Mike)	humancodex	farma-proof-front	own	2025-08-24	TypeScript	0607faf41d84	listed
+found entity (not Mike)	humancodex	task_manager	own	2025-08-14	Python	c888bd0dfd4d	listed
+found entity (not Mike)	humancodex	blackbox	own	2025-07-14	TypeScript	87eb7684fd62	listed
+found entity (not Mike)	humancodex	world-mini	own	2025-03-23	TypeScript	dd0fe7800c1f	listed
+found entity (not Mike)	humancodex	next-auth	own	2025-03-23	TypeScript	b76ca55790d2	listed
+found entity (not Mike)	humancodex	ai-team	own	2025-03-21	TypeScript	3fc522e70cc2	listed
+found entity (not Mike)	humancodex	sveltekit-starter	own	2025-01-09	JavaScript	e5f37a002fa5	listed
+found entity (not Mike)	humancodex	svelte	own	2025-01-03	JavaScript	e8a7c489e7e2	listed
+found entity (not Mike)	humancodex	vouchen	own	2024-12-15	TypeScript	c366a81f582c	listed
+found entity (not Mike)	humancodex	POMP	own	2024-10-18	TypeScript	34fbeb1bb4d6	listed
+found entity (not Mike)	humancodex	stocksApp	own	2024-09-27	TypeScript	c08b593a046f	listed
+found entity (not Mike)	humancodex	rn-exporouter-tamagui	own	2024-09-24	TypeScript	77b8aa9d5a2f	listed
+found entity (not Mike)	humancodex	SCORPION_DEV	own	2024-09-19	JavaScript	bbcd86345aa9	listed
+found entity (not Mike)	humancodex	nx-tx	own	2024-09-05	Rust	8152bc421fb8	listed
+found entity (not Mike)	humancodex	gallery	own	2024-07-30		a2c1658ec334	listed
+found entity (not Mike)	humancodex	ai-workflow-automation	own	2024-07-19	TypeScript	af68581c20fd	listed
+found entity (not Mike)	humancodex	invermint-app	own	2024-02-22	TypeScript	f79cb7982cb8	listed
+found entity (not Mike)	humancodex	enterprise-template	own	2024-02-22	TypeScript	37fbd7b6627e	listed
+found entity (not Mike)	humancodex	sass-auth	own	2024-02-15	CSS	f1d48fab48d6	listed
+found entity (not Mike)	humancodex	next-js---shadcdn--supabase	own	2023-12-29		346e6463c3ed	listed
+found entity (not Mike)	humancodex	shopify_mockshop	own	2023-10-30		53e2874fc268	listed
+found entity (not Mike)	humancodex	business_brain_sdxl	own	2023-04-19	TypeScript	129a58a52399	listed
+found entity (not Mike)	humancodex	contractor_hack	own	2023-04-01	JavaScript	8569851402c6	listed
+found entity (not Mike)	humancodex	NFT-Collection	own	2023-02-16	JavaScript	bf3d2a46d3b8	listed
+found entity (not Mike)	humancodex	tokenTravels	own	2022-12-15	JavaScript	9256902e86b5	listed
+found entity (not Mike)	humancodex	clearTrack	own	2022-12-07	TypeScript	5e525a28b981	listed
+found entity (not Mike)	humancodex	whitelistDapp	own	2022-11-08	JavaScript	a6d12f22e112	listed
+found entity (not Mike)	humancodex	TTD	own	2022-11-01	JavaScript	6c2ee9d4f659	listed
+found entity (not Mike)	humancodex	vertex_creativeSolutions	own	2022-09-14	TypeScript	e0f54405732f	listed
+found entity (not Mike)	humancodex	medium	own	2022-06-13	TypeScript	3fbb3fa0a013	listed
+found entity (not Mike)	humancodex	amazon-clone-blockchain	own	2022-06-08	JavaScript	c2de5c575d97	listed
+found entity (not Mike)	humancodex	airtable_extensions	own	2022-05-10	TypeScript	4bf344b20cfc	listed
+found entity (not Mike)	humancodex	fluffy-couscous	own	2022-04-30	TypeScript	4f7bf4342fc4	listed
+found entity (not Mike)	humancodex	Food	own	2022-04-07	JavaScript	406101501824	listed
+found entity (not Mike)	humancodex	ts_nextjs_tailwind-	own	2022-03-30	TypeScript	b861014953bc	listed
+found entity (not Mike)	humancodex	BudgetOperations-	own	2022-03-22	JavaScript	fe12d4de0c40	listed
+found entity (not Mike)	humancodex	TMS_HomePage	own	2022-03-04	JavaScript	185f41369640	listed
+found entity (not Mike)	humancodex	MY-BOILER-PLATE	own	2022-03-04	JavaScript	d600361195ee	listed
+found entity (not Mike)	humancodex	POKEMON-	own	2022-02-18	JavaScript	eb342d3a1040	listed
+found entity (not Mike)	humancodex	outsiderproyects	own	2021-09-29	JavaScript	9e26ea6814f7	listed
+found entity (not Mike)	humancodex	henry-	own	2021-06-09		5b68ee607581	listed
