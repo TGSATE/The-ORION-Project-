@@ -1,0 +1,310 @@
+{
+ "snapshot": "2026-10-13 ~03:00 UTC, public X timelines via a public mirror; about 20-66 most recent items per account",
+ "links": [
+  {
+   "from": "ArchitectWeaver",
+   "to": "introsp3ctor",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "AshwinKalyandu2",
+   "to": "Master4lVl",
+   "counts": {
+    "mention": 7
+   }
+  },
+  {
+   "from": "AshwinKalyandu2",
+   "to": "mcgee_shakes",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "Civilisationone",
+   "to": "Master4lVl",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "Civilisationone",
+   "to": "PlanetaryS936",
+   "counts": {
+    "repost": 3
+   }
+  },
+  {
+   "from": "Civilisationone",
+   "to": "mcgee_shakes",
+   "counts": {
+    "repost": 2
+   }
+  },
+  {
+   "from": "JCPEREZCODEX",
+   "to": "Master4lVl",
+   "counts": {
+    "quote": 1
+   }
+  },
+  {
+   "from": "JCPEREZCODEX",
+   "to": "dr_logvinovich",
+   "counts": {
+    "mention": 7,
+    "quote": 3,
+    "repost": 1
+   }
+  },
+  {
+   "from": "LuminariFlux",
+   "to": "Civilisationone",
+   "counts": {
+    "repost": 2
+   }
+  },
+  {
+   "from": "LuminariFlux",
+   "to": "PlanetaryS936",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "AshwinKalyandu2",
+   "counts": {
+    "repost": 12
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "JCPEREZCODEX",
+   "counts": {
+    "repost": 3
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "_Miss_Tris",
+   "counts": {
+    "repost": 3
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "dr_logvinovich",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "enuminous",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "introsp3ctor",
+   "counts": {
+    "repost": 8
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "muse_inmotion",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "Master4lVl",
+   "to": "tgsate62912",
+   "counts": {
+    "repost": 2
+   }
+  },
+  {
+   "from": "VasaMusk",
+   "to": "Master4lVl",
+   "counts": {
+    "repost": 4,
+    "mention": 5,
+    "quote": 1
+   }
+  },
+  {
+   "from": "VasaMusk",
+   "to": "mcgee_shakes",
+   "counts": {
+    "mention": 6
+   }
+  },
+  {
+   "from": "VasaMusk",
+   "to": "the_far_queen",
+   "counts": {
+    "mention": 1
+   }
+  },
+  {
+   "from": "_Miss_Tris",
+   "to": "tgsate62912",
+   "counts": {
+    "quote": 1
+   }
+  },
+  {
+   "from": "dr_logvinovich",
+   "to": "JCPEREZCODEX",
+   "counts": {
+    "mention": 19,
+    "repost": 4,
+    "quote": 2
+   }
+  },
+  {
+   "from": "enuminous",
+   "to": "dr_logvinovich",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "justmebob123",
+   "to": "introsp3ctor",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "justmebob123",
+   "to": "irishgypsy288",
+   "counts": {
+    "mention": 1,
+    "repost": 3
+   }
+  },
+  {
+   "from": "kamenikevan",
+   "to": "justmebob123",
+   "counts": {
+    "repost": 7
+   }
+  },
+  {
+   "from": "mcgee_shakes",
+   "to": "introsp3ctor",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "Civilisationone",
+   "counts": {
+    "mention": 12
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "Master4lVl",
+   "counts": {
+    "mention": 22,
+    "repost": 1
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "_Miss_Tris",
+   "counts": {
+    "mention": 12,
+    "repost": 2
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "enuminous",
+   "counts": {
+    "mention": 22,
+    "repost": 2
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "introsp3ctor",
+   "counts": {
+    "mention": 4
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "justmebob123",
+   "counts": {
+    "repost": 1,
+    "mention": 12
+   }
+  },
+  {
+   "from": "tgsate62912",
+   "to": "yeobuzzfx",
+   "counts": {
+    "mention": 10
+   }
+  },
+  {
+   "from": "the_far_queen",
+   "to": "Civilisationone",
+   "counts": {
+    "repost": 5
+   }
+  },
+  {
+   "from": "the_far_queen",
+   "to": "Master4lVl",
+   "counts": {
+    "repost": 2
+   }
+  },
+  {
+   "from": "the_far_queen",
+   "to": "PlanetaryS936",
+   "counts": {
+    "repost": 1
+   }
+  },
+  {
+   "from": "the_far_queen",
+   "to": "_Miss_Tris",
+   "counts": {
+    "repost": 2
+   }
+  },
+  {
+   "from": "the_far_queen",
+   "to": "enuminous",
+   "counts": {
+    "repost": 3
+   }
+  },
+  {
+   "from": "the_far_queen",
+   "to": "tgsate62912",
+   "counts": {
+    "repost": 2
+   }
+  },
+  {
+   "from": "yeobuzzfx",
+   "to": "cosmosarcive",
+   "counts": {
+    "quote": 1
+   }
+  }
+ ]
+}

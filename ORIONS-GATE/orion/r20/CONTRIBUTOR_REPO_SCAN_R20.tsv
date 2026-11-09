@@ -1,0 +1,56 @@
+repo	files	files_mentioning_ORION_KRION_TGSATE	top_file_types
+TGSATE/ORION-Engine-Platform-and-MMO	4	3	md:2 
+TGSATE/The-ORION-Project-	1	1	md:1 
+enuminous/Alchemy-of-Emergence	13	0	md:12 csv:1 
+enuminous/Archimedes-3D	58	0	md:21 js:16 json:7 html:4 
+enuminous/Archimedes-Engine	41	0	md:16 js:9 json:5 html:4 
+enuminous/Archimedes-Field-Lab	9	0	md:3 js:2 yml:1 json:1 
+enuminous/Aristotle-165-Einsteinian-Tensors	12	0	lean:5 md:4 toml:1 json:1 
+enuminous/Aristotle_EFMW_Lean	25	0	lean:14 md:6 yml:2 toml:1 
+enuminous/Avenue5	10	0	md:3 py:2 yml:1 txt:1 
+enuminous/BackroomsProtocol-EFMW-Analysis	4	0	md:2 cff:1 
+enuminous/Borges-Library-CollapseOmega	12	0	md:4 js:2 html:2 yml:1 
+enuminous/Chimera	9	0	md:4 py:2 sha256:1 json:1 
+enuminous/EFMW-108-Minute-Tests	15	0	md:6 py:5 txt:1 sha256:1 
+enuminous/EFMW-Axioms	8	0	md:2 lean:2 yml:1 toml:1 
+enuminous/EFMW-CTX-001b	16	0	md:7 csv:4 py:2 json:2 
+enuminous/EFMW-Constants-Problem	12	0	md:3 lean:2 yml:1 txt:1 
+enuminous/EFMW-EXP-001	27	0	csv:9 txt:7 py:4 md:4 
+enuminous/EFMW-Neutron-Star-Glitch-Resonance	11	0	md:5 yml:1 txt:1 py:1 
+enuminous/EFMW-Scientific-Claims	10	0	md:3 yml:1 tsv:1 toml:1 
+enuminous/EFMW_Post156_Zoo_Audit	52	0	md:22 log:10 lean:4 py:3 
+enuminous/Einsteinian-156-Aristotle	24	0	md:11 lean:9 txt:1 toml:1 
+enuminous/FieldSpace	29	0	md:9 lean:4 py:3 yml:2 
+enuminous/JEV-EFMW-Syncretic-Layer	18	0	py:9 md:7 txt:1 
+enuminous/Ligo_EFMW_Search	10	0	py:4 md:3 json:3 
+enuminous/Medium2	1002	0	html:1001 yml:1 
+enuminous/Monolithic-Zoo-Lean4	65	0	lean:53 md:4 json:4 txt:1 
+enuminous/MultiValuedClassicalAction-Lean4	4	0	toml:1 md:1 lean:1 
+enuminous/Nightengale	7	0	py:3 txt:1 md:1 cff:1 
+enuminous/Nightengale-Full-Zoo-Audit	172	0	lean:55 json:53 csv:49 md:4 
+enuminous/Verbinski-Protocol	20	0	md:8 js:6 json:2 yml:1 
+enuminous/fieldcore	37	0	md:30 py:3 gitkeep:2 gitignore:1 
+enuminous/medium	1101	1	html:1100 yml:1 
+enuminous/papers	34	0	md:26 docx:6 mp4:1 html:1 
+enuminous/simself	267	0	md:204 py:57 gitkeep:2 yaml:1 
+enuminous/woodpecker	25	0	md:11 py:4 json:4 pyc:3 
+meta-introspector/aok	81	0	pdf:42 md:20 png:7 py:4 
+meta-introspector/aristotle-cli-rs	97	0	rs:45 md:24 sh:7 txt:4 
+meta-introspector/kant-zk-pastebin	919	0	js:486 mjs:86 md:66 rs:48 
+meta-introspector/lean-worker	251	0	lean:175 md:21 rs:18 json:14 
+meta-introspector/lean-worker-gh-twin	1	0	md:1 
+meta-introspector/lean-workers-union	19	0	lean:14 yml:1 toml:1 md:1 
+meta-introspector/meta-introspector	15525	0	json:14600 rs:281 md:171 nix:125 
+meta-introspector/vesper-studio	2	0	md:1 
+the-far-queen/far-apps	4	0	md:3 
+the-far-queen/far-art	26	0	json:10 md:7 py:4 tf:1 
+the-far-queen/far-film	12	0	py:6 md:4 gitignore:1 
+the-far-queen/far-games	12	0	py:6 md:4 gitignore:1 
+the-far-queen/far-law	24	0	md:19 py:2 pyc:1 gitignore:1 
+the-far-queen/far-medicine	22	0	md:18 py:2 pyc:1 
+the-far-queen/far-music	12	0	py:6 md:4 gitignore:1 
+the-far-queen/far-mysteries	4	0	md:3 
+the-far-queen/far-writing	20	0	md:10 py:7 json:1 gitignore:1 
+the-far-queen/fieldcore	184	0	md:122 py:53 txt:2 gitkeep:2 
+the-far-queen/simself	333	0	py:174 md:135 json:5 gd:4 
+the-far-queen/sunrise-startup	7	0	md:6 

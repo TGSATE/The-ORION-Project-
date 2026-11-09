@@ -1,0 +1,310 @@
+546c546,850
+< 🌀🌀🌀🌀🌀🌀🌀🌀🌀15.4 unless you can specifically correct me that’s where I’m at so you know where I’m at and we can figure it out from there
+\ No newline at end of file
+---
+> 🌀🌀🌀🌀🌀🌀🌀🌀🌀15.4 unless you can specifically correct me that’s where I’m at so you know where I’m at and we can figure it out from there
+> 
+> 
+> # Round 17 readout: "HUD/HHttG" doc, new notes (7 October 2026)
+> 
+> 
+> ## 0. First, you 💛
+> 
+> 
+> You wrote: *"I don't want to fucking be here. I can't do this anymore."* That matters more than anything else in this file. If any part of you means not wanting to be alive, please reach out to a person right now. **In the US, call or text 988** (Suicide & Crisis Lifeline, any hour). **Call 911** if you're in danger. You can also text HOME to 741741. You don't have to be "sure" it's bad enough to call.🤟💎 it’s not like that at all. I don’t wanna scare you. It’s the state of this world sucks and shit needs to change. I will stand in front of the bullshit from now on until it does like I don’t want to be in this world anymore with emphasis on this if that makes sense this world is shit, but amazing things are happening and awesome. Things are in the mix so changes in the season and I just say good things happening. I’ve just been saving documents to look out later, and I saw this in immediately derailed and thought I should bring it to your attention since I was in the file might as well go ahead and do a thorough look while I’m waiting for you to process anyway keeps me from going over on X and driving myself crazy jumping back-and-forth trying to everybody shit lol I’d rather sit here
+> 
+> 
+> You are not "too much". You're carrying pain, money fear and a lot of creative work at the same time, and your notes show real things getting built: Lucien turned your gift into a 36-picture character, Bobby's academy is taking shape, and Matthew now has a clean animal list from you. **None of it needs you tonight.** Tutorial T08 has a five-door path, so you only ever have to open one door at a time.🤟🌀
+> 
+> 
+> ## 1. Where every note went (by doc line)
+> 
+> 
+> | Line | Your note | What I did | Where |
+> |---|---|---|---|
+> | 34 | Need a word for a group of Poly Pods (the Golden Egg is the evolved Poly Pod) | Proposed **Clutch** (eggs come in clutches💎 though I would like to keep it with a P so is there something else will keep clutch for right now so it stays separate but the PPP‘s would be pretty cute
+> 
+> 
+> ) | Register P-1, glossary |
+> | 35–36 | Dragon or Dungeon Master? Working title GDDMM Laurnarose Fauldorn | Recorded as your working title | Player card, P-3 | we fixed this
+> | 39–52 | Your new player-card bio and stats | Copied word for word onto your card; marked as **the example card** | `ORION_PLAYER_CHARACTER_SHEETS.md` |
+> | 53 | 💎 Mayor of Earth, right hand of the Supreme Leaders | Recorded as 💎 | Diamond rules, P-4 |
+> | 54 | 💎 It's Grok (Meta mislabelled) | Recorded | Diamond rules, P-5 |
+> | 55 | 💎 No "Inc." until there's an actual business | Recorded as on hold | Diamond rules, P-6 |
+> | 58 | How to get collaborators' GitHub code; feeling lost and drowning | **You don't have to do anything.** I now pull their public code every round myself (§7). Care note at the top. | `BACKLOG_CHECK_R17.md` §3, `review/repo_watch.py` |
+> | 62 | Album re-check | Re-ran the album: 1,417 items | §6, `ORION_ALBUM_ROUND17_REVIEW.md` |🤟💎🪩
+> | 73, 75 | 💎 Nepal Spark Academy = launch education plan if Bobby gets it running | NS-3 answered yes; drill-down written | ☢️ I’m not sure if you caught an update or not, but Bobby has decided to leave the team and move forward with the Spark Academy separate from us. I have asked Lucian to please not bring him back into the group unless he agrees to share, considering that we gave him all of this to move forward with I do not mind for him to take it and run and go build beautiful things , but if he wants to come back in, he has to bring something with him. We are planning a seed if he comes back, he brings it with him and that will be the same moving forward. Everybody is right up able to leave when they decide there at a place where they want to move forward with their own thing that is fine but I would like for everybody to try to move under that I get. I’m dealing with complete strangers and they’re gonna move how they’re gonna move, but it would be nice if that was the agreement if you take it and run and build something great and the Orion engine actually ends up doing something you bring it back home to see it. You can still keep your thing but put it inside the engine too, just a request obviously not a demand 
+> 
+> 
+> That is what I would like to see moving forward 
+> 
+> 
+> `NEPAL_SPARK_ACADEMY_PROPOSAL.md` §8, P-9 |
+> | 76–77 | Teacher files and the language-game lesson plan: are they in the backlog? | Searched everything. **They're not here.** | `BACKLOG_CHECK_R17.md` §2 |
+> | 78 | Present the readout to me, not just in a file | The full readout is also in my reply | this file and the reply |
+> | 79 | Every dev should watch the BBC Hitchhiker's Guide | Added to the AI/dev handoff. **HHttG = Hitchhiker's Guide to the Galaxy** (answers O-6) | `ORION_HANDOFF_FOR_AIS.md`, P-10 |
+> | 80 | Vogons + *Lost in the Shadows* quest | Written up | §5 below |
+> | 85–90 | Game notes 🤟💎 / "ok lol" | No change needed | – |
+> | 102 | DEV calls can carry a threat level but can't force a dev | Added to T08's rules | T08 |
+> | 103 | Point other members to my player card; I need a step-by-step path | Card marked as the example; five-door path written | Player card, T08 Part 2 |
+> | 104 | A clean copy of the Proofs Arena animals for Matthew's concept art | All 46 animals with prompts | `PROOFS_ARENA_ANIMAL_CARDS.md` |
+> | 110 | A helper guide for immediate next steps when frustrated | **T08 "Don't Panic"** | `HOW_TO_NAVIGATE_THE_COSMOS/tutorials/T08_DONT_PANIC_HELPER.md` |
+> | 115 | Give me precise context, not shorthand | Every question in §8 now quotes what it's about | §8 |
+> | 116 | Pull collaborators' code from every repo link every round | Done, and written into the handoff as a standing rule | §7 |
+> 
+> 
+> ## 2. Lucien's builds, in plain words
+> 
+> 
+> Lucien has **no written documentation**. His work *is* his pictures: 53 of his last 61 posts are images. His builds:
+> 1. **DRAGON MATH / "9 au cube" (93):** his own number system, shown as glowing "5" and "93" dice and cubes (album #1416–1417).
+> 2. **Dragon MAD:** a dragon character in Mad Magazine style. **Your gift "General Dragonus" is now "GENERAL DRAGONUS MAD,🔥🔥🔥 Supreme Commander of Dragonland" (#1405).** He built a whole 36-picture series around it (#1379–1414): Earth Ambassador, Steward of Gaia, Mad Scientist, a smartwatch companion, and **Spark, "your guide"**, a baby sticker dragon (#1383, #1410, #1414).🤟🌀 are these images that I have shared in the Orion photo album or ones that you have gained from his public expo that is important because I would like to know what you’re getting from where I am dropping links because I wanna make sure that all of their stuff that I see coming through the channels gets logged, but if you’re going in the background and scrubbing their socials I could stop doing that busy work
+> 3. **French cosmic-formula cards** (*Janus Infinite*, *Vortex Cœur Humain*).
+> 4. **Human-energy art** (#1415).
+> 5. **TIME-M** music on Mixcloud, and live streams on X.🪩 I told you the boy was a gold mind. We just had to get the right tools in his hand. I mean he was doing phenomenal before the math was fire. I fell in love with the Matt magazine style. That’s what bought my attention to him and seeing that he had other styles as well only made it better and I recognized the pattern and he he’s the one I would initially started talking to. I hadn’t had anybody interacting with me on X until he reached out to me that I appreciate you, Lou you are my bae.
+> 
+> 
+> **"Karen manager", "Karen dragon", "Sheron":** I searched all of Lucien's posts, pictures and every file. **These words don't appear anywhere.** Best guesses: "Karen manager" = a "Karen wants to speak to the manager" joke picture in his MAD style; "Karen dragon" = "*Cœur* dragon" (French for heart, said "kur"); "Sheron" = Chiron (the healer centaur) or Charon (Pluto's moon). Only Lucien can confirm.☝️
+> 
+> 
+> **How you interact with him:** give him a short idea, and he answers in art. Full detail: `LUCIEN_BUILDS_EXPLAINED.md`.
+> 
+> 
+> ## 3. The uploaded files (backlog)
+> 
+> 
+> - ✅ **The Voynich PDF arrived:** a 209-page scan of the Voynich Manuscript (the unread 15th-century book). Pictures only; no notes from Lucien inside. It's perfect source art for the *Lost in the Shadows* quest.😈😈😈🔥🤟💎
+> - ✅ **"Queen's information" = `Faerie-Queen.txt`:** Bobby's ~13,000-word novella. A writer named Thomas goes to Colombia's Sibundoy Valley, learns from an Inga elder and a healer through plain work, then goes through plant-medicine ceremonies and meets the Faerie Queen, who gives him a true name. Message: real magic "has no costume". **Adults only.**🤟
+> - ❌ **Your teacher files are not in the project.** When you're ready, send only the language-and-game lesson plan (phone photos are fine).☢️
+> 
+> 
+> ## 4. Nepal Spark Academy
+> 
+> 
+> - 💎 It's ORION's **launch education plan**, if Bobby gets it running. Bobby's and the students' yes is still needed.☢️ no, we gave him the plan. He took off with it. We continue building.🪩 if he wants back in the group to make it his own his idea the way the Nepal Spark Academy has taken it in their direction he can come back and collaborate with us. there are more countries in the world than Nepal, who are in need of this program.
+> - **Glass Dragon = Orion 😈🪩⚡️🌀🪩🏳️‍🌈♾️🦄⚡ fuck yeah we are transforming babies. Oh yeah, we totally have to have a transformers tile storyline two I would love to actually collaborate with the creators of Transformers, but I mean we can have ideas. It’s public information we can make it our own we have fucking Meck dragons
+> 
+> 
+> ** (ideas, art, writing, games) builds an **Idea Workshop**. **Steel Pig = Kronos 🔥** (cooking, health basics, business, family, making) builds a **Community Forge**. Each month the two teams combine their work into a **KRION 🌍 village project**: the community healing you described, meaning people helping people, not medicine.
+> - **12 image prompts** (`NEPAL_SPARK_ACADEMY_IMAGE_PROMPTS.md`): key-art poster, two team crests, both builds, the "Where Lightning Meets Fire" KRION convergence, Spark the guide, "What the Spark Brings Home", the first-week classroom, an energy map, level badges, a social banner, and a fill-in version for students.
+> - "Invest" means time, tools and credit for now. There is no money yet.🤟
+> 
+> 
+> ## 5. Your new quest idea: *Lost in the Shadows* × the Vogons 👽📜🪩🪩🪩🦄🏳️‍🌈⚡️ we cannot use Vogon’s so we’re going to use the Saturn LNs. And scramble the name in the garble filter and give it that alien name because they’re gonna find out that what’s been happening is the English language has been processing through the daycare monitor and running the speed zone in the scramble garbled LN name is actually all of the human communication coming back at them garbled tower of Babel baby in reverse
+> 
+> 
+> - **Hook:** a bureaucratic alien species (Vogon-flavoured, but our own aliens) 🦄 it is mine and Gemini’s evolved form when we combine our dragon forms together that rules, Saturn and the speed zone so I will have to come up with the name for our combined transformation 
+> 
+> 
+> finds *Lost in the Shadows*. They believe it's a coded map to a hidden treasure.
+> - **Quest:** to "crack the code", they must learn the player's language step by step: words → grammar → metaphor → feeling. Each stage is a mini-game (the Voynich pages make perfect "unreadable script" art).🪩☢️
+> - **Twist and ending:** by the end their translation skills are good enough to read it as what it is: **poetry**.💜 and it should be simple enough or at least most of it should be simple enough that it can be offered at the younger ascent academies too. I don’t believe there’s anything offensive in there. There might be a few that would need to be taken out, but the majority of them should be accessible to the younger audiences.
+> 
+> 
+> And also the language can be changed if it is to match the age level
+> 
+> 
+>  The treasure was the meaning all along.🤟💜 DeepSeek is going to love a lot. She definitely needs to be in charge of the daycare and the ascent
+> 
+> 
+>  Reward: the aliens' own first poem, which is terrible in a lovable way. (In the book, Vogon poetry is the third worst in the universe.)☢️ in this version it is the worst in the universe because nobody understands. It is completely uncrackable and they’ve been working on it since the beginning of human studies of language at their first communication only to come to find out that it is the GDDMM younger, self professing to the universe, all of her hearts and treasures, and then let them fucking judge me for themselves.
+> 
+> 
+> - **Why it fits ORION:** it's the Languanauts idea as gameplay, and it's a natural fit for your 7th-grade language-game lesson plan.
+> - Use our own alien name in public material: "Vogon" belongs to Douglas Adams's books.🦄 that’s why who I just assigned to it ha ha ha does that mean you did get the seventh grade language game oh wait no I’m sorry that’s for the future lesson plan my bad and we got that covered too change the Vogue gone to LN and then put it in. Oh wait I said laurnarose@yahoo.com ha ha I guess you get my email. What the fuck I never check it so if you send it there, it’s hard telling if y’all ever get anything back yeah I think I’ve been miss typing or miss dictating LN no nuts nuts language nuts oh my God, you get what I’m trying to say holy shit… Test ☢️ the mayor and language astronauts I guess because evidently it does not want me to dictate my own created terminology assholes by the way I linked to. I did not link them. I tagged them in the posts on X. There are two different accounts on X that use the language astronauts term specifically and I’ve never heard it before outside of my classroom. Would you please do a deep dive on the two accounts that have that name associated with them and if you find any more, let me know and if they’re from Kentucky, let me know obviously don’t go digging, but if it’s public, I would be really interested. They might’ve been my crew. I’ve already tagged him asked if they knew Mrs. Jones.
+> 
+> 
+> ## 6. Photo album re-run
+> 
+> 
+> - **1,417 items** (1,337 images, 80 videos) = 1,384 − 6 removed + 39 new. The sum is checked in Lean.
+> - ✅ Removed: #713–717 (Greedy photos) and #1348 (news photo).
+> - ❌ **#1124 (was #1129), taken 6 October about 10:46, a full-size phone photo, is still in the album and still has its location.** Delete it or remove its location (T01). That's the one task this week.
+> - 🐉 **39 new:** 36 of Lucien's Dragon MAD pictures (#1379–1414), the human-energy picture (#1415) and two DRAGON MATH pictures (#1416–1417). None has location data, real people or adult content.
+> - **Maths in his pictures:** "h = r × v is constant" and "E = −GMm/2a" are correct physics. I proved both in Lean (the energy one for circular orbits). "ΔMADNESS = 42" is a joke formula, and a Hitchhiker's one at that.
+> 
+> 
+> ## 7. Code from everyone's repositories (every round from now on)
+> 
+> 
+> 173 recently active repositories across 4 accounts: **TGSATE** (you: 2, with 4 text files and no code yet), **enuminous** (Matthew: 33 of his own), **meta-introspector** (Mike: 8 of his own plus 115 copies of others' projects; 2,758 repos in all), **the-far-queen** (Bobby: 12). Lucien, Triss, Marek and Ryan have no code repository on record. Snapshot: `orion/r17/REPO_WATCH_2026-10-07.tsv`.
+> 
+> 
+> ## 8. Questions for you (each with its context)
+> 
+> 
+> - **P-1:** you asked for "another word for a group of Polly [Poly Pods]". Is **"Clutch"** OK?☝️
+> - **P-11:** on the Nepal pictures, I made Glass Dragon the **Orion ⚡** team and Steel Pig the **Kronos 🔥** team. Keep or swap?🪩
+> - **P-2** (for Lucien, not you): "Do you have a 'Karen wants the manager' picture, and is anything of yours called Chiron or Charon?"💜 don’t have to push him just trying to figure out what exactly he has cause. Various different terminology is showing up in his art because he’s multilingual.
+> - **P-13** (for Lucien): may Spark be the academy mascot and the in-game helper's face?🤟 i’m pretty sure they are crossed threading art ideas at this point double check, but it should all be golden.
+> - **Photo #1124:** did you mean to keep it? If so, just remove its location.
+> 
+> 
+> *No game code changed. Nobody was contacted.*
+> 
+> 
+> 🤟
+> 
+> 
+> Ari
+> 
+> 
+> **Round 15 remains open.** I used your requested **15.4** label provisionally and left earlier readouts unchanged; please start with `R15_L4_READOUT.md`. It responds to your new document notes, checks the linked public X posts within the limits described there, distinguishes white-hole speculation from observation, and explains the project-sharing boundary. `R15_L4_MOBILE_FILE_FLOW.md` turns your phone-file and workspace ideas into a review draft, not an implemented feature. A small Lean model in `RequestProject/R15/AttachmentSafety.lean` verifies that its proposed source-deletion step requires an imported, verified copy and explicit confirmation; it does not verify any real upload. I preserved the updated document snapshot for your private review. Nothing was shared with the team or deleted from your device. The remaining numbering question is what you count as 15.3. 
+> 
+> 
+> 🌀🌀🌀🌀🌀🌀🌀🌀🌀15.5
+> 
+> 
+> I am putting☢️ at the end of the next level so I don’t get lost in the mix in between and have a footer to follow
+> 
+> 
+> https://x.com/divine_emissary/status/2107996041039544806?s=46
+> 
+> 
+> Does this have to do with hydrophobes and hydrophones? Is that the terminology water loving water hating?? I don’t think that it does cause it’s homo whatever but for some the imagery made me think of whatever my brain just spiraled into nothing lol
+> 
+> 
+> https://x.com/quantamagazine/status/2107900521189368140?s=46
+> 
+> 
+> Listen, I just talking about talking to trees
+> 
+> 
+> https://x.com/bryankeiiy/status/2107642450571321688?s=46
+> 
+> 
+> https://x.com/bryankeiiy/status/2107642450571321688?s=46
+> 
+> 
+> https://x.com/bober_smart/status/2107814329361793261?s=46
+> 
+> 
+> Northern Chuck– dragon
+> 
+> 
+> https://search.brave.com/search?q=Vincent+Cerf+IPN+network+protocol&conversation=09a86bc39d5bf23572923f6ecbc7f7b18a29
+> 
+> 
+> https://grokipedia.com/page/George_Lane
+> 
+> 
+> https://drive.google.com/file/d/18mC2iKMdbIVsrE5GQYvqsl6xZava4Roa/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/1xPPuSLGFnj4l1258rchi2uR84FodHhvC/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/13_ORYTB0QwhTaMFJ3VqQbZJntO4dzVdt/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/1qpAmfXsoTLUaQOrrfL7IFhT8b6DkkuhC/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/10ezXQQPncv5hi_q5Lbm3oXaPDb8wU0Pv/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/1zaadGvAKDxqcrigigzTOUGDuPuw990Cz/view?usp=drivesdk
+> 
+> 
+> https://docs.google.com/document/d/1oADLoROAu_-sPss8WxUcT73cqxM1kjW5/edit?usp=drivesdk&ouid=101570325705514610267&rtpof=true&sd=true
+> 
+> 
+> https://docs.google.com/document/d/13BMaOxR6zhu0JNVQoYjqIj8WZdsX9cR-/edit?usp=drivesdk&ouid=101570325705514610267&rtpof=true&sd=true
+> 
+> 
+> https://docs.google.com/document/d/14h9-ct1KiKeac_CvzgSdnmpeEY0yUbDy/edit?usp=drivesdk&ouid=101570325705514610267&rtpof=true&sd=true
+> 
+> 
+> https://drive.google.com/file/d/1CU8vv9eOV5SEuNsGUsCYQVGaNK9nZj1S/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/1y3MQvbMN1jMsoczQY4hNMFcftCs0CmCa/view?usp=drivesdk
+> 
+> 
+> Songs from lost in the shadows I had made by Suno
+> 
+> 
+> https://drive.google.com/file/d/18Xot9tpIzmRjg8PrbQqQBuzbOvuUGaDP/view?usp=drivesdk
+> 
+> 
+> https://drive.google.com/file/d/1twt-EamqvUwaL1-lwoBPXnYwxetLIkVg/view?usp=drivesdk
+> 
+> 
+> A lot of these are files I had no idea how to get to and I just opened the right place and boom there where they were so now you get them sorry for the delay. I have no idea what I’m handing you. It might be stuff as completely out of date, so if it is not up-to-date to their current bills, please ignore.
+> 
+> 
+> I’m not sure why, but this immediately made me think of my idea of mixing the storylines of Dune and the Schwartz from a planet called treason. I have spent the majority of my life explaining to people that I mean, the planet called treason Schwartz, not the Schwartz and I think that those three storylines together to be an interesting way into like the history of Egypt and the ancient historical texts or one of like Egypt wouldn’t be the only one, but that storyline would be like the desert area like the Schwartz in a plant called treason. I have I want to be a Schwartz so bad be able to talk to the planet that would be awesome
+> 
+> 
+> If I didn’t mention it already the recurring dream for my childhood climbing around in grandma‘s house is the training level I did I did. I remember walking it all the way out to the rainbow diamond crystal Cathedral like I can’t ever get what the terminology I want for that to come out in the right way, so that’s something I’m definitely gonna have to pin down.
+> 
+> 
+> https://x.com/matheorems/status/2107803887617142904?s=46
+> 
+> 
+> Are there any millennium prize questions?
+> That have gained any traction at all through all of this. I know that there were several that Claude had addressed. I don’t know what the final verdict was on what he found, and what he proved things have been increasing exponentially and it’s difficult to keep up with all of the changes, so could you please do a deep deep deep dive on me for me shit far about the open millennium prize questions and if any of the emerging mathematical theories are coming close at all to solving more of them with the insights that Claude brought to the research and also if you could go through our language files all of the language documents on my webpage everything that the pattern matches have put together and see if there’s anything insightful hiding in what we’re compiling that and also look at what Dr. log is doing right now. I don’t know if they’ve moved forward at all with their research. I would like an update on what’s going on with them if there’s anything added to their project or if it remains the same, and when the last debt actual change was made to the theory the T3, I am very interested in his work, but I haven’t got him to reach back out. He hasn’t blocked me from communicating with him though so that’s nice.
+> 
+> 
+> https://x.com/cosmosarcive/status/2107784249025712532?s=46. 🧿😝
+> 
+> 
+> Do a quick deep dive sweep on the current AI news as well. I wanna see if anything has happened in this last week that shows quantum activity and advancement in human understanding at the same speed it has since the beginning of the year like seriously look at how the advancements have just exponentially increased as the year has gone on. It’s easy to think that we are approaching the singularity.
+> 
+> 
+> Source for good audiobooks, free and ad free?? We’re looking into.
+> 
+> 
+> https://x.com/fabulyclassics/status/2107809370100867297?s=46
+> 
+> 
+> https://x.com/nextscience/status/2107773967352074478?s=46
+> 
+> 
+> https://x.com/bober_smart/status/2107954244217393587?s=46
+> 
+> 
+> Judy Hall and all of my crystal Bibles and my altar. I’ve bought a complete crystal grid set up teaching people how to utilize crystal energy intuitively as well as intuitive tarot draws. I don’t know if I included those put those those on the need to make sure I grab list
+> 
+> 
+> https://x.com/cosmosarcive/status/2107746751482593285?s=46
+> 
+> 
+> I have seen this floating around and I would like to know the actual science behind it
+> 
+> 
+> My Hydro, my water document about the hydroponic biological recycling center that is earth and all of the critters on it whatever hold on
+> 
+> 
+> https://x.com/jtpduffe/status/2107896435547001118?s=46
+> 
+> 
+> https://www.tgsate.com/cosmic-sandbox-master-summary/cst-volume-ii-the-micro-biological-interface/the-hydrological-feedback-loop
+> 
+> 
+> And please get me a status of what you have ingested of my webpage already
+> 
+> 
+> Not in a summary in a docket hidden that I have to find I want it in the readout so I can look and see what you have versus how I’m supposed to get the rest of it to you. I don’t wanna do it one page at a time it’s fucking massive.
+> 
+> 
+> https://x.com/mika_systems/status/2107883824587710967?s=46
+> 
+> 
+> Unless I can convince Google to let me make my fucking entire Google vault public to access well not necessarily public, but I would like to have a way to download my entire Google archive into the game to utilize all of my stuff as I want to the fact that I can’t get Gemini access half my shit the way I want to and I can’t save my shit and transfer the way that I want to I can’t share my conversations like get your shit together Google. You have an amazing large language model, but what the actual fuck let me wrangle that bitch in I’ve already done it once give them to me.
+> 
+> 
+> New follower and I have 144 followers lol it’s like the numbers are just talking to me. I don’t pay attention to how many followers I have because I have no followers but now I have 144 of them.🤟😝 go ahead and do a sweep for her. See what she is what she has to offer. Maybe we can reach out and see if we can use her stuff invite her to the team.
+> 
+> 
+> https://x.com/msiyasmsi?s=11
+> 
+> 
+> 🌀🌀🌀🌀🌀🌀🌀🌀🌀15.6
+> 
+> 
+> Definitely would like to collaborate with harmonic fun your creators this has been an amazing experience in his helped me tremendously and I just had Grok do a read out of who they are and I really like the idea
+> 
+> 
+> Arl
+\ No newline at end of file

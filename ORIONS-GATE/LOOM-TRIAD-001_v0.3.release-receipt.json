@@ -1,0 +1,6 @@
+{
+  "artifact": "LOOM-TRIAD-001_v0.3-release-bundle.zip",
+  "artifact_sha256": "4bf990271af2bb1f9f1a036aa2afd7f34f78c259b65c0309452a1a2b3a0da645",
+  "contains_source_zip_sha256": "dea446a3e887499b5073381fe0e068ca03aee91fa1f40e08038fb59c9068280d",
+  "statement": "Release-bundle provenance receipt only; not a correctness or authority claim."
+}

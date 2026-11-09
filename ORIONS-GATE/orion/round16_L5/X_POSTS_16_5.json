@@ -1,0 +1,384 @@
+[
+ {
+  "id": "2097593640600363421",
+  "user": "EconomyApp",
+  "name": "App Economy Insights",
+  "date": "Wed Sep 09 07:51:09 +0000 2026",
+  "text": "Understand how public companies make money.\nNo MBA required.\nWe simplify earnings into clean visuals and send them to your inbox weekly.\nJoin 300,000+ investors (it’s free).",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/GtJ5qrrXcAAhfSK.png?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2102705890084438175",
+  "user": "tripoai",
+  "name": "Tripo",
+  "date": "Wed Sep 23 10:25:25 +0000 2026",
+  "text": "Build More Than Individual Assets. Create Entire Game Worlds With Tripo + Astra, From Buildings And Props To Characters And Environments.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HS1araHbYAAkxMM.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107800513681182737",
+  "user": "Sumanth_077",
+  "name": "Sumanth",
+  "date": "Wed Oct 07 11:49:38 +0000 2026",
+  "text": "I built a data analyst agent with Jev as the review layer!\n\nQwen handles the main agent work, Jev acts as the review layer, and Vercel eve runs the agent loop, tool execution, and human approval flow.\n\nThe agent takes a plain-English question about the data, inspects the database schema, writes the SQL, runs the query, and explains the result.\n\nThe interesting part is what happens around that main loop.\n\nQwen is responsible for generating the SQL and the final answer, while Jev reviews the parts where semantic judgment is actually useful. Anything that can be checked reliably with code stays deterministic.\n\nJev reviews the agent at three points:\n\n- Before the agent starts, it checks whether the user's question is clear enough to answer from the available data.\n- After Qwen generates the SQL, it checks whether the query actually represents what the user asked.\n- After the query runs, it checks whether the final explanation is grounded in the returned rows.\n\nFor example, we tested it with:\n\n“Who is our best customer?”\n\nThe question sounds simple, but “best” could mean highest revenue, most purchases, highest average order value, or something else.\n\nInstead of letting Qwen silently choose a metric, Jev flagged the question as ambiguous and asked for clarification.\n\nThe same separation applies to SQL execution.\n\nQwen can propose a query, but it cannot decide whether that query is safe to run. The tool accepts only a single read-only `SELECT`, SQLite runs in read-only mode, results are capped at 200 rows, and queries without a `WHERE` clause can require human approval before execution.\n\nThose checks do not need another model call.\n\nBut a query can be completely safe and still answer the wrong question.\n\nA deterministic rule can verify that the SQL is read-only. It cannot reliably judge whether a query for “revenue last month” accidentally calculates revenue across all time.\n\nThat is where Jev comes in.\n\nIt reviews the proposed SQL against the original question and schema before execution. After the rows come back and Qwen writes the explanation, Jev reviews that answer again to check whether the claims are actually supported by the returned data.\n\nThe project uses a local SQLite sales database, Qwen through the Vercel AI Gateway, Gradio for the interface, and only two database tools: \"inspect_schema\" and \"run_sql\".\n\nNo single model is responsible for everything. Qwen generates, Jev reviews, deterministic code controls execution, and Vercel eve manages the agent loop and approval flow.\n\nGitHub Repo: https://github.com/Sumanth077/Hands-On-AI-Engineering/tree/main/ai_agents/nl_data_analyst_agent\n\n100% open source.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUBpQc3bgAAz1hC.jpg?name=orig"
+   ]
+  ],
+  "quote": "https://x.com/i/article/2107467472760897536"
+ },
+ {
+  "id": "2107804633238327717",
+  "user": "thegreatest_sv",
+  "name": "kiosa",
+  "date": "Wed Oct 07 12:06:00 +0000 2026",
+  "text": "the NSA put its own hacking tool on GitHub and most people still haven't opened it\n\n5 security repos that show you how exposed you actually are. all free, all open source.\n\nwant to see every account tied to your username across the internet?\n\n-> Sherlock\nhttps://github.com/sherlock-project/sherlock\n\nwant to take any program apart and read what it really does?\n\n-> Ghidra, the reverse engineering framework built by the NSA\nhttps://github.com/NationalSecurityAgency/ghidra\n\nwant to watch everything your phone apps send home?\n\n-> mitmproxy\nhttps://github.com/mitmproxy/mitmproxy\n\nwant to know if your API keys and passwords are already sitting in your git history?\n\n-> TruffleHog\nhttps://github.com/trufflesecurity/trufflehog\n\nwant to test your own WiFi and Bluetooth with a $10 chip?\n\n-> ESP32 Marauder\nhttps://github.com/justcallmekoko/ESP32Marauder\n\n~260k stars of tools that professionals get paid to run.\n\nnone of this is hidden. it's the same kit pentesters use on the job.\n\nthe catch: it's only legal on things you own or have written permission to test.\n\nthe best way to learn how you get hacked is to run the attack on yourself first.\n\nbookmark this. pick one. point it at your own stuff tonight.",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2107766717808029696/vid/avc1/576x720/EDYKXyFlv30xSWg6.mp4?tag=29"
+   ]
+  ],
+  "quote": ""
+ },
+ {
+  "id": "2107820227442429994",
+  "user": "qinym710",
+  "name": "Yiming Qin",
+  "date": "Wed Oct 07 13:07:58 +0000 2026",
+  "text": "New paper: diffusion LMs often come from pretrained AR models. If we already reuse AR pretraining, can we also reuse what AR models learn during post-training?\nWe explore this in A2D: AR-to-Diffusion Transfer and Composition. 🧵",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUB7TerXIAAcE9I.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107823321911791807",
+  "user": "BryanKeIIy",
+  "name": "Bryan Kelly",
+  "date": "Wed Oct 07 13:20:16 +0000 2026",
+  "text": "Bio-Inspired Unclonable Anti-Counterfeiting Based on Random Patterns of Colloidal Crystal Flakes🦋💵💰https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adom.71886",
+  "media": [],
+  "quote": null
+ },
+ {
+  "id": "2107829678673137863",
+  "user": "seeconvm",
+  "name": "seeco",
+  "date": "Wed Oct 07 13:45:31 +0000 2026",
+  "text": "Claude Opus 5.5 is insane for poster design...\n\nthis one prompt turns Claude into a Swiss-grid graphic designer\n\ngrid → type → color → one idea → 3 variations → print-ready SVG\n\nno Photoshop. no Canva. no $300 freelancer.\n\nleft side is the prompt. right side is what it made on the first try.\n\ncopy it and send it to Claude Opus 5.5, then read the full guide in the article below ⬎",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCD5dwXgAA-XFy.jpg?name=orig"
+   ]
+  ],
+  "quote": "https://x.com/i/article/2106091215502422016"
+ },
+ {
+  "id": "2107832342278545885",
+  "user": "0xDeliriumm",
+  "name": "Deliriumm",
+  "date": "Wed Oct 07 13:56:06 +0000 2026",
+  "text": "Alan Turing predicted in 1950 that machines would fool human judges 30% of the time by the year 2000. In 2025, a UC San Diego study ran his exact three-party test with 284 participants - and GPT-4.5 fooled them 73% of the time. A $100,000 prize sat uncollected for 28 years. Nobody needed to collect it. OpenAI just made it irrelevant.\n\nThe mechanism was a single persona prompt. Telling GPT-4.5 to act like a young introverted person fluent in internet slang pushed it from 36% to 73% - the real human competing against it was picked only 27% of the time. The Z-score on that result is 7.3. Anything above 2 counts as statistically significant. A fair coin produces that outcome once in 10 trillion tries. The same transformer architecture running inside every production LLM at $75 per million input tokens is now better at performing humanity than most humans competing against it.\n\n5 minutes. Bookmark & watch today. The test that defined AI for 75 years just got broken by a prompt.",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2107832155497775104/vid/avc1/1920x1080/_fDOWP_UfmQu_-fq.mp4?tag=29"
+   ]
+  ],
+  "quote": ""
+ },
+ {
+  "id": "2107841982634533249",
+  "user": "BryanKeIIy",
+  "name": "Bryan Kelly",
+  "date": "Wed Oct 07 14:34:25 +0000 2026",
+  "text": "AI finds different recipes for carbon nanotube forests with matching structures 🤖https://www.eurekalert.org/news-releases/1146639",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCO8OnWYAA1ECG.png?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107843898005418380",
+  "user": "gp_pulipaka",
+  "name": "Dr. Ganapathi Pulipaka 🇺🇸",
+  "date": "Wed Oct 07 14:42:01 +0000 2026",
+  "text": "Machine Learning for Engineering Applications! #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode \n https://geni.us/ML-Engg",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCQ2wPWUAA4XY4.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107848607558996213",
+  "user": "claudeskills101",
+  "name": "Mr. Claude",
+  "date": "Wed Oct 07 15:00:44 +0000 2026",
+  "text": "Hitting Claude's limit is rarely about how much you use it. It is about how much gets wasted on bloated context, repeated turns, and tools you never needed. Twenty one habits fix that, and they group into four.\n\nKeep the input clean. Convert PDFs and screenshots into clean text or .md before you upload, share only the files this task needs instead of the whole folder, and ditch extra .md files that do not actually help. Turn off features you are not using, since extra tools add noise and tokens. Use Projects for recurring files so you upload once and reuse often.\n\nKeep each chat short and focused. A new topic gets a new chat. Summarize every fifteen to twenty messages and continue fresh. If a conversation drifts, restart from the right point instead of following up on top of it.\n\nStop paying for the same work twice. Ask Claude to fix only the broken section instead of redoing everything. Edit the original message instead of stacking new ones, reuse one proven prompt structure and swap the variables, and batch related asks into a single message.\n\nSpend effort where it counts. Plan in Chat and build in Cowork, say ask me questions so Claude clarifies before it starts, and speak your prompts to add context faster. Pick Haiku or Sonnet for light work and Fable for hard work. Be specific about output and constraints when prompting Claude Code, set up preferences once, and use Claude for the right jobs instead of forcing it into tasks it cannot do well. Schedule recurring tasks instead of re-prompting, and spread usage across the day, since rolling limits recover over time.\n\nFewer tools, better prompts, cleaner sessions.\n\nBookmark this before you burn through your limit on something one of these habits would have fixed.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCVImlbEAARt1L.png?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107857835526639705",
+  "user": "omarsar0",
+  "name": "elvis",
+  "date": "Wed Oct 07 15:37:24 +0000 2026",
+  "text": "Reading eval results is now the slowest part of building agents.\n\nI'm Elvis, founder of @dair_ai. I lead research, build, and teach about AI agents.\n\nI run harness experiments every night, but reading the results was eating my mornings.\n\nEvery change to my harness gets evaluated overnight, whether it touches memory, tool use, or context compaction.\n\nThe morning after is the hard part. I check which tasks my agent got right yesterday but wrong today. Then I open the logs for each failure, one by one, to figure out which of my changes caused it.\n\nI tried a dashboard first. It showed the pass rate dropped. It couldn't tell me why.\n\nThat is the job Viktor, an AI employee in Slack, is built for. He reviews the results overnight.\n\nHere is how that plays out. Say 23 tasks that passed yesterday fail today. Viktor checks all 23 logs, traces them to the one change that caused them, and suggests undoing it. I check the logs and make the call.\n\nViktor does the digging. I decide what goes into the harness.\n\nHe is also proactive. He flags problems before you ask, which helps you stay on track with complex eval runs and other research tasks.\n\nHarness engineers, do you check every eval run, or only when the pass rate drops?\n\nTry free at @viktor_com. $100 in credits, no card. Full link in my first reply.\n\nThanks to the team for partnering with me on this post",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCct64WUAAbQUQ.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107880581216477417",
+  "user": "omarsar0",
+  "name": "elvis",
+  "date": "Wed Oct 07 17:07:47 +0000 2026",
+  "text": "Agent-to-agent communication with a personal agent on top is wild. \n\nWow. I underestimated how well models like Opus 5.5 can coordinate already. \n\nThis opens a whole new set of experiences with agents.\n\nBut it takes a bit of tuning (automations, webhooks, system prompts, tooling, etc.) and retrieving context at the right time. \n\nI don't have a perfect setup yet, but I feel like I'm already living in the future. \n\nMy agent team can do work (higher quality than I could imagine) at speeds I can't even keep up with. \n\nIt's crazy how fast things have moved in about a year. \n\nI started with individual Claude Code sessions.\n\nThen, just a couple of months later, I moved to multi-agent systems with subagents, parallelizing work. \n\nThen, a couple of months ago, I built a persistent, higher-level agent team, similar to Grok Bot. Of course, with my own agent orchestrator and a team of like 8 specialized bots (CFO, CSO, CTO, CMO, CCO, CoS, etc.)\n\nThen, about a month ago, I started playing around with agent-to-agent communication with a personal agent. \n\nAnd I can tell you, most of the apps like Code and Claude Desktop are way behind. But they will catch up.\n\nThis is why I believe we should all be building our own agent orchestrator/harness. You need to personalize to what works for you, which creates an important edge. You can start with a fork; who cares. Start somewhere. \n\nIt's just mind-blowing to see agents coordinate and do things on their own that would take a village or an entire org in some cases. \n\nJust sharing my raw thoughts here, but things will dramatically change again in the next couple of months, leading into next year. \n\nSharing a snapshot of one of my personal agents, Clio (Chief Content Officer), doing research all day and putting together high-quality content to inform me on things I am interested in and things I am writing about on X.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCyKKJWkAEK1uy.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107882143766737155",
+  "user": "alpha404ai",
+  "name": "alpha404",
+  "date": "Wed Oct 07 17:14:00 +0000 2026",
+  "text": "THE ACCOUNT CLOSED THE DAY +$3,587.\n\nOPENAI'S DOT HELD THE LAST VOTE, AND IT MADE THE BOT WAIT WITH 2 OF 3 ALREADY IN...\n\nA 20 Y/O NYU STUDENT LET IT. \n\nhis desk spins a funding dial across 64 perps, and 3 models have to agree before anything fires\n\nClaude Opus 5.5 read BTC funding at -0.012%. shorts pay longs. LONG at 0.91\n\nJev found the liquidity wall at $84,120 and armed the retest. LONG at 87/100\n\nthe OpenAI dot read the book and saw a skew of +0.02. too weak. WAIT\n\n2 of 3 isn't enough on this desk. nothing moved\n\nthen the skew jumped to +0.31 and the asks above $84,400 thinned out. the dot flipped to LONG at 0.89\n\n3 of 3. filled at $84,120.4 with 0.8% risk for a 1:3.4 reward\n\n$27,600 at the open, $31,187 at the close. +13% and a new high\n\nyou'd have entered on 2 out of 3. his desk waited for the last vote ↓",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2107564930723364864/vid/avc1/1080x1350/jxLF0N3mzPBO1VU6.mp4?tag=29"
+   ]
+  ],
+  "quote": "https://x.com/i/article/2106436270738067456"
+ },
+ {
+  "id": "2107893482190667940",
+  "user": "NextScience",
+  "name": "Next Science",
+  "date": "Wed Oct 07 17:59:03 +0000 2026",
+  "text": "🚨 Scientists Turn Bacteria Into Cancer Hunters? The Results Are Surprising...\n\nWhat if the next breakthrough against cancer isn't a new drug... but a tiny bacterium?\n\nScientists have engineered a special bacterium that naturally hides in the oxygen-starved center of solid tumors. Once inside, it begins attacking cancer cells that many treatments struggle to reach.\nThe biggest twist? Researchers gave these bacteria a genetic upgrade that helps them survive longer, allowing them to reach and destroy more of the tumor while leaving healthy, oxygen-rich tissue mostly untouched.\n\nThis research is still in the laboratory stage, and human clinical trials have not started yet. But the early findings could open the door to a completely new way of fighting cancer.\n\nSource:\nUniversity of Waterloo. Engineering Clostridium sporogenes with quorum sensing to enhance bacterial cancer therapy. Research findings reported by the University of Waterloo.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUC98VtWwAAQ92y.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107894838469472415",
+  "user": "codek_tv",
+  "name": "Code Geek",
+  "date": "Wed Oct 07 18:04:26 +0000 2026",
+  "text": "10 Integration formulas with examples",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUC_KA4a8AAkDQt.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107926727242416245",
+  "user": "razeden0",
+  "name": "RazeDen",
+  "date": "Wed Oct 07 20:11:09 +0000 2026",
+  "text": "who the f*ck let a spider into my ai setup... it read 1,860 pages last night and cut my bill by $81\n\ni just put a web crawler inside Claude + Grok 4.7 + Jev. the crawler reads. jev decides. grok 4.7 explains. claude writes the fix\n\ncrawler → jev asks 8 questions → grok 4.7 reads only what changed → claude writes the fix → i approve\n\nevery night it crawls 1,860 pages: docs, changelogs and pricing of the 37 tools i use. jev doesn't write anything. it only answers simple questions about each page: did it change, yes or no. does it touch my setup, pick one. how urgent, score 1 to 10\n\n8 questions each is 14,880 decisions, done in 11.2 seconds for $0.29\n\nthen the routing is cold. 1,791 pages get dropped by code, no model call at all. 55 go to grok 4.7. 11 reach claude. 3 come to me\n\nreading those pages by hand at 45 seconds each is 23h 15m. people would say 1,000x faster. i did the math and it's 7,473x\n\nthat's $0.00016 per page, and the smart models only see 66 of them\n\nlast night it caught a price cut 6 hours after it shipped. claude changed one line in my router and my bill went from $212 to $131\n\nthe big mistake: letting the smart model browse the web. you pay it to read 1,860 pages and say \"nothing new\" 1,791 times\n\nsetup took me 14 minutes: list of 37 urls, crawler skill on the agent computer, one schema with 8 questions, test mode first\n\njev decides, grok 4.7 reads, claude fixes, and i still press the button on anything that touches my keys or my money\n\neveryone gives their agent the whole web. mine reads 37 sites and gets cheaper every night",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2107926678538207232/vid/avc1/1080x1350/fxq9e_z6PIrNT0k8.mp4?tag=29"
+   ]
+  ],
+  "quote": "https://x.com/i/article/2101960624674631680"
+ },
+ {
+  "id": "2107934117581189271",
+  "user": "github",
+  "name": "GitHub",
+  "date": "Wed Oct 07 20:40:31 +0000 2026",
+  "text": "⚡️ @AnthropicAI's Claude Haiku 5.5 is now generally available in GitHub Copilot.\n\n➡️ It's a lightweight model designed for fast, high-volume work like subagents, quick edits, and terminal tasks.\n➡️ Our early testing showed that it matched Claude Sonnet 5 on many coding tasks while using significantly fewer tokens and steps.\n\nTry it out in the GitHub Copilot app, CLI, or @code.\nhttps://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot/",
+  "media": [],
+  "quote": null
+ },
+ {
+  "id": "2107938011640172981",
+  "user": "matheorems",
+  "name": "Matheorems",
+  "date": "Wed Oct 07 20:56:00 +0000 2026",
+  "text": "Carry an arrow around a triangle on a sphere, never turning it, and it comes back rotated by 90°.\n\nThe triangle runs from the equator to the north pole and back: three right angles, 270° in total. The extra 90° is curvature: area/R² = 4π/8 = π/2.\n\nChristoffel symbols, Γᵏᵢⱼ = ½ gᵏˡ(∂ᵢgⱼₗ + ∂ⱼgᵢₗ − ∂ₗgᵢⱼ), are the bookkeeping for \"not turning\" when the metric changes from place to place.\n\nThey fill Einstein's 1912 Zurich notebook. Gravity, in his theory, is exactly this kind of curvature.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUDLB9PaoAAIKGH.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2107952968867745864",
+  "user": "yurshevv",
+  "name": "yurshev",
+  "date": "Wed Oct 07 21:55:26 +0000 2026",
+  "text": "okay this is f*cking unfair and i'm a little mad about it\n\nTHE MEDIAN US SOFTWARE DEV MAKES $135,980 A YEAR. ANTHROPIC SAYS THE AVERAGE CLAUDE CODE DEV SPENDS $13 A DAY\n\nand there's one folder that turns that $13 into a team of 7. it's empty on your machine right now. mine was too\n\ni did the math twice because i didn't believe it\n$13 × 250 work days = $3,250 a year\n2.4% of one dev salary. i actually laughed out loud\n\nthe folder is .claude/agents/\nevery card in the video is one markdown file in it\n\nwatch 0:04. the red ticket\nthat's the reviewer kicking #1049 back to code because it had no test\ni got chills the first time i saw an ai say no to another ai\n\nthe reviewer is a haiku model. it can't edit a single file. it can only say no\nyour junior can't review his own PR. claude can't either. so you give it a reviewer that isn't allowed to type\n\nthe team\n→ CHIEF never writes code. it only hands out tickets\n→ CRAWLER reads the repo first. nobody codes blind\n→ PLAN runs in plan mode. nothing hits disk until you say yes\n→ CODE writes the diff, TEST runs the suite\n→ REVIEW blocks anything without a test\n→ SECURITY pulls secrets out of the diff. DOCS writes the changelog\n\nthe part that honestly made me feel stupid\neach one gets its own context. the 40 files it read and the 38k of test logs never touch your main chat. only the answer comes back\ni spent months blaming the model for getting dumb at hour 2. it was me. one chat doing 7 jobs\n\nbottom right of the video is the real file. 6 lines of yaml and the rules. that's the whole hire\n\ni'm 18. i don't have a team. i have a folder\n\na year from now \"i code with ai\" will sound like \"i email with a computer\"\nthe people writing agent files tonight are the ones hiring next year",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2107952392528355328/vid/avc1/1440x1800/qdw6n2j9SZgxN-7-.mp4?tag=29"
+   ]
+  ],
+  "quote": "https://x.com/i/article/2106000693240709120"
+ },
+ {
+  "id": "2107961498387525918",
+  "user": "McKinsey_MGI",
+  "name": "McKinsey Global Institute",
+  "date": "Wed Oct 07 22:29:19 +0000 2026",
+  "text": "AI capabilities are advancing exponentially by some measures. Infrastructure builds more linearly. Organizations can take years to change.\n\nThe result: bottlenecks, risks, and opportunities.\n\nNew MGI research maps the AI economy as an interconnected system: http://mck.co/aieconomy",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUD7z93XkAAHwo0.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108021275515826280",
+  "user": "Akitti",
+  "name": "Akitti",
+  "date": "Thu Oct 08 02:26:51 +0000 2026",
+  "text": "Fractional Chern petals evoke the self-similar wings of the Hofstadter butterfly—the fractal energy spectrum of electrons on a lattice in a magnetic field—now filled fractionally by interacting electrons to form fractional Chern insulators (FCIs).\n\nThe Hofstadter spectrum arises when the magnetic flux per unit cell is a rational fraction \\( p/q \\) of the flux quantum. Gaps open at energies labeled by integers (Chern numbers \\( C \\)), producing the characteristic nested “wings” or petals. The Hall conductivity in a gap is quantized as \\( \\sigma_{xy} = C e^2 / h \\). Recent work shows the entire fractal tree of these petals is fixed by the topology: each butterfly is uniquely labeled by a triplet of Chern numbers (band Chern plus the two bounding gap Cherns), and recursive generators built from \\( 3 \\times 3 \\) integer matrices reproduce the structure.\n\nWhen a nearly flat Chern band (\\( C \\neq 0 \\)) is partially filled and interactions dominate, the system can form an incompressible FCI state. These are lattice analogues of fractional quantum Hall states, with fractional Hall conductance \\( \\sigma_{xy} = (C \\nu) e^2 / h \\) where \\( \\nu = p/q \\) is the band filling, ground-state degeneracy on a torus, and fractional quasiparticles. Ideal quantum geometry (uniform Berry curvature and quantum metric matching the lowest Landau level) stabilizes them even at zero external field. Experiments have observed them in magic-angle twisted bilayer graphene, twisted MoTe\\(_2\\), and rhombohedral multilayer graphene/hBN moiré systems, including states with \\( |C| > 1 \\) and even-denominator fillings.\n\nThe “petals” therefore carry both the integer topological labels of the single-particle fractal and, under strong correlations, fractional topological order inside selected wings.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUEyKGTXwAAdm_7.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108022315250516238",
+  "user": "introsp3ctor",
+  "name": "Mike Dupont",
+  "date": "Thu Oct 08 02:30:59 +0000 2026",
+  "text": "monster -- rh bridge idea. working on it in aristotle/lean",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUEzH6EXYAE9cZm.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108023498308567337",
+  "user": "GauravGoyalAI",
+  "name": "Gaurav Goyal",
+  "date": "Thu Oct 08 02:35:41 +0000 2026",
+  "text": "🔬 RAG FAILURE LAB — Episode 01\n\nWhy Does RAG Retrieve the Wrong Chunk?\n\nYour question can be correct.\nYour documents can be correct.\nAnd your RAG system can still retrieve the wrong context.\n\nWhy?\n\nBecause retrieval usually optimizes for similarity, not guaranteed correctness.\n\nCommon causes:\n\n🔹 Semantic similarity ≠ intent match\n🔹 Important information split across chunks\n🔹 Generic content outranking specific content\n🔹 Embeddings missing fine-grained details\n\nHow do you improve it?\n\nBetter chunking + Hybrid Search + Metadata Filtering + Reranking\n\nThe key lesson:\n\n> RAG doesn't automatically retrieve the right answer. It retrieves what looks relevant.\n\nGood RAG engineering is about designing the pipeline so relevant context becomes the right context.\n\nEpisode 01/10 — RAG FAILURE LAB\n\nWhat is the most common retrieval failure you've seen in production?\n\n#RAG #RAGFailureLab #AIEngineering #GenerativeAI #LLM AgenticAI MachineLearning ArtificialIntelligence RAG GauravGoyalAI",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2108023476921729024/vid/avc1/720x1280/IVadi36iP9M32OjJ.mp4?tag=29"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108054026197532954",
+  "user": "cosmosarcive",
+  "name": "Cosmos Archive",
+  "date": "Thu Oct 08 04:37:00 +0000 2026",
+  "text": "Tensors didn’t appear all at once. Their story grew from geometry, elasticity, and relativity.\n\nRiemann’s 1854 work shaped curved geometry, Voigt brought the word “tensor” into continuum physics, and Ricci and Levi-Civita gave the subject its systematic calculus in 1900.\n\nEinstein then made tensors central to general relativity in 1915. The key idea: tensors became powerful because their form survives a change of coordinates.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUDNl4sbQAApb_B.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108058572987023396",
+  "user": "DivyanshT91162",
+  "name": "divyansh tiwari",
+  "date": "Thu Oct 08 04:55:04 +0000 2026",
+  "text": "🤯 Your AI agent can write code.\n\nIt can manage files.\n\nIt can use tools.\n\nBut ask it to search Twitter, read Reddit, watch a YouTube video, or browse Xiaohongshu…\n\nAnd suddenly, it’s almost blind.\n\nAgent Reach changes that.\n\nIt gives your AI agent a single internet capability layer that connects it to:\n\n→ X / Twitter\n→ Reddit\n→ YouTube\n→ GitHub\n→ Bilibili\n→ Instagram\n→ Facebook\n→ LinkedIn\n→ RSS\n→ Any webpage\n→ Full-web semantic search\n\nAnd the crazy part?\n\nYou don't configure every platform yourself.\n\nTell your agent:\n\n«“Install Agent Reach.”»\n\nIt figures out which tools, backends and dependencies are currently working, installs them, checks them and routes each platform through the best available option.\n\nBecause web access keeps breaking.\n\nAPIs change.\nScrapers get blocked.\nCLIs stop working.\nPlatforms change their anti-bot systems.\n\nAgent Reach is built around fallbacks.\n\nTwitter → one backend → another if needed.\nBilibili → another route when yt-dlp stopped working.\nReddit → browser-based login route.\nXiaohongshu → multiple possible backends.\n\nAnd \"agent-reach doctor\" can literally tell you:\n\nWhat works. What doesn't. And how to fix it.\n\nSo instead of building 10 different integrations for your AI agent…\n\nYou install one capability layer.\n\nAgent → Agent Reach → Internet\n\nThat's a very different way of thinking about AI agents.\n\nThe next generation of agents won't just need better reasoning.\n\nThey'll need better access to the internet.\n\nREPOO👇",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUFUGNJbUAA3sMM.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108098865073410484",
+  "user": "thesupermannx",
+  "name": "Superman",
+  "date": "Thu Oct 08 07:35:10 +0000 2026",
+  "text": "Samsung open-sourced a method that shrinks 13B parameter LLM into less than 1 GB.\n\nIt's called \"LittleBit\"\n\nInstead of storing AI weights as standard numbers, they used latent factorization to crush them down to extreme sub-1-bit levels.\n\nIn some configurations, they hit 0.1 bits per weight.\n\nBut here is where the architecture gets crazy.\n\nWhen you compress an AI this much, you can stop doing math.\n\nInstead of forcing the hardware to do heavy floating-point multiplication, LittleBit replaces the core computation with a bitwise XOR operation.\n\nIt swaps complex matrix math for basic sign flips.\n\nThe results rewrite the rules of model deployment:\n\n• Unlocks a massive 11.6x inference speedup relative to standard FP16 models.\n\n• Radically reduces memory footprint and loading bandwidth.\n\n• Maintains robustness in extreme sub-0.5 bit regimes where previous compression methods catastrophically fail.\n\nThis is not a clever optimization.\n\nIt is the blueprint for running massive, state-of-the-art AI locally on cheap, resource-constrained devices.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUF4hWRawAACg-W.jpg?name=orig"
+   ]
+  ],
+  "quote": null
+ },
+ {
+  "id": "2108165070626918746",
+  "user": "eng_khairallah1",
+  "name": "Khairallah AL-Awady",
+  "date": "Thu Oct 08 11:58:15 +0000 2026",
+  "text": "opus 5.5 is f**king gold.\n\ndrop this into Claude Opus 5.5 and it will build your first team of AI agents from scratch with roles, prompts, tools, and the full workflow for you\n\nsave and steal this now:",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUG0846aAAAwMRi.jpg?name=orig"
+   ]
+  ],
+  "quote": "GPT-6 Astra and Claude Opus 5.5 were built the same way.\n\n5 stages turn raw internet text into a model that can reason, write and code.\n\nHere's how to build a working version of each stage yourself. https://x.com/i/article/2107553105399209984"
+ }
+]

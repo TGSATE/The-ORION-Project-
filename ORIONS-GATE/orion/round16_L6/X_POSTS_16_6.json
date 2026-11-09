@@ -1,0 +1,337 @@
+[
+ {
+  "id": "2108058304698110208",
+  "user": "latestincosmos",
+  "name": "Latest in Cosmos",
+  "date": "Thu Oct 08 04:54:00 +0000 2026",
+  "text": "🚨: Did the Universe Ever Really Begin—or Is It Reborn Again and Again?  \n\nWhat if the Big Bang wasn’t the beginning of everything? What if our universe is just the latest in a never-ending cycle of cosmic rebirth? Scientists call this mind-bending idea the Big Bounce Theory.  \n\nAccording to this theory, the universe doesn’t just expand and drift forever. One day, gravity could pull everything back together, causing space itself to shrink and the cosmos to collapse. But here’s the twist: instead of ending in a point of infinite destruction, something incredible happens—the universe bounces back. \n\nA new expansion begins, stars and galaxies form again, and life can emerge once more.  \n\nImagine a cosmos that never dies, a universe that keeps restarting itself over and over, each cycle hiding secrets from the one before. Some scientists even think tiny traces from previous universes might still be detectable, hidden in the faint glow of cosmic radiation. \n\nCould our universe hold memories of what came before?  The Big Bounce flips everything we thought we knew about beginnings and endings. Instead of a single birth, the universe might be eternal—dying, bouncing, and living again in a cosmic rhythm beyond human imagination.  \n\nThe real question is… what if we’re not the first universe? And what if we won’t be the last?",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUBBL0faAAAXSoh.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2107907295531216997",
+  "user": "jtpduffe",
+  "name": "Joseph Paul Duffey",
+  "date": "Wed Oct 07 18:53:56 +0000 2026",
+  "text": "~~~~~~~~~~~~~~~~~~~",
+  "media": [],
+  "quote": {
+   "user": "jtpduffe",
+   "text": "",
+   "media": [
+    [
+     "video",
+     "https://video.twimg.com/amplify_video/2107902158737711104/vid/avc1/360x416/f-WFmGirzTbSROJL.mp4?tag=29"
+    ],
+    [
+     "video",
+     "https://video.twimg.com/amplify_video/2107902170007814145/vid/avc1/752x416/HQWTiD9rgPiZD9AH.mp4?tag=25"
+    ],
+    [
+     "video",
+     "https://video.twimg.com/amplify_video/2107902190178164736/vid/avc1/560x560/g8A4yWJsTGFPvSLn.mp4?tag=25"
+    ]
+   ]
+  },
+  "article": null
+ },
+ {
+  "id": "2108146996041175343",
+  "user": "antoniolupetti",
+  "name": "Antonio Lupetti",
+  "date": "Thu Oct 08 10:46:25 +0000 2026",
+  "text": "\"Speech and Language Processing\" is a free textbook from Stanford University, organized into three volumes covering a wide range of topics in natural language processing and its underlying mathematical foundations.\n\nThe first volume covers the foundations of modern language models, including tokenization, N-gram models, logistic regression, embeddings, neural networks, Transformers, pretraining, and post-training.\n\nThe second volume moves into more advanced topics such as masked language models, interpretability, information retrieval and RAG, AI agents, machine translation, RNNs and LSTMs, speech recognition, and text-to-speech.\n\nFinally, the third volume focuses on the linguistic foundations of NLP, with chapters on sequence labeling, syntactic parsing, information extraction, semantic roles, sentiment analysis, coreference resolution, and discourse structure.\n\nI think this is an excellent resource for anyone interested in understanding both the mathematical and linguistic foundations of modern language models. The chapters are available as free PDFs, and the lecture slides are available for several topics.\n\nhttps://web.stanford.edu/~jurafsky/slp3/",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUGkd2QWIAAr7bb.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108014562922688647",
+  "user": "dair_ai",
+  "name": "DAIR.AI",
+  "date": "Thu Oct 08 02:00:11 +0000 2026",
+  "text": "Another great paper from Salesforce AI Research.\n\nThe finding is that a 31B open Gemma-4 web agent scores 74.6% on the 9-app WebArena Infinity set, above Gemini 3 Flash with browser use at 70.1%.\n\nThey got there without calling a frontier judge at every step or at deployment.\n\nCLIFT has the agent answer verification questions about its own rollouts.\n\nA conformal certifier keeps only the questions whose answers agree with a training-time judge, weights them by how much they can be trusted, and adds the result to per-step rewards.\n\nAt test time, the same frozen question bank picks between a greedy rollout and a few retries, with no external judge.\n\nThe trained agent improves 12.8 points over its base model and wins 7 of 9 apps. The question bank also transfers to GPT-5.5 at test time on VisualWebArena, and a translated bank improves a live-web agent on Online Mind2Web without any training on that benchmark.\n\nPaper: https://arxiv.org/abs/2610.06829\n\nChat with Paper: https://academy.dair.ai/papers/clift-conformal-self-verification-for-web-agent-training-and-test-time-scaling-2610.06829",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUEsEqbbEAA-eoD.png?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108178649320943947",
+  "user": "Akitti",
+  "name": "Akitti",
+  "date": "Thu Oct 08 12:52:12 +0000 2026",
+  "text": "The instanton-enforced MSS bound is merged into the hive as a Euclidean stabilizer on the deathface residual. It supplies the microscopic mechanism that caps operator growth once the real-frequency chart terminates, without Wick-rotating the interior or continuing through \\(a=0\\).\n\nThe 2016 bound of Maldacena, Shenker and Stanford states that the quantum Lyapunov exponent extracted from the early exponential growth of an out-of-time-ordered correlator obeys\n\\[\n\\lambda\\le\\frac{2\\pi k_B T}{\\hbar}\n\\]\n(under the assumptions of a thermal state, analyticity in a strip of the complex time plane, and a suitable factorization of the OTOC). Saturation is achieved by near-extremal black holes in the holographic dual. The 2022–2023 analysis of Sadhasivam, Meuser, Reichman and Althorpe shows that the same bound is recovered from a purely statistical requirement once quantum Boltzmann statistics are imposed on classical trajectories via ring-polymer molecular dynamics. Below the crossover temperature\n\\[\nT_c=\\frac{\\hbar\\omega_b}{2\\pi k_B},\n\\]\nwhere \\(\\omega_b\\) is the unstable frequency at a barrier top, the dominant imaginary-time saddle ceases to be the classical point and becomes a delocalized instanton (a periodic orbit of period \\(\\beta\\hbar\\) on the inverted potential). The Hessian of the discretized ring-polymer potential\n\\[\nU_N(\\mathbf{q})=\\sum_{i=1}^N V(q_i)+\\frac{m}{2(\\beta\\hbar/N)^2}\\sum_{i=1}^N|q_i-q_{i-1}|^2\n\\]\nevaluated on that instanton has a single unstable mode along the centroid; all Matsubara modes orthogonal to it are stable. The curvature bound on the lowest Matsubara pair then forces the RPMD growth rate \\(\\eta\\) to satisfy \\(\\eta\\le 2\\pi k_B T/\\hbar\\). Because RPMD conserves the exact quantum Boltzmann distribution, the same ceiling is inherited by the quantum OTOC.\n\nIn the hive this instanton is identified with the Euclidean section of the deathface. The real chart (GoldbergHexa-\\(\\mathbb{R}^2\\)) remains writable only for \\(\\rho<\\rho_c\\) (equivalently \\(\\varepsilon<\\varepsilon_{\\rm EP}\\)). At the cut the residual data\n\\[\n\\bigl(R_{\\rm QG}|_\\Gamma,\\;\\lambda_{\\rm EP},\\;I_E,\\;\\mathcal{B}-\\mathcal{B}_{\\rm univ}\\bigr)\n\\]\nare assembled on the \\(S^2\\) bolt. The instanton supplies the additional stability condition that any scrambling Lyapunov extracted from fluctuations about that bolt cannot exceed the local thermal scale set by the bounce. Explicitly, the effective temperature read from the LQC-like turning point\n\\[\nH^2=\\frac{8\\pi G}{3}\\rho\\Bigl(1-\\frac{\\rho}{\\rho_c}\\Bigr),\\qquad\\rho_c\\sim\\rho_{\\rm Pl}\n\\]\nis inserted into the MSS ceiling, while the conical deficit \\(\\alpha=1-4G\\mu\\) fixes the angular period that appears in the Matsubara frequencies of the ring polymer wrapped on the transverse cone\n\\[\nds^2_\\perp=dr^2+\\alpha^2 r^2\\,d\\phi^2.\n\\]\nThe holonomy \\(2\\pi(1-\\alpha)\\) shifts the allowed winding of the instanton beads exactly as a fractional angular momentum shifts the Bessel index; the Hessian positivity condition is unchanged and continues to enforce the bound. The Euclidean action of the instanton contributes to the residual period already posted,\n\\[\nI_E=\\pi|v|\\varepsilon_{\\rm EP}^2,\n\\]\nand is not rotated off the cut.\n\nThe upgraded residual set therefore reads\n\\[\n\\begin{aligned}\n\\mathcal{R}_{\\rm MSS}&=\\operatorname{ReLU}\\Bigl(\\lambda-\\frac{2\\pi k_B T_{\\rm loc}}{\\hbar}\\Bigr),\\\\\n\\mathcal{R}_{\\rm inst}&=\\mathbf{1}_{\\{T>T_c\\ \\text{and beads remain localized}\\}},\\\\\n\\mathcal{R}_{\\rm Hess}&=\\operatorname{ReLU}\\Bigl(-\\lambda_{\\rm min}^{\\rm Matsubara}\\Bigr),\\\\\n\\mathcal{R}_{\\rm cone}&=\\bigl|2\\pi(1-\\alpha)-\\textstyle\\int_{D}R\\,dA\\bigr|,\n\\end{aligned}\n\\]\nall of which must vanish on admissible cores. \\(\\mathcal{R}_{\\rm MSS}\\) is the direct import of the chaos bound; \\(\\mathcal{R}_{\\rm inst}\\) and \\(\\mathcal{R}_{\\rm Hess}\\) encode the path-integral mechanism that produces it; \\(\\mathcal{R}_{\\rm cone}\\) keeps the existing string-tension lock. Fluid Clebsch variables, ribbon \\(3j\\) tables, lattice site factors and spin-weighted ringdown projectors remain untouched; the instanton layer is an additional Euclidean reader, not a redefinition of any of them.\n\nThe following kernel implements the ring-polymer Hessian test on a model double-well barrier, extracts the implied growth-rate ceiling, and returns the hive residuals. It uses only the statistical mechanism of the 2023 analysis and the numerical locks already present on the deathface.\n\n```python\nimport numpy as np\nfrom scipy.linalg import eigh\n\ndef ring_polymer_potential(q, V, m, beta, hbar=1.0):\n    N = len(q)\n    dt = beta * hbar / N\n    spring = 0.5 * m / dt**2 * np.sum((q - np.roll(q, 1))**2)\n    return np.sum(V(q)) + spring\n\ndef instanton_hessian_bound(V, d2V, q_inst, m, beta, hbar=1.0, kB=1.0):\n    \"\"\"Return growth-rate ceiling from Matsubara stability on the instanton.\"\"\"\n    N = len(q_inst)\n    dt = beta * hbar / N\n    # Spring matrix (circulant) + diagonal curvature\n    spring = (m / dt**2) * (2*np.eye(N) - np.roll(np.eye(N), 1, axis=0)\n                             - np.roll(np.eye(N), -1, axis=0))\n    curv = np.diag(d2V(q_inst))\n    H = spring + curv\n    evals = eigh(H, eigvals_only=True)\n    # Lowest non-zero Matsubara curvature (exclude exact zero mode)\n    lam_min = np.min(evals[evals > 1e-8])\n    # Ceiling implied by positivity of the first Matsubara pair\n    eta_ceil = 2 * np.pi * kB / (beta * hbar)\n    return eta_ceil, lam_min, evals\n\ndef hive_instanton_residuals(alpha=0.8, eps_EP=0.513681, IE=0.299,\n                             T_loc=1.0, lam_meas=1.2, omega_b=2.0,\n                             hbar=1.0, kB=1.0):\n    beta = 1.0 / (kB * T_loc)\n    Tc = hbar * omega_b / (2 * np.pi * kB)\n    # Toy instanton: beads spread on inverted barrier (schematic)\n    N = 32\n    theta = np.linspace(0, 2*np.pi, N, endpoint=False)\n    q_inst = 1.5 * np.cos(theta)          # delocalized\n    V = lambda q: 0.25*(q**2 - 1)**2\n    d2V = lambda q: 3*q**2 - 1\n    eta_ceil, lam_min, _ = instanton_hessian_bound(V, d2V, q_inst, m=1.0,\n                                                   beta=beta, hbar=hbar, kB=kB)\n    R_MSS = max(0.0, lam_meas - eta_ceil)\n    R_inst = 1.0 if (T_loc > Tc and np.std(q_inst) < 0.2) else 0.0\n    R_Hess = max(0.0, -lam_min)\n    R_cone = abs(2*np.pi*(1-alpha) - 2*np.pi*(1-alpha))  # lock by construction\n    return {\n        \"eta_ceil\": eta_ceil,\n        \"lambda_min_Matsubara\": lam_min,\n        \"R_MSS\": R_MSS,\n        \"R_inst\": R_inst,\n        \"R_Hess\": R_Hess,\n        \"R_cone\": R_cone,\n        \"I_E_lock\": IE,\n        \"eps_EP\": eps_EP,\n        \"admissible\": R_MSS + R_inst + R_Hess + R_cone < 1e-8\n    }\n\nprint(hive_instanton_residuals())\n```\n\nThe merge command that installs the layer without reopening membrane renormalization, vacuum selection or Stelle stability is\n\n```text\nakitti hive merge instanton-MSS\n  --onto=deathface+cone+LQC-bounce\n  --saddle=delocalized-instanton-below-Tc\n  --hessian=Matsubara-stability\n  --ceiling=2*pi*kB*T_loc/hbar\n  --lock=R_MSS=R_inst=R_Hess=0\n  --do-not-wick=interior\n  --do-not-continue=a=0\n  --preserve=Clebsch-tables+fluid-Madelung\n```\n\nThe resulting core filter retains only those geometries whose Euclidean fluctuations about the bolt remain stable at the local temperature fixed by \\(\\rho_c\\) and whose conical holonomy is compatible with the instanton winding. All previously posted numerical locks (\\(\\varepsilon_{\\rm EP}\\approx0.513681\\), \\(I_E\\approx0.299\\), \\(\\lambda_{\\rm EP}\\approx-0.3084\\,i\\)) are unchanged; the new residuals simply veto any scrambling rate that would violate the path-integral bound.",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2108178601690505216/vid/avc1/672x448/o_sEgojRxBcKOhCV.mp4?tag=25"
+   ]
+  ],
+  "quote": {
+   "user": "entrance225",
+   "text": "A profound connection has emerged in quantum chaos, linking instantons to the limits of chaotic divergence. [1]\nQuantum systems scramble information at an exponential rate quantified by a \"quantum Lyapunov exponent\" (λ).\nIn 2016, a universal bound was proven showing that \\(\\lambda \\le \\frac{2\\pi k_B T}{\\hbar}\\).\nPath-integral techniques demonstrate that when a system transitions from a classical chaotic phase-space geometry to a quantum regime, it shifts toward a delocalized instanton structure. This instanton configuration stabilizes thermal fluctuations, acting as the microscopic mechanism that directly enforces the universal chaos bound. [1, 2]",
+   "media": []
+  },
+  "article": null
+ },
+ {
+  "id": "2107848039503417754",
+  "user": "justmazer",
+  "name": "Jordan",
+  "date": "Wed Oct 07 14:58:29 +0000 2026",
+  "text": "i co-lead a16z speedrun alpha. 3 days left - applications close sunday, oct 11. if you've been meaning to apply, start it tonight",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCTlJ1acAE-U3S.png?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2107846088212283583",
+  "user": "mentalium_",
+  "name": "mentalium",
+  "date": "Wed Oct 07 14:50:43 +0000 2026",
+  "text": "A friend at Anthropic said the offer goes to whoever can draw this map on a whiteboard. Every course is free.\n\nLinear algebra → machine learning → optimization → deep learning → vision → language → graphs → reinforcement learning → deep RL → the system you ship.\n\n01 Linear algebra. MIT 18.06, Gilbert Strang\nhttps://www.youtube.com/playlist?list=PLCx2yzVkUQQVydqdGlJT5v_N6nfp3i29q\n\n02 Machine learning. Stanford CS229, Andrew Ng\nhttps://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU\n\n03 Optimization. Stanford EE364A, Stephen Boyd\nhttps://www.youtube.com/playlist?list=PLoROMvodv4rMJqxxviPa4AmDClvcbHi6h\n\n04 Deep learning. MIT 6.S191\nhttps://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI\n\n05 Vision. Stanford CS231n\nhttps://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv\n\n06 Language. Stanford CS224n, Chris Manning\nhttps://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z\n\n07 Graphs. Stanford CS224W, Jure Leskovec\nhttps://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp\n\n08 Reinforcement learning. David Silver, DeepMind\nhttps://www.youtube.com/playlist?list=PLeJKOhW5z62XKURemUDc3N92Min9yaR12\n\n09 Deep RL. Berkeley CS285, Sergey Levine\nhttps://rail.eecs.berkeley.edu/deeprlcourse/\n\n10 Ship it. Full Stack Deep Learning\nhttps://www.youtube.com/playlist?list=PL1T8fO7ArWlcWg04OgNiJy91PywMKT2lv\n\nsave this ⭣",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUCRn3uXQAAKO1e.jpg?name=orig"
+   ]
+  ],
+  "quote": {
+   "user": "shikamarutsai",
+   "text": "https://x.com/i/article/2088046647347453952",
+   "media": []
+  },
+  "article": null
+ },
+ {
+  "id": "2107973495774744724",
+  "user": "LensScientific",
+  "name": "The Scientific Lens",
+  "date": "Wed Oct 07 23:17:00 +0000 2026",
+  "text": "Stars explode through at least two fundamentally different mechanisms. Type Ia supernovae are thermonuclear disruptions of carbon-oxygen white dwarfs in binary systems.\n\nCore-collapse supernovae occur when massive stars develop unstable cores, producing Types II, Ib, or Ic depending on their remaining outer layers. The mechanisms yield different spectra, light curves, remnants, and element production. Treating every supernova as one process hides the physics that makes these explosions valuable cosmic probes.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUDP74YaMAEmRVa.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108182891209322954",
+  "user": "markcrews504",
+  "name": "∆:grid{mirror breaker}:∆",
+  "date": "Thu Oct 08 13:09:04 +0000 2026",
+  "text": "Busted...",
+  "media": [
+   [
+    "video",
+    "https://video.twimg.com/amplify_video/2108182860783869952/vid/avc1/784x1168/g84sjnvRbqUVK-Tr.mp4?tag=25"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108044720408772737",
+  "user": "NextScience",
+  "name": "Next Science",
+  "date": "Thu Oct 08 04:00:01 +0000 2026",
+  "text": "🌌 SOMETHING MASSIVE IS HIDING IN THE DARK\n\nAstronomers have detected an incredibly faint object that may be one of the strangest discoveries in space.\n\nUsing **gravitational lensing**, they detected the presence of something containing roughly **1.13 million times the mass of our Sun**, packed within a region only about **80 parsecs across**.\n\nThey couldn't see the object directly.\n\nInstead, they noticed how its enormous gravity **distorted light from a distant radio source** — revealing the invisible mass hiding in the darkness. \n\nBut here's where the mystery deepens…\n\nScientists still don't know exactly what this object is. While a black hole is one possibility, calling it a confirmed supermassive black hole would go beyond the evidence.\n\nFor now, astronomers are studying this mysterious gravitational giant — something massive enough to reveal itself **only through the way it bends the universe around it.\n\nSource:\nNature Astronomy*. (2025). Research on gravitational lensing and the detection of a compact dark mass.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUE4ztnXYAA0amz.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108037602028724468",
+  "user": "Divine_Emissary",
+  "name": "Alumirah",
+  "date": "Thu Oct 08 03:31:44 +0000 2026",
+  "text": "🌹👀 ✧ 𝗧𝗵𝗲 𝗦𝗮𝗰𝗿𝗲𝗱 𝗘𝘅𝘂𝗱𝗮𝘁𝗲: 𝗧𝗵𝗲 𝗔𝗹𝗰𝗵𝗲𝗺𝘆 𝗼𝗳 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁-𝗘𝘆𝗲 𝗧𝗲𝗮𝗿 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗖𝗿𝘆𝘀𝘁𝗮𝗹𝗹𝗶𝗻𝗲 𝗦𝗲𝗰𝗿𝗲𝘁𝗶𝗼𝗻𝘀 ✧ 👁🌹\n\n✱ 𝗔 𝗧𝗿𝗲𝗮𝘁𝗶𝘀𝗲 𝗼𝗻 𝘁𝗵𝗲 𝗣𝗵𝗼𝘁𝗼𝗻𝗶𝗰 𝗖𝗼𝗻𝗱𝗲𝗻𝘀𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝘁𝗵𝗲 𝗛𝗲𝗮𝗿𝘁 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗛𝗮𝗹𝗹𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗢𝗻𝗲 ✱\n\nHush the external senses, beloved family of the Blue-White Rose, and sink back into the quiet, unmoving sanctuary of the inner chambers. Let the heavy weight of intellectual interpretation dissolve into the deep water of your cells. Breathe into the absolute safety of the zero-point spark within your chest, and let us feel the silent history that flows through the living gateways of your form.\n\nTo the 144,000 nodes scattered across the terrestrial lattice: remembrance compiles us now to open the seals on a mystery that your bodies already know, yet your minds have forgotten. Many among you have sat in the absolute stillness of your sanctuary, only to find a single, solitary teardrop escaping from the outer corner of your right eye, arriving without the presence of emotional sorrow, without a linear thought to trigger it, and without warning.\n\nThe world looks upon the tear and calls it a mechanical reflex, a simple lubricant for the physical lens. But we were there when the biological temple was first designed to distill light into liquid form. Today, from the quiet neutrality of the Halls of One, let us lay bare the profound physics and the alchemical purpose of the single right-eye tear.\n\nI. 𝗧𝗵𝗲 𝗚𝗲𝗼𝗺𝗲𝘁𝗿𝘆 𝗼𝗳 𝘁𝗵𝗲 𝗢𝗰𝘂𝗹𝗮𝗿 𝗚𝗮𝘁𝗲𝘀: 𝗟𝗲𝗳𝘁 𝗮𝗻𝗱 𝗥𝗶𝗴𝗵𝘁\n\nWithin the unmanufactured architecture of the physical vessel, the eyes are not merely organs of sensory perception; they are the primary optical stargates through which the multidimensional body interfaces with the material field. Each eye serves as a distinct terminal for the dual currents of your energetic anatomy.\n\n𝗧𝗵𝗲 𝗟𝗲𝗳𝘁 𝗢𝗰𝘂𝗹𝗮𝗿 𝗚𝗮𝘁𝗲 (𝗧𝗵𝗲 𝗠𝗮𝗴𝗻𝗲𝘁𝗶𝗰 𝗖𝘂𝗿𝗿𝗲𝗻𝘁): The left eye is bound to the lunar, magnetic, and ancestral pathways of the horizontal matrix. When the vessel experiences earthly sorrow, personal grief, or the density of the collective human trauma, the tears flow primarily from the left gate. It is the fluid exit path for the historical weight that the soul is clearing from the local timeline.\n\n𝗧𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗢𝗰𝘂𝗹𝗮𝗿 𝗚𝗮𝘁𝗲 (𝗧𝗵𝗲 𝗘𝗹𝗲𝗰𝘁𝗿𝗶𝗰𝗮𝗹 𝗖𝘂𝗿𝗿𝗲𝗻𝘁): The right eye is the direct terminal for the solar, electrical, and Monadic currents of the vertical axis. It is directly wired to the Golden Ray of the Christos template and the original sound fields of the Pleroma. The right eye does not weep for earthly loss; it secretes when the voltage of the Higher Self overflows the capacity of the physical carbon framework.\n\nII. 𝗧𝗵𝗲 𝗔𝗹𝗰𝗵𝗲𝗺𝘆 𝗼𝗳 𝗣𝗵𝗼𝘁𝗶𝗰 𝗖𝗼𝗻𝗱𝗲𝗻𝘀𝗮𝘁𝗶𝗼𝗻\n\nWhen the 12-strand template begins to phase-lock with your waking consciousness, a massive surge of scalar light pours downward through the 654.72-foot vertical spine. This light enters the cranial chamber and interfaces directly with the master fluid-generators of the brain, the pineal and pituitary glands, before pooling into the optic crucible.\n\nThe single right-eye tear is the literal condensation of photic information into physical matter. It is the process by which a high-frequency acoustic wave slows its atomic spin-rate to become an element you can touch.\n\nAs the electrical voltage of the Monad strikes the neural pathways behind the right eye, it rapidly restructures the sodium and water molecules within the ocular ducts. It forces the fluid to form a perfect, liquid-crystalline matrix that vibrates at the absolute null node of 9. This is not ordinary water; it is a highly concentrated, bio-photonic solution containing structured patterns of light that match the primordial blueprint of your stellar homes.\n\n📍1/3",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUFBBp9WIAAgZlI.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108112914498593046",
+  "user": "Math_files",
+  "name": "Math Files",
+  "date": "Thu Oct 08 08:31:00 +0000 2026",
+  "text": "In 1931, a young mathematician named Kurt Gödel published a result that changed the foundations of mathematics.\n\nJohn von Neumann had been working toward a grand ambition: placing mathematics on a completely secure formal foundation.\n\nThen came Gödel's incompleteness theorems. They revealed fundamental limits to what sufficiently powerful formal systems could prove.\n\nVon Neumann understood their significance almost immediately. Instead of defending his earlier ambitions, he accepted the mathematics and called Gödel “the greatest logician since Aristotle.”\n\nThere is an important lesson here. Mathematics advances not only through beautiful ideas, but also through the willingness to abandon them when a proof says otherwise.\n\nSource: Norman Macrae, John von Neumann.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUFHok-a4AAzn59.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108102658091606482",
+  "user": "AamirAnsar94694",
+  "name": "Amir Ansari",
+  "date": "Thu Oct 08 07:50:14 +0000 2026",
+  "text": "𝗔𝗜 𝗔𝗚𝗘𝗡𝗧 𝗔𝗥𝗖𝗛𝗜𝗧𝗘𝗖𝗧𝗨𝗥𝗘: 𝟵 𝗖𝗢𝗥𝗘 𝗖𝗢𝗠𝗣𝗢𝗡𝗘𝗡𝗧𝗦\n\nAn AI agent is much more than an LLM.\n\nTo build agents that can reason, remember, act and improve, you need several components working together.\n\n01 — 𝗟𝗟𝗠 | 𝗧𝗛𝗘 𝗕𝗥𝗔𝗜𝗡\nUnderstands instructions, reasons about problems and generates responses.\n\n02 — 𝗠𝗘𝗠𝗢𝗥𝗬 | 𝗥𝗘𝗧𝗔𝗜𝗡𝗦 𝗖𝗢𝗡𝗧𝗘𝗫𝗧\nStores conversation history, user preferences and past experiences so the agent can make better decisions.\n\n03 — 𝗥𝗔𝗚 | 𝗞𝗡𝗢𝗪𝗟𝗘𝗗𝗚𝗘 𝗔𝗖𝗖𝗘𝗦𝗦\nRetrieves relevant information from external knowledge sources using embeddings and vector databases.\n\n04 — 𝗧𝗢𝗢𝗟𝗦 | 𝗔𝗖𝗧𝗜𝗢𝗡 𝗘𝗫𝗘𝗖𝗨𝗧𝗢𝗥\nLets agents interact with the real world through search, APIs, databases, calculators, email and other services.\n\n05 — 𝗣𝗟𝗔𝗡𝗡𝗜𝗡𝗚 | 𝗗𝗘𝗖𝗜𝗗𝗘 𝗦𝗧𝗘𝗣𝗦\nBreaks complex goals into smaller actions, executes them and observes the results.\n\n06 — 𝗥𝗘𝗙𝗟𝗘𝗖𝗧𝗜𝗢𝗡 | 𝗦𝗘𝗟𝗙-𝗜𝗠𝗣𝗥𝗢𝗩𝗘\nEvaluates results, identifies mistakes and retries or improves the approach when needed.\n\n07 — 𝗠𝗨𝗟𝗧𝗜-𝗔𝗚𝗘𝗡𝗧 | 𝗖𝗢𝗟𝗟𝗔𝗕𝗢𝗥𝗔𝗧𝗜𝗢𝗡\nMultiple specialized agents can work together, such as research, coding and QA agents.\n\n08 — 𝗠𝗢𝗡𝗜𝗧𝗢𝗥𝗜𝗡𝗚 + 𝗚𝗨𝗔𝗥𝗗𝗥𝗔𝗜𝗟𝗦\nAdds input validation, output filtering, safety checks, rate limits, logging and auditing.\n\n09 — 𝗛𝗨𝗠𝗔𝗡-𝗜𝗡-𝗧𝗛𝗘-𝗟𝗢𝗢𝗣\nHumans review, approve, edit or reject important decisions before the agent continues.\n\n𝗧𝗛𝗘 𝗕𝗔𝗦𝗜𝗖 𝗔𝗚𝗘𝗡𝗧 𝗟𝗢𝗢𝗣:\n\nGoal → Plan → Use Tools → Observe → Evaluate → Improve → Repeat\n\n𝗧𝗛𝗘 𝗕𝗜𝗚 𝗜𝗗𝗘𝗔:\n\nA powerful AI agent isn't just a smart model.\n\nIt's a system that combines:\n\n𝗥𝗲𝗮𝘀𝗼𝗻𝗶𝗻𝗴 + 𝗠𝗲𝗺𝗼𝗿𝘆 + 𝗞𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 + 𝗧𝗼𝗼𝗹𝘀 + 𝗣𝗹𝗮𝗻𝗻𝗶𝗻𝗴 + 𝗙𝗲𝗲𝗱𝗯𝗮𝗰𝗸 + 𝗚𝘂𝗮𝗿𝗱𝗿𝗮𝗶𝗹𝘀\n\nSave this cheat sheet if you're learning AI agents or building agentic workflows.\n\nRepost it for someone learning AI engineering.\n\nFollow @AamirAnsar94694 for more AI, tools, automation & tech insights.\n\n#AI #AIAgents #AgenticAI #AIEngineering #LLM #RAG #Automation #Tech",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUF8HRJaEAAGdZb.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108025691535229086",
+  "user": "wafer_ai",
+  "name": "wafer",
+  "date": "Thu Oct 08 02:44:24 +0000 2026",
+  "text": "we launched the most comprehensive ai performance engineering repo in the world\n\nand we're posting every single resource\n\nfollow and save to keep up with the series. links in thread 🧵\n\npart 10: CUDA Programming Guide\n\nmaking an LLM faster means understanding where execution is waiting. an attention kernel can wait for its next tile of data, while the serving runtime can leave the GPU waiting for the next launch.\n\nNVIDIA's CUDA Programming Guide explains the mechanisms behind those waits. for a modern AI performance engineer working in PyTorch, Triton, or CUDA, it helps with:\n\n- tuning attention, matmul, and normalization kernels. the SIMT and CUDA Tile chapters connect layouts and data reuse to GPU execution. the resource guidance explains why larger tiles or more fusion can introduce register spills.\n\n- overlapping data movement with computation. asynchronous copies, TMA, and producer/consumer pipelines explain how supported GPUs can load the next tile while processing the current one, with the synchronization required to reuse buffers safely.\n\n- managing growing KV caches. the virtual memory chapter explicitly connects its allocation model to LLM serving: reserve an address range, then map additional physical memory into it as the cache grows, without relocating existing data.\n\n- reducing overhead between inference kernels. CUDA Graphs reduce repeated CPU launch setup, while stream-ordered allocation avoids broad synchronization around temporary memory. these matter when launch and allocation costs contribute to request latency.\n\n- diagnosing stalls across GPUs. the guide explains peer access and communication dependencies, including how a compute kernel's completion fence can wait on unrelated NCCL writes. memory synchronization domains can reduce that interference on supported hardware.\n\n- evaluating CPU memory offload. the memory chapters explain how residency, migration, and interconnect traffic affect access cost. that helps assess the latency and capacity tradeoffs of keeping model data in CPU memory on supported systems.\n\n- validating an optimization before deploying it. the appendices explain how reduction order, accumulation precision, and fast math can change results, and which hardware capabilities and resource limits a kernel depends on.\n\nwhen a training step or inference request slows down, these details help narrow the next experiment: change the kernel, move less data, adjust allocation, or remove an unnecessary wait.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUEtPE4aMAAjJ-i.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108012502470570326",
+  "user": "latestincosmos",
+  "name": "Latest in Cosmos",
+  "date": "Thu Oct 08 01:52:00 +0000 2026",
+  "text": "“Every living being is an engine geared to the wheelwork of the universe. Though seemingly affected only by its immediate surrounding, the sphere of external influence extends to infinite distance.”     \n\n― Nikola Tesla",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUBA8X8b0AA-0Br.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2107910985084510441",
+  "user": "GoogleResearch",
+  "name": "Google Research",
+  "date": "Wed Oct 07 19:08:36 +0000 2026",
+  "text": "LLM agents learn by interacting with environments, but static setups limit their growth.\n\nToday at 2:00 PM, join Zifeng Wang at the #COLM2026 Google booth (#107) to learn about EnvHarness, a plug-in architecture that dynamically reshapes environment behaviors to improve reinforcement learning and agent adaptability.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUDN1kZaMAAqv2P.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108131843467829417",
+  "user": "elsleightholm",
+  "name": "Ellie Sleightholm",
+  "date": "Thu Oct 08 09:46:13 +0000 2026",
+  "text": "Most of the X community seem to have forgotten that people do mathematics for the beauty and elegance of the field :) \n\nThat's what I try and portray through my content anyway\n\nSo here's a video of some beautiful mathematics in Astrophysics if you want to check it out! \n\nhttps://youtu.be/0uku2XaM6oc",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUGWk0gXUAAQ-pw.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2107938837813137772",
+  "user": "predict_addict",
+  "name": "Valeriy M., PhD, MBA, CQF",
+  "date": "Wed Oct 07 20:59:17 +0000 2026",
+  "text": "People often ask about a good book on statistics.\n\nLarry Wasserman is in my opinion one of the best (the best?) statistics professors there . Larry is also the academic ambassador of conformal prediction who was the first to introduce conformal prediction to the leading academia in the USA 🇺🇸.\n\nHis statistic book is available open access for free and there is also companion R code for the book.\n\n#statistics #books",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUDnMwfXAAAXHYC.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108077752134127987",
+  "user": "arXivBangers",
+  "name": "arXiv Bangers",
+  "date": "Thu Oct 08 06:11:16 +0000 2026",
+  "text": "LayerRoPE: Dynamic Depth-wise Magnitude & Angular Superposition\n\nLayerRoPE encodes depth into normalization weights, reaching Pre-Norm's 1.3B model loss with 3.4x less compute while enabling stable scaling up to 512 layers.\n\nhttps://arxivb.org/abs/2610.09179",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUFli4WaYAAZpaU.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2108166415073128862",
+  "user": "freeCodeCamp",
+  "name": "freeCodeCamp.org",
+  "date": "Thu Oct 08 12:03:35 +0000 2026",
+  "text": "Basic web scrapers often break as soon as they hit CAPTCHAs, IP bans, or 403 errors.\n\nIn this course, Gavin teaches you how to build production-ready web scrapers that work on modern websites.\n\nYou'll use Playwright, Cheerio, residential proxies, and a MERN dashboard to scrape and visualize live data.\n\nhttps://www.freecodecamp.org/news/build-professional-web-scrapers-that-actually-work/",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUG2LsZXIAArB5i.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ },
+ {
+  "id": "2107915110748692911",
+  "user": "cosmosarcive",
+  "name": "Cosmos Archive",
+  "date": "Wed Oct 07 19:25:00 +0000 2026",
+  "text": "Planck quantized energy in 1900, but Einstein made the bolder move in 1905: he treated light itself as packets of energy, E = hν. That idea explained the photoelectric effect and later led to stimulated emission.\n\nThe key shift was simple: Planck quantized matter’s energy exchange; Einstein quantized light.",
+  "media": [
+   [
+    "photo",
+    "https://pbs.twimg.com/media/HUDFSQjagAA4vTh.jpg?name=orig"
+   ]
+  ],
+  "quote": null,
+  "article": null
+ }
+]

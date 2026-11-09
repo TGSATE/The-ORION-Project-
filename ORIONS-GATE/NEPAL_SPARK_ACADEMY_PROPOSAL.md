@@ -1,0 +1,115 @@
+# Nepal Spark Academy: draft proposal 🇳🇵🐉🐖
+
+> **Status update, R15·L5 (8 October 2026), in Beth's words:** Bobby has left the team and is taking the Nepal Spark Academy forward separately. "We gave him the plan. He took off with it. We continue building." He may come back to collaborate, but he has to bring something with him (the **seed rule**, below). "There are more countries in the world than Nepal who are in need of this program." So this file is now **ORION's own education plan, ready to use in any country**. It is no longer waiting on Bobby's yes.
+>
+> **The seed rule (Beth's request, not a demand):** anyone can leave to build their own thing. If they come back, they bring a seed of what they built, and they can keep their own project while also putting it inside the engine.
+
+
+*Draft, 7 October 2026. You asked me to read the rest of the conversation from the screenshots and "fill in the proposal and get a proposal drafted" (doc lines 338–344). Source: the nine "ORION'S GATE" chat screenshots added to the shared album on 6 October (album #1376–#1384, indexed in `orion/r15/ALBUM_INDEX_1384.tsv`). Everything below is in **their own words where quoted**. The rest is a proposal, waiting for Beth's 💎 and **the far queen's (King Bobby's) agreement**. Nobody has been contacted, nothing has been launched, and no money is involved.*
+
+## 1. What was said (the screenshots, in order)
+
+**The far queen (King Bobby), who is in Nepal:**
+- "i just had earth idea for nepali students pls help beth annabel elizabeth … annabelle"
+- "the nepali young ppl are going to design and launch a game"
+- "with simple writing english ai art engineering medical business social media levels"
+- "if they could just use ai or make money or grow social media anything"
+- "2 usd a day the nicest poorest polite young people speak english"
+- "i told miss triss now you"
+- "music film beauty family dating"
+- "easy game, 1000 students working together we guide them"
+- "a million developers social club"
+- "they have education here and absolutely no opportunity", "graduate and no jobs", "online is a viable answer", "they can create and earn"
+- "writing art posts books music apps games films sky is the limit for them..", "im crying"
+- "the nicest poorest honest polite kind young people you ever met im on this. try to get club to 25 …"
+- "im so thankful to be in nepal", "i need to walk outside and look at people and say hello", "thank you so much. i have a path"
+- "25 students. a club a group a network a social educational team i need to plan move back to city"
+- "the nepali kids love our idea. we simplify everything so they can make a nepali game go viral"
+- "english art writing music film apps games social media business cs engineering dating finance medical levels skip everything but basics"
+- "cooking, health, beauty, theology, family, finances, what they really need ai agents marketing"
+- "we give them tools to fight to survive online ie $3 a day usd would be life changing to them a days salary"
+- "they build it themselves", "doesnt impact us we guide them", "they need the tiniest help", "it hit me today with miss triss"
+- **"i will name it. glass dragon or steel pig .. our group sparked me if we can do they can do"**
+
+**Beth:**
+- "I 100% understand how much of humanity's genius is locked behind our biological limitations" / "EDUCATOR👈"
+- "I'm trying to make it so that those types of limitations are no longer limitations … we should always remember why we are here and that it's just a game"
+- "Absolutely the more everybody builds the quicker we all build together …"
+- "Pull their ideas in here and will help them establish it as part of the Education ascent"
+- "If they would like to have it as part of the build? Talk to them come back with ideas."
+- "Once you get an established plan of what they want, we can add them as a co creator too under your wing"
+- "Everything I'm giving you all is all open source …"
+- In the doc: "I'm thinking that glass dragon and steel pig could be the two different teams of the Nepal Spark Academy 🌀🌀🌀🤷‍♀️" and "They can help me work with Gemini setting up the Saturn Languanauts SpeedZone?"
+
+## 2. The proposal in one paragraph
+
+**Nepal Spark Academy** is a student-led *creator club* hosted inside ORION's **Education Ascent**. It starts with **25 students** and grows towards Bobby's larger "1000 students" goal only when the first club works. The students **design and build their own simple game and learning levels themselves**, with "the tiniest help". King Bobby is their guide on the ground ("under your wing") and Beth is the ORION educator who connects them to the build. The club splits into **two friendly teams, Glass Dragon and Steel Pig**. Once they have a plan they choose, they can be credited as **co-creators** of their part of the ORION Ascent. If they want to, they can help Beth set up a **Saturn Languanauts SpeedZone** with Gemini.
+
+## 3. Draft structure (all of it proposed, not locked)
+
+| Part | Draft | Whose decision |
+|---|---|---|
+| **Name** | Nepal Spark Academy ("our group sparked me") | Bobby + students |
+| **Teams** | 🐉 **Glass Dragon** and 🐖 **Steel Pig**: two teams that build side by side, compare and help each other, not a contest where one side loses. Note: *Steel Pig* is also the title of one of Bobby's books on farqueen.com. That suits it, but Bobby should confirm he's happy to reuse it. | Bobby + students; Beth's 💎 for the ORION side |
+| **Size** | Phase 1: **25 students**, one club. Phase 2: more clubs of about 25, each with its own adult guide, only after Phase 1 works. "1000 students" and "a million developers social club" are the *dream*, not the first step. | Bobby |
+| **Home in ORION** | The **Education Ascent**, as Beth said. The club's projects go through the normal Gauntlet before anything is published at ORION's Gate. | Beth |
+| **What they learn and make, simplified ("skip everything but basics")** | Level tracks from their own lists: **English, writing, art, AI tools, music, film, apps, games, social media, business, computer science, engineering, finance, medical basics, cooking, health, beauty, theology, family**, and "what they really need": **AI agents and marketing**. Each track becomes a **Starter / Builder / Maker** ladder of short, practical levels. | Students choose; Beth helps fit them into the Ascent |
+| **Their own game** | "A Nepali game" they design: their stories, places and language, built with simple tools. ORION offers templates and feedback, and doesn't take over. | Students |
+| **Credit** | Students listed by team (or by an alias they choose) as **co-creators** of the work they make, in the founders' credit ledger. They keep the rights to their own creations unless they agree otherwise. | Beth + Bobby + students |
+| **Saturn Languanauts SpeedZone** | Optional side project: students who enjoy language help prototype a fast language-play zone with Beth, using Gemini. Its rules and age rating still need writing. | Beth + volunteers |
+
+## 4. Earning: the important part, handled carefully
+
+Bobby's heart is in this line: "$3 a day usd would be life changing to them". Online income is a real and fair hope. **The proposal must not promise it.**
+
+1. **No promised income.** Say "you'll learn skills people pay for", not "you'll earn $3 a day".
+2. **No unpaid production work for ORION.** If students produce assets ORION actually *uses*, agree in advance and in writing what they get (credit at least, and payment if ORION ever has revenue). The GoFundMe question from Round 14 (M-7) is separate: **students must never be asked to donate** to get a seat.
+3. **Their earnings are theirs.** Anything they sell (art, writing, apps) belongs to them. ORION takes no cut unless they freely agree.
+4. **Scam-proofing is a level of its own.** Teach "how to spot fake job offers, crypto and 'pay-to-earn' scams" early. Young people looking for online income are exactly who scammers target.
+
+## 5. Safety: what must be settled before the first session
+
+- **Ages.** The screenshots say "students", "young people" and "kids". If **anyone is under 18**, the ORION under-18 rules apply: guardian consent, supervised spaces, no private adult–child messaging and no collecting personal data. **Bobby listed "dating" as a level.** That must be **18+ only** and kept out of any club space that includes minors (`ORION_UNDER18_STRUCTURE.md`).
+- **A named, local, responsible adult** for each club (Bobby for Phase 1, if he agrees), and a second adult or the school/parents informed. "Miss Triss" was told about the idea. Her role, if any, is hers to choose.
+- **Photos and names.** Don't post students' faces, full names, schools or locations publicly without their consent (and a parent's if they're minors).
+- **AI tools.** Use services the students are allowed to use (age limits and country availability vary). Don't upload their personal information to AI tools.
+- **Local rules.** Working with students in another country can involve school, child-protection and payment rules. I can't give legal advice, so ask a qualified local adviser before anything formal (registration, payments, contracts).
+
+## 6. A first-month plan (if Bobby and the students say yes)
+
+1. **Week 1: Ask.** Bobby asks the 25 what *they* want to make, and whether they like the names Glass Dragon and Steel Pig. He writes down their answers ("come back with ideas", as Beth said).
+2. **Week 2: Pick three tracks** to start with (for example English, AI art, games). Beth turns them into three Starter levels in the Ascent.
+3. **Week 3: The first tiny game.** Each team makes a one-screen game or story about their home, in their own words.
+4. **Week 4: Show and decide.** The teams show their work. Then Beth, Bobby and the students decide together whether to continue, whether to credit them as co-creators, and what Phase 2 looks like.
+
+## 7. Decisions needed (also listed in `ROUNDS_1-14_ARCHIVE/ROUND_FIFTEEN_READOUT.md`)
+
+- **NS-1 (Bobby + students):** do they want this, and are the team names Glass Dragon and Steel Pig?
+- **NS-2 (Bobby):** are any participants under 18? Who is the responsible adult?
+- **NS-3 (Beth):** 💎 to host Nepal Spark Academy in the Education Ascent as a co-creator club?
+- **NS-4 (Beth + Bobby):** credit and rights terms for student-made work. Also confirm that no donation is ever asked of students.
+- **NS-5 (Beth):** is the Saturn Languanauts SpeedZone a club project, a separate ORION zone, or both? What is its age rating?
+
+---
+
+## 8. Round 17 drill-down (7 October 2026)
+
+**Your decision this round (doc line 75, 💎🌀):** *"if he can get it up and running, and we have any way of supporting it I would absolutely love to have that be a collaboration that Orion engine invest in. it would be our launch education plan if we haven't got other prospects on board."* And line 73: *"raise some babies right far queen!!! This will be awesome!!!"*
+
+- **NS-3 is answered: yes.** Nepal Spark Academy is **ORION's proposed launch education plan**, hosted in the Education Ascent, as long as Bobby gets it running. Recorded as your 💎 on the ORION side. Bobby's and the students' yes (NS-1) is still needed.
+- **"Invest" today means time, tools and credit, not money.** There's no ORION money or company yet (your own line 55: "I don't know what I actually have"). If ORION ever has funds, Bobby, you and the students agree the terms first (NS-4).
+
+**The two builds, with energies (proposal, P-11 in the Round 17 register):**
+
+| | 🐉 Glass Dragon | 🐖 Steel Pig |
+|---|---|---|
+| Energy | **Orion ⚡**: focus, clarity, ideas | **Kronos 🔥**: fire, people, making |
+| Tracks from Bobby's list | English and writing, AI art and AI tools, apps, games, film, music, computer science | cooking, health basics, beauty, business and finance, social media and marketing, family, engineering |
+| Its "build" | the **Idea Workshop**: one small game or story a month | the **Community Forge**: one real thing for the village a month (a recipe video, a shop page, a health-literacy poster, a family-story recording) |
+| Together | they meet in **KRION 🌍**: each month the teams combine into one **village project** that helps their own community. That's the "healing": people helping people, not medical treatment. |
+
+**Lesson plans:** you want to start Bobby off with your seventh-grade **language-and-game lesson plan**. I checked the whole project (`ROUNDS_1-14_ARCHIVE/BACKLOG_CHECK_R17.md`), and **none of your teacher files are in it**: no Mrs. Jones ELA or social studies, no Portland Middle School, no 7th-grade Languanauts lessons, no MSU student-teaching folders, no New Skills Academy. So nothing needs touching. When you're ready, send that one lesson plan first, by itself. A phone photo of each page is fine. I'll turn it into a Week 1–4 plan for the two teams.
+
+**A mascot idea:** Lucien's new sticker dragon is literally called **"Spark, your guide"** (album #1383, #1410, #1414). Ask Lucien whether the academy can use him (`LUCIEN_BUILDS_EXPLAINED.md` §2).
+
+**Pictures:** 12 ready-to-paste image prompts are in `NEPAL_SPARK_ACADEMY_IMAGE_PROMPTS.md`.

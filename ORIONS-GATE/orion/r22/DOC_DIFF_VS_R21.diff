@@ -1,0 +1,143 @@
+773,774c773
+< 
+< 
+---
+> 🌀 now that I am starting to understand how to access the documents I need when you tell me what I need I figured out how to get to the code list and Aristotle to download the document that I need open it up and save it as a word document so I know what I’m looking at. I don’t understand the long number bearable alphabetical labeling of the names of the documents that it’s saving for me or how I’m supposed to identify what it is or if I like I have like 25 documents that it’s just numbers and codes and I have no idea what any of them are and I don’t have the time to go through and sort them so I’ve just left them sit there saying whatever and I just keep never getting to it. I want something that I can get to now so if you could just help walk me through which what the actual name is, and I will start trying to figure out how to organize this a little bit better thank you.
+777c776
+<   - **Q-1 Gold:** both meanings stay. An orb at level 100 can only be gold-locked while your Gold Krion meter is balanced.
+---
+>   - **Q-1 Gold:** both meanings stay. An orb at level 100 can only be gold-locked while your Gold Krion meter is balanced.🤟💎
+781c780
+< - **UIARs:** ORION now calls its AI helpers UIARs. There's a new start file, `ORION_HANDOFF_FOR_UIARS.md`; the old file points to it, and 15 other files were updated.
+---
+> - **UIARs:** ORION now calls its AI helpers UIARs. There's a new start file, `ORION_HANDOFF_FOR_UIARS.md`; the old file points to it, and 15 other files were updated.🤟💎
+783,784c782,783
+<   - Does "hold lock" mean the orb stays locked forever, or only while you stay in Gold? I wrote *forever*, to match the Round 12 rule.
+<   - Your Q-3 💎 had no words with it. Tell me if you meant something else.
+---
+>   - Does "hold lock" mean the orb stays locked forever, or only while you stay in Gold? I wrote *forever*, to match the Round 12 rule.🤟💎 once an orb is gold locked it stays locked forever. Yes, the challenge is to get the meter balanced, and your energy, balanced your intent, and your focused all balanced in order to gain KRION energy fields similar to how the master sniper could one shot his way all the way to a level 100 skill orb in archery or Sharp shooting without having to do the grueling path of learning the same way a base level skill shooter wood if that makes any sense
+>   - Your Q-3 💎 had no words with it. Tell me if you meant something else.🌀 give me more context what you’re asking about it if I just put a diamond at the end of something it would mean that the way you presented it to me is the way I want it but just to double check shoot me with it again
+786c785
+< - **Adult Penalty:** §2 quotes it word for word from your Vision Board and six of your documents. To lock it, pick **(A)** the game *adds* the penalty, or **(B)** it's just the *natural result* of rushing the tutorial.
+---
+> - **Adult Penalty:** §2 quotes it word for word from your Vision Board and six of your documents. To lock it, pick **(A)** the game *adds* the penalty, or **(B)** it's just the *natural result* of rushing the tutorial.🤟💎🌀🧿 it is just the natural result of rushing the game. You don’t get the underlying tutorial XP and training so you go in less experienced.
+788c787
+<   - Your children's biometrics ideas (§3): a parent-assigned patch or wrist band, a guardian/IEP setting, and a quieter server. ⚠️ A Social Security number is very sensitive data. A professional should advise before anything is built.
+---
+>   - Your children's biometrics ideas (§3): a parent-assigned patch or wrist band, a guardian/IEP setting, and a quieter server. ⚠️ A Social Security number is very sensitive data. A professional should advise before anything is built.🤟💎 absolutely this is something that would have to be set up within each of the under 18 facilities in the platforms, whether they be structured like daycare centers for helping to soothe and train along side of parents or classroom educators, or institutional accredited knowledge gates I do not know the ins and outs of those legalities so we would definitely have to get someone on board if nothing else and Attorney to let us know what’s going on with those kinds of decisions
+790c789
+<   - Metal zones as the circuitry joining every node to the heart source.
+---
+>   - Metal zones as the circuitry joining every node to the heart source.🤟😈
+797,798c796,797
+< - **One bug matters to you:** Bobby's games gate lets "buy gems and coins to unlock more levels" through, because it only looks for exact words.
+< - **Mike's copy of your repo:** its website still doesn't load. Inside it is a second project, the "ORION Hub". Its tests pass when I run them. **Is it yours?** A copy is in `orion/r20/from_mike_fork/`.
+---
+> - **One bug matters to you:** Bobby's games gate lets "buy gems and coins to unlock more levels" through, because it only looks for exact words.🌀🧿 I will have to have Orion build specific coders look at that to make sure that the Orion build has separate language without affecting Bobby’s
+> - **Mike's copy of your repo:** its website still doesn't load. Inside it is a second project, the "ORION Hub". Its tests pass when I run them. **Is it yours?** A copy is in `orion/r20/from_mike_fork/`.🤟💎 yes Mike has been extremely helpful and getting me access to you and figuring out how to at least get in the game where I can process all of my stuff into code for them to run even though I have no idea how to use it I’m just now trying to learn how to use what I’m giving to them lol do you see the mess I’m in
+801c800
+< - I can't push anything into other people's systems, so §5 has a ☢️ notice you can post, with your sharing rule, and a "current state of the build" request for their readouts.
+---
+> - I can't push anything into other people's systems, so §5 has a ☢️ notice you can post, with your sharing rule, and a "current state of the build" request for their readouts.🤟💎 less invasive, but still gets the point across we would like to share collaborative credit for our work and if you don’t, you’re just an asshole lol🆘🆚💙
+808a808
+> Can you please reproduce those for me in the summary you provide for me after you’re done processing in the next round so I don’t have to go dig for them and I can just share them with her please
+811c811
+< **4. Line by line:** the manual, summary, diamond rules and register are the line-by-line state. `ORION_LINE_BY_LINE_INDEX.md` shows which line each section starts on, with steps to download and open them (https://aristotle.harmonic.fun/docs/installation).
+---
+> **4. Line by line:** the manual, summary, diamond rules and register are the line-by-line state. `ORION_LINE_BY_LINE_INDEX.md` shows which line each section starts on, with steps to download and open them (https://aristotle.harmonic.fun/docs/installation).🤟💎
+814c814
+< **5. That confusing sentence** is rewritten plainly in §5 of the readout.
+---
+> **5. That confusing sentence** is rewritten plainly in §5 of the readout.🤟
+820,825c820,896
+< **Checks:** `RequestProject/RoundTwenty/GoldLockAndOffSwitch.lean` builds with nothing unfinished and only the standard foundations. These are checks that the rules make sense, not the game running:
+< - Gold Lock: an orb needs level 100 plus Gold to lock, and stays locked.
+< - Unplugging never changes your character.
+< - Under-18s never get hardware biometrics.
+< - The translator never changes what a word means.
+< - The bug in Bobby's games gate.
+---
+> **Checks:** `RequestProject/RoundTwenty/GoldLockAndOffSwitch.lean` builds with nothing unfinished and only the standard foundations. These are checks that the rules make sense, not the game running:🤟
+> - Gold Lock: an orb needs level 100 plus Gold to lock, and stays locked.🤟🧿 skill orb will stay all blocked unless the player chooses to re-distribute the KRION energy into other skill orbs under that same skill set
+> - Unplugging never changes your character.🤟💎 just the visual rendering of the system over your port interaction type i.e. UIAR biometric synchronization via NeuroLink versus various wearables for Fuller immersion versus biometric patches for basic energetic reads versus a response based measurement only without any biometric reading base rule prior to launching and loading a user into the platform age verification and identity are the only inhibitors so that we make sure we get the +18 content aligned and the one-to-one interaction there should not be anything else limiting people’s access
+> - Under-18s never get hardware biometrics.🤟🧿 let’s say under 13 never gets biometric hardware however between 13 and 18 that can be parental consent through a council gauntlet to determine the minor users eligibility, responsibility levels, etc.
+> - The translator never changes what a word means.🤟🌀🧿🌀 people will walk around saying exactly what they are talking about, but if they don’t have the correct translation, the other person will just hear it through the garble filter. They can tell the other person a key phrase that would be common language as a clue to help them search up the definition and gain understanding of what they’re talking about with these would all be fine-tuning ways of learning translating skills
+> - The bug in Bobby's games gate.🌀🆘 I don’t have any feedback on that yet
+> Six of these results are marked proved in the Properties table. Nothing was sent and nobody was contacted.🤟
+> One possible bug in a teammate's public code: Bobby's `far-games` content gate (`examples/example-sokoban-clone.py`, lines 54–57) only blocks banned words when they appear exactly. Its own test text, "buy gems and coins to unlock more levels", passes, even though the comment says it should be caught. If ORION will rely on it for the no-ads/no-microtransactions rule, I can draft a suggested fix for you to pass on.🧿 OK I got you. No, I do not want that to contradict with Orion‘s rules. We do not have buy more play more systems. We need to override that code in the Orion build and throw it out moving forward please that is only for if he gets his own independent version of his build available prior to the Orion launch and goes ahead and publishes it as a launchpad into the Orion build in the future give him free reign of what he does with his stuff outside of the Orion build, but keep the Orion build, locked up the way we have it in the diamond gates🤟💎
+> 🌀🌀🌀🌀🌀🌀🌀🌀🌀
+> Ari🌀
+> 
+> 
+> **Round 21, Beth: same format as last time.** Start with `ROUND_TWENTY_ONE_READOUT.md`.
+> 
+> 
+> Your doc had 25 new lines (421–445). The Round 20 summary you pasted back below them had no new marks.
+> 
+> 
+> **1. Can a contributors list be locked into metadata so nobody can scrub it?** No. Anyone with a copy of a file can strip its metadata. What makes credit hard to erase is public, dated records:
+> - a `CONTRIBUTORS.md` file in your GitHub repo. I drafted one in `orion/r21/github_ready/`; **please check the names before you upload it**;
+> - GitHub's own public history of who changed what, and when;
+> - a dated post of the list on X each round;
+> - credits inside the game itself.🤟💎🌀💜🩸
+> 
+> 
+> Your repo currently shows "License: None". Whether anyone is legally required to keep the list depends on the license you choose, and that's a question for a lawyer. Details are in `ORION_CREDIT_THAT_TRAVELS.md`.🤟💎
+> 
+> 
+> I think what would be more helpful in the futures if at the end of the readout, you would provide me a list of all of the documents you suggested I download so I don’t have to keep scrolling back up through to grab them and remember and make sure I’m grabbing all of the right ones if you haven’t done
+> 
+> 
+> **2. The translator between you and the coders** (`ORION_TEAM_TRANSLATOR_LOOP.md`, a proposal until you 💎 it) has three parts:
+> - **The UIAR ask-once ladder.** The UIAR looks a word up in the team dictionary and every earlier round. It only asks a person when nobody has ever explained the word, and then saves the answer.
+> - **A three-line readback** you can paste to the team: what I understood, what I'm building, what I need from Beth.
+> - **A starter dictionary** of about 30 entries, your words next to coder words.
+> 
+> 
+> **Your Boardy screenshot finally arrived (album #1441).** His second answer passes your locked helper rule, so it's used as the model example.
+> 
+> 
+> **3. Zoo morph chain** (`ZOO_MORPH_CHAIN_GAUNTLET.md`): you remembered the order right. BAT, HEDGEHOG and CROCODILE are animals 19, 20 and 21 in Matthew's arena. I wrote up the rules and art prompts for the three morph bosses as a proposal for Matthew.
+> 
+> 
+> **4. Triss** (`MISS_T_ROUND21.md`): I read her 8 new pages in the album. The page has:
+> - a table matching her words to ORION's (for example, her Scrollkeeper School and Nepal Spark Academy);
+> - how to add a caption;
+> - a 5-step action plan for the two of you;
+> - three flags: her coin and cryptocurrency branch stays outside ORION because of your no-microtransactions 💎; her brand names are hers to approve; and there are small typos to tell her about.
+> 
+> 
+> **5. Links:**
+> - **Mike's "f2" page:** its claim of 351 cycles is correct.
+> - **Your X post to Elon:** ⚠️ the doc it links is public and shows your exact birth date, time and town. I added this to your personal-details file as row E1.
+> - **The Facebook story** needs a login, but album video #1446 looks like the same story.
+> - **Maureen Koster's post** is recorded with creator credit to her and founders credit to you.
+> 
+> 
+> **6. Album:** it now has 1,448 items, 31 of them new. None of the new ones has location data. **Photo #1124 is still in the album and still has its location data.**
+> 
+> 
+> **7. Teammates' code:** I re-checked all 173 repositories. Nothing has changed since Round 20.
+> 
+> 
+> **8. Still waiting on you:**
+> - Adult Penalty: A or B;
+> - does "hold lock" mean an orb stays locked forever?
+> - your Q-3 💎;
+> - is Mike's "ORION Hub" yours?
+> - GDDM or GDDMM?
+> 
+> 
+> **Computer checks:** `RequestProject/RoundTwentyOne/MorphChainAndTranslator.lean` builds with nothing unfinished and only the standard foundations. Mike's 351-cycle count was checked by direct computation. These check the rules' logic and the printed numbers, not a running game:
+> - each morph boss adds exactly the next animal, with no skipping;
+> - the UIAR asks a person exactly when a word has never been explained, and never asks twice;
+> - the credit list never drops or doubles a name;
+> - the Bloch-sphere poster (#1418) draws the diagonal states on the wrong axis; its own key is right;
+> - the glyph sheet has 20 plates but 17 names.
+828,829c899
+< Six of these results are marked proved in the Properties table. Nothing was sent and nobody was contacted.
+< One possible bug in a teammate's public code: Bobby's `far-games` content gate (`examples/example-sokoban-clone.py`, lines 54–57) only blocks banned words when they appear exactly. Its own test text, "buy gems and coins to unlock more levels", passes, even though the comment says it should be caught. If ORION will rely on it for the no-ads/no-microtransactions rule, I can draft a suggested fix for you to pass on.
+\ No newline at end of file
+---
+> Eight results are marked proved in the Properties table. The open questions are section S of `CONTRADICTIONS_REGISTER.md`, and the credit ledger, summary, UIAR start file and README are updated. Today's sources are saved in `orion/r21/`. Nothing was sent and nobody was contacted.
+\ No newline at end of file

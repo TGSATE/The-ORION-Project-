@@ -1,0 +1,24 @@
+# The Bus: Beth's new music moodboard 🚌🪩
+
+*Round 14, 7 October 2026. Beth opened her new “Ari” doc with two Spotify links. This note is **a listening reference**, not a soundtrack already in the game. Nobody purchased, downloaded, licensed or distributed recordings on behalf of ORION.*
+
+- [🔥🌎🔥💜🌎💜 — Spotify playlist by abtjones](https://open.spotify.com/playlist/6GMXBgUtBeqxZ5TQP5HB8t). When checked, its public page listed **57 tracks** (approximately 3h 27m). A finite Lean check over the saved metadata confirms 57 tracks, 13 flagged explicit and total displayed durations between 206 and 207 minutes (`RequestProject/RoundFourteen/SnapshotCounts.lean`); it does **not** verify the current Spotify page or any lyric. Its catalog snapshot, with titles and Spotify's own explicit-content flags, is in `orion/r14/SPOTIFY_PLAYLIST_57.json`; the owner can edit the live list later.
+- [South Side Of The Kingdom — Queen Butterfly](https://open.spotify.com/track/4IONARUQ4t5aHCJpdEJ16N), on the album *Villain Mode*, appeared as track **#55** in that playlist at the time of checking. I have not listened to it or transcribed its lyrics.
+
+**The story arc suggested by *titles only*, not a claim about lyrics:** the early sequence ranges from “Jesus Went to Heaven” and “Fck Yer Lawns” to “The Village,” “Choice,” protest and conflict songs; the middle has “House,” “What I Am,” “Wash It Away,” “We Are Strong” and “Let's Be Still”; later tracks move through “Change,” “Glorious,” “I Release You,” “Louder than Hate” and “Living in the Future.” That can be a Bus entrance with tension, a group choosing a way forward and a return home. Ask Beth to mark the **actual order and scenes** before building any soundtrack map. Avoid ascribing beliefs to the performers from titles.
+
+**Child and public-release check:** Spotify flagged **13 of the 57** tracks as explicit in its displayed metadata (positions 2, 9, 10, 11, 13, 15, 32, 37, 47, 48, 51, 54, 55). Some nonflagged titles also contain charged themes; metadata is not a substitute for listening and an age-appropriate review. For under-18 rooms, do not autoplay the adult playlist: make listening optional and provide a separate, reviewed child-visible set. Content filters should be chosen by guardians/educators and checked in the game's context. Any actual embedding, recording, performance, art or branding requires a separate permissions review; don't equate a shared link with permission to use audio in a game. If Beth wants other members to add songs, check the playlist's collaboration setting with the owner rather than assuming this link is editable by everyone.
+
+**Working Game Master cue (no audio required):** ask each traveler to choose a *song title or their own invented rhythm* and say which part of the journey it represents. The Bus welcomes them to the Engine; the Garden listens; a player may opt out or propose an original music piece. Nobody has to disclose personal experiences to board.
+
+## Round 16 update (7 October 2026): YouTube version and the three buses
+
+- **Spotify** (🔥🌎🔥💜🌎💜): rechecked; still the same **57** tracks in the same order as Round 14.
+- **YouTube music playlist** (🔥🌎🔥💜🌎💜🪞🪞🪞, [link](https://youtube.com/playlist?list=PLZhi8PX5Qhx10qVUJF8FS7NIyIJKwMsJp)): **62** videos. It holds **56 of the 57** Spotify songs. Missing from YouTube: Spotify #57 *Living in the Future* (Rita Nelson). Only on YouTube: #37 *Query Protocol* (H2Ø), #47 *Hey Oh – A Protester's March* (Bisayang Kano), #51 *No One to Kill in the Sky – D&D Murder AU* (Arkavist), #52 *Little Caesar* (Seb Lowe), #55 and #56 Ren's *Vincent's Tale* (Starry Night; The Bedroom). Spotify #50 is the acoustic *This Place*; YouTube #20 is the video version. Saved list: `orion/r16/yt_PLZhi8PX5Qhx10qVUJF8FS7NIyIJKwMsJp.json`; pairing checked in Lean (`RoundSixteen.Playlists.playlist_alignment`).
+- **YouTube concept-art playlist** ("The Orion Chronicles MMO Concept Art", [link](https://youtube.com/playlist?list=PLZhi8PX5Qhx3BSDzgd2Q4ldifru6zTPEr)): **11** clips of about 11 seconds, on the channel "The Great Symphony: A Theory of Everything (UIE)". Titles recorded; clips not watched. Saved list: `orion/r16/yt_PLZhi8PX5Qhx3BSDzgd2Q4ldifru6zTPEr.json`.
+- **Beth's design:** split into three **energy-field buses** (Kronos, KRION, Orion) that anyone can add to. Write-up: `HOW_TO_NAVIGATE_THE_COSMOS/tutorials/T06_THE_THREE_BUSES.md`. How to invite collaborators on Spotify and YouTube: T02.
+- Still a **moodboard**, not licensed in-game audio. The child-visible review (13 explicit on Spotify) still applies to every bus.
+
+## OR19.1 (9 October 2026): one track waiting for a bus
+
+- **"Namaste Bitches", Fuzzy Butt Bassel (2:27, June 2026):** named by Beth to Grok (🐶🐲) and Boardy (🐗). Neither of them can hear it, and neither can I. **Waiting for Beth's "feel"** (Kronos, KRION or Orion bus). The title is explicit, so it isn't for under-18 rooms whichever bus it joins.

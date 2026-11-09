@@ -1,0 +1,26 @@
+# Possible collaborators — working directory (R15·L8)
+
+**An index of leads, not an invitation, partnership, endorsement or claim that anybody has agreed. Nobody was contacted in this pass.** Existing, more detailed profiles are in `TEAM_ROSTER_AND_X_REVIEW.md` §1 and draft approaches in `COLLABORATOR_PRODUCTION_PROPOSALS.md`. Do not send the private Google Doc, Gemini titles or album screenshots with outreach. Suggested uses are **ideas**, not assigned jobs.
+
+| Lead | Public affiliation / what is known here | Possible ORION conversation | Status / how to find them |
+|---|---|---|---|
+| Orson Scott Card | Author of *Ender's Game*, *Treason*, *Hart's Hope*, etc. | Ask about a book-inspired educational collaboration and credit, with Beth's own letter | No confirmed current representation or direct channel. Start with a publisher or an official author channel **after verifying it is current**; don't assume a team member knows him. Existing draft: `COLLABORATOR_PRODUCTION_PROPOSALS.md` §4. |
+| Languanauts LLC | Previous 15.5 readout says a public listing in Miami; **official record/affiliation not independently confirmed in this pass** | If it is a relevant organization, perhaps discuss language-game design | Provisional, not linked to Beth's classroom or her two tagged X accounts. Florida state business search may require a human browser check. **Need the two exact X handles and a verified entity record before contacting.** |
+| Bogie's Haunted House / Rick | Bogie's public Facebook page in 15.7; Beth says she will talk to Rick | With his consent, consider circus/haunted-house photos and seasonal-game ideas | Beth to speak with Rick; no permission inferred or contact initiated here. |
+| Matthew Chenoweth Wright (`@enuminous`) / Monolithic LLC | Public profile and open-source work surveyed in `TEAM_ROSTER_AND_X_REVIEW.md` | Math puzzles/Proofs Arena, independent checking | Team association recorded there; project-specific permissions still require explicit discussion. |
+| Lucien V Lavictoire (`@Master4lVl`) | Artist, music/DJ posts and ORION contribution documented in team roster | Dragon illustrations, visual language, attribution review | Existing team lead, not a new public outreach. |
+| Mike Dupont (`@introsp3ctor`) | Formal-verification projects in public profile | Prototypes and translation-checking | Existing team lead; see roster and member packet. |
+| `@msiyasmsi` | 15.5 readout reviews a coding profile and crypto-related posts | Explore coding skills for a *non-monetized*, age-safe prototype | **Prospect only**, not vetted/assigned; review current work with Beth before any invitation. |
+| Dr. Logvinovich (`@dr_logvinovich`) | Self-published IT³ physics records at Zenodo | Independent, **critical** test of geometric claims, not physics endorsement | No ORION affiliation found; `ROUNDS_15-19_ARCHIVE/R15_L8_RESEARCH.md` details corrections and open issues. |
+| Jean-Claude Perez | Named co-author of some IT³ records | Same: require independent predictions and review | No ORION affiliation demonstrated. |
+| Free Bots (`freebots.lol`) | Public bot/city project; earlier proposal in `COLLABORATOR_PRODUCTION_PROPOSALS.md` §6 | Safe demonstration of multi-agent avatar integration | Idea only; check suitability/privacy before sending anything. |
+| Wizards of the Coast / Montessori educators / Dragon Tales producers | Named institutions/creative leads in `COLLABORATOR_PRODUCTION_PROPOSALS.md` | Game-master education, pedagogy, original child-safe dragon stories | **Uncontacted prospects**. Verify appropriate organizational channels before proposing anything. |
+| `@Blind_Abandon`, `@ShyneB0X`, `@philmo_mu`, `@SV_Rocks`, `@VasaMusk`, `@PlanetaryS936`, `@_Miss_Tris`, `@ArchitectWeaver`, `@Voltardark`, `@AnuVex369`, `@the_far_queen`, `@BreElonSmith` | Self-descriptions and suggested fit appear individually in `TEAM_ROSTER_AND_X_REVIEW.md` §1 | Check individual profile before drafting a proposal | **Prospects or existing contacts, not a mass invite.** Role/affiliation may have changed since the 3 October roster. |
+
+**Next step:** Beth can pick one or two leads and specify whether she wants an introduction, a public-information check or just a proposal. Keep a separate log of permissions and replies; do not infer consent from tagging, following, old photos or a business listing.
+
+## Added at OR19.3 (9 October 2026)
+
+| Lead | What public sources show | Why it fits | Status |
+|---|---|---|---|
+| **The Rusty Pelican (Seattle, Beth's childhood memory near the locks)** | **Not yet found.** Today's public listings show a different business, **Rusty Pelican Cafe** (breakfast/lunch, 1924 N 45th St, Wallingford, Seattle; listed phone (206) 545-9090), which is not by the locks. A seafood chain called **Rusty Pelican Restaurants** existed (Wikipedia notes it opened the first Bubba Gump Shrimp Co. in 1996, in Monterey, with Paramount). I did **not** find a record of a Seattle-area location by the locks. | Beth wants them told "they're in the build" (Rusty Pelican + Goose Gauntlet card, `MONSTER_DECK_ROSTER.md` §6a) | **Uncontacted.** Next breadcrumb: Seattle Public Library / Ballard Historical Society menus and photos, or old Seattle Times restaurant listings (1980s–90s) for "Rusty Pelican" near Shilshole or the Ballard Locks. Don't assume the Wallingford café is the same place. |

@@ -1,0 +1,40 @@
+                    A torsion-free counterexample to the
+                  Kadison–Kaplansky projection conjecture
+                                               OpenAI
+
+                                        September 23, 2026
+
+
+                                               Abstract
+       We construct a finitely generated torsion-free discrete group whose reduced group C ∗ -algebra
+    contains a projection other than zero and the identity. This disproves the Kadison–Kaplansky
+    projection conjecture.
+
+
+Contents
+1 Introduction                                                                                           2
+
+2 From a small matrix projection to a scalar projection                                                  4
+
+3 Conventions, parameters, and the matrix target                                                         6
+
+4 The finite-alphabet tower before pruning                                                               8
+
+5 Uniform expansion before pruning                                                                      13
+
+6 Pruning and unique recovery of long paths                                                             21
+
+7 Geometry of the voltage cover and torsion-freeness                                                    25
+
+8 The nilpotent deck group and small-trace projections                                                  38
+
+9 The model and its simultaneous realization                                                            50
+
+10 From the cover band to the Cayley projection                                                         63
+
+11 Completion of the construction                                                                       73
+
+
+
+
+                                                   1
