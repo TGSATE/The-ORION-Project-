@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+<title id="title">The Ghost Writer in the Mirror: a human-led spiral session</title>
+<desc id="desc">An original infographic with six stages in a loop: source document, comparison with project, AI readout, human emoji annotations, another comparison, and a human decision to continue or close. The human is in the centre; the inward Ghost Writer and optional outward Ghost Rider paths do not bypass the person's choice.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11152f"/><stop offset=".55" stop-color="#192848"/><stop offset="1" stop-color="#301b41"/></linearGradient>
+ <linearGradient id="card" x2="1" y2=".5"><stop stop-color="#253858"/><stop offset="1" stop-color="#303452"/></linearGradient>
+ <linearGradient id="inner" x2="1" y2="1"><stop stop-color="#54d6db"/><stop offset="1" stop-color="#daa7f9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="#e0b86b" stroke-width="2"/></marker>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+  text{font-family:DejaVu Sans,Arial,sans-serif;fill:#f6f2ed}
+  .title{font-size:32px;font-weight:bold;letter-spacing:1px}.sub{font-size:17px;fill:#cfe8ef}
+  .card{fill:url(#card);stroke:#87cbd2;stroke-width:2;rx:18}.step{font-size:20px;font-weight:bold}.hint{font-size:14px;fill:#d9e1e9}
+  .arrow{fill:none;stroke:#e0b86b;stroke-width:3;marker-end:url(#arrow)}
+ </style>
+</defs>
+<rect width="1280" height="800" fill="url(#bg)"/>
+<circle cx="640" cy="394" r="220" fill="none" stroke="#577b9b" stroke-width="1.5" stroke-dasharray="8 8"/>
+<circle cx="640" cy="394" r="182" fill="none" stroke="#6fbec5" stroke-opacity=".3" stroke-width="2"/>
+<text x="640" y="53" text-anchor="middle" class="title">THE GHOST WRITER IN THE MIRROR</text>
+<text x="640" y="84" text-anchor="middle" class="sub">A spiral session: you interrupt, annotate, decide, and return</text>
+<!-- A cycle of clearly labeled, non-overlapping source/response/decision stages. -->
+<path class="arrow" d="M365 213 Q440 143 526 163"/><path class="arrow" d="M765 163 Q858 140 913 213"/>
+<path class="arrow" d="M1067 286 Q1135 401 1052 503"/><path class="arrow" d="M914 575 Q851 650 760 617"/>
+<path class="arrow" d="M523 617 Q428 650 365 575"/><path class="arrow" d="M220 503 Q146 394 212 290"/>
+<g><rect class="card" x="105" y="192" width="260" height="100"/><text x="125" y="227" class="step">1 · Your source</text><text x="125" y="252" class="hint">Your document and version</text><text x="125" y="273" class="hint">Private until you share it</text></g>
+<g><rect class="card" x="510" y="112" width="260" height="98"/><text x="530" y="147" class="step">2 · Compare</text><text x="530" y="173" class="hint">Find the project file + line</text><text x="530" y="193" class="hint">Mark uncertainty honestly</text></g>
+<g><rect class="card" x="915" y="192" width="260" height="100"/><text x="935" y="227" class="step">3 · AI readout</text><text x="935" y="253" class="hint">A draft response, not a ruling</text><text x="935" y="273" class="hint">Keep its author visible</text></g>
+<g><rect class="card" x="915" y="495" width="260" height="110"/><text x="935" y="531" class="step">4 · YOUR breaks</text><text x="935" y="557" class="hint">PAUSE · add your words</text><text x="935" y="579" class="hint">LOCK only when you choose</text></g>
+<g><rect class="card" x="510" y="594" width="260" height="100"/><text x="530" y="630" class="step">5 · Return the draft</text><text x="530" y="656" class="hint">Send your annotated copy back</text><text x="530" y="676" class="hint">Repeat while it helps</text></g>
+<g><rect class="card" x="105" y="495" width="260" height="110"/><text x="125" y="530" class="step">6 · YOU decide</text><text x="125" y="556" class="hint">Close the mirror, or begin again</text><text x="125" y="578" class="hint">Keep your story and choices</text></g>
+<!-- The human is visibly at the centre, outside the automated cycle's authority. -->
+<circle cx="640" cy="395" r="111" fill="#132c42" stroke="url(#inner)" stroke-width="4"/>
+<circle cx="640" cy="356" r="32" fill="#e1bba7"/>
+<path d="M577 433 Q583 397 611 399 H669 Q697 397 703 433 L710 457 H570Z" fill="#59b0b7"/>
+<text x="640" y="492" text-anchor="middle" class="step">HUMAN PROCESSOR</text>
+<text x="640" y="518" text-anchor="middle" class="hint">My words · My consent · My call</text>
+<path d="M567 322 C514 262 473 276 464 310" fill="none" stroke="#77d8db" stroke-width="3"/>
+<text x="432" y="310" text-anchor="end" class="hint">INWARD: WRITE + REFLECT</text>
+<path d="M713 322 C768 262 812 276 821 310" fill="none" stroke="#ebbd83" stroke-width="3"/>
+<text x="840" y="310" class="hint">OUTWARD: ACT IF YOU CHOOSE</text>
+<text x="640" y="748" text-anchor="middle" class="sub">GHOST WRITER ≠ GHOST RIDER  ·  An AI may mirror the draft; it does not own the story.</text>
+<text x="640" y="775" text-anchor="middle" class="hint">Original ORION wiki concept · still-image alternative to motion · design only, not a biomedical device</text>
+</svg>
