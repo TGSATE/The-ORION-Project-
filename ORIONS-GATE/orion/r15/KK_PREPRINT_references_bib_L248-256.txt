@@ -1,0 +1,9 @@
+ author={Noga Alon and Vitali D. Milman},title={{$\lambda_1$}, Isoperimetric Inequalities for Graphs, and Superconcentrators},
+ journal={Journal of Combinatorial Theory, Series B},volume={38},year={1985},pages={73--88},
+ doi={10.1016/0095-8956(85)90092-9},note={\href{https://doi.org/10.1016/0095-8956(85)90092-9}{\nolinkurl{doi:10.1016/0095-8956(85)90092-9}}}
+}
+@article{WY2012,
+ author={Rufus Willett and Guoliang Yu},title={Higher Index Theory for Certain Expanders and {Gromov} Monster Groups, {I}},
+ journal={Advances in Mathematics},volume={229},number={3},year={2012},pages={1380--1416},
+ doi={10.1016/j.aim.2011.10.024},note={\href{https://doi.org/10.1016/j.aim.2011.10.024}{\nolinkurl{doi:10.1016/j.aim.2011.10.024}}}
+}
