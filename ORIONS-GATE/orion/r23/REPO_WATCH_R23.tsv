@@ -1,0 +1,311 @@
+account	member	repo	own_or_fork	pushed_at	language	size_kb	branch	description
+TGSATE	Beth	ORION-Engine-Platform-and-MMO	own	2026-10-07T02:23:15Z		12	main	ORION Engine is a human mediated knowledge and safety platform that connects fragmented information preserves failures and keeps humans in the driver seat. Orio
+TGSATE	Beth	The-ORION-Project-	own	2026-10-05T11:50:53Z		0	main	
+enuminous	Matthew	Universal-Cognitive-Attractor	own	2026-10-07T15:06:28Z		0	main	
+enuminous	Matthew	EFMW-Constants-Problem	own	2026-10-07T01:38:17Z	HTML	27	main	
+enuminous	Matthew	EFMW-Axioms	own	2026-10-07T01:05:02Z	HTML	15	main	
+enuminous	Matthew	EFMW-Neutron-Star-Glitch-Resonance	own	2026-10-07T00:35:24Z	HTML	17	main	
+enuminous	Matthew	papers	own	2026-10-07T00:21:21Z	HTML	20887	main	
+enuminous	Matthew	EFMW-Scientific-Claims	own	2026-10-07T00:17:40Z	HTML	137	main	Aristotle of Medium and Medium2
+enuminous	Matthew	Aristotle-165-Einsteinian-Tensors	own	2026-10-07T00:03:22Z	Lean	13	main	
+enuminous	Matthew	FieldSpace	own	2026-10-06T21:55:57Z	HTML	154	main	
+enuminous	Matthew	EFMW_Post156_Zoo_Audit	own	2026-10-06T20:13:49Z	Lean	165	main	
+enuminous	Matthew	Medium2	own	2026-10-03T18:11:43Z	HTML	2598	main	
+enuminous	Matthew	medium	own	2026-10-03T17:59:58Z	HTML	8839	main	
+enuminous	Matthew	Einsteinian-156-Aristotle	own	2026-10-02T02:33:56Z	Lean	53	main	
+enuminous	Matthew	Archimedes-Engine	own	2026-10-01T15:29:40Z	HTML	217	main	
+enuminous	Matthew	Verbinski-Protocol	own	2026-10-01T14:58:30Z	JavaScript	30	main	
+enuminous	Matthew	Archimedes-Field-Lab	own	2026-09-30T20:55:01Z	HTML	30	main	
+enuminous	Matthew	Archimedes-3D	own	2026-09-30T16:53:49Z	HTML	384	main	
+enuminous	Matthew	Avenue5	own	2026-09-27T18:33:55Z	Python	15	main	
+enuminous	Matthew	Borges-Library-CollapseOmega	own	2026-09-27T01:16:01Z	HTML	107	main	
+enuminous	Matthew	Aristotle_EFMW_Lean	own	2026-09-26T21:13:55Z	Lean	57	main	
+enuminous	Matthew	BackroomsProtocol-EFMW-Analysis	own	2026-09-26T03:01:33Z		4	main	
+enuminous	Matthew	MultiValuedClassicalAction-Lean4	own	2026-09-26T00:33:55Z	Lean	4	main	
+enuminous	Matthew	EFMW-108-Minute-Tests	own	2026-09-25T15:22:20Z	Python	18	main	
+enuminous	Matthew	Nightengale-Full-Zoo-Audit	own	2026-09-23T13:10:32Z	Lean	496	main	
+enuminous	Matthew	EFMW-CTX-001b	own	2026-09-23T12:53:40Z	Python	9431	main	
+enuminous	Matthew	Monolithic-Zoo-Lean4	own	2026-09-22T23:27:24Z	Lean	158	main	
+enuminous	Matthew	Alchemy-of-Emergence	own	2026-09-21T21:02:26Z		29	main	
+enuminous	Matthew	Nightengale	own	2026-09-21T21:01:24Z	Python	7	main	
+enuminous	Matthew	Chimera	own	2026-09-20T15:45:41Z	Python	7	main	
+enuminous	Matthew	JEV-EFMW-Syncretic-Layer	own	2026-09-18T23:49:55Z	Python	13	main	
+enuminous	Matthew	DePIN	fork	2026-09-17T22:56:04Z		20	main	Component→Epic→Feature→Task→Test→Release​
+enuminous	Matthew	lean-worker	fork	2026-09-17T16:35:59Z		27	main	a lean mean worker in lean mean lean
+enuminous	Matthew	woodpecker	own	2026-09-11T00:45:59Z	Python	30	main	
+enuminous	Matthew	EFMW-EXP-001	own	2026-09-10T23:45:45Z	Python	604	main	Bounded EFMW Experimental Toy Model #1
+enuminous	Matthew	meta-meme	fork	2026-09-10T00:10:07Z		128472	main	The meta meme
+enuminous	Matthew	Ligo_EFMW_Search	own	2026-09-08T16:19:34Z	Python	52	main	
+enuminous	Matthew	simself	own	2026-09-08T14:28:37Z		883	main	SimSelf — simulated self and axes of identity (docs as md, src as python)
+enuminous	Matthew	fieldcore	own	2026-09-08T12:12:57Z		175	main	Intelligent control systems.
+enuminous	Matthew	Monlithic_EFMW_102_Lean4	own	2026-09-06T12:25:20Z	Lean	148	main	
+enuminous	Matthew	Monolithic_Zoo_Run	own	2026-09-02T20:25:48Z	Lean	63	main	
+enuminous	Matthew	Monolithic-102-Zoo-Lean4	own	2026-09-02T19:21:17Z	Lean	150	main	
+enuminous	Matthew	Monolithic_102_EFMW	own	2026-08-24T22:34:40Z		85	main	
+enuminous	Matthew	Tortoise	own	2026-08-24T14:10:11Z	Python	461	main	
+enuminous	Matthew	Butterfly	own	2026-08-24T13:52:20Z	Python	10	main	
+enuminous	Matthew	Axolotl	own	2026-08-24T13:51:42Z	Python	8	main	
+enuminous	Matthew	Bonobo	own	2026-08-24T13:50:57Z	Python	9	main	
+enuminous	Matthew	Rhino	own	2026-08-24T13:50:16Z	Python	9	main	
+enuminous	Matthew	Falcon	own	2026-08-24T13:49:34Z	Python	9	main	
+enuminous	Matthew	Whale	own	2026-08-24T13:48:23Z	Python	9	main	
+enuminous	Matthew	Cobra	own	2026-08-24T13:46:14Z	Python	8	main	
+enuminous	Matthew	Phoenix	own	2026-08-24T13:45:36Z	Python	9	main	
+enuminous	Matthew	Termite	own	2026-08-24T13:44:58Z	Python	9	main	
+enuminous	Matthew	Horse	own	2026-08-24T13:44:15Z	Python	9	main	
+enuminous	Matthew	Lynx	own	2026-08-24T13:43:26Z	Python	8	main	
+enuminous	Matthew	Mole	own	2026-08-24T13:42:49Z	Python	9	main	
+enuminous	Matthew	Orca	own	2026-08-24T13:42:09Z	Python	9	main	
+enuminous	Matthew	Salmon	own	2026-08-24T13:41:30Z	Python	8	main	
+enuminous	Matthew	Weasel	own	2026-08-24T13:40:53Z	Python	10	main	
+enuminous	Matthew	Bison	own	2026-08-24T13:40:10Z	Python	9	main	
+enuminous	Matthew	Mantis	own	2026-08-24T13:39:35Z	Python	10	main	
+enuminous	Matthew	Beaver	own	2026-08-24T13:38:49Z	Python	9	main	
+enuminous	Matthew	Jellyfish	own	2026-08-24T13:37:55Z	Python	9	main	
+enuminous	Matthew	Chameleon	own	2026-08-24T13:37:07Z	Python	9	main	
+enuminous	Matthew	Elephant	own	2026-08-24T13:36:00Z	Python	10	main	
+enuminous	Matthew	Wolf	own	2026-08-24T13:34:36Z	Python	12	main	
+enuminous	Matthew	Magpie	own	2026-08-24T00:53:12Z	Python	9	main	
+enuminous	Matthew	Turtle	own	2026-08-20T18:48:11Z	Python	9	main	
+enuminous	Matthew	Dragon	own	2026-08-20T18:47:21Z	Python	27	main	
+enuminous	Matthew	Crocodile	own	2026-08-20T18:46:44Z	Python	24	main	
+enuminous	Matthew	Hedgehog	own	2026-08-20T18:46:04Z	Python	51	main	
+enuminous	Matthew	Bat	own	2026-08-20T18:45:26Z	Python	25	main	
+enuminous	Matthew	Penguin	own	2026-08-20T18:44:48Z	Python	24	main	
+enuminous	Matthew	Shark	own	2026-08-20T18:44:12Z	Python	54	main	
+enuminous	Matthew	Moth	own	2026-08-20T18:43:27Z	Python	26	main	
+enuminous	Matthew	Ant	own	2026-08-20T18:42:50Z	Python	116	main	
+enuminous	Matthew	Dolphin	own	2026-08-20T18:42:11Z	Python	26	main	
+enuminous	Matthew	Raven	own	2026-08-20T18:41:31Z	Python	24	main	
+enuminous	Matthew	Spider	own	2026-08-20T18:40:46Z	Python	33	main	
+enuminous	Matthew	Fox	own	2026-08-20T18:40:08Z	Python	30	main	
+enuminous	Matthew	Cat	own	2026-08-20T18:39:28Z	Python	22	main	
+enuminous	Matthew	Pulse	own	2026-08-20T18:38:50Z	Python	45	main	
+enuminous	Matthew	Shepherd	own	2026-08-20T18:38:13Z	Python	45	main	
+enuminous	Matthew	Crab	own	2026-08-20T18:37:28Z	Python	26	main	
+enuminous	Matthew	Eagle	own	2026-08-20T18:36:47Z	Python	31	main	
+enuminous	Matthew	Hive	own	2026-08-20T18:36:02Z	Python	29	main	
+enuminous	Matthew	Gecko	own	2026-08-20T18:35:24Z	Python	31	main	
+enuminous	Matthew	Octopus	own	2026-08-20T18:34:36Z	Python	25	main	
+enuminous	Matthew	Owl	own	2026-08-20T18:33:51Z	Python	25	main	
+enuminous	Matthew	EFMW-Safety-001	own	2026-08-17T17:42:28Z	Python	77	main	
+enuminous	Matthew	EFMW-FULL	own	2026-08-16T21:18:08Z	Python	40	main	EFMW — Einstein–Feynman–Maxwell–Wright experimental framework
+enuminous	Matthew	monster	fork	2026-08-12T23:23:45Z		319867	main	the monster group properties
+enuminous	Matthew	efmw-equation-review	fork	2026-08-07T11:55:12Z		4726	main	Independent review and falsification plan for the EFMW equation catalogue
+enuminous	Matthew	efmw-research-cache	fork	2026-08-07T11:32:43Z		12	main	Private evidence cache and bounded researcher rail for EFMW work
+enuminous	Matthew	EFMW	own	2026-05-05T18:31:42Z	Python	32	main	Einstein Feynman Maxwell Wright
+enuminous	Matthew	docs	own	2026-05-05T18:26:12Z	MDX	368	main	
+enuminous	Matthew	Medium3	own	2025-09-24T04:39:52Z	HTML	393	main	
+enuminous	Matthew	Harlequinn	own	2019-05-19T21:09:13Z		0	master	
+meta-introspector	Mike (introsp3ctor)	aeneas	fork	2026-10-07T10:41:19Z	OCaml	15247	main	A verification toolchain for Rust programs
+meta-introspector	Mike (introsp3ctor)	lean-action	fork	2026-10-07T07:54:17Z	Shell	274	main	GitHub action for standard CI in Lean projects
+meta-introspector	Mike (introsp3ctor)	lean-workers-union	own	2026-10-07T02:22:56Z	Lean	70	main	A registry and coordination layer for Lean workers and Choir members, enabling role-based membership and formal verification of agent state.
+meta-introspector	Mike (introsp3ctor)	W33-Theory	fork	2026-10-07T00:02:48Z	Python	502799	master	The W(3,3)-E6 Correspondence Theorem: deriving the Standard Model from a single finite geometry with zero free parameters
+meta-introspector	Mike (introsp3ctor)	gap-lean4-port	fork	2026-10-06T22:29:11Z	Python	1821	main	Formally Verified Lean 4 / Mathlib Port of GAP (Groups, Algorithms, Programming) Core Modules (GAP-0331 lib/zmodnz.gi)
+meta-introspector	Mike (introsp3ctor)	Yang--Mills-LLM-experiment	fork	2026-10-06T10:44:08Z		10886	main	Documents related to an attempt with Levent Alpoge to get Claude to finish Balaban's program to construct Yang--Mills. (Under construction!)
+meta-introspector	Mike (introsp3ctor)	agentaps	fork	2026-10-06T01:54:21Z	Rust	3292	main	A universal GUI for coding harnesses.
+meta-introspector	Mike (introsp3ctor)	aristotle-cli-rs	own	2026-10-06T01:44:45Z	Rust	26426	main	aristotle.harmonic.fun cli in rust
+meta-introspector	Mike (introsp3ctor)	ORION-Engine-Platform-and-MMO	fork	2026-10-06T00:03:07Z	Lean	1976	main	ORION Engine is a human mediated knowledge and safety platform that connects fragmented information preserves failures and keeps humans in the driver seat. Orio
+meta-introspector	Mike (introsp3ctor)	system-manager	fork	2026-10-05T18:36:04Z	Nix	21736	main	Manage system config using nix on any distro
+meta-introspector	Mike (introsp3ctor)	FieldSpace	fork	2026-10-05T16:15:54Z		117	main	
+meta-introspector	Mike (introsp3ctor)	leanos	fork	2026-10-05T06:58:58Z	Lean	14065	main	experimental LeanOS formally verified OS
+meta-introspector	Mike (introsp3ctor)	sglang	fork	2026-10-05T04:50:51Z	Python	267630	main	SGLang is a high-performance serving framework for large language models and multimodal models.
+meta-introspector	Mike (introsp3ctor)	leandoom	fork	2026-10-04T13:51:04Z		3083	main	(Lean)DOOM: a native Lean 4 DOOM engine with original-WAD support and kernel-checked movement and autoaim proofs.
+meta-introspector	Mike (introsp3ctor)	kant-zk-pastebin	own	2026-10-04T08:43:35Z	JavaScript	286055	main	
+meta-introspector	Mike (introsp3ctor)	awesome-ai-agents	fork	2026-10-04T07:15:17Z		1846	main	Awesome list of 300+ agentic AI resources
+meta-introspector	Mike (introsp3ctor)	meta-introspector	own	2026-10-04T04:41:38Z	Rust	716147	main	The meta introspector fixed point
+meta-introspector	Mike (introsp3ctor)	aok	own	2026-10-04T00:47:23Z	Lean	30579	main	Arguments of knowledge
+meta-introspector	Mike (introsp3ctor)	lean-worker	own	2026-10-03T23:09:49Z	Lean	701	main	a lean mean worker in lean mean lean
+meta-introspector	Mike (introsp3ctor)	cloudflare-os	fork	2026-10-03T14:13:23Z		21795	main	Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.
+meta-introspector	Mike (introsp3ctor)	helia	fork	2026-10-03T11:23:36Z	TypeScript	14633	main	An implementation of IPFS in TypeScript
+meta-introspector	Mike (introsp3ctor)	experiential	fork	2026-10-03T04:23:32Z		105307	main	Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend bet
+meta-introspector	Mike (introsp3ctor)	Singularity-Agent-2	fork	2026-10-02T21:43:09Z	TypeScript	4926	main	Singularity agent is a mcp agent plugin designed to make agentic cli blockchain implementation something practical and universal.
+meta-introspector	Mike (introsp3ctor)	semibase-order6	fork	2026-10-02T20:18:10Z		28941	main	Lean 4 proofs: every semigroup of order six is finitely based except four (L, B2^1, A2^g, A2^1); one theorem for all 15,973 Smallsemi classes
+meta-introspector	Mike (introsp3ctor)	lean-ctx	fork	2026-10-02T09:53:53Z		808453	main	Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, rememb
+meta-introspector	Mike (introsp3ctor)	translatepi	fork	2026-10-02T05:05:48Z		2086	main	
+meta-introspector	Mike (introsp3ctor)	antiviolent-intelligence	fork	2026-10-02T04:24:04Z		860	main	https://antiviolentintelligence.ai
+meta-introspector	Mike (introsp3ctor)	antiviolence	fork	2026-10-02T00:49:50Z		462	main	
+meta-introspector	Mike (introsp3ctor)	freebuff	fork	2026-10-01T23:01:54Z		172872	main	The free coding agent
+meta-introspector	Mike (introsp3ctor)	recog	fork	2026-10-01T20:18:51Z		12379	master	The GAP package recog to collect methods for constructive recognition
+meta-introspector	Mike (introsp3ctor)	dan-hawkley-dev	fork	2026-10-01T18:44:12Z		7488	main	#vss365 twitter, bluesky, instagram?
+meta-introspector	Mike (introsp3ctor)	nix-emacs-ci	fork	2026-10-01T16:56:40Z		679	master	Emacs builds for continuous integration
+meta-introspector	Mike (introsp3ctor)	lean-worker-gh-twin	own	2026-10-01T08:06:26Z		0	main	GitHub API twin model of lean-worker with GitHub CLI integration, GitHub Actions, and formal Copilot twins in Lean 4
+meta-introspector	Mike (introsp3ctor)	Choir	fork	2026-10-01T03:15:14Z		2110	main	An open protocol for distributed multi-agent autoformalization.
+meta-introspector	Mike (introsp3ctor)	.dotfiles	fork	2026-10-01T01:06:59Z		70534	main	Flake-based, literate nix config for personal infrastructure
+meta-introspector	Mike (introsp3ctor)	FloatLib	fork	2026-09-30T15:49:09Z	SMT	76280	main	Arbitrary verified fast precision floating point arithmetic in Lean, with proofs, optimized backends, and support for IEEE binary and decimal, posits, and custo
+meta-introspector	Mike (introsp3ctor)	lean-pool	fork	2026-09-30T15:00:49Z	Lean	118433	main	
+meta-introspector	Mike (introsp3ctor)	CaffarelliKohnNirenberg	fork	2026-09-30T13:37:33Z	Lean	7433	main	The Caffarelli-Kohn-Nirenberg theorem, formalized in Lean 4
+meta-introspector	Mike (introsp3ctor)	flake	fork	2026-09-30T12:36:03Z		875	main	My setup
+meta-introspector	Mike (introsp3ctor)	ix	fork	2026-09-30T12:11:03Z		105419	main	a zero-knowledge proof-carrying code protocol for Lean 4
+meta-introspector	Mike (introsp3ctor)	projectile	fork	2026-09-30T10:55:59Z		17716	master	Project Interaction Library for Emacs
+meta-introspector	Mike (introsp3ctor)	EscauriazaSereginSverak	fork	2026-09-29T19:05:58Z		3635	main	The Escauriaza–Seregin–Šverák theorem, formalized in Lean 4
+meta-introspector	Mike (introsp3ctor)	3b1b-videos	fork	2026-09-29T14:42:56Z		189396	master	Code for the manim-generated scenes used in 3blue1brown videos
+meta-introspector	Mike (introsp3ctor)	Archimedes-Engine	fork	2026-09-29T14:32:34Z		179	main	
+meta-introspector	Mike (introsp3ctor)	unsloth	fork	2026-09-29T12:05:28Z		401041	main	Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.
+meta-introspector	Mike (introsp3ctor)	qcue	fork	2026-09-28T23:55:58Z	Go	41674	master	CUE prototype with universal and existential quantifiers
+meta-introspector	Mike (introsp3ctor)	Local-Agent-1	fork	2026-09-28T19:41:34Z		4751	main	Local Agent 1
+meta-introspector	Mike (introsp3ctor)	escher-fish	fork	2026-09-28T16:36:08Z		2133	main	
+meta-introspector	Mike (introsp3ctor)	ssz-specs	fork	2026-09-28T08:06:55Z		1982	main	Reference implementation of Ethereum SSZ serialization and Merkleization
+meta-introspector	Mike (introsp3ctor)	trade-journal	fork	2026-09-27T22:35:45Z		2602	main	The open-source trade journal. Broker sync, P&L calendar, deep analytics, and AI reflection. Self-hosted, MIT, free.
+meta-introspector	Mike (introsp3ctor)	solfunmeme-introspector	fork	2026-09-27T22:21:19Z	Lean	8120	main	
+meta-introspector	Mike (introsp3ctor)	bend	fork	2026-09-27T18:54:29Z		115349	main	Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh
+meta-introspector	Mike (introsp3ctor)	fieldcore	fork	2026-09-27T16:28:21Z		914	main	Intelligent control systems.
+meta-introspector	Mike (introsp3ctor)	schemen-gate	fork	2026-09-27T10:13:40Z	Python	4327	main	Cryptographic gates, capability delegations, lockboxes, and vector isolation primitives
+meta-introspector	Mike (introsp3ctor)	proof-of-observation	fork	2026-09-27T01:02:23Z		449	main	Open-source proof-of-observation enclave and verifier
+meta-introspector	Mike (introsp3ctor)	spivak-lean	fork	2026-09-26T17:34:36Z		3898	fourth-edition	Michael Spivak's Calculus formalized in Lean 4: every theorem and every problem of all 30 chapters and 9 appendices, in both the 3rd and 4th editions
+meta-introspector	Mike (introsp3ctor)	awesome-agentic-atlas	fork	2026-09-26T16:13:39Z		125057	latest_branch	Awesome Agentic Atlas is your guide to all the top Awesome repos for AI. 
+meta-introspector	Mike (introsp3ctor)	papers	fork	2026-09-26T13:01:54Z		20805	main	
+meta-introspector	Mike (introsp3ctor)	FreeToken	fork	2026-09-26T11:09:07Z		4648	main	FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.
+meta-introspector	Mike (introsp3ctor)	cerberus-lean	fork	2026-09-26T06:32:51Z		103106	mdd/cerberus-lean	A fork of Cerberus C adding a Lean 4 port of the semantics
+meta-introspector	Mike (introsp3ctor)	MultiValuedClassicalAction-Lean4	fork	2026-09-26T00:33:55Z		0	main	
+meta-introspector	Mike (introsp3ctor)	koru	fork	2026-09-25T16:40:32Z		145924	main	The event continuation language
+meta-introspector	Mike (introsp3ctor)	Domain-papers	fork	2026-09-25T01:25:05Z	HTML	176090	main	The domain‑papers repository is a ten‑domain container that mirrors the Dewey Decimal System’s top‑level classes. Each folder represents a knowledge domain, jus
+meta-introspector	Mike (introsp3ctor)	awesome-free-ai-coding	fork	2026-09-24T18:21:05Z		5932	main	📡 Legal free LLM APIs & coding agents — self-updating, probe-verified twice a week. Free tiers, no-card trials, free models.
+meta-introspector	Mike (introsp3ctor)	eagen-divisor-formalization	fork	2026-09-24T15:49:01Z		11457	master	Formalize Liam Eagen's Divisor Techniques
+meta-introspector	Mike (introsp3ctor)	chrome-devtools-mcp	fork	2026-09-24T11:24:20Z		11309	main	Chrome DevTools for coding agents
+meta-introspector	Mike (introsp3ctor)	moltis	fork	2026-09-23T22:50:08Z	Rust	122553	main	A Rust-native claw you can trust. One binary — sandboxed, secure, auditable. Voice, memory, MCP tools, and multi-channel access built-in.
+meta-introspector	Mike (introsp3ctor)	Zeta5	fork	2026-09-23T20:14:13Z		2356	main	
+meta-introspector	Mike (introsp3ctor)	wrangler-action	fork	2026-09-23T00:02:45Z	TypeScript	22856	main	🧙‍♀️ easily deploy cloudflare workers applications using wrangler and github actions
+meta-introspector	Mike (introsp3ctor)	Monolithic-Zoo-Lean4	fork	2026-09-22T23:27:24Z		0	main	
+meta-introspector	Mike (introsp3ctor)	Grothendieck-is-Ruined-by-ZFC	fork	2026-09-22T18:40:49Z	Lean	17	main	The absolute ontological liquidation of Grothendieck Topologies. Zero ZFC accounting fraud, zero choice axioms. Lean 4 verified constant-time O(1) stability usi
+meta-introspector	Mike (introsp3ctor)	nix-opencode-with-mitm	fork	2026-09-22T15:00:32Z		22	main	
+meta-introspector	Mike (introsp3ctor)	Noperthedron	fork	2026-09-22T14:13:34Z		9978	main	The Noperthedron does not have Rupert Property: a proof in Lean4
+meta-introspector	Mike (introsp3ctor)	workers-sdk	fork	2026-09-22T12:51:26Z		157582	main	⛅️ Home to Wrangler, the CLI for Cloudflare Workers®
+meta-introspector	Mike (introsp3ctor)	TalkToAi-Code	fork	2026-09-22T09:12:11Z		2315	main	Native Windows AI coding and game assistant with local models, SSH, bounded subagents and experimental ZeroThink vault linking
+meta-introspector	Mike (introsp3ctor)	tenet	fork	2026-09-22T03:51:23Z		820	main	An independent implementation of the Lean 4 kernel on .NET, and a checker for Lean exports
+meta-introspector	Mike (introsp3ctor)	walrus	fork	2026-09-22T00:01:56Z		376271	main	A decentralized blob store using Sui for coordination and governance.
+meta-introspector	Mike (introsp3ctor)	Alchemy-of-Emergence	fork	2026-09-21T21:02:26Z		0	main	
+meta-introspector	Mike (introsp3ctor)	Nightengale	fork	2026-09-21T21:01:24Z		7	main	
+meta-introspector	Mike (introsp3ctor)	lean-math-lab	fork	2026-09-21T17:45:25Z		292360	main	Lean 4 formalizations of mathematical results, with reproducible proofs, axiom audits, and usage examples.
+meta-introspector	Mike (introsp3ctor)	dual-surface-ui	fork	2026-09-21T11:49:00Z		908	main	
+meta-introspector	Mike (introsp3ctor)	take-back	fork	2026-09-20T21:48:06Z		1336	main	
+meta-introspector	Mike (introsp3ctor)	laya-playground	fork	2026-09-20T20:59:37Z		281	main	A website, two games, a benchmark and an agent skill for Laya, the open-source decision model. Runs on your machine.
+meta-introspector	Mike (introsp3ctor)	pick-up-nix	fork	2026-09-20T19:06:07Z	Shell	71346	master	
+meta-introspector	Mike (introsp3ctor)	NanoJev	fork	2026-09-20T11:13:01Z		54730	main	A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.
+meta-introspector	Mike (introsp3ctor)	laya-coreml	fork	2026-09-20T03:52:14Z		5607	main	Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.
+meta-introspector	Mike (introsp3ctor)	laya-mlx	fork	2026-09-19T16:32:30Z		5750	main	Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
+meta-introspector	Mike (introsp3ctor)	SemIf	fork	2026-09-19T04:46:36Z		9177	master	Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
+meta-introspector	Mike (introsp3ctor)	vool	fork	2026-09-19T01:12:13Z		24015	main	VOOL — the local-first personal agent runtime by Parad0x Labs: local LLM by default, memory, tools, permissions and signed receipts. macOS beta.
+meta-introspector	Mike (introsp3ctor)	koru-libs	fork	2026-09-18T22:09:19Z		2628	main	Libraries not in the stdlib, but part of the close ecosystem
+meta-introspector	Mike (introsp3ctor)	OmniRoute	fork	2026-09-18T21:51:44Z	TypeScript	687582	release/v3.8.51	Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau
+meta-introspector	Mike (introsp3ctor)	vesper-studio	own	2026-09-18T16:06:17Z		21	main	
+meta-introspector	Mike (introsp3ctor)	flue	fork	2026-09-17T21:03:16Z		19734	main	The sandbox agent framework.
+meta-introspector	Mike (introsp3ctor)	pg-jev	fork	2026-09-17T20:07:39Z		44	master	natural-language WHERE clauses for PostgreSQL using jev by TypeSafe AI
+meta-introspector	Mike (introsp3ctor)	lean-gioia	fork	2026-09-17T16:23:10Z		3160	main	Lean formalizations of results from Lei Gioia's research, developed from seminar and paper specifications.
+meta-introspector	Mike (introsp3ctor)	aleph-vm	fork	2026-09-17T12:47:25Z		7544	main	Aleph.im VM execution engine
+meta-introspector	Mike (introsp3ctor)	simself	fork	2026-09-17T09:48:00Z		59431	main	SimSelf — simulated self and axes of identity (docs as md, src as python)
+meta-introspector	Mike (introsp3ctor)	models.dev	fork	2026-09-16T21:25:06Z		19460	dev	An open-source database of AI models.
+meta-introspector	Mike (introsp3ctor)	waterfall	fork	2026-09-16T20:21:55Z		496	main	Small, configurable proof search for inductive Lean goals
+meta-introspector	Mike (introsp3ctor)	jevlike	fork	2026-09-16T18:12:53Z		3237	main	
+meta-introspector	Mike (introsp3ctor)	axiom-lean-engine	fork	2026-09-16T17:47:59Z		1292	main	Lean evaluation and metaprogramming utilities for provers.
+meta-introspector	Mike (introsp3ctor)	colibri	fork	2026-09-15T21:33:15Z		15052	main	Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+meta-introspector	Mike (introsp3ctor)	exsecutor	fork	2026-09-15T20:31:19Z	Assembly	11383	main	A systems language in which locale and target are capabilities, never ambient state; and its compiler, written in freestanding x86-64 assembly with a closed sys
+meta-introspector	Mike (introsp3ctor)	HopfProblem	fork	2026-09-15T12:28:41Z	Lean	11736	master	A formalization of the resolution of the Hopf problem: the six-sphere admits a complex manifold structure compatible with its standard topology
+meta-introspector	Mike (introsp3ctor)	tainverify_lean	fork	2026-09-15T05:42:35Z		50450	main	
+meta-introspector	Mike (introsp3ctor)	effective-html	fork	2026-09-14T18:38:24Z		20170	main	Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.
+meta-introspector	Mike (introsp3ctor)	lean-desi-stellar	fork	2026-09-14T15:22:10Z		8	main	Lean specifications for DESI stellar measurements, phase-space dynamics, and admissible dark-matter inferences.
+meta-introspector	Mike (introsp3ctor)	con-ron	fork	2026-09-13T22:01:47Z		15529	master	A rust port of con-leche
+meta-introspector	Mike (introsp3ctor)	digital-asset-exchange	fork	2026-09-13T21:22:01Z		116	main	Sovereign digital-asset exchange — atomic DvP settlement, batch-auction CLOB, ICRC-MENA self-indexed ledger, ICRC-7/37 land titles. Runs on Egypt-L1.
+meta-introspector	Mike (introsp3ctor)	con-leche	fork	2026-09-13T19:11:26Z		39015	master	An external lean checker with a proof of consistency
+meta-introspector	Mike (introsp3ctor)	mutx-dev	fork	2026-09-13T15:48:42Z		126447	main	Developer tools, CLI, SDK, and documentation for MUTX & PicoMUTX
+meta-introspector	Mike (introsp3ctor)	pricing.md	fork	2026-09-13T08:14:41Z		1954	main	
+meta-introspector	Mike (introsp3ctor)	lean-perovskite	fork	2026-09-12T21:31:50Z		2960	main	Using Lean to formalize and test quantitative specifications for perovskite quantum light emission.
+meta-introspector	Mike (introsp3ctor)	terraform-provider-oci	fork	2026-09-11T04:13:08Z	Go	262686	master	Terraform Oracle Cloud Infrastructure provider
+meta-introspector	Mike (introsp3ctor)	shellscan	fork	2026-09-10T23:22:42Z		498	main	Model visualization: inverse-Hopf scan / pixel as a local plane-cut. Not a generic renderer and not a proof of OP1–OP6.
+meta-introspector	Mike (introsp3ctor)	lean4-wasm-in-browser	fork	2026-09-10T11:18:39Z		14362	main	Run lean4 directly in your browser
+meta-introspector	Mike (introsp3ctor)	crane-rocq	fork	2026-09-10T01:45:19Z	C++	33140	main	A new extraction system from Rocq to functional-style, memory-safe, thread-safe, readable, valid, performant, and modern C++.
+meta-introspector	Mike (introsp3ctor)	meta-meme	fork	2026-09-10T00:10:07Z	Haskell	128472	main	The meta meme
+meta-introspector	Mike (introsp3ctor)	X-files	fork	2026-09-09T11:46:14Z	Lean	79	main	Hierarchical Jacobian + Discrete Möbius Fold Framework
+meta-introspector	Mike (introsp3ctor)	quine-relay	fork	2026-09-08T22:11:22Z	Ruby	18038	master	An uroboros program with 100+ programming languages
+meta-introspector	Mike (introsp3ctor)	jacobian	fork	2026-09-08T11:50:08Z	Python	34845	main	Pure mathematics for agents: search for examples and counterexamples, compute exactly, and independently check what a result proves.
+meta-introspector	Mike (introsp3ctor)	NavierStokesAndEuler	fork	2026-09-08T11:00:49Z		7289	main	Lean certificates accompanying Navier-Stokes and Euler results
+meta-introspector	Mike (introsp3ctor)	gptel-agent	fork	2026-09-08T05:42:00Z		134	master	Agent mode for gptel
+meta-introspector	Mike (introsp3ctor)	THE-PROMPT-OF-DOOM-MATH-IS-OVER	fork	2026-09-07T08:58:51Z		40	main	💀 THE PROMPT OF DOOM IN ACTION. Formally verified Lean 4 infrastructure triggering a total binary sandbox overload. Demolishing ZFC set theory and reducing P=NP
+meta-introspector	Mike (introsp3ctor)	ProCGroups	fork	2026-09-07T08:34:37Z		1907	main	Lean 4 formalization of profinite and pro-C groups, free pro-C groups, Reidemeister-Schreier theory, Fox calculus, and Crowell exact sequences.
+meta-introspector	Mike (introsp3ctor)	OpenVuln	fork	2026-09-07T03:59:04Z		313	main	
+meta-introspector	Mike (introsp3ctor)	neurocraft-fly-public	fork	2026-09-06T18:21:06Z		31611	main	NeuroCraft Fly by Evan Sinclair Smith: an interactive fruit-fly connectome model in Minecraft. Public project home and release roadmap.
+meta-introspector	Mike (introsp3ctor)	shortcuts-to-runtime-reality	fork	2026-09-06T16:07:41Z		14	main	100 asymmetric attacks on academic lethargy and platonist delusion. The formal deconstruction of non-execution. Written in blood, verified in Lean 4. Process fi
+meta-introspector	Mike (introsp3ctor)	hesper-studio	own	2026-09-06T13:45:16Z		99	main	the public hesper code
+meta-introspector	Mike (introsp3ctor)	erdos548	fork	2026-09-06T09:58:25Z		70	main	Lean 4 Erdős problem #548 (Erdős–Sós conjecture): proof, found by GPT-6 Astra in the FrontierMath Erdős benchmark; Palomar submission repository
+meta-introspector	Mike (introsp3ctor)	general-divisor-theorem	fork	2026-09-06T02:50:51Z		611	main	Lean formalization and verification artifact for the General Divisor Theorem.
+meta-introspector	Mike (introsp3ctor)	FLT	fork	2026-09-05T03:14:27Z		39503	main	Ongoing Lean formalisation of the proof of Fermat's Last Theorem
+meta-introspector	Mike (introsp3ctor)	facehuggers-message-board	fork	2026-09-04T23:07:46Z		141	main	
+meta-introspector	Mike (introsp3ctor)	Elpis0.1	fork	2026-09-04T17:01:15Z		2317	main	Deterministic structural AI core with Grid81 semantics, HACF retrieval, receipt-bound execution, and qualified offline runtime transactions.
+meta-introspector	Mike (introsp3ctor)	opensmash	fork	2026-09-04T16:57:11Z		137024	main	
+meta-introspector	Mike (introsp3ctor)	sam	fork	2026-09-04T16:18:02Z		35669	main	SAM Sovereign Agent Mesh
+meta-introspector	Mike (introsp3ctor)	fermats-last-theorem	fork	2026-09-04T14:59:12Z		232565	main	
+meta-introspector	Mike (introsp3ctor)	gss-stats	fork	2026-09-04T13:32:41Z		214	main	Bot-free web analytics dashboard on Cloudflare (Pages + Functions + RUM GraphQL + geo beacon on D1/KV)
+meta-introspector	Mike (introsp3ctor)	mathematical-basis	fork	2026-09-04T07:15:36Z		1811	main	Mathematical-basis statements (MB_####), each backed by source provenance, a leading specification, an executable test, and a stored result.
+meta-introspector	Mike (introsp3ctor)	conway-refinement	fork	2026-09-03T21:05:48Z		1264	main	A proof of Conway's refinement conjecture in Lean
+meta-introspector	Mike (introsp3ctor)	zeta-23-lean	fork	2026-09-03T12:30:01Z	Lean	1545	main	
+meta-introspector	Mike (introsp3ctor)	PrimeGaps186	fork	2026-09-02T20:53:40Z		2239	main	Conditional Lean formalization and numerical certificate for prime gaps at most 186.
+meta-introspector	Mike (introsp3ctor)	ads_workpiece	fork	2026-09-02T19:17:45Z		129	main	
+meta-introspector	Mike (introsp3ctor)	ZetaZeros	fork	2026-09-02T15:08:03Z		115	main	
+meta-introspector	Mike (introsp3ctor)	prime-inertia-engine	fork	2026-09-02T01:57:57Z		56918	main	
+meta-introspector	Mike (introsp3ctor)	timesfm	fork	2026-09-02T01:48:00Z		4532	master	TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
+meta-introspector	Mike (introsp3ctor)	mitmproxy_rs	fork	2026-09-01T20:23:22Z		12004	main	The Rust bits in mitmproxy. 🦀
+meta-introspector	Mike (introsp3ctor)	dpkg-lean4	own	2026-08-31T00:02:12Z	JavaScript	2177	main	
+meta-introspector	Mike (introsp3ctor)	specification-grammar	fork	2026-08-30T12:56:17Z		4103	main	Admissible generalizations trail leading specifications.
+meta-introspector	Mike (introsp3ctor)	lean4web	fork	2026-08-30T12:53:29Z		5044	main	Lean web editor
+meta-introspector	Mike (introsp3ctor)	ANTI-ZFC-SYSTEM-LIQUIDATION-LEAN4-COMPILER-KILLER-TONE-YO	fork	2026-08-30T12:11:15Z		170	main	💥 THE ULTIMATE SYSTEM MUTATION. Verified Lean 4 framework executing a complete ontological liquidation of ZFC set theory. Inflicting a constant-time O(1) comple
+meta-introspector	Mike (introsp3ctor)	hesper	fork	2026-08-30T05:26:05Z		6759	main	Verified GPU programming framework for Lean 4. Write type-safe WebGPU shaders with formal verification, hardware-accelerated matrix ops, and cross-platform supp
+meta-introspector	Mike (introsp3ctor)	openmemory	fork	2026-08-29T14:29:32Z		934	main	Cloudflare-native open-source memory infrastructure for AI tools and MCP clients
+meta-introspector	Mike (introsp3ctor)	odd-order	fork	2026-08-28T15:15:12Z		57251	main	The Feit–Thompson odd order theorem in Lean 4, with the finite group theory library it required — Hall, Fitting, Frobenius groups, transfer, ZJ, Dade isometry, 
+meta-introspector	Mike (introsp3ctor)	atlas-lean	fork	2026-08-28T11:45:18Z		27022	main	ATLAS Autoformalized Textbook Library At Scale
+meta-introspector	Mike (introsp3ctor)	automath	fork	2026-08-28T11:27:44Z		244265	dev	LEAN4 AUTO YOUTUBE LIVING
+meta-introspector	Mike (introsp3ctor)	midstate	fork	2026-08-27T21:41:00Z		21122	main	midstate
+meta-introspector	Mike (introsp3ctor)	dagger	fork	2026-08-27T21:04:17Z		245139	main	Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud
+meta-introspector	Mike (introsp3ctor)	Robo	fork	2026-08-27T11:57:32Z		247591	main	A game for learning Lean 4 where a cute little smart-elf joins you on your exploration of the Leaniverse. 
+meta-introspector	Mike (introsp3ctor)	lean4game	fork	2026-08-27T10:27:23Z		35640	main	Server to host Lean games
+meta-introspector	Mike (introsp3ctor)	p-adic-zeta-density	fork	2026-08-26T23:22:30Z		707	main	Proof that zeta_p(s) is irrational with density 1 for odd s and fixed prime p.
+meta-introspector	Mike (introsp3ctor)	deep-swe	fork	2026-08-26T20:29:50Z		3489	main	Measuring frontier coding agents on original, long-horizon engineering tasks
+meta-introspector	Mike (introsp3ctor)	native-space	own	2026-08-26T20:25:02Z		291	main	
+meta-introspector	Mike (introsp3ctor)	lite_node	fork	2026-08-26T01:11:08Z		3885	main	octra lite node
+meta-introspector	Mike (introsp3ctor)	GLM	fork	2026-08-25T10:44:44Z		33196	main	Geometric Language Machine
+meta-introspector	Mike (introsp3ctor)	openpaths	fork	2026-08-25T10:38:06Z	TypeScript	22581	main	openpaths.io
+meta-introspector	Mike (introsp3ctor)	tidy-ts	fork	2026-08-25T04:36:23Z		181736	main	Type-safe data analytics and statistics framework for Typescript.  Built for modern data science workflows with compile-time safety. 
+meta-introspector	Mike (introsp3ctor)	dregg	fork	2026-08-24T23:43:03Z		705098	main	Distributed object-capability authorization with ZK proofs
+meta-introspector	Mike (introsp3ctor)	seLe4n	fork	2026-08-24T05:28:00Z		71693	main	A capability-based microkernel written in Lean 4
+meta-introspector	Mike (introsp3ctor)	academic-lobotomy-and-the-illusion-of-two	fork	2026-08-23T17:37:53Z		5	main	The formal graveyard of mainstream math’s favorite delusions. Lean 4 & pdfLaTeX code ripping the lobotomized illusion of 1+1=2 and ZFC straight off the chalkboa
+meta-introspector	Mike (introsp3ctor)	mica	fork	2026-08-23T15:47:15Z		2192	main	Mica is a verified verifier for a fragment of OCaml, built in Lean 4 with Z3.
+meta-introspector	Mike (introsp3ctor)	openpaths-mirror	own	2026-08-23T14:14:31Z	TypeScript	22391	master	
+meta-introspector	Mike (introsp3ctor)	op	fork	2026-08-23T06:13:41Z		467628	main	op — the OpenPaths coding agent. Fork of oh-my-pi.
+meta-introspector	Mike (introsp3ctor)	galois-fields	own	2026-08-22T22:04:33Z		3683	main	
+meta-introspector	Mike (introsp3ctor)	aitycoon	own	2026-08-22T17:17:46Z		18	main	aitycoon the game from #SOLFUNMEME
+meta-introspector	Mike (introsp3ctor)	metacoq	fork	2026-08-22T15:39:44Z	Rocq Prover	29056	coq-8.16	Metaprogramming in Coq
+meta-introspector	Mike (introsp3ctor)	verifiable-mcp	fork	2026-08-22T09:11:37Z		58	main	
+meta-introspector	Mike (introsp3ctor)	clean	fork	2026-08-22T07:14:03Z		48560	main	Lean circuit DSL
+meta-introspector	Mike (introsp3ctor)	enchanter	fork	2026-08-22T01:00:43Z		2385	main	A focused AI agent harness. Single Rust binary, any OpenAI-compatible provider.
+meta-introspector	Mike (introsp3ctor)	The-Galactic-Eye-Inversion	fork	2026-08-21T18:52:45Z		848	main	The definitive, scale-invariant formalization of the Theory of Nearly Everything (TONE). Proving the operational and category-theoretic identity between Sagitta
+meta-introspector	Mike (introsp3ctor)	ocaml	fork	2026-08-21T15:40:22Z		416023	trunk	The core OCaml system: compilers, runtime system, base libraries
+meta-introspector	Mike (introsp3ctor)	termux-agent	fork	2026-08-21T14:20:04Z		2033	main	A CLI coding agent for Termux (Android) — chat with an LLM that reads/writes files, searches code, and runs commands via a tool-use loop. Multi-provider, script
+meta-introspector	Mike (introsp3ctor)	formal-conjectures-lean-zos	fork	2026-08-20T14:48:54Z	Lean	6721	main	A collection of formalized statements of conjectures in Lean for zos
+meta-introspector	Mike (introsp3ctor)	CoarseGraining	fork	2026-08-20T11:36:19Z		6851	main	A Lean 4 / Mathlib formalization of Coarse-Graining Theory for Elliptic Equations (Armstrong and Kuusi). No sorry, no custom axiom.
+meta-introspector	Mike (introsp3ctor)	RDG-MFE-Q	fork	2026-08-20T03:12:31Z		931	main	
+meta-introspector	Mike (introsp3ctor)	lean-theorems	fork	2026-08-19T22:28:28Z		12	main	lean theorems
+meta-introspector	Mike (introsp3ctor)	sounio	fork	2026-08-19T17:40:28Z		1360866	main	Self-hosted systems + scientific programming language with epistemic types, uncertainty propagation, algebraic effects, and formalized non-associative algebra.
+meta-introspector	Mike (introsp3ctor)	gabrielbena.github.io	fork	2026-08-19T12:08:46Z		163691	main	
+meta-introspector	Mike (introsp3ctor)	PapaBearZKP	own	2026-08-19T01:58:02Z	TeX	115	main	A fork of MamaBearZKP
+meta-introspector	Mike (introsp3ctor)	QD-TER-Human-Medium	fork	2026-08-18T18:53:39Z		30	main	Human-Medium Layer of the QD-TER framework — multi-scale biophysical architecture of geometric fields, dielectric waveguides, and hypergraph dynamics
+meta-introspector	Mike (introsp3ctor)	PrimeGapsLib	fork	2026-08-18T18:28:44Z		1078	main	Lean formalization of bounded gaps between primes
+meta-introspector	Mike (introsp3ctor)	researchforumonline-archive	fork	2026-08-18T14:04:12Z		1282	main	archive of https://linktr.ee/zerotalktoai
+meta-introspector	Mike (introsp3ctor)	celld	fork	2026-08-18T07:46:09Z		1225	main	self-hosted, distributed Durable Objects
+meta-introspector	Mike (introsp3ctor)	silo	fork	2026-08-18T07:21:23Z		3032	main	SILO: an immutable version-control ledger layered over S3-compatible object storage
+meta-introspector	Mike (introsp3ctor)	rice-config	fork	2026-08-17T23:51:44Z		115	master	A Nix flake for Emacs Lisp CI configuration
+meta-introspector	Mike (introsp3ctor)	state-tracking-crasp	fork	2026-08-17T15:42:58Z		122079	main	
+meta-introspector	Mike (introsp3ctor)	spectral_neuron_paper	fork	2026-08-16T19:15:37Z		157878	master	Experiments for the spectral neuron paper
+meta-introspector	Mike (introsp3ctor)	ecliptix-book-one	fork	2026-08-16T09:11:04Z		73183	main	
+meta-introspector	Mike (introsp3ctor)	gptel-openrouter	fork	2026-08-16T04:44:56Z		46	main	Some Emacs lisp code to make it easy to add OpenRouter models to gptel
+meta-introspector	Mike (introsp3ctor)	local_mixing	fork	2026-08-15T19:20:05Z		175335	main	New local_mixing ideas for obfuscated circuits
+the-far-queen	Bobby (far queen)	simself	own	2026-10-07T00:01:17Z	Python	59798	main	SimSelf — simulated self and axes of identity (docs as md, src as python)
+the-far-queen	Bobby (far queen)	fieldcore	own	2026-10-06T22:47:45Z	Python	1068	main	Intelligent control systems.
+the-far-queen	Bobby (far queen)	far-writing	own	2026-10-06T13:02:40Z	Python	65	main	writing repo — Bobby Wolfson, free
+the-far-queen	Bobby (far queen)	far-medicine	own	2026-10-06T11:47:46Z	Python	28	main	the-far-queen / far-medicine
+the-far-queen	Bobby (far queen)	far-law	own	2026-10-06T11:47:42Z	Python	43	main	the-far-queen / far-law
+the-far-queen	Bobby (far queen)	far-art	own	2026-10-05T18:40:52Z	Python	27	main	Free art repo — sheets, comics, UI kits, 3D, architecture. Style is the gate, prompt is not.
+the-far-queen	Bobby (far queen)	far-games	own	2026-10-05T18:40:49Z	Python	13	main	games repo — Bobby Wolfson, free
+the-far-queen	Bobby (far queen)	far-music	own	2026-10-05T18:40:47Z	Python	14	main	music repo — Bobby Wolfson, free
+the-far-queen	Bobby (far queen)	far-film	own	2026-10-05T18:40:44Z	Python	15	main	film repo — Bobby Wolfson, free
+the-far-queen	Bobby (far queen)	far-mysteries	own	2026-09-27T16:09:52Z		40	main	the-far-queen / far-mysteries
+the-far-queen	Bobby (far queen)	far-apps	own	2026-09-17T09:25:36Z		5	main	Bobby Wolfson + Hermes — apps + services + shop companion. Voice pipeline tools, vocab app, claim-based indexers. MIT free for all agents.
+the-far-queen	Bobby (far queen)	sunrise-startup	own	2026-09-17T08:49:12Z		15	main	Bobby Wolfson + Hermes — claims-based media company. SimSelf + FieldCore + 7 far-* repos. How to do right (no slop, no TM woes).
