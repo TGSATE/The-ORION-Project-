@@ -1,0 +1,395 @@
+{
+ "start": [
+  "https://app.notion.com/p/ORION-R9-Live-3ef5aabf6a118094ada7eec4bd31e9b6",
+  "https://app.notion.com/p/ORION-R8-3ef5aabf6a118070ad52e1eb5a9fcc76",
+  "https://app.notion.com/p/ORION-R6-LIVE-3ee5aabf6a1180439321e0e133178eea",
+  "https://app.notion.com/p/ORION-R5-Ryan-s-Links-3ee5aabf6a1180cb961dfb8a9063686f",
+  "https://app.notion.com/p/ORION-Round-4-3ee5aabf6a1180d59cfefab11f6492f5",
+  "https://app.notion.com/p/3ee5aabf6a1180a6859cf8c4c0cb1f8a",
+  "https://app.notion.com/p/3ee5aabf6a118094b252f9172b3ac1fa",
+  "https://docs.google.com/document/d/1RMRxorwCsE5SVtqT-nyoCquaeEJRjghKbS904vDjWLM/edit",
+  "https://docs.google.com/document/d/1OkmZq05T-Yllk3Ptx7XsuyDDPNjabnqL--rleLtMQss/edit",
+  "https://docs.google.com/document/d/1Qh-Zwu22k3RAQc1jrHvaebSjHwLcA3w9jXEydpZS22Q/edit",
+  "https://docs.google.com/document/d/1w9bVr2SZ_tKwaDSWpp5aR4slRo8dBDQvllHEvp5y3YE/edit",
+  "https://docs.google.com/document/d/1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU/edit"
+ ],
+ "nodes": {
+  "notion:3ef5aabf-6a11-8094-ada7-eec4bd31e9b6": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "none",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/ORION-R9-Live-3ef5aabf6a118094ada7eec4bd31e9b6",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "notion:3ef5aabf-6a11-8070-ad52-e1eb5a9fcc76": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "none",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/ORION-R8-3ef5aabf6a118070ad52e1eb5a9fcc76",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "notion:3ee5aabf-6a11-8043-9321-e0e133178eea": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "none",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/ORION-R6-LIVE-3ee5aabf6a1180439321e0e133178eea",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "notion:3ee5aabf-6a11-80cb-961d-fb8a9063686f": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "none",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/ORION-R5-Ryan-s-Links-3ee5aabf6a1180cb961dfb8a9063686f",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "notion:3ee5aabf-6a11-80d5-9cfe-fab11f6492f5": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "reader",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/ORION-Round-4-3ee5aabf6a1180d59cfefab11f6492f5",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "notion:3ee5aabf-6a11-80a6-859c-f8c4c0cb1f8a": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "none",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/3ee5aabf6a1180a6859cf8c4c0cb1f8a",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "notion:3ee5aabf-6a11-8094-b252-f9172b3ac1fa": {
+   "accessible": false,
+   "error": null,
+   "meta": {
+    "spaceName": "A. Beth Jones’s space",
+    "publicAccessRole": "none",
+    "isDeleted": true,
+    "requireLogin": false
+   },
+   "url": "https://app.notion.com/p/3ee5aabf6a118094b252f9172b3ac1fa",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "gdoc:document:1RMRxorwCsE5SVtqT-nyoCquaeEJRjghKbS904vDjWLM": {
+   "accessible": true,
+   "title": "The Architectural Antiquities",
+   "chars": 31723,
+   "url": "https://docs.google.com/document/d/1RMRxorwCsE5SVtqT-nyoCquaeEJRjghKbS904vDjWLM/edit",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "gdoc:document:1OkmZq05T-Yllk3Ptx7XsuyDDPNjabnqL--rleLtMQss": {
+   "accessible": true,
+   "title": "The Linguistics of Impedance: Neurodivergence and the Frequency of Light Language",
+   "chars": 11709,
+   "url": "https://docs.google.com/document/d/1OkmZq05T-Yllk3Ptx7XsuyDDPNjabnqL--rleLtMQss/edit",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "gdoc:document:1Qh-Zwu22k3RAQc1jrHvaebSjHwLcA3w9jXEydpZS22Q": {
+   "accessible": true,
+   "title": "The Voynich Hypothesis: Geometric Script and the Toroidal Avatar",
+   "chars": 12843,
+   "url": "https://docs.google.com/document/d/1Qh-Zwu22k3RAQc1jrHvaebSjHwLcA3w9jXEydpZS22Q/edit",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "gdoc:document:1w9bVr2SZ_tKwaDSWpp5aR4slRo8dBDQvllHEvp5y3YE": {
+   "accessible": true,
+   "title": "The Genesis Fractal: A Structural Mapping of Cellular Evolution and Biological Lineage",
+   "chars": 9076,
+   "url": "https://docs.google.com/document/d/1w9bVr2SZ_tKwaDSWpp5aR4slRo8dBDQvllHEvp5y3YE/edit",
+   "depth": 0,
+   "parent": null,
+   "children": [],
+   "recorded_not_followed": []
+  },
+  "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU": {
+   "accessible": true,
+   "title": "The Tri-Sphere Architecture",
+   "chars": 21814,
+   "url": "https://docs.google.com/document/d/1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU/edit",
+   "depth": 0,
+   "parent": null,
+   "children": [
+    "leaf:https://www.nature.com/articles/nature01944",
+    "leaf:https://arxiv.org/abs/astro-ph/0310253",
+    "leaf:https://arxiv.org/abs/0705.0217",
+    "leaf:https://www.nature.com/articles/s41550-026-02930-6",
+    "leaf:https://arxiv.org/abs/hep-th/9409089",
+    "leaf:https://pubs.aip.org/aip/jmp/article/36/11/6377/393915/The-world-as-a-hologram",
+    "leaf:https://www.scientificamerican.com/article/information-in-the-holographic-univ-2006-01/",
+    "leaf:https://arxiv.org/abs/hep-th/9902131",
+    "leaf:https://arxiv.org/html/1501.00007v2",
+    "leaf:https://errorcorrectionzoo.org/c/qcga",
+    "leaf:https://research.ibm.com/publications/tour-de-gross-a-modular-quantum-computer-based-on-bivariate-bicycle-codes-2",
+    "leaf:https://postquantum.com/quantum-research/ibm-concatenated-gross-code-teraquop/",
+    "leaf:https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full",
+    "leaf:https://www.sciencenews.org/article/handwriting-brain-connections-learning",
+    "leaf:https://www.psypost.org/handwriting-activates-broader-brain-networks-than-typing-study-shows/",
+    "leaf:https://gridmakerpro.com/grids/sacred-geometry/merkaba/"
+   ],
+   "recorded_not_followed": []
+  }
+ },
+ "edges": [
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://www.nature.com/articles/nature01944"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://arxiv.org/abs/astro-ph/0310253"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://arxiv.org/abs/0705.0217"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://www.nature.com/articles/s41550-026-02930-6"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://arxiv.org/abs/hep-th/9409089"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://pubs.aip.org/aip/jmp/article/36/11/6377/393915/The-world-as-a-hologram"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://www.scientificamerican.com/article/information-in-the-holographic-univ-2006-01/"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://arxiv.org/abs/hep-th/9902131"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://arxiv.org/html/1501.00007v2"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://errorcorrectionzoo.org/c/qcga"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://research.ibm.com/publications/tour-de-gross-a-modular-quantum-computer-based-on-bivariate-bicycle-codes-2"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://postquantum.com/quantum-research/ibm-concatenated-gross-code-teraquop/"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://www.sciencenews.org/article/handwriting-brain-connections-learning"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://www.psypost.org/handwriting-activates-broader-brain-networks-than-typing-study-shows/"
+  ],
+  [
+   "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "leaf:https://gridmakerpro.com/grids/sacred-geometry/merkaba/"
+  ]
+ ],
+ "leaves": {
+  "leaf:https://www.nature.com/articles/nature01944": {
+   "url": "https://www.nature.com/articles/nature01944",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://www.nature.com/articles/nature01944?error=cookies_not_supported&code=fd438ab2-1e84-418a-90b9-0e723c88c47d",
+   "title": "Dodecahedral space topology as an explanation for weak wide-angle temperature correlations in the cosmic microwave background | Nature",
+   "description": "The current ‘standard model’ of cosmology posits an infinite flat universe forever expanding under the pressure of dark energy. First-year data from the Wilkinson Microwave Anisotropy Probe (WMAP) confirm this model to spectacular precision on all but the largest scales1,2. Temperature correlations across the microwave sky match expectations on angular scales narrower than 60° but, contrary to pre"
+  },
+  "leaf:https://arxiv.org/abs/astro-ph/0310253": {
+   "url": "https://arxiv.org/abs/astro-ph/0310253",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://arxiv.org/abs/astro-ph/0310253",
+   "title": "[astro-ph/0310253] Dodecahedral space topology as an explanation for weak wide-angle temperature correlations in the cosmic microwave background",
+   "description": "Abstract page for arXiv paper astro-ph/0310253: Dodecahedral space topology as an explanation for weak wide-angle temperature correlations in the cosmic microwave background"
+  },
+  "leaf:https://arxiv.org/abs/0705.0217": {
+   "url": "https://arxiv.org/abs/0705.0217",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://arxiv.org/abs/0705.0217",
+   "title": "[0705.0217] A new analysis of Poincaré dodecahedral space model",
+   "description": "Abstract page for arXiv paper 0705.0217: A new analysis of Poincaré dodecahedral space model"
+  },
+  "leaf:https://www.nature.com/articles/s41550-026-02930-6": {
+   "url": "https://www.nature.com/articles/s41550-026-02930-6",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://www.nature.com/articles/s41550-026-02930-6?error=cookies_not_supported&code=8f958590-46b3-4637-be74-750db4bccca4",
+   "title": "The topology of the Universe | Nature Astronomy",
+   "description": "Is the Universe infinite in all directions? The only way to know is to look. A non-trivial cosmic topology would imprint subtle signatures on the cosmic microwave background and on the three-dimensional distribution of matter, breaking statistical isotropy and, potentially, homogeneity at the largest scales. If the topology scale is small enough, these signatures would be observable. Over the past"
+  },
+  "leaf:https://arxiv.org/abs/hep-th/9409089": {
+   "url": "https://arxiv.org/abs/hep-th/9409089",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://arxiv.org/abs/hep-th/9409089",
+   "title": "[hep-th/9409089] The World as a Hologram",
+   "description": "Abstract page for arXiv paper hep-th/9409089: The World as a Hologram"
+  },
+  "leaf:https://pubs.aip.org/aip/jmp/article/36/11/6377/393915/The-world-as-a-hologram": {
+   "url": "https://pubs.aip.org/aip/jmp/article/36/11/6377/393915/The-world-as-a-hologram",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 403,
+   "final_url": "https://pubs.aip.org/aip/jmp/article/36/11/6377/393915/The-world-as-a-hologram"
+  },
+  "leaf:https://www.scientificamerican.com/article/information-in-the-holographic-univ-2006-01/": {
+   "url": "https://www.scientificamerican.com/article/information-in-the-holographic-univ-2006-01/",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://www.scientificamerican.com/article/information-in-the-holographic-univ-2006-01/",
+   "title": "Information in the Holographic Universe | Scientific American",
+   "description": "Theoretical results about black holes suggest that the universe could be like a gigantic hologram"
+  },
+  "leaf:https://arxiv.org/abs/hep-th/9902131": {
+   "url": "https://arxiv.org/abs/hep-th/9902131",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://arxiv.org/abs/hep-th/9902131",
+   "title": "[hep-th/9902131] Introduction to the Maldacena Conjecture on AdS/CFT",
+   "description": "Abstract page for arXiv paper hep-th/9902131: Introduction to the Maldacena Conjecture on AdS/CFT"
+  },
+  "leaf:https://arxiv.org/html/1501.00007v2": {
+   "url": "https://arxiv.org/html/1501.00007v2",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://arxiv.org/html/1501.00007v2",
+   "title": "The AdS/CFT Correspondence"
+  },
+  "leaf:https://errorcorrectionzoo.org/c/qcga": {
+   "url": "https://errorcorrectionzoo.org/c/qcga",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://errorcorrectionzoo.org/c/qcga"
+  },
+  "leaf:https://research.ibm.com/publications/tour-de-gross-a-modular-quantum-computer-based-on-bivariate-bicycle-codes-2": {
+   "url": "https://research.ibm.com/publications/tour-de-gross-a-modular-quantum-computer-based-on-bivariate-bicycle-codes-2",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 404,
+   "final_url": "https://research.ibm.com/publications/tour-de-gross-a-modular-quantum-computer-based-on-bivariate-bicycle-codes-2"
+  },
+  "leaf:https://postquantum.com/quantum-research/ibm-concatenated-gross-code-teraquop/": {
+   "url": "https://postquantum.com/quantum-research/ibm-concatenated-gross-code-teraquop/",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://postquantum.com/quantum-research/ibm-concatenated-gross-code-teraquop/",
+   "title": "IBM's Concatenated Gross Code Reaches the Teraquop Regime",
+   "description": "IBM wraps its gross code inside Reed-Solomon algebra, cutting QEC overhead and opening the teraquop regime. What it means for CRQC timeline"
+  },
+  "leaf:https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full": {
+   "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full",
+   "title": "Frontiers | Handwriting but not typewriting leads to widespread brain connectivity: a high-density EEG study with implications for the classroom",
+   "description": "As traditional handwriting is progressively being replaced by digital devices, it is essential to investigate the implications for the human brain. Brain ele..."
+  },
+  "leaf:https://www.sciencenews.org/article/handwriting-brain-connections-learning": {
+   "url": "https://www.sciencenews.org/article/handwriting-brain-connections-learning",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://www.sciencenews.org/article/handwriting-brain-connections-learning",
+   "title": "Handwriting may boost brain connections more than typing does",
+   "description": "Students asked to write words showed greater connectivity across the brain than when they typed them, suggesting writing may be a better boost for memory."
+  },
+  "leaf:https://www.psypost.org/handwriting-activates-broader-brain-networks-than-typing-study-shows/": {
+   "url": "https://www.psypost.org/handwriting-activates-broader-brain-networks-than-typing-study-shows/",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://www.psypost.org/handwriting-activates-broader-brain-networks-than-typing-study-shows/",
+   "title": "Handwriting activates broader brain networks than typing, study shows",
+   "description": "Does writing by hand still matter in a digital world? According to a new study in Frontiers in Psychology, the answer is yes."
+  },
+  "leaf:https://gridmakerpro.com/grids/sacred-geometry/merkaba/": {
+   "url": "https://gridmakerpro.com/grids/sacred-geometry/merkaba/",
+   "depth": 1,
+   "parent": "gdoc:document:1AmcVE16RKPk2AIN_-XTeHBQvvATW40ldDECCAmUv9NU",
+   "status": 200,
+   "final_url": "https://gridmakerpro.com/grids/sacred-geometry/merkaba/",
+   "title": "Merkaba: star tetrahedron geometry and live demo | Grid Maker Pro",
+   "description": "The merkaba (star tetrahedron) explained: two interpenetrating tetrahedra forming Kepler's stella octangula. Real merkavah history, the myth, plus a live demo."
+  }
+ }
+}
