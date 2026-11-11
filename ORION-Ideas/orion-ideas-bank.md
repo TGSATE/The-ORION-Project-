@@ -94,12 +94,47 @@ A living list of ideas and possible implementations found elsewhere (social medi
 
 ---
 
+## Idea 3 — VR-induced mystical experiences and out-of-body experiences (immersive tech as a transcendent-experience engine)
+
+**Found:** 2026-11-11, shared by Beth from X.
+**Creator:** Ryan Sikorski, @Ryansikorski10 (X). Verified account, 37.1K followers, joined Dec 2020. No email, website, or GitHub link on the profile (checked 2026-11-11). Profile location is listed as "Aetherverse" (not a geographic place). The profile's links are payment handles (Venmo, Cash App), not a website.
+**Source post:** https://x.com/ryansikorski10/status/2120290811006837177 (posted Nov 10, 2026, 6:01 PM)
+**Post's own sources cited:** Two APA PsycNet records (Miller et al. 2026; Chen et al. 2026) and getkidsinternetsafe.com (VR dissociation article). The post's image is tagged "UC WorkRoom" (the same account from Idea 1).
+
+**What the post says:**
+- Immersive technologies — VR, AR, MR, XR — will be used to induce mystical experiences (ME) and out-of-body experiences (OBEs) in healthy subjects.
+- The core study (Miller, Nyland & Frewen, 2026): 80 young adults, a fantastical guided imagery script vs. a realistic guided meditation, in VR vs. standard eyes-open 2D viewing. A significant minority experienced a complete mystical experience in VR — 28% during guided imagery, 18% during meditation — and not a single participant did so in either 2D condition. VR also produced stronger absorption, vividness, sense of presence, awe, interest, serenity, being mindfully observant, and beauty, plus increased psychophysiological arousal (EEG and ECG measures).
+- The post also links VR-NIOBE (Chen et al., 2026): VR plus neuromodulation to induce OBEs.
+- The post also links a page on VR dissociation risks (derealization, depersonalization).
+- Note: the post has NO hashtags — there is no #VRAR tag in it. The VR/AR content is in the text itself.
+
+**ORION relevance:**
+- The mystical-experience finding is directly relevant to the immersive design of the Orion Chronicles MMO and UIAR: VR can induce transcendent experiences in a sizable minority, and 2D viewing cannot. If ORION's immersive spaces are meant to produce awe, presence, and transcendent experience, this is evidence that the medium itself (VR) does part of the work — the design question is how to shape it, not whether it can happen.
+- VR-NIOBE (VR + a brain-computer interface to induce OBEs) is relevant to the UIAR/immersive track but raises guardrail questions: it is a technology that alters the sense of embodiment (where consciousness feels located). The neurofeedback version described in the abstract is less invasive than electrical brain stimulation, but it still manipulates the sense of self-location. Any ORION use of embodiment-altering tech needs the same choice-and-parity treatment: the user must be able to opt in or out, and the experience must be detachable and reversible.
+- The dissociation risks (derealization, depersonalization) are a clear guardrail consideration for immersive design. If ORION builds immersive experiences, the risk that users feel detached from their surroundings or their own hands after taking off the headset needs to be part of the safety design — session length, break reminders, grounding on exit.
+
+**Status — VERIFIED IN PART (updated 2026-11-11):**
+- **Miller, Nyland & Frewen (2026) — ESTABLISHED.** "Mystical experiences in virtual reality 2: Fantasy versus realism and psychophysiological correlates." *Psychology of Consciousness: Theory, Research, and Practice.* Advance online publication. DOI 10.1037/cns0000475. The abstract matches the post's numbers exactly (80 young adults, 28% guided imagery, 18% meditation, 0% in 2D). Real, peer-reviewed.
+- **Chen, Bao, Babin & Frewen (2026), VR-NIOBE — ESTABLISHED as a real published study.** "Virtual reality and neuromodulation in the induction of out-of-body experience (VR-NIOBE)." *Psychology of Consciousness*, 13(2), 232–252. DOI 10.1037/cns0000385. Proof-of-concept, 30 volunteers, VR + EEG neurofeedback brain-computer interface to induce OBEs. Participants reported floating above themselves, looking down at their own body, feeling invisible, greater awe.
+- **BUT the tACS/TPJ description is UNCONFIRMED.** The X post's preview describes VR-NIOBE as using "tACS temporoparietal junction (TPJ) stimulation." The abstract does NOT mention tACS or TPJ anywhere. The neuromodulation it describes is EEG-based neurofeedback (real-time frontal EEG alpha power controlling the video), not electrical brain stimulation. The abstract mentions only a "right temporoparietal (CP6)" EEG region. The tACS detail may be in the full paper, or the preview may be overstating it. Do not present VR-NIOBE as using tACS/TPJ stimulation unless the full text is checked.
+- **Dissociation risks (GetKidsInternetSafe) — ESTABLISHED.** "Virtual Reality Distorts Reality: An Increase in Dissociation," Tracy S. Bennett, Ph.D. A 2006 study found episodes of dissociation increase after VR use for some players; Oculus forum users report hands not feeling like their own after taking off the headset. The page also covers pros (therapeutic, accessibility, training) and cons (withdrawal, dissociation).
+
+**Verified sources — read directly, 2026-11-11:**
+- Miller, Nyland & Frewen (2026), mystical experiences in VR: https://psycnet.apa.org/record/2027-67017-001 — DOI 10.1037/cns0000475. Established.
+- Chen, Bao, Babin & Frewen (2026), VR-NIOBE: https://psycnet.apa.org/record/2024-52175-001 — DOI 10.1037/cns0000385. Established (abstract only; tACS detail unconfirmed).
+- GetKidsInternetSafe, VR dissociation: https://getkidsinternetsafe.com/virtualreality_distorts_reality/ — Bennett, Ph.D. Established.
+
+**Creator — invite later?** Ryan Sikorski (@Ryansikorski10). No email, website, or GitHub on the profile. Contact route: X DM to @Ryansikorski10, or reply to a post. Do not contact without Beth's say-so.
+
+---
+
 ## Creators to potentially invite (do not contact without Beth's say-so)
 
 | Creator | Where | What they shared | Public repo found? |
 |---|---|---|---|
 | UC WorkRoom (@ucworkroom1) | X | Sigils / quantum dots / Sigil Protocol (Idea 1) | No — no bio, no website, no repo link on the profile. Pinned post mentions vrilya.com. |
 | Lance Eureka | Facebook | Photonic Garden / Photonic Lego Principle (Idea 2) | No — no bio, no work info, no website or repo link on the profile. |
+| Ryan Sikorski (@Ryansikorski10) | X | VR mystical experiences + VR-NIOBE out-of-body experiences + VR dissociation risks (Idea 3) | No — no email, website, or GitHub on the profile; profile links are payment handles (Venmo, Cash App). Contact route is X DM or reply to a post. |
 | Brad C (@super1990) | X | Layer-by-layer reply to the UC WorkRoom post — verified the Sigil Protocol, read the quantum-dot patent correctly (passive marker painted onto objects, not a vaccine/chip/tracker) | Not checked — he is a commentator on Idea 1, not a separate idea source. No public contact info on his X profile (no bio, no email, no website, no links); contact route is X DM to @super1990 or reply to a post. |
 
 ---
