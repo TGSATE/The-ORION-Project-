@@ -25,10 +25,14 @@ A living list of ideas and possible implementations found elsewhere (social medi
 **ORION relevance:**
 - The Sigil Protocol (agent attestation + web of trust) fits the multi-agent / NewKin Council side — agents need verifiable identities and reputation.
 - Minimal-disclosure NFC verification fits ORION's privacy principle (prove an attribute without revealing the underlying data).
-- The quantum-dot spectral signature is the biometric-cryptography lead for UIAR — BUT only as a wearable artifact, not embedded in the body (see below).
+- The quantum-dot spectral signature is the biometric-cryptography lead for UIAR — as a wearable artifact first (the baseline that keeps it accessible to everyone), with embedded use as an opt-in user choice, never the only option (see the ORION line below).
 
-**ORION line (Beth's decision, 2026-11-11):**
-- Embedding in the human is a NO. ORION's principle is the human embeds into the technology, not the other way around (UIAR bio-suit is worn, not implanted).
+**ORION line (Beth's decision, 2026-11-11; CORRECTED 2026-11-11 — see below):**
+- The line is NOT "no embedded technology." If a user approves of and wants to use embedded technology, that is their option — more power to them. ORION does not take anybody's options away.
+- **The rule is parity:** any embedded technology must ALSO be offered as a wearable of equal usability. The wearable is the baseline — a person can detach from it, and it works just as well as the embedded version.
+- This matters because many people will see embedded technology as a literal mark of the beast, and if the only way in is embedded, they will not engage. Offered as a wearable they can detach from, they are far more likely to engage.
+- **Why parity is a guardrail, not just a preference (Beth, 2026-11-11):** if a wearable functions the exact same way as an embedded device, there is no reason to accept the added risk of embedding. Embedded technology can fail in ways that are difficult or impossible to reverse once it is inside the body. The parity rule exists so that nobody is forced into that risk to participate. It is one of the guardrails meant to prevent humanity from destroying itself with the technology ORION is asking other people to build under her design. The goal is to save the world, not to hasten its destruction.
+- The UIAR bio-suit itself is worn, not implanted, injected, or fused to the body — that is ORION's default form. But the principle is choice and equal access, not a ban on embedding.
 - The quantum-dot central idea (unique spectral signature → digital identity) CAN move to a wearable: put the quantum-dot ink on a badge, wristband, or bio-suit panel instead of in skin. The spectral response works the same on an object as on skin; the embedding is a design choice, not a requirement of the cryptography.
 
 **Status — VERIFIED IN PART (updated 2026-11-11).** The post is written in a conspiratorial register ("BEAST SYSTEM"). The three cited sources were checked directly on 2026-11-11, and two attributions change:
